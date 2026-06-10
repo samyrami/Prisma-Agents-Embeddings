@@ -1,0 +1,26 @@
+# NUNCA dentro de la imagen ni del build context: credenciales y entornos.
+.env
+.env.*
+.venv/
+venv/
+
+# Git e IDE
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# Caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# No necesarios en la imagen
+tests/
+legacy/
+docs-soporte-ti/
