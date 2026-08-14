@@ -1,0 +1,1516 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gff18ab7d7926897369c31c2f5184200e" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MKA 501 (MBA) / MKA 502 (EMBA) Test 2</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="352ff61759a36265e154a0dd38fc7a28" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d611b833-7542-43ca-a05a-c5000bfae3b6,57453a4d-8169-45d8-9b4b-0c9152c19f36,99853fe1-d646-4a2e-a171-3e119eaf9474</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>3bc4b62b1b133defc0578fe3766eaa9a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;De qu&#xE9; factores depende principalmente el posicionamiento de un producto?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d611b833-7542-43ca-a05a-c5000bfae3b6">
+              <material>
+                <mattext texttype="text/html">De la situaci&#xF3;n y posicionamiento de los productos competitivos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="57453a4d-8169-45d8-9b4b-0c9152c19f36">
+              <material>
+                <mattext texttype="text/html">De las opiniones de los consumidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="99853fe1-d646-4a2e-a171-3e119eaf9474">
+              <material>
+                <mattext texttype="text/html">De la ventaja competitiva.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">99853fe1-d646-4a2e-a171-3e119eaf9474</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El posicionamiento depende b&#xE1;sicamente de la ventaja competitiva. La situaci&#xF3;n y posicionamiento de los competidores y las opiniones de los consumidores son importantes, pero el posicionamiento debe establecerse partiendo de la ventaja competitiva.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ec8c893bf27b89dc1833ea38c11fa117" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>0768d061-2ea9-4230-ae98-b7cfdfb15349,3d54e2bc-a796-4ee4-af22-ec88f469df26,30bf6be5-602b-4ccd-ab16-83c04413ee39</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4abff2100cf2f6b1a0e1cd4187c37936</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;les son las fases que deben seguirse en el proceso de elaboraci&#xF3;n del posicionamiento de un producto?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="0768d061-2ea9-4230-ae98-b7cfdfb15349">
+              <material>
+                <mattext texttype="text/html">Investigaci&#xF3;n de la competencia, investigaci&#xF3;n del consumidor, investigaci&#xF3;n del consumidor, an&#xE1;lisis interno y elecci&#xF3;n del posicionamiento.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3d54e2bc-a796-4ee4-af22-ec88f469df26">
+              <material>
+                <mattext texttype="text/html">An&#xE1;lisis de la competencia, descubrir la ventaja competitiva, elaborar la propuesta de valor y decidir el posicionamiento.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="30bf6be5-602b-4ccd-ab16-83c04413ee39">
+              <material>
+                <mattext texttype="text/html">Realizar un an&#xE1;lisis DAFO / SWOT, descubrir la propuesta de valor y decidir el posicionamiento.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3d54e2bc-a796-4ee4-af22-ec88f469df26</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Los pasos que deben seguirse de una manera secuencial son An&#xE1;lisis de la competencia, descubrir la ventaja competitiva, elaborar la propuesta de valor y decidir el posicionamiento.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="bfe345a1aeef92dd191d6c566956c196" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>36b7138a-e9f8-4e2d-b69e-d191a08d557e,9c2c8d00-c739-4334-85bc-fec27fa3613b,3ddd26d9-0464-49be-99c2-8497f158316b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>f8482b9066690e564c15b32625e85b66</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;A qu&#xE9; se entiende por &#x201C;Posicionamiento&#x201D; en marketing?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="36b7138a-e9f8-4e2d-b69e-d191a08d557e">
+              <material>
+                <mattext texttype="text/html">El lugar espec&#xED;fico que ocupa una marca en la mente de sus consumidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9c2c8d00-c739-4334-85bc-fec27fa3613b">
+              <material>
+                <mattext texttype="text/html">A su posici&#xF3;n en el mercado, su cuota de mercado.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3ddd26d9-0464-49be-99c2-8497f158316b">
+              <material>
+                <mattext texttype="text/html">El lugar que ocupa en la estanter&#xED;a de los supermercados.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">36b7138a-e9f8-4e2d-b69e-d191a08d557e</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Por posicionamiento se entiende el lugar que una marca ocupa en la mente de sus consumidores.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="b9bb16641b4a2d565c455b60b1548310" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>0c11775e-67ce-45a6-b285-942123d3eabc,c91cc67f-c3ad-4e8e-a11b-752006445ad3,2328a45c-1fa9-4977-a860-19cb5939b7ad</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>12c54d1cdd6827f73766668a139afb13</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;C&#xF3;mo conseguir que mi producto se diferencie claramente de los competidores?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="0c11775e-67ce-45a6-b285-942123d3eabc">
+              <material>
+                <mattext texttype="text/html">A trav&#xE9;s de una fuerte campa&#xF1;a de publicidad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c91cc67f-c3ad-4e8e-a11b-752006445ad3">
+              <material>
+                <mattext texttype="text/html">Mediante un posicionamiento claro.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2328a45c-1fa9-4977-a860-19cb5939b7ad">
+              <material>
+                <mattext texttype="text/html">Pagando para conseguir una posici&#xF3;n preferente en el punto de venta.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c91cc67f-c3ad-4e8e-a11b-752006445ad3</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El posicionamiento es el elemento que diferencia a las marcas entre s&#xED;. Y la campa&#xF1;a de publicidad lo que hace es transmitir ese posicionamiento. Por &#xFA;ltimo, la posici&#xF3;n en el punto de venta no tiene nada que ver con el posicionamiento de marketing.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="e30e70c3e17bd3f0c4c23ab9064d6063" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ecdc3f8c-4639-4252-939f-d56d424c6056,cf38c1e9-ba9a-4dc1-a537-ec096b13bf42,8e02289f-8798-427f-93c0-c6da92bc0076</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>9e014bf918fe241e7b72cb58763c8e48</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;A qu&#xE9; corresponde el &#x201C;Life Time Value&#x201D; de los clientes?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ecdc3f8c-4639-4252-939f-d56d424c6056">
+              <material>
+                <mattext texttype="text/html">A la suma de las ventas de todos los clientes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="cf38c1e9-ba9a-4dc1-a537-ec096b13bf42">
+              <material>
+                <mattext texttype="text/html">Al importe neto de las ventas de los clientes, descontados los impuestos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8e02289f-8798-427f-93c0-c6da92bc0076">
+              <material>
+                <mattext texttype="text/html">Al valor actual neto del caudal de beneficios futuros esperados a lo largo de la vida de los clientes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8e02289f-8798-427f-93c0-c6da92bc0076</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El LFT corresponde al valor actual neto del caudal de beneficios futuros esperados a lo largo de la vida del cliente, y se calcula restando a los beneficios esperados los costes de captaci&#xF3;n, mantenimiento y servicios.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="f3d875c38912ea1e68bbb75be2e25b6e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>150ded19-d268-4182-9696-5b2642d3e477,4661181e-158d-4a15-84e1-604f7c9345eb,c763b096-d92d-4ca3-b858-1eb3011ba965</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d2955692700735b5136f45001810ea41</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Los segmentos seleccionados a trav&#xE9;s del Targeting, &#xBF;deben ser medibles?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="150ded19-d268-4182-9696-5b2642d3e477">
+              <material>
+                <mattext texttype="text/html">SI. Es una condici&#xF3;n indispensable que se puedan medir, tanto en lo referente a sus integrantes como en las ventas realizadas en ellos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4661181e-158d-4a15-84e1-604f7c9345eb">
+              <material>
+                <mattext texttype="text/html">No, lo realmente importante es que se puedan medir las ventas realizadas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c763b096-d92d-4ca3-b858-1eb3011ba965">
+              <material>
+                <mattext texttype="text/html">No, lo que de verdad cuenta es que los segmentos sean rentables.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">150ded19-d268-4182-9696-5b2642d3e477</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Poder medir el n&#xFA;mero de integrantes de los segmentos seleccionados, y las ventas realizadas sobre ellos es una condici&#xF3;n indispensable del Targeting.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="f670fa97e1ab3e9d732452eb9e774a2f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2055c05f-7d14-499e-8824-e37c8ded4e51,1d1fa621-6470-4322-95b5-ae6d8911ae74,8c5bfa40-4642-4627-9abf-dd7ab910351c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>59778e12c7e0abd66c970e272a7fbfd2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es la ventaja b&#xE1;sica derivada de la realizaci&#xF3;n del Targeting?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2055c05f-7d14-499e-8824-e37c8ded4e51">
+              <material>
+                <mattext texttype="text/html">Facilita las acciones del marketing de precisi&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1d1fa621-6470-4322-95b5-ae6d8911ae74">
+              <material>
+                <mattext texttype="text/html">Permite una mayor rapidez en la selecci&#xF3;n del Grupo Objetivo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8c5bfa40-4642-4627-9abf-dd7ab910351c">
+              <material>
+                <mattext texttype="text/html">Permite trabajar con un menor n&#xFA;mero de consumidores.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2055c05f-7d14-499e-8824-e37c8ded4e51</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La principal ventaja del Targeting es que permite a la empresa la realizaci&#xF3;n de acciones de marketing de precisi&#xF3;n, dado que se identifican claramente los segmentos objetivo y como consecuencia, se puede actuar mejor sobre ellos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="f71dc1f3d4f428bed8dadfa71cf34ead" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4cf36483-10bb-4165-b6c5-7ff2d02214fa,2ac71bae-5607-46a6-bb60-dc4a1b3b0a28,93f11c8f-3970-467b-9b75-f4f2bb4c673d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>0db2287e464933a646905d785144f235</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Para realizar el proceso de Targeting, &#xBF;Qu&#xE9; debe hacer la empresa?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4cf36483-10bb-4165-b6c5-7ff2d02214fa">
+              <material>
+                <mattext texttype="text/html">Agrupar a los consumidores en grupos homog&#xE9;neos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2ac71bae-5607-46a6-bb60-dc4a1b3b0a28">
+              <material>
+                <mattext texttype="text/html">Seleccionar los segmentos sobre los que sea m&#xE1;s sencillo actuar.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93f11c8f-3970-467b-9b75-f4f2bb4c673d">
+              <material>
+                <mattext texttype="text/html">Evaluar el potencial de los diferentes segmentos, para posteriormente seleccionar los m&#xE1;s adecuados.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">93f11c8f-3970-467b-9b75-f4f2bb4c673d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Para realizar el targeting, lo que debe hacerse es evaluar el potencial de los segmentos para seleccionar los m&#xE1;s interesantes para la empresa.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="e1adbcdc297e0471fc5b49dce01fdca1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>646ace6c-fecc-4cc7-8151-e544186edd03,da081616-898e-49f1-a05c-30ea1af58c5a,ef24312e-791b-4e73-8288-8173f988c499</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c939902eec5e0c21116d8e52b99b9271</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Por qu&#xE9; es necesario realizar la acci&#xF3;n del Targeting dentro del Modelo STP?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="646ace6c-fecc-4cc7-8151-e544186edd03">
+              <material>
+                <mattext texttype="text/html">Porque permite seleccionar los segmentos de consumidores m&#xE1;s interesantes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="da081616-898e-49f1-a05c-30ea1af58c5a">
+              <material>
+                <mattext texttype="text/html">Para poder conocer en profundidad las caracter&#xED;sticas de los consumidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ef24312e-791b-4e73-8288-8173f988c499">
+              <material>
+                <mattext texttype="text/html">Para justificar el posicionamiento del producto.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">646ace6c-fecc-4cc7-8151-e544186edd03</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La funci&#xF3;n b&#xE1;sica del Targeting es seleccionar los segmentos de consumidores m&#xE1;s interesantes para la empresa.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="fd5108bea5692e80d63ca73e2432d1ea" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8639f0b0-8594-4c60-95b2-e5e5dae5812e,a53d784c-9ae2-47d5-acd7-c9831ec5675d,cdb42be1-2a69-4097-9877-461487aaaf1c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>84fe808e31c545d4b2ee795d6d406771</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Teniendo en cuenta las diferencias que hay entre los ciudadanos de diversos pa&#xED;ses, &#xBF;es posible para una empresa transnacional realizar una microsegmentaci&#xF3;n que realmente sea operativa?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8639f0b0-8594-4c60-95b2-e5e5dae5812e">
+              <material>
+                <mattext texttype="text/html">No, las diferencias entre los consumidores de distintos pa&#xED;ses y sus diferentes pautas de comportamiento dificultan enormemente la microsegmentaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a53d784c-9ae2-47d5-acd7-c9831ec5675d">
+              <material>
+                <mattext texttype="text/html">Si, siempre es posible encontrar caracter&#xED;sticas similares entre los consumidores de diferentes pa&#xED;ses, por lo que ser&#xED;a posible realizar una microsegmentaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="cdb42be1-2a69-4097-9877-461487aaaf1c">
+              <material>
+                <mattext texttype="text/html">Depende del producto que se comercialice.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">a53d784c-9ae2-47d5-acd7-c9831ec5675d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Siempre existir&#xE1;n elementos comunes sobre los que realizar una microsegmentaci&#xF3;n.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ce7f09022a891a1cb5526539cb94f16c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>59a1f01d-4e9f-4cac-9616-a592af2ff624,71d7f3d6-568b-48f4-90fb-a4e2c02994ed,53e8344d-651d-4f6d-b3c5-d6977fb6c308</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>21e18befa4ee53def4d2679be1a222f7</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Partiendo de la Matriz de Segmentaci&#xF3;n, &#xBF;C&#xF3;mo calculamos el n&#xFA;mero de segmentos resultante de la macrosegmentaci&#xF3;n?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="59a1f01d-4e9f-4cac-9616-a592af2ff624">
+              <material>
+                <mattext texttype="text/html">Sumando el n&#xFA;mero de variables situadas en cada uno de los ejes de la matriz.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="71d7f3d6-568b-48f4-90fb-a4e2c02994ed">
+              <material>
+                <mattext texttype="text/html">Multiplicando el n&#xFA;mero de variables situadas en cada uno de los ejes de la matriz.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="53e8344d-651d-4f6d-b3c5-d6977fb6c308">
+              <material>
+                <mattext texttype="text/html">Depende del n&#xFA;mero de ejes que incluyamos en la matriz de segmentaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">71d7f3d6-568b-48f4-90fb-a4e2c02994ed</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Para calcular el n&#xFA;mero de segmentos en los que se divide el mercado, hay que multiplicar el n&#xFA;mero de variables que se incluyen en cada uno de los tres ejes de la matriz.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="d8a616c70f68359047b2a92ed6b7f90b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>04649850-8c80-4500-9b6d-8321b79bf98b,8348a74c-c85c-4ff0-ad58-7ee2bb44da6d,bf0cd0fc-0ae1-4622-886b-07af37e38a0b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ae2077eced1123c9bb08db776c36801b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l de las siguientes hip&#xF3;tesis sirve de base al proceso de Macrosegmentaci&#xF3;n?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="04649850-8c80-4500-9b6d-8321b79bf98b">
+              <material>
+                <mattext texttype="text/html">Los segmentos del mercado son id&#xE9;nticos en cuanto a su potencial de mercado.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8348a74c-c85c-4ff0-ad58-7ee2bb44da6d">
+              <material>
+                <mattext texttype="text/html">Todo producto del mercado se corresponde a una necesidad real de los consumidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bf0cd0fc-0ae1-4622-886b-07af37e38a0b">
+              <material>
+                <mattext texttype="text/html">Los segmentos de consumidores resultantes tienen una clara diferenciaci&#xF3;n entre s&#xED;.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8348a74c-c85c-4ff0-ad58-7ee2bb44da6d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Una de las tres hip&#xF3;tesis sobre las que se realiza la macrosegmentaci&#xF3;n es que todo producto corresponde a necesidades reales. Esto es, que no hay productos que no sirven para nada.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="780a3e69f8588f7e3235c01162fc3df9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>02fe838f-651e-4c84-b123-1b903c3bd259,8f109e6c-8f48-4d78-bab4-016595079fba,1eaf97e5-c1da-4826-8124-cc04d0895c36</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>8221f5f405f383518c9b1d526c8bc5e0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es el objetivo de la macrosegmentaci&#xF3;n?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="02fe838f-651e-4c84-b123-1b903c3bd259">
+              <material>
+                <mattext texttype="text/html">Identificar los grandes grupos de consumidores interesados en los productos de la empresa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8f109e6c-8f48-4d78-bab4-016595079fba">
+              <material>
+                <mattext texttype="text/html">En la agrupaci&#xF3;n de los productos ofertados en el mercado, seg&#xFA;n su utilidad b&#xE1;sica.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1eaf97e5-c1da-4826-8124-cc04d0895c36">
+              <material>
+                <mattext texttype="text/html">En la identificaci&#xF3;n del mercado de referencia sobre el que la empresa debe dirigir sus esfuerzos.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1eaf97e5-c1da-4826-8124-cc04d0895c36</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La macrosegmentaci&#xF3;n tiene como objetivo identificar el mercado de referencia al que la empresa se orientar&#xE1;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="43252f336b7f3c6f1c22dd587767765e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>614ac860-a6d8-4c7b-b0b5-ba61ad45dbe3,4d2a8bcb-95b4-4fcf-b28b-3eb983439d91,d6d838b9-9c87-4b51-94c9-3818cf759182</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6e921c376989caf85c1b413baca87656</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El proceso de segmentaci&#xF3;n, &#xBF;de cu&#xE1;ntas fases consta?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="614ac860-a6d8-4c7b-b0b5-ba61ad45dbe3">
+              <material>
+                <mattext texttype="text/html">Depende del n&#xFA;mero de criterios utilizados en el proceso. Cuanto m&#xE1;s criterios, m&#xE1;s fases consecutivas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4d2a8bcb-95b4-4fcf-b28b-3eb983439d91">
+              <material>
+                <mattext texttype="text/html">De dos, macrosegmentaci&#xF3;n y microsegmentaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d6d838b9-9c87-4b51-94c9-3818cf759182">
+              <material>
+                <mattext texttype="text/html">De tres , segmentaci&#xF3;n primaria, segmentaci&#xF3;n de producto y segmentaci&#xF3;n del consumidor.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4d2a8bcb-95b4-4fcf-b28b-3eb983439d91</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El proceso de segmentaci&#xF3;n se realiza en dos fases, la macrosegmentaci&#xF3;n para identificar el mercado de referencia y la microsegmentaci&#xF3;n para identificar a los segmentos de consumidores objetivo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="b5ccd8e0c6d00c3c5b55f16d86980048" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>54b42fbd-5233-4bae-8646-569de59e08c9,0d8e26fc-c2f3-4193-830d-faa9ec7d7fdb,4ea0ece1-ef63-49a6-bb9a-5caa874c2d65</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>dc25fa28a904e136862bd7073bdcc8e9</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;En qu&#xE9; consiste la t&#xE9;cnica de marketing denominada &#x201C;segmentaci&#xF3;n&#x201D;?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="54b42fbd-5233-4bae-8646-569de59e08c9">
+              <material>
+                <mattext texttype="text/html">Agrupar a los consumidores en grupos m&#xE1;s peque&#xF1;os y homog&#xE9;neos, pero claramente diferenciados entre s&#xED;.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0d8e26fc-c2f3-4193-830d-faa9ec7d7fdb">
+              <material>
+                <mattext texttype="text/html">Clasificar a los consumidores en grupos seg&#xFA;n su grado de inter&#xE9;s en nuestro producto.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4ea0ece1-ef63-49a6-bb9a-5caa874c2d65">
+              <material>
+                <mattext texttype="text/html">Clasificar a los clientes potenciales seg&#xFA;n su clase social y potencial econ&#xF3;mico.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">54b42fbd-5233-4bae-8646-569de59e08c9</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En agrupar a los consumidores en grupos ma&#x301;s pequen&#x303;os y homoge&#x301;neos, pero claramente diferenciados entre si&#x301;. &amp;nbsp;Segmentar es agrupar a los consumidores en grupos de personas que reu&#x301;nan caracteri&#x301;sticas similares, pero diferentes entre si&#x301;.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="2f7e66b50945ec5d546d3d584bb37a81" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7c3eaca8-e6f2-43d3-8874-2e8b45cb3248,e65650e4-237d-4133-bf02-121f70c58ea7,e41db13a-3b6f-41da-b41d-ed554e4873d4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>f6bb15c9211f9063f6eb9aa3fc2cda37</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Por qu&#xE9; es importante el posicionamiento en marketing?&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7c3eaca8-e6f2-43d3-8874-2e8b45cb3248">
+              <material>
+                <mattext texttype="text/html">Porque facilita la identificaci&#xF3;n, diferenciaci&#xF3;n y elecci&#xF3;n de un producto versus su competencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e65650e4-237d-4133-bf02-121f70c58ea7">
+              <material>
+                <mattext texttype="text/html">Porque es la base sobre la que se prepara una oferta comercial.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e41db13a-3b6f-41da-b41d-ed554e4873d4">
+              <material>
+                <mattext texttype="text/html">Porqu&#xE9; indica el grado de preferencia de los consumidores.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7c3eaca8-e6f2-43d3-8874-2e8b45cb3248</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Por posicionamiento se entiende el hueco que una marca ocupa en la mente de sus consumidores, y facilita la identificaci&#xF3;n, diferenciaci&#xF3;n y elecci&#xF3;n de un producto.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="3da902631bb64c2057f706ce457955b7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a4a35986-f974-4f4f-b8f5-e02ac25693f6,b6cf56fe-e020-4c63-8bb8-4e249fec5ee7,bd97807c-aa19-48ee-bd02-36e17538f4b8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>9e527e2b0cb048bc6c96ffc47dcf46b9</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;En qu&#xE9; consiste la estrategia de Micromarketing en la acci&#xF3;n de Targeting?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a4a35986-f974-4f4f-b8f5-e02ac25693f6">
+              <material>
+                <mattext texttype="text/html">En aquella en que los consumidores se agrupan en grupos de tama&#xF1;o limitado para que sea m&#xE1;s sencillo actuar sobre ellos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b6cf56fe-e020-4c63-8bb8-4e249fec5ee7">
+              <material>
+                <mattext texttype="text/html">En la realizaci&#xF3;n continua y constante de peque&#xF1;as acciones de marketing dirigidas a los consumidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bd97807c-aa19-48ee-bd02-36e17538f4b8">
+              <material>
+                <mattext texttype="text/html">En aquella en la que la empresa se dirige a los consumidores de una manera personalizada.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">bd97807c-aa19-48ee-bd02-36e17538f4b8</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El principal beneficio derivado de la microsegmentaci&#xF3;n es la posibilidad de dirigirse de una manera individual a los consumidores.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="f4cc0c761dc874b206b26db1720c0845" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ab419337-79d5-4244-97da-ce1d16ca7d00,7f900e04-a5b2-4166-9d31-4bc26639caae,8e497d10-301b-4fff-bac8-928abca0a2e8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>8d8d3f53fbbb3e304d43ac48b47f09ec</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es la utilidad pr&#xE1;ctica para las empresas de la segmentaci&#xF3;n en el marketing estrat&#xE9;gico ?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ab419337-79d5-4244-97da-ce1d16ca7d00">
+              <material>
+                <mattext texttype="text/html">Permite a la empresa adaptar mejor su oferta.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7f900e04-a5b2-4166-9d31-4bc26639caae">
+              <material>
+                <mattext texttype="text/html">Reduce el coste de sus acciones de comunicaci&#xF3;n al dirigirse a grupos objetivos m&#xE1;s limitados</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8e497d10-301b-4fff-bac8-928abca0a2e8">
+              <material>
+                <mattext texttype="text/html">Limita el riesgo de fabricar m&#xE1;s productos de los realmente demandados.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">ab419337-79d5-4244-97da-ce1d16ca7d00</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La segmentaci&#xF3;n de consumidores permite a las empresas adaptar mejor su oferta a las necesidades de los consumidores.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="057bf5c62278aa8fe5b32c3fe9690d72" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>421fcbea-918a-45dc-b0c1-8f0c7519fa15,2143d57c-1239-4fef-b139-78f99fa8adea,2bbf6a2f-fd5f-4ccd-ac6f-c6ef4d179130</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ab40df5b375332aebd99d8f33361f106</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El hecho de que existan grupos de consumidores con caracter&#xED;sticas y necesidades homogeneas, justifica la realizaci&#xF3;n de:&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="421fcbea-918a-45dc-b0c1-8f0c7519fa15">
+              <material>
+                <mattext texttype="text/html">La Microsegmantaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2143d57c-1239-4fef-b139-78f99fa8adea">
+              <material>
+                <mattext texttype="text/html">El Targeting.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2bbf6a2f-fd5f-4ccd-ac6f-c6ef4d179130">
+              <material>
+                <mattext texttype="text/html">La fijaci&#xF3;n de posicionamientos diferenciados por cada segmento de consumidores.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">421fcbea-918a-45dc-b0c1-8f0c7519fa15</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La microsegmentaci&#xF3;n parte de la existencia de grupos de consumidores homog&#xE9;neos y diferenciados entre s&#xED;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="8daf8091993ebca9526c5836b10ce090" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>276d5efb-51e7-449f-bbbd-52611ab4c6b9,9bf7c66f-abbb-49f4-a1f5-4ff8a1c1044d,9ac5feaf-ef36-4b08-8930-b11defc62c12</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>8f11fa08ac2184c45e3346ebcbd49d51</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; se entiende en marketing por posicionamiento?&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="276d5efb-51e7-449f-bbbd-52611ab4c6b9">
+              <material>
+                <mattext texttype="text/html">A pagar por colocar un producto en un lugar preferente en los estantes de los supermercados.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9bf7c66f-abbb-49f4-a1f5-4ff8a1c1044d">
+              <material>
+                <mattext texttype="text/html">Mejorar la visibilidad de un producto en una b&#xFA;squeda realizada a trav&#xE9;s de un buscador de internet.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9ac5feaf-ef36-4b08-8930-b11defc62c12">
+              <material>
+                <mattext texttype="text/html">A conseguir que el consumidor recuerde un producto de una manera clara y bas&#xE1;ndose en una de sus caracter&#xED;sticas b&#xE1;sicas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9ac5feaf-ef36-4b08-8930-b11defc62c12</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El &#x201C;Posicionamiento&#x201D; corresponde al hueco que una marca ocupa en la mente de sus consumidores y est&#xE1; basado en su ventaja competitiva.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="cee361a210d0b3960c0dd08fb904b3d0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2635e5f3-3a6c-4ec0-b134-217cb658df4a,a59d27ad-976f-4094-9f00-1785d81cc5ea,56e70309-9948-48ff-a5b9-883db68edc75</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>5c8224a5e96ddcbb55bc4d36ebf843dd</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;A qu&#xE9; corresponde el t&#xE9;rmino &#x201C;segmentaci&#xF3;n de los consumidores&#x201D;?&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2635e5f3-3a6c-4ec0-b134-217cb658df4a">
+              <material>
+                <mattext texttype="text/html">A agrupar a los consumidores en conjuntos m&#xE1;s peque&#xF1;os sobre los que sea m&#xE1;s sencillo actuar.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a59d27ad-976f-4094-9f00-1785d81cc5ea">
+              <material>
+                <mattext texttype="text/html">A seleccionar, de entre los segmentos en los que se puede dividir a los consumidores, los m&#xE1;s interesantes para una empresa determinada.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56e70309-9948-48ff-a5b9-883db68edc75">
+              <material>
+                <mattext texttype="text/html">A dividir a los consumidores en grupos homog&#xE9;neos pero diferenciados entre si sobre los que se pueda actuar.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">56e70309-9948-48ff-a5b9-883db68edc75</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La segmentaci&#xF3;n en marketing consiste en dividir a los consumidores en grupos homog&#xE9;neos y diferenciados sobre los que se pueda actuar.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="74b95ef1c34403af92ed984995a00f8c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5112ab7b-e44f-48dc-a4d0-6853b10dd3a2,a3cfdeee-9b12-4404-baf8-25fdb597a3c9,a75725bf-9bbd-44ce-a914-2f041a4aa504</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c304c52cee6c3489b4846bf5de0cbd12</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Es posible para una gran empresa multinacional satisfacer las necesidades de todos los consumidores?&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5112ab7b-e44f-48dc-a4d0-6853b10dd3a2">
+              <material>
+                <mattext texttype="text/html">Si, siempre que tenga la capacidad productiva suficiente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a3cfdeee-9b12-4404-baf8-25fdb597a3c9">
+              <material>
+                <mattext texttype="text/html">No, no es posible.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a75725bf-9bbd-44ce-a914-2f041a4aa504">
+              <material>
+                <mattext texttype="text/html">Si, siempre que lo que los consumidores demanden sea un producto &#xFA;nico y est&#xE1;ndar.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">a3cfdeee-9b12-4404-baf8-25fdb597a3c9</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Ninguna empresa, por grande que sea, tiene capacidad para satisfacer las necesidades y demandas de todos los consumidores. Es necesario segmentarlos en grupos homog&#xE9;neos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

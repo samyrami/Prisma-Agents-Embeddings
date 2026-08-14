@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g25ef82c353bb06191a6e06f83083df58" title="Test 6 (Supervisado remotamente)" external_assignment_id="268990000000011647">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>120</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>3</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <section ident="g4afdf771cd7a05c1ab1c5192df7749de" title="M-MAN 650 Strategic Management Test 6">
+        <selection_ordering>
+          <selection>
+            <sourcebank_ref>g7f317eab882f196ac3f6e42d619a7744</sourcebank_ref>
+            <selection_number>5</selection_number>
+            <selection_extension>
+              <points_per_item>3.0</points_per_item>
+            </selection_extension>
+          </selection>
+        </selection_ordering>
+      </section>
+    </section>
+  </assessment>
+</questestinterop>

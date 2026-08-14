@@ -1,0 +1,1385 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g14ce2d0afca671664d3aa7f345564905" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MAN-563 Test 6</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="dbc24faa2a9866c5b5833a86aa808bd4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>eecd0e02-59e7-46aa-83fb-9dbe668d2b65,62a54c50-39c6-4ccb-8933-f8c39020d47b,def293f6-ccfc-4d63-99df-f1e240288c4a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>293cbbf8d8ed95ac5f02069a1d4e12f6</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El sistema para establecer prioridades, que consiste en realizar una evaluaci&#xF3;n de lo que hemos conseguido en un d&#xED;a y lo que no, seg&#xFA;n lo planificado, e ir ajustando nuestro sistema de prioridades en las pr&#xF3;ximas jornadas para conseguir una mayor productividad, se denomina:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="eecd0e02-59e7-46aa-83fb-9dbe668d2b65">
+              <material>
+                <mattext texttype="text/html">Sistema de prioridades ABC</mattext>
+              </material>
+            </response_label>
+            <response_label ident="62a54c50-39c6-4ccb-8933-f8c39020d47b">
+              <material>
+                <mattext texttype="text/html">Sistema de prioridades del inventario.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="def293f6-ccfc-4d63-99df-f1e240288c4a">
+              <material>
+                <mattext texttype="text/html">Sistema de cuadrar horarios.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">62a54c50-39c6-4ccb-8933-f8c39020d47b</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El sistema de prioridades del inventario, consiste en realizar una evaluaci&#xF3;n de lo que hemos conseguido en un d&#xED;a seg&#xFA;n lo planificado y lo que no hemos podido conseguir e ir ajustando nuestro sistema de prioridades en las pr&#xF3;ximas jornadas, para as&#xED; conseguir una mayor productividad en nuestra planificaci&#xF3;n y en nuestro trabajo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="cfb27a9558b557caeaba35dc528210fb" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a9129321-d7c0-40c8-bffb-4c5a5665062a,048f67e6-ce68-496a-ad03-113fdfcdbd60,f2a0bd2a-9957-4a99-9916-d8fdd64fd6f6</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e217d2437895d8632524875d386062a0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es el mejor momento para establecer las tareas prioritarias del d&#xED;a siguiente?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a9129321-d7c0-40c8-bffb-4c5a5665062a">
+              <material>
+                <mattext texttype="text/html">La primera hora de la ma&#xF1;ana.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="048f67e6-ce68-496a-ad03-113fdfcdbd60">
+              <material>
+                <mattext texttype="text/html">Despu&#xE9;s de comer.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f2a0bd2a-9957-4a99-9916-d8fdd64fd6f6">
+              <material>
+                <mattext texttype="text/html">La &#xFA;ltima hora de la tarde.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">f2a0bd2a-9957-4a99-9916-d8fdd64fd6f6</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Parece ser que el mejor momento para establecer las tareas prioritarias del d&#xED;a siguiente ser&#xE1; la &#xFA;ltima hora de la tarde. Esto nos permitir&#xE1; disponer de un margen de tiempo m&#xE1;s amplio para valorar nuestras decisiones. Dejemos las ma&#xF1;anas para revisarlas y realizar peque&#xF1;as modificaciones si lo consideramos oportuno.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="94e2fe7eb93e56af4a719e706978200f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>09b7e47b-8e75-4690-8906-9a5167fa17bc,9b7fb81c-ddf1-40ee-b376-0db2ff06b9a0,b74b0be2-e02f-4153-9a20-7f6161ff25d0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>cf7949c54150fd48d73d94cd7ebb4b91</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;A qu&#xE9; llamamos sistema de prioridades ABC?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="09b7e47b-8e75-4690-8906-9a5167fa17bc">
+              <material>
+                <mattext texttype="text/html">A un sistema que se basa en los resultados que vamos obteniendo con nuestras planificaciones</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9b7fb81c-ddf1-40ee-b376-0db2ff06b9a0">
+              <material>
+                <mattext texttype="text/html">A un sistema que clasifica a las prioridades en base al dinero que tengo para ejecutarlas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b74b0be2-e02f-4153-9a20-7f6161ff25d0">
+              <material>
+                <mattext texttype="text/html">A un sistema que divide las prioridades en un orden jer&#xE1;rquico de tres niveles de acuerdo a la urgencia o importancia de la tarea</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b74b0be2-e02f-4153-9a20-7f6161ff25d0</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El sistema de prioridades ABC es un sistema antiguo, y tambi&#xE9;n uno de los m&#xE1;s utilizados, por su sencillez. Se trata de jerarquizar en funci&#xF3;n de dos variables de la urgencia o importancia de una tarea y de realizar lo que se denomina un an&#xE1;lisis ABC seg&#xFA;n el cual:&lt;br&gt;- Las tareas A: son tanto urgentes como importantes es necesario dedicarse a ellas uno mismo o con ayuda del equipo y de forma inmediata, puesto que tienen un gran efecto sobre los objetivos a conseguir. Son las tareas a las que m&#xE1;s tiempo se le deber&#xED;a dedicar. Dejar de llevarlas a cabo puede suponer un resultado desastroso.&lt;br&gt;- Las tareas B: son importantes, pero no tan urgentes como las tareas A. Tiene una trascendencia media sobre los objetivos. Estas tareas pueden esperar, pero no demasiado y deben estar planificadas. Son delegables. Deber&#xED;amos dedicarles un 20% de nuestro tiempo. Pero es conveniente no olvidar que, a la larga, no llevarlas a cabo puede suponer que pasen a convertirse en una tarea A.&lt;br&gt;- Las tareas C: son las de menor valor y son las que sin embargo m&#xE1;s tiempo de trabajo nos consumen, cuando en realidad no deber&#xED;an superar un 15% del total de nuestro tiempo. Pueden dejarse de lado sin que se produzcan graves consecuencias y pueden permanecer en esta categor&#xED;a casi de forma indefinida a no ser que existan fechas l&#xED;mite para su realizaci&#xF3;n, con lo que entonces se podr&#xED;an pasar a categor&#xED;a B o A.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="66da315dd39e98f9f8f02832f66e3f6a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>cd3bd9c6-5761-4a0a-b6f2-95700ce137c3,9c323c36-1944-4817-b1bb-25babf387bf8,b4b81b3e-d01a-4477-bcc3-e63b14ad4c6e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>fd18a3a376aea7c5b2a6ed6032c13057</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Se debe buscar que la productividad sea constante durante todo el d&#xED;a?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="cd3bd9c6-5761-4a0a-b6f2-95700ce137c3">
+              <material>
+                <mattext texttype="text/html">No, para ser productivo es necesario entender que justamente se debe organizar el d&#xED;a para buscar dar un alto rendimiento en determinados momentos, es imposible que sea durante todo el d&#xED;a</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9c323c36-1944-4817-b1bb-25babf387bf8">
+              <material>
+                <mattext texttype="text/html">Si, lo importante es poner energ&#xED;a y tiempo en buscar ser productivo todo el d&#xED;a, para aprovechar las horas de luz</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b4b81b3e-d01a-4477-bcc3-e63b14ad4c6e">
+              <material>
+                <mattext texttype="text/html">No, la productividad es un factor que a&#xFA;n es dif&#xED;cil de entender, hay semanas en las que uno es productivo y otras en las que no, y no hay nada que uno pueda hacer</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">cd3bd9c6-5761-4a0a-b6f2-95700ce137c3</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Por otra parte, ya hemos mencionado anteriormente, que la productividad de una persona no es constante durante el d&#xED;a. Este aspecto es importante a la hora de organizarnos. Existen variables individuales que influyen en nuestra gesti&#xF3;n y que son influidas por los h&#xE1;bitos alimentarios, por ejemplo, y otras caracter&#xED;sticas personales.&lt;br&gt;Sin embargo, fundamentalmente podr&#xED;amos asegurar lo siguiente:&lt;br&gt;- Por lo general el nivel m&#xE1;s alto de rendimiento se alcanza por la ma&#xF1;ana.&lt;br&gt;- Por la tarde (despu&#xE9;s de comer) aparece el conocido &#x201C;baj&#xF3;n&#x201D; de media tarde.&lt;br&gt;- Tras una nueva subida media a &#xFA;ltimas horas de la tarde, la curva de rendimiento que hay de forma continua, para alcanzar el punto m&#xE1;s bajo unas horas despu&#xE9;s de medianoche.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="2757354d16cb96a10af1da40fb9de592" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>e3d82c63-2554-4230-907c-f5b6217f721a,940be2b6-6b9b-4cb8-acf8-150747c090f6,d6fe186d-04dc-46da-b928-738f86f95752</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>f30f6fdb676e26bbd0a8c1f7069fb383</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; podemos decir sobre los conceptos de lo importante y lo urgente?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="e3d82c63-2554-4230-907c-f5b6217f721a">
+              <material>
+                <mattext texttype="text/html">Lo importante es siempre urgente, pero lo urgente no siempre es importante</mattext>
+              </material>
+            </response_label>
+            <response_label ident="940be2b6-6b9b-4cb8-acf8-150747c090f6">
+              <material>
+                <mattext texttype="text/html">Lo importante es lo que nos interesa o importa por alguna raz&#xF3;n determinada, y lo urgente es lo que se necesita r&#xE1;pidamente, lo que urge</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d6fe186d-04dc-46da-b928-738f86f95752">
+              <material>
+                <mattext texttype="text/html">Lo importante est&#xE1; relacionado con lo moral y necesario, y lo urgente est&#xE1; relacionado con lo irrelevante e innecesario</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">940be2b6-6b9b-4cb8-acf8-150747c090f6</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Por definici&#xF3;n, un mando debe ocuparse, por lo general, de m&#xE1;s actividades de las que puede asumir, por lo que deber&#xE1; tomar la dif&#xED;cil decisi&#xF3;n de distinguir entre lo importante, como el urgente y lo irrelevante. El saber priorizar de manera eficaz es una competencia de la gesti&#xF3;n del tiempo que nos ayudar&#xE1; positivamente como directores e influir&#xE1; sobremanera en nuestro liderazgo. Las prioridades y se establecen seg&#xFA;n los criterios de urgencia e importancia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="eafcd8935062e080d4554c796f0aa29b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>30ee0437-9e63-44fa-a7b4-cd69c7ccd203,18acf7a9-d954-4420-9441-b6a3b932ac7b,a9195538-2d86-43f0-996a-71c9c3df706a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c113c4c622c99c7ef6c85cc654a3793d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Por qu&#xE9; decimos que existe una relaci&#xF3;n estrecha entre el liderazgo y la motivaci&#xF3;n?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="30ee0437-9e63-44fa-a7b4-cd69c7ccd203">
+              <material>
+                <mattext texttype="text/html">Porque el l&#xED;der busca alcanzar el ideal del equipo, integrado, motivado y de alto rendimiento</mattext>
+              </material>
+            </response_label>
+            <response_label ident="18acf7a9-d954-4420-9441-b6a3b932ac7b">
+              <material>
+                <mattext texttype="text/html">Porque el l&#xED;der debe tener la motivaci&#xF3;n de generar m&#xE1;s capital</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a9195538-2d86-43f0-996a-71c9c3df706a">
+              <material>
+                <mattext texttype="text/html">Porque ser l&#xED;der significa motivar a los colaboradores a seguir su camino</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">30ee0437-9e63-44fa-a7b4-cd69c7ccd203</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Las organizaciones se empe&#xF1;an en formar a sus colaboradores embarc&#xE1;ndoles en toda suerte de programas de capacitaci&#xF3;n con &#xE1;nimo de que consigan motivarlos y as&#xED; aumentar el rendimiento y los resultados. De la misma manera que un padre dedicado desea que su hijo crezca sano, equilibrado y feliz, el directivo busca alcanzar el ideal de equipo, integrado, motivado, y de alto rendimiento, siendo la motivaci&#xF3;n uno de los indicadores de esta &#x201C;felicidad&#x201D; del equipo. El Directivo asume la motivaci&#xF3;n, mejor dicho &#x201C;saber motivar&#x201D; como algo integrado en su rol. Liderar no implica s&#xF3;lo aplicar las t&#xE9;cnicas de motivaci&#xF3;n aprendida, sino creer en los individuos, en su potencial para crecer, en su capacidad de interesarse y desarrollarse de manera que la organizaci&#xF3;n y el individuo encuentren esas sinergias que ambos necesitan.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="32974a53f9f30b5f9291b1889aab75de" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3a63e841-7ac4-42fc-a3cf-a2530f2bb313,04cdc63d-c72a-45eb-8d91-a7d0837c016f,bf81717f-cc9e-42dd-a0e5-ba8490c705f3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6edc71f5e085c7e275d3bb305494e0be</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Por qu&#xE9; podemos decir que no existe un &#x201C;mal liderazgo&#x201D;?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3a63e841-7ac4-42fc-a3cf-a2530f2bb313">
+              <material>
+                <mattext texttype="text/html">Porque depende de tantas cosas ser buen o mal l&#xED;der que ser&#xED;a imposible definirlo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="04cdc63d-c72a-45eb-8d91-a7d0837c016f">
+              <material>
+                <mattext texttype="text/html">Porque es imposible juzgar a un l&#xED;der de afuera, s&#xF3;lo &#xE9;l sabe lo que hace y es capaz de juzgarse a s&#xED; mismo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bf81717f-cc9e-42dd-a0e5-ba8490c705f3">
+              <material>
+                <mattext texttype="text/html">Porque el liderazgo o es o no es, no se es l&#xED;der a medias</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">bf81717f-cc9e-42dd-a0e5-ba8490c705f3</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">No existe un mal liderazgo ya que el liderazgo o es o no es, no se es l&#xED;der a medias, y organizacionalmente entenderemos el liderazgo como una fuerza positiva, impulsora. Por lo que se puede hablar de gesti&#xF3;n deficiente o inefectiva de personas frente al liderazgo que acompa&#xF1;ar&#xED;a en el mejor de los casos a una buena gesti&#xF3;n. As&#xED;, una gesti&#xF3;n deficiente de personas, la ausencia de liderazgo o el ejercicio ineficaz y desmotivador de un cargo, llevar&#xE1; a un clima organizacional negativo lo que influir&#xE1; en la motivaci&#xF3;n, necesidades e intereses de los colaboradores, y por ende en el rendimiento y por ende en los resultados.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="b81737825af1968fb7d8f30f0d1bce98" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>659b713a-9506-454e-a6ad-9a2bf781021c,c302cda8-6d2e-45d7-901e-f831f58056dd,45f7d2d8-6e6a-48d2-a7c6-c1b3ad116f5b,d0af64e7-0eb3-43e3-b434-a6637daecd8d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>b8842cd15a81b5eeb8dde9ea8b0b4adb</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Los elementos significativos de medici&#xF3;n del clima organizacional son&#x2026;&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="659b713a-9506-454e-a6ad-9a2bf781021c">
+              <material>
+                <mattext texttype="text/html">Valores colectivos y sentimiento de pertenencia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c302cda8-6d2e-45d7-901e-f831f58056dd">
+              <material>
+                <mattext texttype="text/html">Recursos materiales y ambiente f&#xED;sico</mattext>
+              </material>
+            </response_label>
+            <response_label ident="45f7d2d8-6e6a-48d2-a7c6-c1b3ad116f5b">
+              <material>
+                <mattext texttype="text/html">Relaciones humanas y estilos de liderazgo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d0af64e7-0eb3-43e3-b434-a6637daecd8d">
+              <material>
+                <mattext texttype="text/html">Todas son correctas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">d0af64e7-0eb3-43e3-b434-a6637daecd8d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Los elementos significativos de medici&#xF3;n el Clima organizacional a tener en cuenta son:&amp;nbsp;&lt;br&gt;- &amp;nbsp; &amp;nbsp;Valores colectivos&lt;br&gt;- &amp;nbsp; &amp;nbsp;Posibilidad de superaci&#xF3;n y desarrollo&lt;br&gt;- &amp;nbsp; &amp;nbsp;Recursos materiales y ambiente f&#xED;sico&lt;br&gt;- &amp;nbsp; &amp;nbsp;Retribuci&#xF3;n material y moral&lt;br&gt;- &amp;nbsp; &amp;nbsp;Estilos de liderazgo&lt;br&gt;- &amp;nbsp; &amp;nbsp;Sentimiento de pertenencia&lt;br&gt;- &amp;nbsp; &amp;nbsp;Motivaci&#xF3;n y compromiso&lt;br&gt;- &amp;nbsp; &amp;nbsp;Resoluci&#xF3;n de quejas y conflictos&lt;br&gt;- &amp;nbsp; &amp;nbsp;Relaciones Humanas&lt;br&gt;- &amp;nbsp; &amp;nbsp;Relaciones Jefes-subalternos&lt;br&gt;- &amp;nbsp; &amp;nbsp;Control y regulaciones&lt;br&gt;- &amp;nbsp; &amp;nbsp;Estructura organizativa y dise&#xF1;o del trabajo.&lt;br&gt;Podemos entonces inferir que, si el clima organizacional se mide con la percepci&#xF3;n subjetiva de los colaboradores, y &#xE9;sta influye en los resultados, y es influida por el l&#xED;der, parte de la efectividad del liderazgo podremos medirla a trav&#xE9;s del clima organizacional. Sea subjetivo o no, ser&#xE1; un buen indicador revelador de la efectividad del liderazgo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="36973ecdcd8cec309630d6f9b6fdd271" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>f46e0469-81a3-436c-989a-85576a05d838,03a78aae-f5b5-4da8-8ea5-10e7a25907aa,7c5c1a88-4914-49a7-95de-fc6425637c3e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>0a9f445643f009db8c758b6f953a98c9</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;De qu&#xE9; manera se mide el Clima Organizacional de una empresa?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="f46e0469-81a3-436c-989a-85576a05d838">
+              <material>
+                <mattext texttype="text/html">A trav&#xE9;s de la relaci&#xF3;n entre los objetivos trazados y los resultados</mattext>
+              </material>
+            </response_label>
+            <response_label ident="03a78aae-f5b5-4da8-8ea5-10e7a25907aa">
+              <material>
+                <mattext texttype="text/html">A trav&#xE9;s de los comportamientos de los trabajadores seg&#xFA;n sus valores y necesidades</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7c5c1a88-4914-49a7-95de-fc6425637c3e">
+              <material>
+                <mattext texttype="text/html">A trav&#xE9;s de par&#xE1;metros como la eficiencia, la excelencia y la eficacia</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">03a78aae-f5b5-4da8-8ea5-10e7a25907aa</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tras mucho debate, en 1968 se llega a medir el Clima Organizacional, a trav&#xE9;s de los comportamientos de los trabajadores seg&#xFA;n sus valores y sus necesidades. Se mide entonces en base a percepciones de los empleados sobre las trabas que existen en la organizaci&#xF3;n y c&#xF3;mo influyen sobre estos los factores internos y externos del proceso de trabajo para el logro de los objetivos organizacionales.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ae726ada9b781fe15295c6ab5893884e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2bde62a7-febc-4c5c-908a-50a1a3b6517c,8b1a01f7-f1c2-4f3b-9984-f59448f67e1d,186cd388-49f6-4c3d-8298-10a5f9c371a8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c252f26ed65e3f70bf18c4cabbf5a780</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Por qu&#xE9; es el l&#xED;der el principal responsable del &#xE9;xito o fracaso de sus seguidores?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2bde62a7-febc-4c5c-908a-50a1a3b6517c">
+              <material>
+                <mattext texttype="text/html">Porque hay una relaci&#xF3;n directa entre el cumplimiento de los objetivos organizacionales y la influencia que ejerza el l&#xED;der en sus seguidores</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8b1a01f7-f1c2-4f3b-9984-f59448f67e1d">
+              <material>
+                <mattext texttype="text/html">Porque cualquier error que cometan sus seguidores, es porque &#xE9;l no lo explic&#xF3; bien en un primer momento</mattext>
+              </material>
+            </response_label>
+            <response_label ident="186cd388-49f6-4c3d-8298-10a5f9c371a8">
+              <material>
+                <mattext texttype="text/html">Porque lo que hace a un buen l&#xED;der es que sus seguidores hagan lo que &#xE9;l dice</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2bde62a7-febc-4c5c-908a-50a1a3b6517c</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El comportamiento del l&#xED;der influye en sus seguidores, siendo este el principal responsable del &#xE9;xito o fracaso de ellos, que son los encargados de ayudar al cumplimiento de los objetivos organizacionales. O lo que es lo mismo, hay una relaci&#xF3;n directa entre el cumplimiento de los objetivos organizacionales y la influencia que ejerza el l&#xED;der en sus seguidores. Entender esto es entender el poder del liderazgo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="3a85c4aad6767a7aec9a5525818d407e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>227d70cc-7e40-4c3a-9a04-1a15bd4ad132,6b43d438-98d4-4bcd-ad50-af241b4f34e1,246eec63-9b8a-4fd4-9021-53340a359bda,63cfb924-1166-45ed-b769-5916c575f2dc</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>8a158b62e8237c1d075ec2acfbbae4b1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; pilares son esenciales para lograr organizaciones m&#xE1;s competitivas y preparadas para sobrevivir a los continuos cambios del contexto?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="227d70cc-7e40-4c3a-9a04-1a15bd4ad132">
+              <material>
+                <mattext texttype="text/html">La innovaci&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6b43d438-98d4-4bcd-ad50-af241b4f34e1">
+              <material>
+                <mattext texttype="text/html">La adaptabilidad y flexibilidad</mattext>
+              </material>
+            </response_label>
+            <response_label ident="246eec63-9b8a-4fd4-9021-53340a359bda">
+              <material>
+                <mattext texttype="text/html">Excelencia y orientaci&#xF3;n al resultado</mattext>
+              </material>
+            </response_label>
+            <response_label ident="63cfb924-1166-45ed-b769-5916c575f2dc">
+              <material>
+                <mattext texttype="text/html">Todas son correctas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">63cfb924-1166-45ed-b769-5916c575f2dc</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Esta nueva corriente contiene entre sus pilares la innovaci&#xF3;n, la adaptabilidad y la flexibilidad, sumadas a no perder el foco, la excelencia y la orientaci&#xF3;n al resultado. Dichos pilares logran organizaciones m&#xE1;s competitivas y preparadas para sobrevivir a los continuos cambios a los que la mayor&#xED;a de las organizaciones est&#xE1;n expuestas actualmente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="1093043244566584aeba90b59e901f4a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ace0661a-6aac-4422-948f-a621bd3da61b,bdd58c43-a46d-4b0f-b8f9-3a83c2c4fb7e,9150dfe2-a669-4603-b725-004165145b04</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>b2635c3413c75a8b3eb926ceb459fcde</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;C&#xF3;mo calificaron varios autores al recurso humano administrado adecuadamente?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ace0661a-6aac-4422-948f-a621bd3da61b">
+              <material>
+                <mattext texttype="text/html">Como capital humano</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bdd58c43-a46d-4b0f-b8f9-3a83c2c4fb7e">
+              <material>
+                <mattext texttype="text/html">Como un activo valioso y una ventaja competitiva</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9150dfe2-a669-4603-b725-004165145b04">
+              <material>
+                <mattext texttype="text/html">Como inversi&#xF3;n a largo plazo</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">bdd58c43-a46d-4b0f-b8f9-3a83c2c4fb7e</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La evidencia entre la relaci&#xF3;n de una adecuada gesti&#xF3;n de personas y el desempe&#xF1;o de la organizaci&#xF3;n ha llevado a que varios autores no duden en calificar al recurso humano administrado adecuadamente como un activo valioso y como una ventaja competitiva.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="0747f2dc16f87de3f454e6175ed6841e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ef00a3a1-0c40-4291-bd09-5212e9df82d7,2c1056d0-6de2-4016-abd2-3ef4184ffb63,c2a9dd6f-8c1d-41e6-bdb0-fb78306de75c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7038dc62327eb9924f8ff428b33c676f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;C&#xF3;mo se superan las situaciones de desmotivaci&#xF3;n?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ef00a3a1-0c40-4291-bd09-5212e9df82d7">
+              <material>
+                <mattext texttype="text/html">Buscando generar compromiso y sinergia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2c1056d0-6de2-4016-abd2-3ef4184ffb63">
+              <material>
+                <mattext texttype="text/html">Poniendo una sanci&#xF3;n a quienes no cumplan con los objetivos que les corresponden</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c2a9dd6f-8c1d-41e6-bdb0-fb78306de75c">
+              <material>
+                <mattext texttype="text/html">Creando planes de trabajo en los cuales los colaboradores tengan que rendir cuentas de lo que hacen cada d&#xED;a</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">ef00a3a1-0c40-4291-bd09-5212e9df82d7</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Una de las propuestas que se ha planteado para superar las situaciones de desmotivaci&#xF3;n y bajo compromiso es la implementaci&#xF3;n de pr&#xE1;cticas de recursos humanos de alto desempe&#xF1;o que, cuando son establecidas en conjunto, generan sinergia y son la base para generar compromiso, motivar a las personas y, por esa v&#xED;a, mejorar los resultados de la compa&#xF1;&#xED;a en el largo plazo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="51b3b98b864a7637979e59e40685e855" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>931ccb6c-7240-43c9-8e18-438d094e173d,437510d1-0e07-4587-ba0f-909f80f9f709,b2ea0f57-ab74-4840-aef2-894177ddfb92</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>9b77ef17f4f653c61e3546848b773aa5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; cambi&#xF3; entre los salarios de principios del siglo XX y los salarios de hoy en d&#xED;a? &amp;nbsp; &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="931ccb6c-7240-43c9-8e18-438d094e173d">
+              <material>
+                <mattext texttype="text/html">Antes se pagaba mucho mejor que hoy en d&#xED;a</mattext>
+              </material>
+            </response_label>
+            <response_label ident="437510d1-0e07-4587-ba0f-909f80f9f709">
+              <material>
+                <mattext texttype="text/html">Antes el dinero estaba concentrado en los dirigentes y hab&#xED;a mucha corrupci&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b2ea0f57-ab74-4840-aef2-894177ddfb92">
+              <material>
+                <mattext texttype="text/html">Antes los salarios eran fijos, hoy en d&#xED;a la tendencia es establecer salarios variables</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b2ea0f57-ab74-4840-aef2-894177ddfb92</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En los principios del siglo XX, se estipulaban salarios fijos para motivar a las personas para superar metas y objetivos y mejorar continuamente las actividades. Aquella realidad dista mucho de la actual. Hoy d&#xED;a la tendencia es establecer salarios variables que adem&#xE1;s motiven e incentiven a los trabajadores.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="dc54d204531f2ba9cfb176bfe162c266" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8ae6f5f2-a010-46a1-8f63-457b6c7f177e,18168253-1f19-45bd-b933-f93985ed1b34,a1dc2e55-0980-4afe-9621-0511736adf39</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>bd4b15c1f6b22eeccbd34c0f303d2a7d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;De acuerdo a D. Ulrich, &#xBF;Qu&#xE9; deben hacer los l&#xED;deres del futuro para crear valor y tener resultados?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8ae6f5f2-a010-46a1-8f63-457b6c7f177e">
+              <material>
+                <mattext texttype="text/html">Deben usar la tecnolog&#xED;a viento a favor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="18168253-1f19-45bd-b933-f93985ed1b34">
+              <material>
+                <mattext texttype="text/html">Deben convertirse en campeones de los recursos humanos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a1dc2e55-0980-4afe-9621-0511736adf39">
+              <material>
+                <mattext texttype="text/html">Deben adaptarse a las necesidades de sus clientes</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">18168253-1f19-45bd-b933-f93985ed1b34</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Dave Ulrich comenta los desaf&#xED;os empresarios para los l&#xED;deres del futuro. Plantea que los l&#xED;deres de cualquier nivel deben estar comprometidos con ganar. Querer ganar no es suficiente: los conductores deben trazar un camino que haga realidad ese deseo. El camino de una firma al &#xE9;xito debe ir m&#xE1;s all&#xE1; de dominar y formar relaciones con los clientes: deben crear organizaciones que cambien, se muevan act&#xFA;en m&#xE1;s r&#xE1;pidamente que las competidoras. Para hacer el mejor uso de estas capacidades de la organizaci&#xF3;n, los ejecutivos deben ver a sus pr&#xE1;cticas de recursos humanos como fuente de ventaja competitiva. Los l&#xED;deres que tendr&#xE1;n &#xE9;xito en el futuro deben ser aptos para crear capacidades de organizaci&#xF3;n, de aplicar las capacidades decisivas al &#xE9;xito empresario, y de dise&#xF1;ar y aportar las pr&#xE1;cticas de manejo de recursos humanos que puedan crear capacidades. Para crear valor y tener resultados, los l&#xED;deres del futuro deben convertirse en campeones de los recursos humanos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="443f0b88bb451c04058e746dea27de1d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>27b7fb65-3887-4de7-b119-f5a23011e118,e6074b7f-2cad-40c7-bd17-c7d789ae9cae,228b317c-2e00-4439-929b-f401ad815a2c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c632dcd01f60db00be896212f0cb432d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Seg&#xFA;n John Warnes, entre las destrezas para establecer metas y objetivos est&#xE1; la claridad de la visi&#xF3;n. Para llevar a cabo esta destreza se necesita desarrollar la capacidad de:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="27b7fb65-3887-4de7-b119-f5a23011e118">
+              <material>
+                <mattext texttype="text/html">Persuadir a los dem&#xE1;s para que hagan lo que t&#xFA; quieres.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e6074b7f-2cad-40c7-bd17-c7d789ae9cae">
+              <material>
+                <mattext texttype="text/html">Obligar a los dem&#xE1;s para que hagan lo que t&#xFA; quieres.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="228b317c-2e00-4439-929b-f401ad815a2c">
+              <material>
+                <mattext texttype="text/html">Visualizar una imagen clara y atractiva de lo que podr&#xED;a ocurrir, para estimular tambi&#xE9;n a los dem&#xE1;s para que lleven a cabo acciones para conseguirlo.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">228b317c-2e00-4439-929b-f401ad815a2c</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La claridad de la visi&#xF3;n, hace referencia a la capacidad que tiene una persona para generar en su mente una imagen global, o visualizar lo que podr&#xED;a o deber&#xED;a ser el futuro. Se trata de desarrollar la capacidad de visualizar una imagen clara y atractiva de lo que podr&#xED;a ocurrir, para estimular tambi&#xE9;n a los dem&#xE1;s para que lleven a cabo acciones para conseguirlo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="afeb05675a4ed3c7dfa4f0d9b7f26425" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>69af1762-511a-4ef5-ab96-bdbe3e592761,f78c68a5-bb31-4d4f-a1da-869d3db61043,d5e603d3-e1d3-4c9b-8b9b-1cab0c524e6f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e0bdadc3d7c3115165930c0aefe4c7cb</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La orientaci&#xF3;n a resultados hace referencia a:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="69af1762-511a-4ef5-ab96-bdbe3e592761">
+              <material>
+                <mattext texttype="text/html">Establecer resultados que a&#xF1;adan valor, representen logros medibles y que puedan ser reconocidos y recompensados.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f78c68a5-bb31-4d4f-a1da-869d3db61043">
+              <material>
+                <mattext texttype="text/html">Establecer alg&#xFA;n tipo de resultado, aunque sea peque&#xF1;o o insignificante.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d5e603d3-e1d3-4c9b-8b9b-1cab0c524e6f">
+              <material>
+                <mattext texttype="text/html">Lograr resultados, sin necesidad de reconocerlos y recompensarlos.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">69af1762-511a-4ef5-ab96-bdbe3e592761</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La orientaci&#xF3;n a resultados, se trata de no perder de vista los resultados finales, no centrarnos &#xFA;nicamente en actividades o esfuerzos. Necesitamos establecer resultados que a&#xF1;adan valor o representen logros medibles y por consiguiente que puedan ser reconocidos y recompensados.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="8939c90d40e751ef0cf6f21b74b736a8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6fd2aa88-da41-4fcb-9877-2c4e4da8dff6,c65674dc-961e-4a72-9201-ed1150a791ab,733a644b-93a9-43d6-8435-5247de33ad22</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6deb7de275ed7267231229078cc47159</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;De qu&#xE9; tipo pueden ser los objetivos en la APO (Administraci&#xF3;n por objetivos)?&amp;nbsp; &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6fd2aa88-da41-4fcb-9877-2c4e4da8dff6">
+              <material>
+                <mattext texttype="text/html">Estructurales y alcanzables.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c65674dc-961e-4a72-9201-ed1150a791ab">
+              <material>
+                <mattext texttype="text/html">Comportamentales y alcanzables.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="733a644b-93a9-43d6-8435-5247de33ad22">
+              <material>
+                <mattext texttype="text/html">Estructurales y comportamentales. &amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">733a644b-93a9-43d6-8435-5247de33ad22</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En el modelo de la Administraci&#xF3;n por objetivos (APO), los objetivos pueden ser de dos tipos: estructurales y comportamentales.&amp;nbsp;&lt;br&gt;Los estructurales son los que se establecen a largo y corto plazo, y se expresan en base a los resultados esperados, y deben poderse coordinar con entre los diferentes estratos y secciones de la empresa.&amp;nbsp;&lt;br&gt;Los comportamentales enfatizan en el compromiso de los colaboradores, se enfocan en el ejercicio de autoobservaci&#xF3;n y an&#xE1;lisis del desempe&#xF1;o y actitudes personales que se desarrollan con respecto a los resultados conseguidos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="0feabf1f7787531a11ce332c47bab27d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>bf6bc1e9-2f65-4d72-8289-ba99f2836cb4,91becf70-2d96-4379-845e-7d0abea877a7,8941f04f-d553-4028-b73f-c70da80a673e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>1867104cd04a942e9b21bffd31b75c04</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;les de los siguientes par&#xE1;metros son clave en la Administraci&#xF3;n por objetivos APO?&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="bf6bc1e9-2f65-4d72-8289-ba99f2836cb4">
+              <material>
+                <mattext texttype="text/html">Feedback, satisfacci&#xF3;n e implicaci&#xF3;n de los directivos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="91becf70-2d96-4379-845e-7d0abea877a7">
+              <material>
+                <mattext texttype="text/html">Feedback, participaci&#xF3;n e implicaci&#xF3;n de los directivos.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8941f04f-d553-4028-b73f-c70da80a673e">
+              <material>
+                <mattext texttype="text/html">Satisfacci&#xF3;n, participaci&#xF3;n e implicaci&#xF3;n de los directivos.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">91becf70-2d96-4379-845e-7d0abea877a7</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Los tres factores par&#xE1;metros que deben darse en la administraci&#xF3;n por objetivos son:&amp;nbsp;&lt;br&gt;1. &amp;nbsp; &amp;nbsp;Necesidad de feedback. Es necesario dar y recibir feedback eficaz a la persona interesada en su debido momento. Esto permite apreciar las dificultades que la persona puede estar teniendo, el nivel de compromiso y esfuerzo, y permite tambi&#xE9;n adaptar el nivel de dificultad del objetivo.&lt;br&gt;2. &amp;nbsp; &amp;nbsp;Participaci&#xF3;n. Los objetivos se acuerdan entre las personas que tienen que realizarlos. No se trata tanto de definirlos conjuntamente, como de aceptarlos.&lt;br&gt;3. &amp;nbsp; &amp;nbsp;Implicaci&#xF3;n de los directivos. Es necesario que los directivos se impliquen en este proceso para generar la confianza necesaria para con los mandos medios a cargo de los departamentos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="c757e014fa2f62dcae83fddd72e4b9b3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>b7559ae5-a5fb-4a62-a342-6b00f9562dec,ec812618-8b2d-44d9-9bcd-464f42ce376b,69be74e6-685a-4573-a5de-46d24ea4cad1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>0f587c0c86c100624712ccdd68547757</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La administraci&#xF3;n por objetivos es un modelo utilizado por muchas empresas como medida de:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="b7559ae5-a5fb-4a62-a342-6b00f9562dec">
+              <material>
+                <mattext texttype="text/html">El desempe&#xF1;o</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ec812618-8b2d-44d9-9bcd-464f42ce376b">
+              <material>
+                <mattext texttype="text/html">La comunicaci&#xF3;n&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="69be74e6-685a-4573-a5de-46d24ea4cad1">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;La confianza&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b7559ae5-a5fb-4a62-a342-6b00f9562dec</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La Administraci&#xF3;n por objetivos es un modelo utilizado por muchas empresas como una medida de desempe&#xF1;o, el cual se eval&#xFA;a peri&#xF3;dicamente para poder cuantificar el alcance de los objetivos, las desviaciones -si las hubiera- para corregirlas en tiempo y premiar los logros conseguidos.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

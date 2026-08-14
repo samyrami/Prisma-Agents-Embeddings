@@ -1,0 +1,1437 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g2395487e76db8b00bb4e49bcae9ffefe" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>M-MAN 650 Strategic Management Test 5</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="bf38334c35990286689974b43a1e203c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>42f86d74-1e48-405f-82a1-e155db6fc895,899349c7-89c6-460a-bc38-3db73dc38ed1,e3f661e3-68c4-4489-b447-1e77164dfba6,a66330a3-4a78-4923-95af-b62a662fefff</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>970e23eab0596ae9f30c13a6fa96e4fe</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;les son las razones estrat&#xE9;gicas para que ocurra un escenario de hypercompetencia?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="42f86d74-1e48-405f-82a1-e155db6fc895">
+              <material>
+                <mattext texttype="text/html">Mejoras en la eficiencia operativa, expansi&#xF3;n internacional, innovaci&#xF3;n disruptiva, aumento de la demanda del mercado</mattext>
+              </material>
+            </response_label>
+            <response_label ident="899349c7-89c6-460a-bc38-3db73dc38ed1">
+              <material>
+                <mattext texttype="text/html">Imitaci&#xF3;n r&#xE1;pida de funcionalidades, competencia basada en precio, ofertas indiferenciadas, guerra de marketing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e3f661e3-68c4-4489-b447-1e77164dfba6">
+              <material>
+                <mattext texttype="text/html">Diversificaci&#xF3;n de productos, desarrollo de nuevas tecnolog&#xED;as, mejora en la calidad del producto, alianzas estrat&#xE9;gicas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a66330a3-4a78-4923-95af-b62a662fefff">
+              <material>
+                <mattext texttype="text/html">Monopolio de mercado, regulaci&#xF3;n gubernamental, alta lealtad del cliente, barreras de entrada elevadas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">899349c7-89c6-460a-bc38-3db73dc38ed1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Imitaci&#xF3;n r&#xE1;pida de funcionalidades, competencia basada en precio, ofertas indiferenciadas, guerra de marketing. Los escenarios de hypercompetencia ocurren cuando las ofertas de los distintos competidores son indiferenciadas de cara al consumidor lo que genera que a los consumidores &#x201C;les de lo mismo&#x201D; elegir un proveedor u otro, en estos escenarios se eligen las alternativas m&#xE1;s baratas lo que desencadenan guerras de precio, o se dota a los productos de nuevas funcionalidades (que aumentan los costes) y que son r&#xE1;pidamente copiadas por los competidores. En general, en un mercado donde los competidores s&#xF3;lo compiten en eficiencia operativa y no en estrategia (buscar un posicionamiento diferencial, valioso y sostenible) inevitablemente acaban en un entorno hypercompetitivo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="e13f6bd06913dd9e79a006ce4fe229ae" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ccf6bea9-31d3-4f7d-9bd7-fa301c11fb9c,bdf50c94-c895-4502-844d-031d83d23bf0,07c92bd6-6a12-4586-95ce-8e69fa3e6637,916dac07-6199-4d2e-b13e-1a664a86bee8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>17284007b1790c58804fe756d7660afa</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;les son las posibles fuentes de posicionamiento diferencial?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ccf6bea9-31d3-4f7d-9bd7-fa301c11fb9c">
+              <material>
+                <mattext texttype="text/html">Eficiencia operativa, mejora continua, expansi&#xF3;n de mercado, innovaci&#xF3;n de productos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bdf50c94-c895-4502-844d-031d83d23bf0">
+              <material>
+                <mattext texttype="text/html">Liderazgo en costes, diferenciaci&#xF3;n, especializaci&#xF3;n, innovaci&#xF3;n tecnol&#xF3;gica</mattext>
+              </material>
+            </response_label>
+            <response_label ident="07c92bd6-6a12-4586-95ce-8e69fa3e6637">
+              <material>
+                <mattext texttype="text/html">Posicionamiento basado en necesidades, posicionamiento basado en producto, posicionamiento basado en acceso, posicionamiento basado en experiencia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="916dac07-6199-4d2e-b13e-1a664a86bee8">
+              <material>
+                <mattext texttype="text/html">Segmentaci&#xF3;n de mercado, penetraci&#xF3;n de mercado, diversificaci&#xF3;n de productos, marketing relacional</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">07c92bd6-6a12-4586-95ce-8e69fa3e6637</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Posicionamiento basado en necesidades, posicionamiento basado en producto, posicionamiento basado en acceso, posicionamiento basado en experiencia. El Prof. Porter propuso las tres primeras y recientemente a aparecido una nueva basada en experiencias</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="2665f3507689f1a4929b5d375daefa8a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6b9b7999-09af-4a5d-8ef8-60ece06d96bf,776822a0-f9c6-471c-92fa-d2997fd353e3,f463922d-a7cf-4de9-a86a-d6d7ba4b5306,9bd20bec-58b9-447b-aadc-d175c51ee0c4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7a8da017b527e0f6fb18d98d2299d728</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;C&#xF3;mo se define la propuesta de valor?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6b9b7999-09af-4a5d-8ef8-60ece06d96bf">
+              <material>
+                <mattext texttype="text/html">Es la descripci&#xF3;n de c&#xF3;mo nuestro producto o servicio satisface las necesidades del cliente, los beneficios que proporciona y por qu&#xE9; el cliente debe elegirnos sobre la competencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="776822a0-f9c6-471c-92fa-d2997fd353e3">
+              <material>
+                <mattext texttype="text/html">Es el proceso de mejorar continuamente las operaciones para ser m&#xE1;s eficientes que los competidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f463922d-a7cf-4de9-a86a-d6d7ba4b5306">
+              <material>
+                <mattext texttype="text/html">Es la estrategia de reducir los precios para aumentar las ventas y ganar cuota de mercado a la competencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9bd20bec-58b9-447b-aadc-d175c51ee0c4">
+              <material>
+                <mattext texttype="text/html">Es la t&#xE9;cnica de desarrollar productos con la mayor cantidad de funcionalidades posibles para satisfacer a todo el mercado.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6b9b7999-09af-4a5d-8ef8-60ece06d96bf</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Nuestra propuesta de valor tiene que ver con el valor que creamos para el cliente, no con lo que le ofrecemos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="886442f4fe11bd00b865d01435fae169" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ef67b67b-9eb6-455f-955e-ed4f5b604014,af830eba-2803-4587-a2ab-b1864b699841,d9a599b7-e4cc-4144-a248-3f758655f7f3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e75002bc6a959fb6a7ec19a7aeb6f52f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Se define la percepci&#xF3;n como:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ef67b67b-9eb6-455f-955e-ed4f5b604014">
+              <material>
+                <mattext texttype="text/html">El proceso por el cual los individuos organizan e interpretan sus impresiones sensoriales con el fin de darle significado a su ambiente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="af830eba-2803-4587-a2ab-b1864b699841">
+              <material>
+                <mattext texttype="text/html">El proceso por el cual los individuos organizan y confirman sus impresiones sensoriales con el fin de darle significado a su ambiente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d9a599b7-e4cc-4144-a248-3f758655f7f3">
+              <material>
+                <mattext texttype="text/html">El proceso por el cual los individuos valoran y deciden cu&#xE1;l de sus impresiones sensoriales son ciertas y comprobables.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">ef67b67b-9eb6-455f-955e-ed4f5b604014</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El proceso por el cual los individuos organizan e interpretan sus impresiones sensoriales con el fin de darle significado a su ambiente.&lt;br&gt;Explicaci&#xF3;n: La percepci&#xF3;n se refiere a c&#xF3;mo organizamos e interpretamos nuestras impresiones sensoriales para darle significado al entorno que nos rodea.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="c124ba12b91ac0863dbfb3727c5a10eb" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>e8bc1598-67b4-4753-a652-aece050f2b22,745e46c2-11dc-4339-aa83-6fb3d38ac8f2,794e5226-d21b-4993-b49a-c873a73a1d05</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>896584c1563daa957083347404e5a6b8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Se define el sesgo como:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="e8bc1598-67b4-4753-a652-aece050f2b22">
+              <material>
+                <mattext texttype="text/html">Se define como el efecto psicol&#xF3;gico que produce una afirmaci&#xF3;n en la interpretaci&#xF3;n de lo percibido que lleva a una distorsi&#xF3;n o juicio no correcto, por tanto, irracionalidad, sobre la interpretaci&#xF3;n de la informaci&#xF3;n disponible</mattext>
+              </material>
+            </response_label>
+            <response_label ident="745e46c2-11dc-4339-aa83-6fb3d38ac8f2">
+              <material>
+                <mattext texttype="text/html">Se define como el efecto de marketing que produce una acci&#xF3;n en la interpretaci&#xF3;n de lo percibido que lleva a una distorsi&#xF3;n o juicio no correcto, por tanto, irracionalidad, sobre la interpretaci&#xF3;n de la informaci&#xF3;n disponible.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="794e5226-d21b-4993-b49a-c873a73a1d05">
+              <material>
+                <mattext texttype="text/html">Se define como el efecto psicol&#xF3;gico que produce una desviaci&#xF3;n en la interpretaci&#xF3;n de lo percibido que lleva a una distorsi&#xF3;n o juicio no correcto, por tanto, irracionalidad, sobre la interpretaci&#xF3;n de la informaci&#xF3;n disponible.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">e8bc1598-67b4-4753-a652-aece050f2b22</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Se define como el efecto psicol&#xF3;gico que produce una afirmaci&#xF3;n en la interpretaci&#xF3;n de lo percibido que lleva a una distorsi&#xF3;n o juicio incorrecto, por tanto, irracionalidad, sobre la interpretaci&#xF3;n de la informaci&#xF3;n disponible.&lt;br&gt;Explicaci&#xF3;n: Esta definici&#xF3;n describe con precisi&#xF3;n el concepto de sesgo, que se refiere a la influencia de prejuicios o interpretaciones err&#xF3;neas en la toma de decisiones</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="94300a429a8752c31d97d2d22215307c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>df0c92c8-7b11-492a-8e1b-2d693e305692,3b4d0298-c5be-4c4f-b0cc-5b7d9072abbf,b61e2371-92e7-4a96-829e-a0c594341d7c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7e7f365f4029148e5321c5376c2c3ddf</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Indica si la siguiente afirmaci&#xF3;n es cierta: &#x201C;Los criterios para la toma de decisiones tanto individuales como grupales van a depender del tipo de tarea a realizar, las responsabilidades asociadas a la toma de decisi&#xF3;n, las caracter&#xED;sticas de los miembros de la empresa, Las reglas para la toma de decisiones, el grado de implicaci&#xF3;n de las personas que intervienen en el proceso y del tiempo disponible para tomar la decisi&#xF3;n&#x201D;.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="df0c92c8-7b11-492a-8e1b-2d693e305692">
+              <material>
+                <mattext texttype="text/html">Si es cierta en todo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3b4d0298-c5be-4c4f-b0cc-5b7d9072abbf">
+              <material>
+                <mattext texttype="text/html">No es falsa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b61e2371-92e7-4a96-829e-a0c594341d7c">
+              <material>
+                <mattext texttype="text/html">Es cierta s&#xF3;lo para la toma de decisiones grupales.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">df0c92c8-7b11-492a-8e1b-2d693e305692</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Si es cierta en todo.&lt;br&gt;Explicaci&#xF3;n: La afirmaci&#xF3;n menciona varios factores que influyen en la toma de decisiones tanto individuales como grupales, por lo tanto, es correcta en todo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="7fa6f12b8e1b308da1e091ec96ca527f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>52ecb687-639c-4dcd-9c6e-1f6df22567e5,85ac4585-34de-4c4b-a024-8d962f286b8e,8e483ffb-d0d5-4492-9dba-6a50543cb135</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ece4d8937604e6871aa1e2b6ce2d3262</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Se crear&#xE1; un entorno de hypercompetencia cuando:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="52ecb687-639c-4dcd-9c6e-1f6df22567e5">
+              <material>
+                <mattext texttype="text/html">Los competidores deciden bajar sus precios. (Ofrecer "los mismo m&#xE1;s barato")</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85ac4585-34de-4c4b-a024-8d962f286b8e">
+              <material>
+                <mattext texttype="text/html">Los competidores deciden a&#xF1;adir nuevas funcionalidades sin incrementar los precios (Ofrecer "M&#xE1;s por lo mismo"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8e483ffb-d0d5-4492-9dba-6a50543cb135">
+              <material>
+                <mattext texttype="text/html">Las dos opciones anteriores son correctas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8e483ffb-d0d5-4492-9dba-6a50543cb135</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Un mercado hypercompetitivo se puede generar porque todos los competidores decidan seguir ofreciendo &#x201C;lo mismo m&#xE1;s barato&#x201D;, pero tambi&#xE9;n se puede generar si todos los competidores deciden ofrecer &#x201C;m&#xE1;s de lo mismo&#x201D;. En ambos casos se genera un entorno hypercompetitivo en precio o en funcionalidades.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ed57083d815c27f27600246e1d4d4546" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>cfafd15d-f7fe-4394-9ab7-392537b6e131,0902c500-d7a5-4f66-8bf6-8a0de7da38d7,6dc98d43-54c4-41b2-9b25-3986625a3b26</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e0a5b76a18187aef6f8c3f2f137606f3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;les son las razones por las que se genera un entorno hypercompetitivo? (Elige la respuesta que consideres m&#xE1;s correcta):&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="cfafd15d-f7fe-4394-9ab7-392537b6e131">
+              <material>
+                <mattext texttype="text/html">Porque ninguno de los competidores tiene una estrategia diferencial y todas las empresas est&#xE1;n pr&#xF3;ximas a la frontera de la eficiencia (o por lo menos a distancias similares)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0902c500-d7a5-4f66-8bf6-8a0de7da38d7">
+              <material>
+                <mattext texttype="text/html">Que la &#xFA;nica forma de competir en ese mercado es bajando los precios</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6dc98d43-54c4-41b2-9b25-3986625a3b26">
+              <material>
+                <mattext texttype="text/html">Cuando uno de los competidores de la industria decide buscar un posicionamiento diferencial y otro un posicionamiento en liderazgo en costes</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">cfafd15d-f7fe-4394-9ab7-392537b6e131</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Un mercado hypercompetitivo se genera por la combinaci&#xF3;n de dos factores; la convergencia de la estrategia y la convergencia de la productividad.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="4a09e767c20eb7b737dec91bb5625449" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3c94051e-7050-4c78-a3a5-c805c29010ac,10819e75-42ed-43e4-b3da-67617b2931ab,ea1a2b16-11bd-45a1-882c-487f44b97d85,02725b2d-e084-4922-9709-409819e60462</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>b48fe326a7978b00c22b92a69f6a33bc</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>scoring_algorithm</fieldlabel>
+            <fieldentry>PartialScore</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Por qu&#xE9; dicen que hay que elegir?, Muchas empresas han demostrado que se puede mejorar la calidad y el coste al mismo tiempo. &#xBF;En cu&#xE1;les de las siguientes situaciones esto podr&#xED;a ser cierto?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="3c94051e-7050-4c78-a3a5-c805c29010ac">
+              <material>
+                <mattext texttype="text/html">Todos los competidores est&#xE1;n ubicados lejos de la frontera de la productividad</mattext>
+              </material>
+            </response_label>
+            <response_label ident="10819e75-42ed-43e4-b3da-67617b2931ab">
+              <material>
+                <mattext texttype="text/html">Ha aparecido una innovaci&#xF3;n en la industria que a alejado la frontera de la productividad</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ea1a2b16-11bd-45a1-882c-487f44b97d85">
+              <material>
+                <mattext texttype="text/html">Una empresa en la industria tiene una ventaja no replicable en costes, como puede ser una subvenci&#xF3;n o un secreto industrial</mattext>
+              </material>
+            </response_label>
+            <response_label ident="02725b2d-e084-4922-9709-409819e60462">
+              <material>
+                <mattext texttype="text/html">No puede darse</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">3c94051e-7050-4c78-a3a5-c805c29010ac</varequal>
+              <varequal respident="response1">10819e75-42ed-43e4-b3da-67617b2931ab</varequal>
+              <varequal respident="response1">ea1a2b16-11bd-45a1-882c-487f44b97d85</varequal>
+              <not>
+                <varequal respident="response1">02725b2d-e084-4922-9709-409819e60462</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Respuesta correctas: a), b) y c)</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ad46f4e8f0ade999307a144489dfbd09" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2a13235b-ea20-4001-919d-3f453631cbe9,f24b2bc6-e207-4bf2-ab0d-059bbb6a043e,33407bc8-e11f-4aeb-aba4-897155db1e30,3018dac0-d0f4-4699-8790-c8f882ebe7a2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>f9a387a84e8df530d93e56484f1deefc</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>scoring_algorithm</fieldlabel>
+            <fieldentry>PartialScore</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Mi objetivo es crear una empresa lo suficientemente flexible como para poder cubrir las necesidades de todos los segmentos de mercado. Para esto lo que voy a hacer es montar una f&#xE1;brica ultra moderna con todas las innovaciones para ser los m&#xE1;s competitivos del mercado. &#xBF;Cu&#xE1;les ser&#xED;an los escenarios m&#xE1;s probables dentro de unos a&#xF1;os?&#x2026; Selecciona las respuestas correctas (m&#xE1;s de una respuesta posible)&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="2a13235b-ea20-4001-919d-3f453631cbe9">
+              <material>
+                <mattext texttype="text/html">El resto de los competidores invertir&#xE1; en tecnolog&#xED;as similares y perder&#xE9; mi ventaja</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f24b2bc6-e207-4bf2-ab0d-059bbb6a043e">
+              <material>
+                <mattext texttype="text/html">El resto de los competidores se ver&#xE1;n obligados a abandonar el mercado y mi cuota ser&#xE1; de casi el 100 %</mattext>
+              </material>
+            </response_label>
+            <response_label ident="33407bc8-e11f-4aeb-aba4-897155db1e30">
+              <material>
+                <mattext texttype="text/html">El resto de los competidores se modernizan y especializaron y ofrecer&#xE1;n opciones m&#xE1;s econ&#xF3;micas para alg&#xFA;n segmento valioso del mercado</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3018dac0-d0f4-4699-8790-c8f882ebe7a2">
+              <material>
+                <mattext texttype="text/html">Un nuevo competidor aparecer&#xE1; en el mercado que invertir&#xE1; en una tecnolog&#xED;a a&#xFA;n m&#xE1;s novedosa</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">2a13235b-ea20-4001-919d-3f453631cbe9</varequal>
+              <varequal respident="response1">33407bc8-e11f-4aeb-aba4-897155db1e30</varequal>
+              <varequal respident="response1">3018dac0-d0f4-4699-8790-c8f882ebe7a2</varequal>
+              <not>
+                <varequal respident="response1">f24b2bc6-e207-4bf2-ab0d-059bbb6a043e</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Respuestas Correcta: a), c) y d)</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="1fc7512dc703d48fd8664ea89521afc4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>108e2073-5f3c-4fd9-9009-ab3df67fed77,c9a1d9cd-5d38-40b4-a060-b48e94c3b817,fc643501-ca9a-407f-956f-3f81678c5275</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c11d3dc326ee41205d83090e39106c4c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El precio que cobramos por nuestros productos es:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="108e2073-5f3c-4fd9-9009-ab3df67fed77">
+              <material>
+                <mattext texttype="text/html">El &#xFA;nico valor que extraemos de nuestros clientes a cambio de nuestra propuesta de valor.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c9a1d9cd-5d38-40b4-a060-b48e94c3b817">
+              <material>
+                <mattext texttype="text/html">Uno de los trade-offs que el cliente est&#xE1; tomando para consumir nuestro producto</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fc643501-ca9a-407f-956f-3f81678c5275">
+              <material>
+                <mattext texttype="text/html">Un indicador de la bueno que es nuestro producto</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c9a1d9cd-5d38-40b4-a060-b48e94c3b817</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Una empresa puede obtener valor de sus clientes a trav&#xE9;s de otros elementos distintos del precio. La venta a coste de las cafeteras Nespresso o la obtenci&#xF3;n de valor a trav&#xE9;s de la obtenci&#xF3;n de datos personales como hace Facebook son s&#xF3;lo dos ejemplos distintos de obtenci&#xF3;n de valor. Cuando el cliente acepta pagar y consumir nuestros productos hace multitud de trade-off siendo el precio uno de ellos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="97b658f3501acf06c688a4f83c9a2a4a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d53e32b6-76a2-4012-942a-31d05b7f03da,8204e7ed-2a12-41d7-a373-871e446fedda,7285d948-ea12-4868-a258-eb451011706f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e1f50c2dc6642e8c3cce53fbe7f8f854</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cuanto m&#xE1;s caro sea un producto&#x2026;&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d53e32b6-76a2-4012-942a-31d05b7f03da">
+              <material>
+                <mattext texttype="text/html">Mayor ser&#xE1; el valor que aporte al cliente que lo compra.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8204e7ed-2a12-41d7-a373-871e446fedda">
+              <material>
+                <mattext texttype="text/html">Mayor beneficio ofrecer&#xE1; a la compa&#xF1;&#xED;a</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7285d948-ea12-4868-a258-eb451011706f">
+              <material>
+                <mattext texttype="text/html">Tendr&#xE1; mayor calidad</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">d53e32b6-76a2-4012-942a-31d05b7f03da</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Un cliente que compra un producto lo hace porque considera que la ecuaci&#xF3;n (Valor Aportado &#x2013; Precio) es la m&#xE1;s beneficiosa para &#xE9;l. Por lo tanto, si el precio es mayor y el cliente ha tomado la decisi&#xF3;n de comprarlo, el valor que le aporta forzosamente es superior al que le aportase un producto m&#xE1;s barato.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="3d02a7a834dc642b57fa63d5169f5434" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ed752527-bc5e-4e8a-a723-edb58b21604d,5763718c-3358-4248-b56f-a73f9bba79f1,95248799-cdec-4422-9ba2-bc6ce4f6e934</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e75938bdc5445468c818f1f576d70cb2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Entregar m&#xE1;s valor al cliente significa &#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ed752527-bc5e-4e8a-a723-edb58b21604d">
+              <material>
+                <mattext texttype="text/html">Dar al cliente m&#xE1;s funcionalidades y mayor facilidad para comprar nuestros productos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5763718c-3358-4248-b56f-a73f9bba79f1">
+              <material>
+                <mattext texttype="text/html">Asegurarnos que nuestros productos son de una calidad superior a la de nuestros competidores</mattext>
+              </material>
+            </response_label>
+            <response_label ident="95248799-cdec-4422-9ba2-bc6ce4f6e934">
+              <material>
+                <mattext texttype="text/html">Asegurarnos que nuestro producto es el m&#xE1;s adecuado para la necesidad del cliente, ni m&#xE1;s ni menos</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">95248799-cdec-4422-9ba2-bc6ce4f6e934</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Todos los productos cubren una necesidad. El mejor producto, el de mayor valor, ser&#xE1; siempre el que mejor cubra la necesidad.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="933fac4a7938ceb76268d6921e8079fe" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c580ba6c-26da-4a65-bc7a-a86eff9dd70b,cf80f070-fad9-4c22-bb48-c329a267cde9,3b1dbe5c-b747-4669-8877-cd099e232735</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>90fe6c893e4ae8de3c2ddcb9a98bba0a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La estrategia consiste en:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c580ba6c-26da-4a65-bc7a-a86eff9dd70b">
+              <material>
+                <mattext texttype="text/html">Encontrar el posicionamiento ideal para capturar el valor que existe en un mercado</mattext>
+              </material>
+            </response_label>
+            <response_label ident="cf80f070-fad9-4c22-bb48-c329a267cde9">
+              <material>
+                <mattext texttype="text/html">Encontrar un posicionamiento diferente al de nuestros competidores</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3b1dbe5c-b747-4669-8877-cd099e232735">
+              <material>
+                <mattext texttype="text/html">Encontrar un posicionamiento diferente al que nuestros competidores que genere valor de forma sostenible</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3b1dbe5c-b747-4669-8877-cd099e232735</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Si en un mercado existiese un posicionamiento ideal no har&#xED;a falta estrategia. La estrategia consiste en encontrar la combinaci&#xF3;n de compromisos entre el donde competir y el c&#xF3;mo competir para maximizar el valor para nuestros stakeholders.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="9b9224feae9440c9452f2a8623b8a889" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a2b184a8-91bd-4a49-ab65-57a05d784c2d,5315dde4-2c56-46f1-9cd8-83f28b423d0d,41e1cf40-336d-40ec-aec9-c8714328a938</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7eba45b32845df1727dce73177bf8bd0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La propuesta de valor para la empresa es:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a2b184a8-91bd-4a49-ab65-57a05d784c2d">
+              <material>
+                <mattext texttype="text/html">La proyecci&#xF3;n de los ingresos que esperamos obtener de la venta de un determinado producto</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5315dde4-2c56-46f1-9cd8-83f28b423d0d">
+              <material>
+                <mattext texttype="text/html">La proyecci&#xF3;n del margen que esperamos obtener de la venta de un determinado producto</mattext>
+              </material>
+            </response_label>
+            <response_label ident="41e1cf40-336d-40ec-aec9-c8714328a938">
+              <material>
+                <mattext texttype="text/html">La propuesta de valor se refiere a todos los trade-offs econ&#xF3;micos y no econ&#xF3;micos que la empresa hace de cara a obtener el m&#xE1;ximo valor econ&#xF3;mico y no econ&#xF3;mico de su propuesta de valor a los clientes</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">41e1cf40-336d-40ec-aec9-c8714328a938</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La propuesta de valor para la compa&#xF1;&#xED;a identifica todos los componentes econ&#xF3;micos (ventas, margen, stock, costos,&#x2026;) como no econ&#xF3;micos (riesgos, fidelidad, recurrencia,&#x2026;) que obtendremos de la comercializaci&#xF3;n de nuestra propuesta de valor.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="e0a8e702bc9bcfd1b6eed806d358f90e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d8980c50-fa2e-4757-8deb-30b6b1efa3e9,60bd1af7-a074-4bee-8fa6-e8b82cdc3fb1,3a02c7fa-a409-49ea-967c-be3e3bf15bca</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>8bbb6df7e0700aa0c0646117f4f60209</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es la propuesta de valor a los clientes? (Elige la respuesta que consideres correcta)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d8980c50-fa2e-4757-8deb-30b6b1efa3e9">
+              <material>
+                <mattext texttype="text/html">La necesidad de los clientes que cubren nuestros productos o servicios</mattext>
+              </material>
+            </response_label>
+            <response_label ident="60bd1af7-a074-4bee-8fa6-e8b82cdc3fb1">
+              <material>
+                <mattext texttype="text/html">La raz&#xF3;n por la que el cliente elige nuestros productos/servicios en lugar de los de la competencia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3a02c7fa-a409-49ea-967c-be3e3bf15bca">
+              <material>
+                <mattext texttype="text/html">El precio que un cliente tiene que pagar por nuestros productos</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">60bd1af7-a074-4bee-8fa6-e8b82cdc3fb1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La propuesta de valor es la combinaci&#xF3;n del valor que aportamos a nuestros clientes a trav&#xE9;s de la forma en que nuestros productos/servicios cubren sus necesidades y el precio que tienen que pagar por ellos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="9d084e8a139565bee2d3b27c50b91da3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>e842da92-325a-454f-ab97-643c7194c67b,65808230-cabd-4e05-893d-19d2ceb21684,18568f38-507d-40b3-91d0-04ad1d1e055a,52170d7c-f00c-4acd-8b2f-b45f5095b8e6,c2f4e5bd-804b-4237-8fa6-d76435159ef5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>0042f82a29d7905e82a96318a17374df</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es el posicionamiento ideal en un mercado? (Elige la respuesta correcta)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="e842da92-325a-454f-ab97-643c7194c67b">
+              <material>
+                <mattext texttype="text/html">Aquel que resulta atractivo al mayor n&#xFA;mero de clientes</mattext>
+              </material>
+            </response_label>
+            <response_label ident="65808230-cabd-4e05-893d-19d2ceb21684">
+              <material>
+                <mattext texttype="text/html">Aquel que resulta atractivo a los clientes m&#xE1;s rentables</mattext>
+              </material>
+            </response_label>
+            <response_label ident="18568f38-507d-40b3-91d0-04ad1d1e055a">
+              <material>
+                <mattext texttype="text/html">Aquel resulta atractivo al segmento que m&#xE1;s crece</mattext>
+              </material>
+            </response_label>
+            <response_label ident="52170d7c-f00c-4acd-8b2f-b45f5095b8e6">
+              <material>
+                <mattext texttype="text/html">El que est&#xE1; m&#xE1;s de moda</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c2f4e5bd-804b-4237-8fa6-d76435159ef5">
+              <material>
+                <mattext texttype="text/html">Ninguno de los anteriores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c2f4e5bd-804b-4237-8fa6-d76435159ef5</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La clave para entender y definir la estrategia es comprender que en un determinado mercado no existe un posicionamiento ideal. Si s&#xF3;lo existiese un posicionamiento, no ser&#xED;a necesaria la estrategia</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="d5dec19e4af22b4ffac74658e69ab4c2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3240c2d1-f1ff-4f26-9647-8e2a3733452f,17377689-6ea1-46fa-b79a-bf0c563b4690,4ea0d944-d171-44a4-8c78-ead7f8c0d0f3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c9b3a4d8fc842a8ccb06bba6c85bd942</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Nuestra estrategia es ser la empresa m&#xE1;s eficiente del mercado de forma que podamos ofrecer los mismos productos que nuestros competidores a un precio m&#xE1;s bajo. &#xBF;C&#xF3;mo de sostenible y diferencial crees que es esta estrategia?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3240c2d1-f1ff-4f26-9647-8e2a3733452f">
+              <material>
+                <mattext texttype="text/html">Es diferencial y sostenible.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="17377689-6ea1-46fa-b79a-bf0c563b4690">
+              <material>
+                <mattext texttype="text/html">Es sostenible pero no diferencial.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4ea0d944-d171-44a4-8c78-ead7f8c0d0f3">
+              <material>
+                <mattext texttype="text/html">Es diferencial pero no sostenible</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4ea0d944-d171-44a4-8c78-ead7f8c0d0f3</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Si somos consistentemente el competidor con un precio m&#xE1;s bajo podremos lograr un posicionamiento claro en la mente de los clientes. Sin embargo, una estrategia basada exclusivamente en eficiencia operativa es f&#xE1;cil de copiar por los competidores y por tanto poco sostenible</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="25d10a148fddbd66e2434b596ddc9b04" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7649a39f-bb86-493c-8d3b-ba2c874213ce,06742700-49fc-4966-a228-a96655a7ed9c,1c78bbe3-7aff-4255-b4c2-e2b0fe2c4aeb,dad0258b-58cb-4962-88a2-d3c331f8ce90</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>13da406e41c173860d2d5a371dbe4985</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Ser el primero que introduce una innovaci&#xF3;n atractiva para un segmento de mercado&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7649a39f-bb86-493c-8d3b-ba2c874213ce">
+              <material>
+                <mattext texttype="text/html">&#x2026;nos generar&#xE1; una ventaja competitiva sostenible en el mercado.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="06742700-49fc-4966-a228-a96655a7ed9c">
+              <material>
+                <mattext texttype="text/html">&#x2026;nos permitir&#xE1; diferenciarnos de manera valiosa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1c78bbe3-7aff-4255-b4c2-e2b0fe2c4aeb">
+              <material>
+                <mattext texttype="text/html">&#x2026;nos permitir&#xE1; ganar r&#xE1;pidamente una alta cuota de mercado</mattext>
+              </material>
+            </response_label>
+            <response_label ident="dad0258b-58cb-4962-88a2-d3c331f8ce90">
+              <material>
+                <mattext texttype="text/html">&#x2026;ninguna de las anteriores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">dad0258b-58cb-4962-88a2-d3c331f8ce90</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Una innovaci&#xF3;n en s&#xED; misma no aporta ventaja competitiva salvo que refuerce alguno de los elementos diferenciales de la estrategia de la compa&#xF1;&#xED;a, la diferenciaci&#xF3;n valiosa y sostenible s&#xF3;lo puede venir por una estrategia robusta, no por innovaciones aisladas sin estrategia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="73340ee7de37c96e0039cf0c7e308bc7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>04066c61-4a1f-40ca-973d-891744ee19ed,f61c0d86-ea22-4b3d-8172-a3ff127b462b,51c8ad16-ff94-40bc-af0d-79aeed4f72ff</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>34e4ca621d5705d3fb9575d7984c2643</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l crees que es la mejor definici&#xF3;n de posicionamiento estrat&#xE9;gico? (Elige la que consideres m&#xE1;s adecuada)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="04066c61-4a1f-40ca-973d-891744ee19ed">
+              <material>
+                <mattext texttype="text/html">El conjunto de valores reconocidos claramente por nuestro p&#xFA;blico objetivo hacen que nos perciban de una forma claramente diferenciada respecto a nuestros competidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f61c0d86-ea22-4b3d-8172-a3ff127b462b">
+              <material>
+                <mattext texttype="text/html">La cuota de mercado que poseemos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="51c8ad16-ff94-40bc-af0d-79aeed4f72ff">
+              <material>
+                <mattext texttype="text/html">El eslogan que utilizamos en nuestros anuncios</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">04066c61-4a1f-40ca-973d-891744ee19ed</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El posicionamiento es la posici&#xF3;n que ocupamos en la mente de los miembros del mercado, ese conjunto de caracter&#xED;sticas y valores que nos hace ser &#xFA;nicos en comparaci&#xF3;n con nuestros competidores.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

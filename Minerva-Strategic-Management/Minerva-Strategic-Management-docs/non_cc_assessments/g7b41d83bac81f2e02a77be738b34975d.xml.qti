@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g7b41d83bac81f2e02a77be738b34975d">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>Encuesta sobre parte I del curso 3.0</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>ElGhguvoE9qi6k3tVsqtKgTfuZZTxmhzmzH0Q9KW</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_state</fieldlabel>
+        <fieldentry>active</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g9a3e9dd7cacb789ce7d464426e856b22" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>94835,97216,88743,86084,7488,93361,48383,2965,11634,5987</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;strong&gt;¿Cuál es tu valoración global del curso?&lt;/strong&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="94835">
+              <material>
+                <mattext texttype="text/plain">10</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97216">
+              <material>
+                <mattext texttype="text/plain">9</mattext>
+              </material>
+            </response_label>
+            <response_label ident="88743">
+              <material>
+                <mattext texttype="text/plain">8</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86084">
+              <material>
+                <mattext texttype="text/plain">7</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7488">
+              <material>
+                <mattext texttype="text/plain">6</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93361">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48383">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2965">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="11634">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5987">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">94835</varequal>
+              <not>
+                <varequal respident="response1">97216</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">88743</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">86084</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">7488</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">93361</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">48383</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">2965</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">11634</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">5987</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc558630b79375ac2e15e62b56d5f93fe" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>74925,29706,75190,48344,21</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cómo valorarías el curso en relación a si te ha ayudado a pensar con una visión de Triple Bottom Line?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="74925">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="29706">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="75190">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48344">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="21">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">74925</varequal>
+              <not>
+                <varequal respident="response1">29706</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">75190</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">48344</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">21</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gcded75a9eba98ca82e93bd2bd9d20b41" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>97311,6762,92334,85767,75248</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cómo evaluarías la calidad del contenido del curso, incluyendo los temas abordados, las lecturas complementarias y los estudios de caso?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="97311">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6762">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="92334">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85767">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="75248">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">97311</varequal>
+              <not>
+                <varequal respident="response1">6762</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">92334</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">85767</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">75248</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gf6597e167b2fc42cd69d7244e14de93d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>68039,3312,8105,92265,44149</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Tener variedad en la presentación de los contenidos ha facilitado tu aprendizaje (Texto, Presentación interactiva, Infografía, Podcast, Video)?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="68039">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3312">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8105">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="92265">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="44149">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">68039</varequal>
+              <not>
+                <varequal respident="response1">3312</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">8105</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">92265</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">44149</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g48d3e6f5453e849945caef758ee24bc5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>78784,89231,97029,25033,79244</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La introspección individual del caso, ¿te ha ayudado a preparar la posterior sesión síncrona del caso?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="78784">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="89231">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97029">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="25033">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="79244">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">78784</varequal>
+              <not>
+                <varequal respident="response1">89231</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">97029</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">25033</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">79244</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g88e79e1c58b36d847ceee9118aecca0f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>46626,10424,99441,12983,25491</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cómo valorarías las sesiones síncronas del debate del caso con el docente lecturer?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="46626">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="10424">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="99441">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="12983">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="25491">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">46626</varequal>
+              <not>
+                <varequal respident="response1">10424</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">99441</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">12983</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">25491</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc4f1c3a78cb977ea87b9af1e605e2a61" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>10240,9236,80887,2502,76633</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El proyecto en equipo, ¿te ha ayudado a conseguir un enfoque practico de los conceptos del curso?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="10240">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9236">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="80887">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2502">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="76633">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">10240</varequal>
+              <not>
+                <varequal respident="response1">9236</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">80887</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">2502</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">76633</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gaafec888d1901c8617daccd6da33646b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>25379,99489,40299,63957,64589</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;¿Cómo valorarías las lecturas de tendencia? ¿Te han ayudado a comprender la aplicación práctica de los contenidos teóricos?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="25379">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="99489">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="40299">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="63957">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="64589">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">25379</varequal>
+              <not>
+                <varequal respident="response1">99489</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">40299</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">63957</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">64589</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6787dc28a41f6a12414b7a2badfa8758" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6328,85391,24401,97485,99904</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;¿Cómo valorarías las sesiones síncronas del proyecto en equipo?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="6328">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85391">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="24401">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97485">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="99904">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">6328</varequal>
+              <not>
+                <varequal respident="response1">85391</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">24401</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">97485</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">99904</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g96371464fdca64a31ae9134b2dff55fc" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>14437,66000,86265,99145,25241</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;¿Cómo valorarías el acompañamiento del profesor practitioner durante el proyecto en equipo? &lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="14437">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="66000">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86265">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="99145">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="25241">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">14437</varequal>
+              <not>
+                <varequal respident="response1">66000</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">86265</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">99145</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">25241</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g1d7be33619ee7e9e4089f4807210268b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>27716,78799,30720,36177,29507</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;¿Cómo valorarías el acompañamiento que te brinda la tutora durante el curso?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="27716">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="78799">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="30720">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="36177">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="29507">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">27716</varequal>
+              <not>
+                <varequal respident="response1">78799</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">30720</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">36177</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">29507</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gc56f2635b134564ce13caf6b2e4ea43c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué es lo que más te ha gustado del curso?&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g0b751641c732751a19594fb8c58f2059" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>essay_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry></fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Que cambiarías?&lt;/div&gt;</mattext>
+        </material>
+        <response_str ident="response1" rcardinality="Single">
+          <render_fib>
+            <response_label ident="answer1" rshuffle="No"/>
+          </render_fib>
+        </response_str>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

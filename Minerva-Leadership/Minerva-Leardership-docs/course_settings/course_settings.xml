@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course identifier="gcd7ccc08c0a82daff2c117bc8063f14a" xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <title>M-MAN 563 Leadership</title>
+  <course_code>M-MAN 563 Leadership</course_code>
+  <start_at/>
+  <conclude_at/>
+  <tab_configuration>[{"id":0},{"id":14},{"id":3},{"id":8},{"id":5},{"id":6},{"id":1},{"id":4},{"id":10},{"id":"context_external_tool_gb3f802b468221347b173325157fa3f31"},{"id":"context_external_tool_gd422dc456fa7372b29882a88a54afafa"},{"id":17,"hidden":true},{"id":12,"hidden":true},{"id":"context_external_tool_gbe4630070faf114ac3546b78c7baae3f","hidden":true},{"id":"context_external_tool_g3e0eeda5a89c39d42ee7eedea12f708b","hidden":true},{"id":"context_external_tool_gb760f425c220e76b35c00dbe6ba33537","hidden":true},{"id":"context_external_tool_g568769db2491879648995710a2dda0fb","hidden":true},{"id":2,"hidden":true},{"id":11,"hidden":true},{"id":15,"hidden":true},{"id":18,"hidden":true},{"id":"context_external_tool_gf4c622ce92b545f503f9a2d166843c88","hidden":true},{"id":"context_external_tool_g82d40cf8b095497fc6e353e427eb3c0e","hidden":true},{"id":"context_external_tool_g218858343939b77ddec6598f020d737a","hidden":true}]</tab_configuration>
+  <image_identifier_ref>gd5356bdc1066f2f3bc3045b12506d541</image_identifier_ref>
+  <group_weighting_scheme>equal</group_weighting_scheme>
+  <is_public>false</is_public>
+  <is_public_to_auth_users>false</is_public_to_auth_users>
+  <allow_student_wiki_edits>false</allow_student_wiki_edits>
+  <allow_student_forum_attachments>true</allow_student_forum_attachments>
+  <lock_all_announcements>false</lock_all_announcements>
+  <default_wiki_editing_roles>teachers</default_wiki_editing_roles>
+  <allow_student_organized_groups>false</allow_student_organized_groups>
+  <default_view>modules</default_view>
+  <show_total_grade_as_points>false</show_total_grade_as_points>
+  <open_enrollment>false</open_enrollment>
+  <filter_speed_grader_by_student_group>false</filter_speed_grader_by_student_group>
+  <self_enrollment>false</self_enrollment>
+  <license>private</license>
+  <indexed>false</indexed>
+  <hide_final_grade>false</hide_final_grade>
+  <hide_distribution_graphs>false</hide_distribution_graphs>
+  <allow_student_anonymous_discussion_topics>false</allow_student_anonymous_discussion_topics>
+  <allow_student_discussion_topics>false</allow_student_discussion_topics>
+  <allow_student_discussion_editing>false</allow_student_discussion_editing>
+  <allow_student_discussion_reporting>true</allow_student_discussion_reporting>
+  <show_announcements_on_home_page>true</show_announcements_on_home_page>
+  <home_page_announcement_limit>3</home_page_announcement_limit>
+  <enable_offline_web_export>false</enable_offline_web_export>
+  <usage_rights_required>false</usage_rights_required>
+  <restrict_student_future_view>true</restrict_student_future_view>
+  <restrict_student_past_view>false</restrict_student_past_view>
+  <restrict_enrollments_to_course_dates>false</restrict_enrollments_to_course_dates>
+  <homeroom_course>false</homeroom_course>
+  <restrict_quantitative_data>false</restrict_quantitative_data>
+  <horizon_course>false</horizon_course>
+  <career_learning_library_only>false</career_learning_library_only>
+  <conditional_release>true</conditional_release>
+  <content_library>false</content_library>
+  <grading_standard_enabled>true</grading_standard_enabled>
+  <storage_quota>10000000000</storage_quota>
+  <overridden_course_visibility/>
+  <grading_standard_id>503</grading_standard_id>
+  <root_account_uuid>HIXmzBk1XIixrI4GchUfzPtghfr8HlWX4f8XQHDb</root_account_uuid>
+  <default_post_policy>
+    <post_manually>false</post_manually>
+  </default_post_policy>
+  <allow_final_grade_override>false</allow_final_grade_override>
+  <enable_course_paces>false</enable_course_paces>
+</course>

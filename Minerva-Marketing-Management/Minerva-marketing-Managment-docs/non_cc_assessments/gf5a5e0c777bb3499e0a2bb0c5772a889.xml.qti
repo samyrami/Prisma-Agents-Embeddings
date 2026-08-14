@@ -1,0 +1,1496 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gf5a5e0c777bb3499e0a2bb0c5772a889" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MKA 501 (MBA) / MKA 502 (EMBA) Test 1</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="fcdd4cc4f36c23159938b069e3d938a6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4c167e46-ae35-4979-b5c4-918a57949ff6,1592eee2-c37d-4171-a594-b78cec06556c,797ab674-b23a-43ac-8c20-c94928ccb8ed,22def986-813a-4768-a8c4-89223ea55097</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ff6810fcae3a1a8d6610db236ef0f7cc</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El hallazgo de que la pir&#xE1;mide poblacional invertida en Europa genera un amplio grupo de consumidores de edad avanzada que necesita herramientas y accesorios para su vida de cada d&#xED;a se ha logrado a partir de criterios&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4c167e46-ae35-4979-b5c4-918a57949ff6">
+              <material>
+                <mattext texttype="text/html">Patentes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1592eee2-c37d-4171-a594-b78cec06556c">
+              <material>
+                <mattext texttype="text/html">Comunes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="797ab674-b23a-43ac-8c20-c94928ccb8ed">
+              <material>
+                <mattext texttype="text/html">Demogr&#xE1;ficos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="22def986-813a-4768-a8c4-89223ea55097">
+              <material>
+                <mattext texttype="text/html">Psicogr&#xE1;ficos.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">797ab674-b23a-43ac-8c20-c94928ccb8ed</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El hallazgo de que la pir&#xE1;mide poblacional invertida en Europa genera un amplio grupo de consumidores de edad avanzada que necesita herramientas y accesorios para su vida de cada d&#xED;a se ha logrado a partir de criterios demogr&#xE1;ficos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="290d8323c4411e1d33ac246d780386a1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>613ff899-b570-467d-a45d-c9d231c25504,90d5be0f-5d16-4880-b3b7-bdcf6f025283,4a9799ae-4911-47ed-9bce-9cd2aab9ead1,7138f817-afc8-4066-8aa4-4644ffff1b6b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d38bea39b6e14686c6e3bc741cdbcd96</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Los criterios demogr&#xE1;ficos pueden servir para&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="613ff899-b570-467d-a45d-c9d231c25504">
+              <material>
+                <mattext texttype="text/html">Democratizar a la sociedad</mattext>
+              </material>
+            </response_label>
+            <response_label ident="90d5be0f-5d16-4880-b3b7-bdcf6f025283">
+              <material>
+                <mattext texttype="text/html">Demograficar los productos del mercado.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4a9799ae-4911-47ed-9bce-9cd2aab9ead1">
+              <material>
+                <mattext texttype="text/html">Entender la evoluci&#xF3;n del consumidor y tomar decisiones de inversi&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7138f817-afc8-4066-8aa4-4644ffff1b6b">
+              <material>
+                <mattext texttype="text/html">Entender el car&#xE1;cter y tendencias del consumidor y adaptar el producto a sus gustos&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4a9799ae-4911-47ed-9bce-9cd2aab9ead1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Los criterios demogr&#xE1;ficos pueden servir para entender la evoluci&#xF3;n del consumidor y tomar decisiones de inversi&#xF3;n.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="cee84632a6f3591ccdbdd53bfa031f2f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9c9f7fe8-98ce-4be0-b475-434b6315d5a5,aba0c6a7-6b67-421e-b551-be3000ac48e5,cd3de182-f054-4bd7-9872-255322327c1f,fd5c0483-9267-42bb-b43d-8a4de4184328,3fc09ffe-ec25-4cf8-b3c4-40c2101c8642,ce9fe76d-03e1-4d5d-acf5-76e12e4ba3af,de3c448b-b72c-4784-bd15-65b372f18a43,d9fd04d2-c93c-48c6-95a5-c7bfd134129a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>36a6e522ba61d852112942a74e56744a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La comunidad cultural en una zona concreta (Hispanos, Asi&#xE1;ticos)&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9c9f7fe8-98ce-4be0-b475-434b6315d5a5">
+              <material>
+                <mattext texttype="text/html">Es un criterio demogr&#xE1;fico del p&#xFA;blico.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="aba0c6a7-6b67-421e-b551-be3000ac48e5">
+              <material>
+                <mattext texttype="text/html">Es un criterio psicogr&#xE1;fico porque todos son iguales.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="cd3de182-f054-4bd7-9872-255322327c1f">
+              <material>
+                <mattext texttype="text/html">Refleja las aficiones profesionales de la persona.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fd5c0483-9267-42bb-b43d-8a4de4184328">
+              <material>
+                <mattext texttype="text/html">Puede desviarnos de nuestros criterios de posicionamiento la edad y clase social</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3fc09ffe-ec25-4cf8-b3c4-40c2101c8642">
+              <material>
+                <mattext texttype="text/html">Son criterios psicogr&#xE1;ficos de descripci&#xF3;n del p&#xFA;blico.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ce9fe76d-03e1-4d5d-acf5-76e12e4ba3af">
+              <material>
+                <mattext texttype="text/html">No se pueden medir.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="de3c448b-b72c-4784-bd15-65b372f18a43">
+              <material>
+                <mattext texttype="text/html">No son relevantes para descubrir mi consumidor objetivo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d9fd04d2-c93c-48c6-95a5-c7bfd134129a">
+              <material>
+                <mattext texttype="text/html">Ninguna de las anteriores.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9c9f7fe8-98ce-4be0-b475-434b6315d5a5</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La comunidad cultural en una zona concreta (Hispanos, Asi&#xE1;ticos) es un criterio demogr&#xE1;fico del p&#xFA;blico porque tiene la cualidad de ser perfectamente medible de acuerdo a los institutos y estudios estad&#xED;sticos locales o nacionales.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="6134bbf0cc288970aea617f354f6d030" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>aa3c948f-e598-4038-9bf5-825778c58857,ea95e76c-6984-4fac-ac86-9f345424f036,b953eb96-f6d4-4bcf-bcab-6aa99898a6ac,b55c66e8-171d-4f0a-9fc5-dea155cf43fb</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>63408aa713a93c54317fbcfdd4040dca</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La Clase Social y el n&#xFA;mero de hijos&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="aa3c948f-e598-4038-9bf5-825778c58857">
+              <material>
+                <mattext texttype="text/html">Son criterios demogr&#xE1;ficos de descripci&#xF3;n del p&#xFA;blico.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ea95e76c-6984-4fac-ac86-9f345424f036">
+              <material>
+                <mattext texttype="text/html">Son criterios vulgares de religi&#xF3;n del p&#xFA;blico.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b953eb96-f6d4-4bcf-bcab-6aa99898a6ac">
+              <material>
+                <mattext texttype="text/html">Son valores sociales irrelevantes para el p&#xFA;blico.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b55c66e8-171d-4f0a-9fc5-dea155cf43fb">
+              <material>
+                <mattext texttype="text/html">Ninguna de las anteriores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">aa3c948f-e598-4038-9bf5-825778c58857</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La Clase Social y el n&#xFA;mero de hijos son criterios demogr&#xE1;ficos de descripci&#xF3;n del p&#xFA;blico porque tiene la cualidad de ser perfectamente medible de acuerdo a los institutos y estudios estad&#xED;sticos locales o nacionales.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="bc5eb0283e6718a942847002ea342056" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>b7728ff3-c44d-46ab-8e69-6568f4af30a2,23a23d31-f0fd-4487-8934-bdc1edbcbc30,fc860277-5729-46aa-b2e1-00d8bba4c4e8,f5c87168-d338-45ab-bae1-fc936edd3ad4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>754b148881113e4e043bc4fac6c68c9a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un mercado con menos competidores&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="b7728ff3-c44d-46ab-8e69-6568f4af30a2">
+              <material>
+                <mattext texttype="text/html">&#x2026; siempre genera competencia agresiva.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="23a23d31-f0fd-4487-8934-bdc1edbcbc30">
+              <material>
+                <mattext texttype="text/html">&#x2026; siempre genera la intervenci&#xF3;n del Estado.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fc860277-5729-46aa-b2e1-00d8bba4c4e8">
+              <material>
+                <mattext texttype="text/html">... posibilita el desarrollo de comportamientos "legales" donde la caballerosidad de &#xE9;stos impide conductas arriesgadas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f5c87168-d338-45ab-bae1-fc936edd3ad4">
+              <material>
+                <mattext texttype="text/html">... siempre produce violencia hacia el distribuidor.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">fc860277-5729-46aa-b2e1-00d8bba4c4e8</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Un mercado con menos competidores, posibilita el desarrollo de comportamientos &#x201C;legales&#x201D; donde la caballerosidad de &#xE9;stos impide conductas arriesgadas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="2d28a3f0ca76c24fd38a55a9148d26c2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>abf840b8-647f-4307-b350-86357788c582,a85ca312-39fd-4f9e-8bba-815469d8d4ff,97a0f9fe-3f1c-46ac-b9cb-6177aa3f0061,951f7c4c-d468-43bd-ae4f-138447cb63a0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>48259aade5392dbab402cf96c05cba9d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Una oferta p&#xFA;blica para servicios sociales sanitarios con un coste cerrado, o para suministro de veh&#xED;culos de transporte tambi&#xE9;n con precio cerrado, &#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="abf840b8-647f-4307-b350-86357788c582">
+              <material>
+                <mattext texttype="text/html">... es lo que quiere cualquier proveedor para hacer dinero.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a85ca312-39fd-4f9e-8bba-815469d8d4ff">
+              <material>
+                <mattext texttype="text/html">... facilita siempre la pluralidad de proveedores de prestigio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97a0f9fe-3f1c-46ac-b9cb-6177aa3f0061">
+              <material>
+                <mattext texttype="text/html">&#x2026; garantiza la calidad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="951f7c4c-d468-43bd-ae4f-138447cb63a0">
+              <material>
+                <mattext texttype="text/html">... pueden suponer unos requisitos inalcanzables para una empresa que vive del suministro a unos pocos clientes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">951f7c4c-d468-43bd-ae4f-138447cb63a0</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Una oferta p&#xFA;blica para servicios sociales sanitarios con un coste cerrado, o para suministro de veh&#xED;culos de transporte tambi&#xE9;n con precio cerrado, pueden suponer unos requisitos inalcanzables para una empresa que vive del suministro a unos pocos clientes.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="918ad46a597dd20febcedc01cfaadbb5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>f8a62aa9-a151-4de6-a814-314cb3310691,2f5375a5-bddb-43ca-afbf-c81115302de7,3b9a2bb6-3b04-4ee6-b90b-d9fada9ea22d,8aba4d3c-614b-4a9a-94f4-c86ded208cf7</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>564e9085c808f1464647217f2341de69</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El poder de los proveedores&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="f8a62aa9-a151-4de6-a814-314cb3310691">
+              <material>
+                <mattext texttype="text/html">&#x2026; Impacta la capacidad de comercializar el producto en el mercado independientemente del precio de vent</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2f5375a5-bddb-43ca-afbf-c81115302de7">
+              <material>
+                <mattext texttype="text/html">&#x2026; puede impactar la capacidad de negociaci&#xF3;n para lograr costes competitivos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3b9a2bb6-3b04-4ee6-b90b-d9fada9ea22d">
+              <material>
+                <mattext texttype="text/html">... puede impactar la creatividad de la agencia de publicidad para desarrollar un anuncio original.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8aba4d3c-614b-4a9a-94f4-c86ded208cf7">
+              <material>
+                <mattext texttype="text/html">&#x2026; puede impactar las relaciones familiares de los empleados en una empresa.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2f5375a5-bddb-43ca-afbf-c81115302de7</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El poder de los proveedores &#x2026;puede impactar la capacidad de negociaci&#xF3;n para lograr costes competitivos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="0faee8a97cf6209c35da5654988d5666" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d2098e3e-fb94-40dc-8521-618f5e09e232,694b3de5-496a-4717-89cf-64776e8976d1,23ad6e17-428c-47d8-8474-a39d64003863,b94e7c10-9870-482b-813f-6b129fabf662</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>97aed0796d31c9d409474b55764f5341</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las Cinco Fuerzas de Porter son&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d2098e3e-fb94-40dc-8521-618f5e09e232">
+              <material>
+                <mattext texttype="text/html">&#x2026; fuerzas del entorno macroecon&#xF3;mico que impiden el desarrollo de una empresa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="694b3de5-496a-4717-89cf-64776e8976d1">
+              <material>
+                <mattext texttype="text/html">&#x2026; fuerzas del entorno Microecon&#xF3;mico para "calibrar" las condiciones de idoneidad a la hora de establecer una empresa en un determinado entorno.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="23ad6e17-428c-47d8-8474-a39d64003863">
+              <material>
+                <mattext texttype="text/html">&lt;span dir="ltr"&gt;... fuerzas del entorno socio pol&#xED;tico que condicionan el entorno&lt;/span&gt;&lt;br&gt;&lt;span dir="ltr"&gt;tecnol&#xF3;gicamente.&lt;/span&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b94e7c10-9870-482b-813f-6b129fabf662">
+              <material>
+                <mattext texttype="text/html">&#x2026; fuerzas del entorno social que condicionan el desarrollo de las personas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">694b3de5-496a-4717-89cf-64776e8976d1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Las Cinco Fuerzas de Porter son fuerzas del entorno Microecon&#xF3;mico para &#x201C;calibrar&#x201D; las condiciones de idoneidad a la hora de establecer una empresa en un determinado entorno.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="4d715b2c79a2e3972abaf8d1a163156a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>729bf8e3-b346-4799-9d20-0e51a3980a54,319a347e-2e55-42ee-b64f-e3b396220396,cc68273d-6886-44de-8dbf-c81ccb17bf59,7d181bcf-b641-4990-9276-c9030aa6cdc3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6ecb8a33337f2b37da10a26918329345</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La legislaci&#xF3;n, se refiere a la normativa que los parlamentos y gobiernos desarrollan en cada pa&#xED;s&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="729bf8e3-b346-4799-9d20-0e51a3980a54">
+              <material>
+                <mattext texttype="text/html">para prohibir.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="319a347e-2e55-42ee-b64f-e3b396220396">
+              <material>
+                <mattext texttype="text/html">para permitir.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="cc68273d-6886-44de-8dbf-c81ccb17bf59">
+              <material>
+                <mattext texttype="text/html">y que permiten o no una actividad econ&#xF3;mica concreta.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7d181bcf-b641-4990-9276-c9030aa6cdc3">
+              <material>
+                <mattext texttype="text/html">y que elimina la libre iniciativa.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">cc68273d-6886-44de-8dbf-c81ccb17bf59</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La legislaci&#xF3;n, se refiere a la normativa que los parlamentos y gobiernos desarrollan en cada pa&#xED;s &amp;nbsp;y que permiten o no una actividad econ&#xF3;mica concreta.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ad95bc2761edc5c7f6963ee7753e2181" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3a40df79-8552-423f-8b6d-20d740d46b52,522a0b00-1a95-4d70-9cd4-1c54986e22b2,aa3a1d7f-6212-4925-bebb-9ea87ebee116,07d15f83-3b3a-40a5-9243-330bb25819ee</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c89891562e7b0ca513a000b27df7fdd0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La revoluci&#xF3;n en telefon&#xED;a es un claro ejemplo de cambio en el&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3a40df79-8552-423f-8b6d-20d740d46b52">
+              <material>
+                <mattext texttype="text/html">Entorno econ&#xF3;mico.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="522a0b00-1a95-4d70-9cd4-1c54986e22b2">
+              <material>
+                <mattext texttype="text/html">Entorno social.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="aa3a1d7f-6212-4925-bebb-9ea87ebee116">
+              <material>
+                <mattext texttype="text/html">Entorno pol&#xED;tico.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="07d15f83-3b3a-40a5-9243-330bb25819ee">
+              <material>
+                <mattext texttype="text/html">Entorno tecnol&#xF3;gico.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">07d15f83-3b3a-40a5-9243-330bb25819ee</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La revoluci&#xF3;n en telefon&#xED;a es un claro ejemplo de cambio en el entorno tecnol&#xF3;gico.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="45fedd867dcf81f4b45de4e1552c36f2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8ccb2afe-0293-42a3-9699-a198915dff06,5adb1610-0911-4cde-ac19-83cef589c6a5,8d354b3f-e5bd-4108-88cd-2010251eb196,7e21bd03-3d27-4921-ab02-968fabd36a09</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e8404786d39641f1b6f5c66a70c58328</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La totalidad del cambio generado por la aparici&#xF3;n de nuevas herramientas para transformar el trabajo de manera optimizada&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8ccb2afe-0293-42a3-9699-a198915dff06">
+              <material>
+                <mattext texttype="text/html">Puede transformar los sabores tradicionales como el del jam&#xF3;n en mantequilla.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5adb1610-0911-4cde-ac19-83cef589c6a5">
+              <material>
+                <mattext texttype="text/html">Puede transformar el entorno y provocar la desaparici&#xF3;n de continentes enteros.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8d354b3f-e5bd-4108-88cd-2010251eb196">
+              <material>
+                <mattext texttype="text/html">Puede cambiar de manera sustancial la velocidad de rotaci&#xF3;n terrestre.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7e21bd03-3d27-4921-ab02-968fabd36a09">
+              <material>
+                <mattext texttype="text/html">Puede impactar el entorno macroecon&#xF3;mico y a su vez el negocio de las empresas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7e21bd03-3d27-4921-ab02-968fabd36a09</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Las herramientas para transformar el trabajo de manera optimizada&#x2026;. pueden impactar el entorno macroecon&#xF3;mico y a su vez el negocio de las empresas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="36f1936849611a3fc1859a43d9d83678" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ff15cdc0-6b9c-45d3-aed3-aaf4c3eaafc7,082af273-3bcf-4f71-b0d1-3fff935c9105,dbbe0659-35e7-47d2-a397-a12ccaf292ca,a172bec9-0cc8-44fe-9515-b71252e1c4ba</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4b90a716990a005d13a5f41710c8f7c0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La &#x201C;T&#x201D; de PESTLE significa el impacto.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ff15cdc0-6b9c-45d3-aed3-aaf4c3eaafc7">
+              <material>
+                <mattext texttype="text/html">Tr&#xE1;gico.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="082af273-3bcf-4f71-b0d1-3fff935c9105">
+              <material>
+                <mattext texttype="text/html">Total.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="dbbe0659-35e7-47d2-a397-a12ccaf292ca">
+              <material>
+                <mattext texttype="text/html">Tecnol&#xF3;gico.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a172bec9-0cc8-44fe-9515-b71252e1c4ba">
+              <material>
+                <mattext texttype="text/html">Taumat&#xFA;rgico.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">dbbe0659-35e7-47d2-a397-a12ccaf292ca</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La &#x201C;T&#x201D; de PESTLE significa el impacto Tecnol&#xF3;gico del entorno.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="340945b5e4b778f32953a7ab7190c452" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1d3c2fc2-cb6c-4770-955b-4e12cce4af4c,fdeeff0b-adc4-4e38-8e18-fb51b0109901,452bbf24-eb3b-4664-b6f4-8e4d6268ed29,a1f76ceb-617b-4eab-8ef0-6251c819515f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>1b577c7a2b9e4657b841b820bd690b5f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Los cambios sociales se producen siempre por motivos pol&#xED;ticos y econ&#xF3;micos&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1d3c2fc2-cb6c-4770-955b-4e12cce4af4c">
+              <material>
+                <mattext texttype="text/html">Verdadero.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fdeeff0b-adc4-4e38-8e18-fb51b0109901">
+              <material>
+                <mattext texttype="text/html">No nunca. Son independientes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="452bbf24-eb3b-4664-b6f4-8e4d6268ed29">
+              <material>
+                <mattext texttype="text/html">Son aleatorios. A veces s&#xED;&#x2026;. A veces no.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a1f76ceb-617b-4eab-8ef0-6251c819515f">
+              <material>
+                <mattext texttype="text/html">No siempre es cierto. Hay movimientos sociales que influyen en el mercado y no tienen causas econ&#xF3;micas o pol&#xED;ticas directas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">a1f76ceb-617b-4eab-8ef0-6251c819515f</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">No es cierto que los cambios sociales se originen siempre por motivos pol&#xED;ticos o econ&#xF3;micos. Hay movimientos sociales que influyen en el mercado y no tienen causas econ&#xF3;micas o pol&#xED;ticas directas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="93d02c4b41b136781849cdafecc51716" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5385533f-c3b1-49cb-9db9-4650fb176a15,b9ebb5bd-4f2c-40ea-b292-3402c5eb23eb,3df805a7-ee4a-4696-b04b-9124bfd5bc06,b2a4d37f-2213-4064-af33-ea84072f3038</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c4b58520f3b2df1308fcfae78d67e663</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La inestabilidad de un entorno econ&#xF3;mico...&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5385533f-c3b1-49cb-9db9-4650fb176a15">
+              <material>
+                <mattext texttype="text/html">&#x2026; puede impactar las decisiones de los consumidores en cuanto a desembolso por acto de compra.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b9ebb5bd-4f2c-40ea-b292-3402c5eb23eb">
+              <material>
+                <mattext texttype="text/html">&#x2026; puede impactar el desplazamiento de los continentes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3df805a7-ee4a-4696-b04b-9124bfd5bc06">
+              <material>
+                <mattext texttype="text/html">&#x2026; puede impactar las condiciones meteorol&#xF3;gicas globales.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b2a4d37f-2213-4064-af33-ea84072f3038">
+              <material>
+                <mattext texttype="text/html">&#x2026; puede impactar el di&#xE1;logo interreligioso del pasado</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5385533f-c3b1-49cb-9db9-4650fb176a15</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La inestabilidad de un entorno econ&#xF3;mico&#x2026; puede impactar las decisiones de los consumidores en cuanto a desembolso por acto de compra.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="faac5f6384839bce4ea058d119033c5b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a8ac074c-dfad-48d2-899b-78b32c16a678,284b70b3-dacd-4fe8-828c-66b5ecd2916e,9b3b5ade-5499-49e0-b332-361c61b53930,6ce4667b-13d6-494b-b0ca-7c5cfa564248</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>8d923c6014306a015ceb227e98e693bd</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La estabilidad del entorno econ&#xF3;mico&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a8ac074c-dfad-48d2-899b-78b32c16a678">
+              <material>
+                <mattext texttype="text/html">Est&#xE1;n directamente relacionadas con la perspectiva deportiva de un determinado territorio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="284b70b3-dacd-4fe8-828c-66b5ecd2916e">
+              <material>
+                <mattext texttype="text/html">Est&#xE1; directamente relacionada con la perspectiva cultural de un determinado territorio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9b3b5ade-5499-49e0-b332-361c61b53930">
+              <material>
+                <mattext texttype="text/html">Est&#xE1; directamente relacionada con la perspectiva arquitect&#xF3;nica de un determinado territorio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6ce4667b-13d6-494b-b0ca-7c5cfa564248">
+              <material>
+                <mattext texttype="text/html">Est&#xE1; directamente relacionada con la perspectiva del futuro econ&#xF3;mico de un determinado territorio.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6ce4667b-13d6-494b-b0ca-7c5cfa564248</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La estabilidad del entorno econ&#xF3;mico&#x2026; est&#xE1; directamente relacionada con la perspectiva del futuro econ&#xF3;mico de un determinado territorio.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="12f8a3215edaa738823815ddd813cd0a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>aecafb47-02ae-499f-a987-ede3c6209c96,9af28420-4cb3-4e6a-946b-550721ecb8b2,5dfcbaa7-f22b-4a58-87fe-6a09f48f2a9d,ce5a4bcc-b028-4699-988f-7ef6f7da2278</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>b2b5ed30b59a5e25a7ccbbf56fdb5f5a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un entorno estable pol&#xED;ticamente &#x2026;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="aecafb47-02ae-499f-a987-ede3c6209c96">
+              <material>
+                <mattext texttype="text/html">&#x2026; facilita inversiones a largo plazo que fortalezcan las estructuras de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9af28420-4cb3-4e6a-946b-550721ecb8b2">
+              <material>
+                <mattext texttype="text/html">&#x2026; es aburrido y provoca falta de dinamismo en el mercado.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5dfcbaa7-f22b-4a58-87fe-6a09f48f2a9d">
+              <material>
+                <mattext texttype="text/html">&#x2026; es deseable para poder llevar a cabo actividades de econom&#xED;a sumergida.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ce5a4bcc-b028-4699-988f-7ef6f7da2278">
+              <material>
+                <mattext texttype="text/html">&#x2026; es completamente irrelevante para el desarrollo de una empresa din&#xE1;mica.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">aecafb47-02ae-499f-a987-ede3c6209c96</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Un entorno estable facilita inversiones a largo plazo que fortalezcan las estructuras de la empresa.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="f0ee1c29643bc92e949984b224ef180c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c6fbe91c-12e5-4a71-b433-cc904f29e307,00b672c8-fc31-4d32-a08d-886f65dd4b3a,a1a2f571-521c-4bf8-866f-2824e1e32e81,ccfaa863-d432-4f8f-9cd5-40c9cba808ed</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>96f195492e94f0c2189f1ec961a7eadb</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La estabilidad del entorno pol&#xED;tico&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c6fbe91c-12e5-4a71-b433-cc904f29e307">
+              <material>
+                <mattext texttype="text/html">Se caracteriza por una renta per c&#xE1;pita alta independientemente de su distribuci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="00b672c8-fc31-4d32-a08d-886f65dd4b3a">
+              <material>
+                <mattext texttype="text/html">Se caracteriza por un entorno de seguridad jur&#xED;dica con unas instituciones estables y gobiernos no arbitrarios.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a1a2f571-521c-4bf8-866f-2824e1e32e81">
+              <material>
+                <mattext texttype="text/html">Se caracteriza por tener un sistema donde la autoridad prime sobre el resto de variables.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ccfaa863-d432-4f8f-9cd5-40c9cba808ed">
+              <material>
+                <mattext texttype="text/html">Se caracteriza por estar en un entorno de temperaturas estables y cambios geol&#xF3;gicos moderados.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">00b672c8-fc31-4d32-a08d-886f65dd4b3a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&amp;nbsp;&#x201C;La estabilidad del entorno pol&#xED;tico se caracteriza por un entorno de seguridad jur&#xED;dica con unas instituciones estables y gobiernos no arbitrarios&#x201D;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="e37e5a64a8c9c88c6ea7f873124b4547" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>e3fbe3f0-8d91-406e-8a60-ab8eac8bdf2a,7b2ca374-6241-4259-b273-202dfde982f7,5b07f19f-8d0f-4c61-b914-e1009b28445c,a2881c9f-c7cf-4a78-95f9-cee2b6d2432e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c471ac90d571efc76617c485c2038924</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las &#x201C;Cinco Fuerzas de Porter&#x201D; y el PESTLE&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="e3fbe3f0-8d91-406e-8a60-ab8eac8bdf2a">
+              <material>
+                <mattext texttype="text/html">Son herramientas competitivas para vender m&#xE1;s.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7b2ca374-6241-4259-b273-202dfde982f7">
+              <material>
+                <mattext texttype="text/html">Son estrategias comerciales que permiten triunfar en los negocios.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5b07f19f-8d0f-4c61-b914-e1009b28445c">
+              <material>
+                <mattext texttype="text/html">Son herramientas para emprendedores y consultores que permiten una mejor toma de decisiones a la hora de abordar un negocio concreto.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a2881c9f-c7cf-4a78-95f9-cee2b6d2432e">
+              <material>
+                <mattext texttype="text/html">Son &#xFA;tiles acad&#xE9;micos que nos permiten clarificar la mejor estrategia financiera a la hora de lanzar un producto.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5b07f19f-8d0f-4c61-b914-e1009b28445c</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Las &#x201C;Cinco Fuerzas de Porter&#x201D; y el PESTLE son herramientas para emprendedores y consultores que permiten una mejor toma de decisiones a la hora de abordar un negocio concreto.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="540f60a453cdc96f1e3c949a177f0764" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ef0d257b-1a8d-4f1f-b268-3d6a152aa9ce,1ab450f6-e65c-4e88-97c9-12ba9d201ce3,38f2e753-f096-4fad-a205-6bfe2116ccaa,d5bdb44c-4a01-4e00-bfa7-d34fe9530daf</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d805dc00d22e629e4efdf901cfbcdc89</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El an&#xE1;lisis del Macro y Micro entorno&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ef0d257b-1a8d-4f1f-b268-3d6a152aa9ce">
+              <material>
+                <mattext texttype="text/html">Es un an&#xE1;lisis del entorno inform&#xE1;tico clave para el desarrollo en las redes sociales.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1ab450f6-e65c-4e88-97c9-12ba9d201ce3">
+              <material>
+                <mattext texttype="text/html">Se refiere a aquellos aspectos de mercados peque&#xF1;os y grandes que determinan la idoneidad del tama&#xF1;o de la empresa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="38f2e753-f096-4fad-a205-6bfe2116ccaa">
+              <material>
+                <mattext texttype="text/html">Tiene una importancia relativa en la definici&#xF3;n de mi grupo objetivo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d5bdb44c-4a01-4e00-bfa7-d34fe9530daf">
+              <material>
+                <mattext texttype="text/html">Se refiere a aquellos aspectos del entorno que rodean mi empresa y pueden impactar el desarrollo futuro.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">d5bdb44c-4a01-4e00-bfa7-d34fe9530daf</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El an&#xE1;lisis del Macro y Micro entorno se refiere a aquellos aspectos del entorno que rodean mi empresa y pueden impactar el desarrollo futuro.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="6a51335920bb3b656d4b56d17626af69" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>f9ec5023-4906-4ffb-8f99-beba2f2ba413,3081220a-07fe-41b8-8452-d11c8cfec145,1fcb7be4-c82f-45d6-95fe-539d824f0123,01e0412e-df66-44fd-9964-fdb6cf475a56</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>bd4900edebd375afadfbe550c06b659d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#x201C;Pon este producto de moda&#x201D;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="f9ec5023-4906-4ffb-8f99-beba2f2ba413">
+              <material>
+                <mattext texttype="text/html">Es una frase de motivaci&#xF3;n fundamental en publicidad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3081220a-07fe-41b8-8452-d11c8cfec145">
+              <material>
+                <mattext texttype="text/html">Es un briefing b&#xE1;sico para que la agencia desarrolle un anuncio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1fcb7be4-c82f-45d6-95fe-539d824f0123">
+              <material>
+                <mattext texttype="text/html">Es una frase que el Director de Ventas de una compa&#xF1;&#xED;a dice a su Director general.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="01e0412e-df66-44fd-9964-fdb6cf475a56">
+              <material>
+                <mattext texttype="text/html">Es una frase habitual que no aporta nada en el mundo de la comunicaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">01e0412e-df66-44fd-9964-fdb6cf475a56</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La frase &#x201C;Pon este producto de moda&#x201D; es una frase habitual que no aporta nada en el mundo de la comunicaci&#xF3;n.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

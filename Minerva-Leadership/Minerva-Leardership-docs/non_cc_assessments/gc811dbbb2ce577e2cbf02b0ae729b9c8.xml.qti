@@ -1,0 +1,1662 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gc811dbbb2ce577e2cbf02b0ae729b9c8" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MAN-563 Test 5 </fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="c2e03757f80a5cb1df59681f01121825" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6b0c2238-d636-4725-9fd7-ea12b6407d45,b8ab6346-eccb-499c-a92e-0ece207e6c11,dc2b138e-67e1-4314-894a-531147e8afcd</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>5aa0b23f401b9304020f2548625a1bb2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;C&#xF3;mo hacer que los colaboradores se identifiquen y se impliquen con la misi&#xF3;n, visi&#xF3;n y valores de la organizaci&#xF3;n?&amp;nbsp; &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6b0c2238-d636-4725-9fd7-ea12b6407d45">
+              <material>
+                <mattext texttype="text/html">Es necesario que los colaboradores entiendan qu&#xE9; se espera de ellos y en qu&#xE9; medida est&#xE1;n contribuyendo a la consecuci&#xF3;n de los objetivos organizacionales</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b8ab6346-eccb-499c-a92e-0ece207e6c11">
+              <material>
+                <mattext texttype="text/html">Inculc&#xE1;ndoles el manifiesto de la organizaci&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="dc2b138e-67e1-4314-894a-531147e8afcd">
+              <material>
+                <mattext texttype="text/html">A la hora de contratar talento, es importante asegurarse de que la persona encaje un 100% con los valores de la organizaci&#xF3;n, no queremos a nadie que pueda desentonar con la misma</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6b0c2238-d636-4725-9fd7-ea12b6407d45</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Para conseguir el compromiso emocional de los colaboradores, debemos conseguir que las personas que colaboran con nosotros entiendan lo que se espera de ellas, y en qu&#xE9; medida est&#xE1;n contribuyendo en la consecuci&#xF3;n de los objetivos organizacionales. Es una cuesti&#xF3;n de expectativas y de contribuci&#xF3;n; debemos cumplir entonces con las expectativas o promesas generadas, y observar con rigor y escrupulosamente que se consiguen. Entenderemos entonces que es clave generar una visi&#xF3;n atrayente y retadora con capacidad de ilusionar y estimular. Parte de esta responsabilidad implica proporcionar los recursos necesarios y evitar que los colaboradores tengan que estar siempre &#x201C;busc&#xE1;ndose la vida&#x201D;. Por otra parte, es necesario mostrarse orgulloso de pertenecer a la organizaci&#xF3;n, as&#xED; como generar sentimientos positivos a la a su alrededor. Este tipo de comportamientos no se fingen; es necesario un buen desarrollo personal interno del l&#xED;der.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="54627e32f2ea280d3a23940cbfb29c51" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>f9d592cf-d03b-423b-8508-03f6eaa6faa6,0d792ce2-36aa-46b5-a758-af912405fb45,27e5261d-aa08-4821-9fd6-3e69f09aaf04</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>72adf05ead0cb602b79b8731c4e991be</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; debe hacer un l&#xED;der ante una situaci&#xF3;n de desmotivaci&#xF3;n del equipo?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="f9d592cf-d03b-423b-8508-03f6eaa6faa6">
+              <material>
+                <mattext texttype="text/html">Sancionar a quienes no se comportan como &#xE9;l espera</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0d792ce2-36aa-46b5-a758-af912405fb45">
+              <material>
+                <mattext texttype="text/html">Premiar a quienes s&#xED; act&#xFA;an de la manera en la que &#xE9;l espera</mattext>
+              </material>
+            </response_label>
+            <response_label ident="27e5261d-aa08-4821-9fd6-3e69f09aaf04">
+              <material>
+                <mattext texttype="text/html">Hacerse cargo de la desmotivaci&#xF3;n del equipo en vez de culpar al mismo por no estar motivado</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">27e5261d-aa08-4821-9fd6-3e69f09aaf04</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Las razones de la desmotivaci&#xF3;n de los colaboradores de un l&#xED;der generalmente radican en el propio directivo, de manera que la pregunta deber&#xED;a plantearse no tanto como &#x201C;&#xBF;qu&#xE9; tengo que hacer para motivar a mi gente?&#x201D; sino c&#xF3;mo &#x201C;&#xBF;qu&#xE9; es lo que he hecho yo para desmotivar a mi gente?&#x201D; y &#x201C;&#xBF;c&#xF3;mo puedo cambiar las cosas?&#x201D;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="bb2de838d5641d8ac7f754ad8eb77272" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>652a6f6b-7b9b-407b-a8af-e9d42444705c,d1a668f0-e240-436d-b6ac-c54fd0b45ede,ee3c04ea-357d-45e6-8ce5-7bb5dad8727a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>fc56937fed29ae640c80907f14e41472</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;A qu&#xE9; nos referimos cuando hablamos de &#x201C;salario emocional&#x201D;?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="652a6f6b-7b9b-407b-a8af-e9d42444705c">
+              <material>
+                <mattext texttype="text/html">A la importancia de que el colaborador est&#xE9; a gusto con su remuneraci&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d1a668f0-e240-436d-b6ac-c54fd0b45ede">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;Al factor emocional que hace que las personas sean leales y honestas con sus organizaciones. Est&#xE1; relacionado con el generar compromiso emocional en sus colaboradores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ee3c04ea-357d-45e6-8ce5-7bb5dad8727a">
+              <material>
+                <mattext texttype="text/html">A la necesidad de que jefe sepa y entienda el contexto de cada uno de sus colaboradores para que el salario sea acorde a la necesidad de cada uno&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">d1a668f0-e240-436d-b6ac-c54fd0b45ede</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Una retribuci&#xF3;n justa competitiva no es lo m&#xE1;s importante para las personas, pues un trabajo es algo m&#xE1;s que ganar dinero o realizar una serie de tareas. Un sueldo siempre puede ser mejorado por otra empresa, sin embargo, el factor emocional es uno de los factores que marca la diferencia, y el que hace que las personas sean leales y honestas con sus organizaciones. Es sumamente importante que los l&#xED;deres busquen generar compromiso emocional en sus colaboradores respecto al proyecto de la empresa. Por ello, el reto estrat&#xE9;gico de las organizaciones es conseguir despertar el compromiso de las personas y conocer qu&#xE9; es lo que motiva realmente a cada uno.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="a9bd1a07add4e46baec6434ddb0cf407" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>54fadd5e-db4d-441a-9e14-def312aa5b95,017d6f77-e9c7-4f8b-bdea-88184fb17d0e,15e7ed3f-8ae2-40f6-9d99-835d3e28278a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>cbe40283be0ae8151e06754f5798dc27</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Los tipos de compromiso son&#x2026;&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="54fadd5e-db4d-441a-9e14-def312aa5b95">
+              <material>
+                <mattext texttype="text/html">Emocional, racional y normativo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="017d6f77-e9c7-4f8b-bdea-88184fb17d0e">
+              <material>
+                <mattext texttype="text/html">Emocional, individual y colectivo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="15e7ed3f-8ae2-40f6-9d99-835d3e28278a">
+              <material>
+                <mattext texttype="text/html">Eficiente, de ejecuci&#xF3;n y de resultados</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">54fadd5e-db4d-441a-9e14-def312aa5b95</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Los tipos de compromiso son el emocional, el racional y el normativo. El compromiso emocional est&#xE1; relacionado con los v&#xED;nculos emocionales que generan las personas con la organizaci&#xF3;n cuando perciben que sus necesidades y expectativas se satisfacen, y, adem&#xE1;s, disfrutan con lo que hacen. Es la perfecta uni&#xF3;n entre los intereses personales y los organizacionales. El compromiso racional se produce cuando la persona percibe que se pueden producir p&#xE9;rdidas de car&#xE1;cter econ&#xF3;mico, condiciones laborales, de aprendizaje, de desarrollo profesional si se marchase de esa organizaci&#xF3;n, bien por la inestabilidad del mercado o por otros motivos. La persona es consciente que existen costes asociados a dejar la organizaci&#xF3;n. Finalmente, el compromiso normativo es una creencia o sentido del deber que tienen las personas cuando hay una relaci&#xF3;n contractual, y, por tanto, el salario se recibe en recompensa por el esfuerzo realizado; la persona se siente obligada y cumple.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="763a26e26d3752406cb000caefbc2a5c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1eb7cefb-eba9-40a2-91a0-db3a4e7f9ed8,b1b97eec-a9b3-4eb1-9164-dc5fe2a934ea,ce4afdb5-f5b7-4110-95bc-1ce539524d3a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>025963ade4b0c2a2c429b02a898279d6</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;C&#xF3;mo podemos definir a un profesional con talento?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1eb7cefb-eba9-40a2-91a0-db3a4e7f9ed8">
+              <material>
+                <mattext texttype="text/html">Como alguien que siempre sabe qu&#xE9; hacer y c&#xF3;mo hacerlo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b1b97eec-a9b3-4eb1-9164-dc5fe2a934ea">
+              <material>
+                <mattext texttype="text/html">Como alguien con una capacidad enorme de ejecutar, no importa el medio, siempre consigue lo que quiere y debe</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ce4afdb5-f5b7-4110-95bc-1ce539524d3a">
+              <material>
+                <mattext texttype="text/html">Como alguien comprometido que pone en pr&#xE1;ctica sus capacidades para obtener resultados</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">ce4afdb5-f5b7-4110-95bc-1ce539524d3a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El talento es una capacidad individual m&#xE1;s vinculada a la inteligencia. Podemos definir al profesional con talento, como un profesional comprometido que pone en pr&#xE1;ctica sus capacidades para obtener resultados superiores en un entorno y organizaci&#xF3;n determinados. Un profesional con talento es una persona que muestra un repertorio de comportamientos observables y medibles asociados con un rendimiento alto excelente en un determinado contexto profesional, y con una contribuci&#xF3;n notable al &#xE9;xito y futuro de la organizaci&#xF3;n.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="1afd57f063bb8e0d920dc296bee397ca" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>632473c9-9298-46b3-9ede-b5f4c05411e5,294b3445-bb13-431b-91d1-dca57171927d,910984ce-874e-454a-9afc-a6d3926c5680</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6bea5faecc5fbc29e10ca3118ab625cf</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El futuro y la competitividad de una organizaci&#xF3;n est&#xE1;n relacionados con&#x2026;&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="632473c9-9298-46b3-9ede-b5f4c05411e5">
+              <material>
+                <mattext texttype="text/html">La autoexigencia de cada colaborador</mattext>
+              </material>
+            </response_label>
+            <response_label ident="294b3445-bb13-431b-91d1-dca57171927d">
+              <material>
+                <mattext texttype="text/html">La capacidad que tengan los l&#xED;deres de atraer, retener y desarrollar talento</mattext>
+              </material>
+            </response_label>
+            <response_label ident="910984ce-874e-454a-9afc-a6d3926c5680">
+              <material>
+                <mattext texttype="text/html">La fidelidad que los seguidores tengan para con el l&#xED;der&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">294b3445-bb13-431b-91d1-dca57171927d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En la actualidad, el talento es un valor diferencial que permite generar ventajas competitivas sostenibles y duraderas en el tiempo. Por ello la competitividad y el futuro de la gran mayor&#xED;a de las organizaciones va a estar claramente relacionada con la con la capacidad que tengan que atraer, retener, y desarrollar talento. La gesti&#xF3;n del compromiso es por lo tanto un aspecto fundamental que nuestros directivos deben desarrollar.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="0721eeeb7266743d3710ecf83855047e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a9ab5f5f-59ec-4abb-8f67-25e098cda0d6,009c43a2-7737-4b05-ae46-b85bd7645078,d864f93c-7ccd-4727-812c-0f4ba490cf9c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>560974671df5916c3b5a4fce67bc635a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; es importante para mantener la confianza?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a9ab5f5f-59ec-4abb-8f67-25e098cda0d6">
+              <material>
+                <mattext texttype="text/html">Compromiso.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="009c43a2-7737-4b05-ae46-b85bd7645078">
+              <material>
+                <mattext texttype="text/html">Autoexigencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d864f93c-7ccd-4727-812c-0f4ba490cf9c">
+              <material>
+                <mattext texttype="text/html">Capacidad de esconder las cosas que sabemos que al otro no le va a gustar saber.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">a9ab5f5f-59ec-4abb-8f67-25e098cda0d6</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Para mantener la confianza debemos demostrar compromiso, e integridad personal. Eso significa cumplir nuestras promesas, argumentar sinceramente si no lo hacemos, y perdonar los errores, a nosotros en primer lugar.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="dbd83c9f8f6c1298f453af9e81feffc4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d1ef8331-2ef0-4996-bde6-c3d3eb51b2e8,2ad2bbcc-6ce1-4f0c-87ff-c79e751e2dfe,fb7eb31b-1f4c-4f4e-ad35-729394101902</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c88cc65c3d9cf978e6f37bf384547512</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;A qu&#xE9; est&#xE1; asociada la credibilidad?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d1ef8331-2ef0-4996-bde6-c3d3eb51b2e8">
+              <material>
+                <mattext texttype="text/html">A qu&#xE9; tan bien disfracemos y vendamos nuestros logros.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2ad2bbcc-6ce1-4f0c-87ff-c79e751e2dfe">
+              <material>
+                <mattext texttype="text/html">A los resultados que hemos tenido en el pasado.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fb7eb31b-1f4c-4f4e-ad35-729394101902">
+              <material>
+                <mattext texttype="text/html">A la capacidad de sacar lo bueno dentro de lo malo.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2ad2bbcc-6ce1-4f0c-87ff-c79e751e2dfe</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La credibilidad es la capacidad de hacer que las cosas sean cre&#xED;bles. La credibilidad personal por lo tanto es la capacidad de hacer cre&#xED;ble nuestro comportamiento, nuestras promesas y opiniones. La credibilidad va asociada a los resultados que hemos tenido en el pasado. Recordemos que una experiencia nos invita a pensar que esa experiencia puede repetirse cuando detectamos coherencia en la persona con la que estamos tratando. La credibilidad influye en la confianza. Cuando otra persona no nos defrauda, nuestras expectativas se cumplen, nos inspira confianza de cara a valorar de nuevo una situaci&#xF3;n similar en el futuro. En la medida que aumente esa credibilidad, aumenta tambi&#xE9;n la confianza en la otra persona.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="c9021d7c81ed13e996b3affcc5f5930b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>66f3b216-da17-46b4-aa3b-7072159d26df,d170688e-0993-4251-a65b-7e816a2dd11b,2046d50b-8e1e-428d-8d6e-49fadbb0bdce</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ecc40b017733d43efcd266001f6c6e30</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Por qu&#xE9; es tan importante la confianza en nuestros colaboradores?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="66f3b216-da17-46b4-aa3b-7072159d26df">
+              <material>
+                <mattext texttype="text/html">Porque tiene un efecto multiplicador, es el mejor empuje para que ellos multipliquen sus capacidades y rendimiento personal.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d170688e-0993-4251-a65b-7e816a2dd11b">
+              <material>
+                <mattext texttype="text/html">Porque ellos hacen el trabajo en el d&#xED;a a d&#xED;a entonces no queda otra que confiar.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2046d50b-8e1e-428d-8d6e-49fadbb0bdce">
+              <material>
+                <mattext texttype="text/html">Porque es mejor confiar que no confiar.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">66f3b216-da17-46b4-aa3b-7072159d26df</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En las relaciones profesionales, la confianza en nuestros colaboradores tiene un efecto multiplicador. De la misma forma que un individuo encuentra la energ&#xED;a de todo su potencial en la confianza en s&#xED; mismo, el l&#xED;der debe generar esa confianza en su entorno. Ser&#xE1; la manera como los colaboradores multipliquen sus capacidades personales y su rendimiento. Las organizaciones no podr&#xED;an colaborar entre s&#xED;, si no existiera confianza previa. Los clientes de nuestra empresa contin&#xFA;an, al menos en igualdad de condiciones, en relaci&#xF3;n con ella y no con otra, por el capital de conocimiento y confianza mutuos que disfrutamos y que les permite centrar sus esfuerzos en sus objetivos, y no en precaverse en exceso de posibles abusos. Las marcas son reconocimiento de confianza, suscitada por un historial de satisfacciones o presumida por el influjo de signos externos y publicidad, y una p&#xE9;rdida de confianza la destruye.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="3f72ba1b83c2a3a65aaa22c9e3003b50" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>e3a9418a-dcc2-4205-a364-14176e4e7d6c,e069809f-b7c0-4ec2-89ae-1d55cc217e73,74dd0c30-69e7-41ad-abd1-b5f2ba341b6b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>0eab98c762704fcb837d6cbf257b47bc</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;M. R. Covey nos habla de la confianza con relaci&#xF3;n a&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="e3a9418a-dcc2-4205-a364-14176e4e7d6c">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;La etimolog&#xED;a de la palabra.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e069809f-b7c0-4ec2-89ae-1d55cc217e73">
+              <material>
+                <mattext texttype="text/html">La velocidad de su destrucci&#xF3;n, pero tambi&#xE9;n de su reconstrucci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="74dd0c30-69e7-41ad-abd1-b5f2ba341b6b">
+              <material>
+                <mattext texttype="text/html">La manera en la que un jefe la debe concebir.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">e069809f-b7c0-4ec2-89ae-1d55cc217e73</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Referido a la velocidad de la confianza, no s&#xF3;lo a la velocidad con que se destruye sino a la velocidad con la que podemos reconstruirla, Stephen M.R. Covey asegura que podemos incrementar la confianza con mayor rapidez de lo que creemos. La confianza es ese algo que si desaparece acaba con el gobierno m&#xE1;s poderoso, la empresa con m&#xE1;s &#xE9;xito, el liderazgo m&#xE1;s influyente, la amistad m&#xE1;s sincera, el car&#xE1;cter m&#xE1;s fuerte y el amor m&#xE1;s profundo. La capacidad de infundir, cultivar y desarrollar y recuperar la confianza es crucial para nuestro bienestar personal e interpersonal; es la competencia de liderazgo clave en la nueva econom&#xED;a global.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="cfb57895fb5d34e78cae6d8baa295ecf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7c841713-af6a-4847-9d2c-9212ad287343,3ab0dc26-ba19-4941-9946-bec32ccdbe04,6b1debad-946e-41f2-85be-67fa1b1ebba8,47ff2bf3-90b7-4af4-b949-ab5ec572bab1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d68af7cbee286074711c3b8393b4cfac</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Por qu&#xE9; es importante el lugar que tiene la construcci&#xF3;n de la confianza en la ni&#xF1;ez?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7c841713-af6a-4847-9d2c-9212ad287343">
+              <material>
+                <mattext texttype="text/html">Porque en funci&#xF3;n de esas vivencias en la ni&#xF1;ez, en presencia de la confianza o sin ella, vamos construyendo nuestros propios paradigmas.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3ab0dc26-ba19-4941-9946-bec32ccdbe04">
+              <material>
+                <mattext texttype="text/html">Porque se establecen pautas de comportamiento en el n&#xFA;cleo familiar que hacen que el ni&#xF1;o sea merecedor o no de la confianza.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6b1debad-946e-41f2-85be-67fa1b1ebba8">
+              <material>
+                <mattext texttype="text/html">Porque los ni&#xF1;os van formando su personalidad y su criterio fij&#xE1;ndose en sus referentes, y en la confianza que ellos crean en &#xE9;l. Estos son los que imprimen alg&#xFA;n tipo de impronta en ellos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="47ff2bf3-90b7-4af4-b949-ab5ec572bab1">
+              <material>
+                <mattext texttype="text/html">Todas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">47ff2bf3-90b7-4af4-b949-ab5ec572bab1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Desde que nacemos, percibimos la confianza. No es algo que sepamos definir, pero la percibimos porque la experimentamos a trav&#xE9;s de nuestras experiencias. Los ni&#xF1;os van formando su personalidad y su criterio fij&#xE1;ndose en sus referentes. Estos son los que imprimen alg&#xFA;n tipo de impronta en ellos. Esta impronta es la huella que deja una experiencia, un comentario, un acto, es la influencia en nuestro sistema de creencias. La confianza se nos transmite desde que nacemos y se fortalece a trav&#xE9;s de nuestra ni&#xF1;ez por las vivencias en nuestros primeros a&#xF1;os de vida, y de esta manera, en funci&#xF3;n de esas vivencias, en presencia de confianza o sin ella, vamos construyendo nuestros propios paradigmas. Dependiendo de la situaci&#xF3;n social y familiar en la que se desarrolla la ni&#xF1;ez y en el escenario en el que se viva dicha ni&#xF1;ez, se establecen pautas de comportamiento en el n&#xFA;cleo familiar que hacen que el ni&#xF1;o sea merecedor o no de la confianza.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="2d9784a2a6009ff83f14eadfa7507cf6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>35b7e163-639a-46a9-9624-eb2ce0095a00,510164bf-afd9-4edb-8c3d-3ff026867c36,027002cc-bd75-41d0-84e7-5fe925ac0e91</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>2e41f320d071449b5a738d19ff3a1b3f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Por qu&#xE9; es importante el autoconocimiento de un l&#xED;der?&amp;nbsp; &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="35b7e163-639a-46a9-9624-eb2ce0095a00">
+              <material>
+                <mattext texttype="text/html">Porque solo as&#xED; puede entender a qu&#xE9; puesto quiere llegar dentro de la empresa y de qu&#xE9; manera quiere ejecutarlo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="510164bf-afd9-4edb-8c3d-3ff026867c36">
+              <material>
+                <mattext texttype="text/html">Porque lo m&#xE1;s importante del liderazgo es conocerse, crecer y liderarse por el camino que uno quiere recorrer.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="027002cc-bd75-41d0-84e7-5fe925ac0e91">
+              <material>
+                <mattext texttype="text/html">Porque el autoconocimiento le permitir&#xE1; afrontar conflictos desde un plano equilibrado y no desde un arranque emocional, comunicar lo que necesita y percibir y reconocer a cada integrante de su equipo.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">027002cc-bd75-41d0-84e7-5fe925ac0e91</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El autoconocimiento le permite a un l&#xED;der afrontar conflictos desde un plano equilibrado y no desde un arranque emocional. Le permite trabajar bajo presi&#xF3;n sin morir en el intento o sin contaminar de estr&#xE9;s a su entorno. Y, lo m&#xE1;s importante: para uno poder ser l&#xED;der y comunicar, percibir a su equipo en toda su esencia, conocer y reconocer a cada individuo de su equipo, necesita primero conocerse a s&#xED; mismo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="c9f67913f2de7e6655f680296c8ee16f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>19d19ad6-ba0e-47b2-8078-18313fb01e4a,1ec2e2b7-2baa-475d-ab0d-9c4794da58ac,da700c86-700f-433c-bf68-b19605646ac5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ba72d115fe4d16505c799493c53eace9</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Los tipos de confianza son:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="19d19ad6-ba0e-47b2-8078-18313fb01e4a">
+              <material>
+                <mattext texttype="text/html">La conductual, relacional y personal.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1ec2e2b7-2baa-475d-ab0d-9c4794da58ac">
+              <material>
+                <mattext texttype="text/html">La conductual, emocional, espiritual, simple y alimentada.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="da700c86-700f-433c-bf68-b19605646ac5">
+              <material>
+                <mattext texttype="text/html">La individual, colectiva y compartida.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1ec2e2b7-2baa-475d-ab0d-9c4794da58ac</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Podemos hablar de los siguientes tipos de confianza:&lt;br&gt;- &amp;nbsp; &amp;nbsp;La confianza conductual: es la capacidad de actuar hacer cosas en la vida, tomar las decisiones correctas y superar los obst&#xE1;culos.&lt;br&gt;- &amp;nbsp; &amp;nbsp;La confianza emocional: saber lo que sentimos, gestionar bien las decisiones en el terreno afectivo, construir relaciones equilibradas y sanas, reconocer nuestro sistema emocional.&lt;br&gt;- &amp;nbsp; &amp;nbsp;La confianza espiritual: la fe que tenemos sobre la vida que nos rodea. Es la creencia de que la vida es algo positivo, que estamos aqu&#xED; para algo.&amp;nbsp;&lt;br&gt;- &amp;nbsp; &amp;nbsp;La confianza simple: es la confianza primaria, con la que nacemos y que nos ayuda a desarrollarnos. El beb&#xE9; conf&#xED;a en la madre de una forma natural. &amp;nbsp;La realizamos de manera aut&#xF3;noma e inconsciente, es una confianza absoluta. En alg&#xFA;n momento de nuestro desarrollo si esta confianza se rompe, en su lugar anida la desconfianza.&lt;br&gt;- &amp;nbsp; &amp;nbsp;La confianza alimentada: a medida que crecemos y nos desarrollamos aprendemos este tipo de confianza. Esta obviamente tambi&#xE9;n se puede romper, pero es m&#xE1;s sencillo de reconstruir que la primaria.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="3c0cfcf23a46c3e2c77a812a0360ffc6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>b51f12de-0ef3-4bed-b3d7-7f11811ca4a6,04d30331-bd69-43a8-a289-8f8ddb26914a,4af82e50-01bc-43a8-8003-7004f4554a25</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ff3964f1d6efd65aac21d2c7d2644af5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La confianza en uno mismo nace de&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="b51f12de-0ef3-4bed-b3d7-7f11811ca4a6">
+              <material>
+                <mattext texttype="text/html">El reconocerse y la autovaloraci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="04d30331-bd69-43a8-a289-8f8ddb26914a">
+              <material>
+                <mattext texttype="text/html">Los halagos de tus compa&#xF1;eros o jefes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4af82e50-01bc-43a8-8003-7004f4554a25">
+              <material>
+                <mattext texttype="text/html">Exigirse hasta hacer las cosas bien y nunca equivocarse.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b51f12de-0ef3-4bed-b3d7-7f11811ca4a6</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Autoconfianza es confiar en uno mismo. Para creer en uno mismo es necesario reconocerse. Con reconocerse me refiero a conocerse uno mismo, cu&#xE1;les son tus patrones de comportamiento, cu&#xE1;les son tus pensamientos y tus emociones y c&#xF3;mo operan para enfrentarte a tu realidad. Entonces, la confianza en uno mismo nace de la autovaloraci&#xF3;n, de saber conscientemente qu&#xE9; quieres y qu&#xE9; metas quieres conseguir, incluso m&#xE1;s all&#xE1; de las metas cu&#xE1;l es tu prop&#xF3;sito en la vida. Y no solo eso, hay confianza en ti mismo cuando conoces y valoras tus capacidades, tus recursos personales y tus propios l&#xED;mites desde la aceptaci&#xF3;n a ti mismo, y el profundo respeto por ti.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="8d14db751f2f7cdf0133b97153a7d941" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>898cb75b-4c1d-45c1-977c-e7905f900f83,b4c98957-03ba-43a9-9f75-f631de31949e,aeda45cb-7de1-4ce5-9244-b6819d389213</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>a7339cf5fd5d7563855a23abaaf29fad</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La integridad y la mentira&#x2026;&amp;nbsp; &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="898cb75b-4c1d-45c1-977c-e7905f900f83">
+              <material>
+                <mattext texttype="text/html">Son lo mismo porque ambas son mentiras.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b4c98957-03ba-43a9-9f75-f631de31949e">
+              <material>
+                <mattext texttype="text/html">Son lo mismo porque ambas son valores de un l&#xED;der.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="aeda45cb-7de1-4ce5-9244-b6819d389213">
+              <material>
+                <mattext texttype="text/html">Son lo opuesto porque si uno es &#xED;ntegro nunca puede buscar el enga&#xF1;o.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">aeda45cb-7de1-4ce5-9244-b6819d389213</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&#x201C;Integridad significa evitar toda comunicaci&#xF3;n enga&#xF1;osa, desleal o que no respete la dignidad de las personas. Seg&#xFA;n la definici&#xF3;n de la palabra &#x201C;mentira&#x201D; es toda comunicaci&#xF3;n que intenta enga&#xF1;ar. Ya nos comuniquemos con palabras o con conductas, si somos &#xED;ntegros nunca podremos intentar el enga&#xF1;o&#x201D; &amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="5bbacead146cb6dc0eb1b8db68b6c04b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>693b3530-6a06-4359-8edb-c7f3a55a5f1e,4bcfe282-8243-445c-818d-c46f56317cc3,9091c361-e5a0-49c0-821c-e474c868b022</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>bde85a694d07b663fd50d64dbd9878e8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; genera la falta de confianza en un equipo?&amp;nbsp; &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="693b3530-6a06-4359-8edb-c7f3a55a5f1e">
+              <material>
+                <mattext texttype="text/html">Admiraci&#xF3;n al l&#xED;der porque &#xE9;l puede hacer todo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4bcfe282-8243-445c-818d-c46f56317cc3">
+              <material>
+                <mattext texttype="text/html">Bloquea, retrae al equipo y lo inmoviliza.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9091c361-e5a0-49c0-821c-e474c868b022">
+              <material>
+                <mattext texttype="text/html">Genera valor y hace crecer la dependencia de los colaboradores con el l&#xED;der.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4bcfe282-8243-445c-818d-c46f56317cc3</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La falta de confianza en el equipo oscurece la inteligencia de sus integrantes, engendra la mentira, deforma la realidad, bloquea e inmoviliza, lo que impide generar valor y crecer; retrae al equipo y lo a&#xED;sla.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="616bc447c83a2c91b47021328a32d1db" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2b0da366-6349-4673-b822-b51f2c484406,202fbc1d-ced6-4720-a66b-e577af1d9106,c840141b-ab27-4e42-8e53-d18288815263,6e6f75f8-99f9-478e-b528-2c0aade73b77</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>3559594ce80be4c9815fa1d2a28a42b8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La confianza es importante porque&#x2026;&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2b0da366-6349-4673-b822-b51f2c484406">
+              <material>
+                <mattext texttype="text/html">Como seres sociales necesitamos confiar en otros seres humanos.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="202fbc1d-ced6-4720-a66b-e577af1d9106">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;Es la base de cualquier relaci&#xF3;n y organizaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c840141b-ab27-4e42-8e53-d18288815263">
+              <material>
+                <mattext texttype="text/html">El equipo de trabajo no asumir&#xE1; ning&#xFA;n tipo de responsabilidad o decisi&#xF3;n, si el directivo no les otorga confianza en un primer momento.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6e6f75f8-99f9-478e-b528-2c0aade73b77">
+              <material>
+                <mattext texttype="text/html">Todas las opciones son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6e6f75f8-99f9-478e-b528-2c0aade73b77</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Somos seres sociales, y necesitamos interrelacionarnos para sobrevivir. En los cimientos de esas relaciones se encuentra la confianza, o la ausencia de ella. Sin confianza no existir&#xED;a la sociedad, ya que &#xE9;sta es necesaria para establecer el dialogo y la comunicaci&#xF3;n que desemboca en el encuentro de voluntades. Cuando existe confianza es mucho m&#xE1;s f&#xE1;cil para la organizaci&#xF3;n cambiar y mejorar. Cada uno de nosotros desarrollamos un nivel de confianza con el que estamos c&#xF3;modos y proyectamos esa confianza en todas las relaciones que desarrollamos, ya sea de amistad, amorosa, con compa&#xF1;eros de trabajo, familiares o vecinos.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="a8f2c459d7911f0bd9ca518b1dd0f829" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a2b085f7-d0c8-4690-9496-dfb5e7f00957,23a42656-4218-4099-b64a-9df2597ef07b,604be5f6-733d-449e-8c5c-30b8086307a2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>dc0f55b8a12e7ff7f79997a56ee1149b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;En qu&#xE9; consiste empoderar?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a2b085f7-d0c8-4690-9496-dfb5e7f00957">
+              <material>
+                <mattext texttype="text/html">En otorgar a una persona la libertad necesaria para que asuma sus responsabilidades de sus propias ideas y acciones y dejarse guiar por sus propios criterios.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="23a42656-4218-4099-b64a-9df2597ef07b">
+              <material>
+                <mattext texttype="text/html">En decirle a cada persona de mi equipo para qu&#xE9; es buena, as&#xED; puede seguir haciendo bien su trabajo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="604be5f6-733d-449e-8c5c-30b8086307a2">
+              <material>
+                <mattext texttype="text/html">En hacer que cada persona de mi equipo tenga que validar cada acci&#xF3;n conmigo antes de ejecutarla.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">a2b085f7-d0c8-4690-9496-dfb5e7f00957</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Delegar no el simple traspaso de tareas, sino el ejercicio de empoderamiento para el logro de metas y desarrollo del propio equipo. As&#xED;, empoderar consistir&#xE1; en otorgar a una persona de la libertad necesaria para que asuma sus responsabilidades de sus propias ideas y acciones y dejarse guiar por sus propios criterios y juicio. Claro, dif&#xED;cilmente delegar&#xE9; con el fin de empoderar si mi autoestima o mi autovaloraci&#xF3;n est&#xE1; baja.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="3294ab401b544905bc8e4e51865e7367" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>afacdfd7-59d2-4d22-982b-b4dc8bcfdc0a,d55807b7-f0cd-412f-8199-43c589f0c1a2,292b4a8f-12df-48b5-b364-865c3253f6f2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c110957fe93ec10b46b662c6e7fac742</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Lo importante de delegar es&#x2026;&amp;nbsp;&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="afacdfd7-59d2-4d22-982b-b4dc8bcfdc0a">
+              <material>
+                <mattext texttype="text/html">Comprender las tareas y las capacidades de los miembros de su equipo, para darle las responsabilidades correctas a las personas correctas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d55807b7-f0cd-412f-8199-43c589f0c1a2">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;Comprender qui&#xE9;n de nuestro equipo es m&#xE1;s confiable para poder liberarnos de nuestro trabajo m&#xE1;s tedioso.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="292b4a8f-12df-48b5-b364-865c3253f6f2">
+              <material>
+                <mattext texttype="text/html">Comprender qui&#xE9;n es el jefe y por ende qui&#xE9;n es el &#xFA;nico capaz de dar &#xF3;rdenes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">afacdfd7-59d2-4d22-982b-b4dc8bcfdc0a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Saber delegar significa comprender las tareas, y tambi&#xE9;n las capacidades de los miembros de su equipo, con el fin de poner las responsabilidades correctas en manos de los obreros que mejor las puedan desempe&#xF1;ar.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="90d25cc57b94b3b48c895a9b699bf5ba" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>49c15d84-f857-4ca2-a36b-8b75673356a3,d211dc07-ae2e-4a2d-87ba-9df30e1f8251,07d0e1b1-4b13-4ab9-8635-e628fab29631</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>15c78e926eec0fa4ce6c156c6128445c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Por qu&#xE9; la delegaci&#xF3;n ayudar&#xE1; al liderazgo?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="49c15d84-f857-4ca2-a36b-8b75673356a3">
+              <material>
+                <mattext texttype="text/html">Porque trabaja en disminuir las tareas del l&#xED;der y pasarlas al resto del equipo, a quienes se les paga para eso.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d211dc07-ae2e-4a2d-87ba-9df30e1f8251">
+              <material>
+                <mattext texttype="text/html">Porque delegar sirve para verificar si mi equipo es capaz o debo hacer ajustes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="07d0e1b1-4b13-4ab9-8635-e628fab29631">
+              <material>
+                <mattext texttype="text/html">Porque delegar es confiar y lograr un compromiso.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">07d0e1b1-4b13-4ab9-8635-e628fab29631</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La delegaci&#xF3;n ayudar&#xE1; al liderazgo porque trabaja en aumentar la confianza en el seno del equipo y entre l&#xED;der y colaboradores. Dentro del concepto del liderazgo, se encuentra la importancia de creer en los dem&#xE1;s.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="e67a80ef7fbdbf98daf6f2d50b73d6b4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>e2f4eecb-5d9a-4809-bce3-6851f1d934bd,b1e6e4ec-ee75-4d6b-b38b-19a16721ddc6,64152c48-5bea-4ca2-8c47-ae944dac5240</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ce8f33929defeb5c03dce1b566da4ddd</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es la principal causa de la incapacidad de delegar?&amp;nbsp; &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="e2f4eecb-5d9a-4809-bce3-6851f1d934bd">
+              <material>
+                <mattext texttype="text/html">Porque uno sabe qu&#xE9; hace mejor las cosas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b1e6e4ec-ee75-4d6b-b38b-19a16721ddc6">
+              <material>
+                <mattext texttype="text/html">Por miedo a que la persona a la que le delegamos la tarea, la haga a&#xFA;n mejor que nosotros.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="64152c48-5bea-4ca2-8c47-ae944dac5240">
+              <material>
+                <mattext texttype="text/html">Por miedo a que la persona a la que le delegamos la tarea se equivoque.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b1e6e4ec-ee75-4d6b-b38b-19a16721ddc6</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La primera barrera de la delegaci&#xF3;n es habitual y tiene un nombre. Se llama miedo. &#xBF;A qu&#xE9; le tiene miedo? Si est&#xE1; usted pensando que le teme a que el colaborador se equivoque y a las consecuencias de ello, la respuesta es no. Bueno&#x2026; puede ocurrir, pero les aseguro que no es el miedo que de verdad frena un acto de delegaci&#xF3;n. El miedo m&#xE1;s com&#xFA;n es el miedo a que la persona a quien delegamos lo haga tan bien que nos quite el puesto.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="165873aecf79221198616460debcf5a7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>80f71e33-1725-445a-97cf-77cc4d8a9a40,39d5ebde-00d9-4940-b235-f9f805c17e10,4b03061c-0401-4cc2-8dda-dc95b204de5d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4fedd523b133404f6ec8d43499cd6b7b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;les son los valores de un l&#xED;der?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="80f71e33-1725-445a-97cf-77cc4d8a9a40">
+              <material>
+                <mattext texttype="text/html">La confianza, la comunicaci&#xF3;n y la fe en los dem&#xE1;s.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="39d5ebde-00d9-4940-b235-f9f805c17e10">
+              <material>
+                <mattext texttype="text/html">La confianza, la autoridad y la fe en los dem&#xE1;s.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4b03061c-0401-4cc2-8dda-dc95b204de5d">
+              <material>
+                <mattext texttype="text/html">La superioridad, la comunicaci&#xF3;n y la confianza.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">80f71e33-1725-445a-97cf-77cc4d8a9a40</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Si tenemos en cuenta que el l&#xED;der desarrolla a su equipo y tiene como valores la confianza, la comunicaci&#xF3;n, y la fe en los dem&#xE1;s, no es descabellado pensar que la delegaci&#xF3;n es una herramienta de liderazgo y a la vez su consecuencia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="f6e9781c214f06d45ab8eb85aaf889b4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7ecbc902-6669-4f7d-85ff-820946bee39d,35779ae2-1955-47cd-b9cf-9e94447a26bf,f1b8d2e4-57e5-4188-ba93-201639766582</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ffa1aa2854151661f99ead46c4b93f43</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es la caracter&#xED;stica especial del proceso de construcci&#xF3;n de la confianza?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7ecbc902-6669-4f7d-85ff-820946bee39d">
+              <material>
+                <mattext texttype="text/html">Si se pierde la confianza, ya es imposible volver a recuperarla.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="35779ae2-1955-47cd-b9cf-9e94447a26bf">
+              <material>
+                <mattext texttype="text/html">Se construye y afianza durante mucho tiempo, y se destruye en un instante.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f1b8d2e4-57e5-4188-ba93-201639766582">
+              <material>
+                <mattext texttype="text/html">Se construye y afianza r&#xE1;pidamente, y se destruye tambi&#xE9;n r&#xE1;pidamente.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">35779ae2-1955-47cd-b9cf-9e94447a26bf</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La confianza tiene una caracter&#xED;stica especial: Se construye durante mucho tiempo, lleva su tiempo afianzarla y se destruye en un instante. Restablecer la confianza requiere de paciencia ya que la desconfianza aprendida resulta dif&#xED;cil de cambiar. Por supuesto, no es imposible, pero requerir&#xE1; esfuerzo y paciencia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="22e034083c370f15d94cd795447cb8fe" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>56014ea6-180b-4864-910f-a21438a59b63,da2aae59-b4e9-4b0b-b20f-243055f24742,e3357b38-e3df-4d6f-a09e-8256be7502c0,576f1044-2ac7-402f-9bfb-7950ded0b64d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>498fcf6e02736d190771077850c662c4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; es la confianza?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="56014ea6-180b-4864-910f-a21438a59b63">
+              <material>
+                <mattext texttype="text/html">Una actitud y un h&#xE1;bito.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="da2aae59-b4e9-4b0b-b20f-243055f24742">
+              <material>
+                <mattext texttype="text/html">El cimiento de toda organizaci&#xF3;n y de la sociedad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e3357b38-e3df-4d6f-a09e-8256be7502c0">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;La confianza es un estado psicol&#xF3;gico que comprende la intenci&#xF3;n de aceptar ser vulnerable basado en expectativas positivas de las intenciones o comportamientos del otro.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="576f1044-2ac7-402f-9bfb-7950ded0b64d">
+              <material>
+                <mattext texttype="text/html">Todas las opciones son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">576f1044-2ac7-402f-9bfb-7950ded0b64d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La confianza es una actitud y un h&#xE1;bito que exige una gran identificaci&#xF3;n entre el directivo y su equipo de trabajo, pues es el cimiento de toda organizaci&#xF3;n y de la sociedad. Tal como dicen Rousseau, Sitkin y Camerer, la confianza es un estado psicol&#xF3;gico que comprende la intenci&#xF3;n de aceptar ser vulnerable basado en expectativas positivas de las intenciones o comportamientos del otro</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

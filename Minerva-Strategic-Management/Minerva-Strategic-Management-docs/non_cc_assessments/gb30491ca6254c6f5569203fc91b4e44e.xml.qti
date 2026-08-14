@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gb30491ca6254c6f5569203fc91b4e44e">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MAN 650 Strategic Management Sección 6</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>ElGhguvoE9qi6k3tVsqtKgTfuZZTxmhzmzH0Q9KW</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_state</fieldlabel>
+        <fieldentry>active</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gce599766f4cd0d2d43ecd65bf546a36d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>80727,73097,38517</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En estrategia, ¿el Modelo Estratégico se refiere a?. Elige una.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="80727">
+              <material>
+                <mattext texttype="text/plain">Al conjunto de procesos que desarrolla la empresa para entregar su propuesta de valor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73097">
+              <material>
+                <mattext texttype="text/plain">Al conjunto de activos y core competencias que diferencian a la compañía de sus competidores</mattext>
+              </material>
+            </response_label>
+            <response_label ident="38517">
+              <material>
+                <mattext texttype="text/plain">Al modelo empresarial interrelacionado que describe como la empresa entrega valor a los clientes y sus stakeholders a través de una combinación única de actividades realizadas de manera diferente.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">38517</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Al modelo empresarial interrelacionado que describe como la empresa entrega valor a los clientes y sus stakeholders a través de una combinación única de actividades realizadas de manera diferente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g395e9fdd59493cb6dab52fb1c2df8ea9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>67554,73838,42585</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En estrategia, ¿el modelo estratégico de la compañía se refiere a?. Elige una.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="67554">
+              <material>
+                <mattext texttype="text/plain">Su mapa de procesos y cuales están internalizados y cuáles externalizados.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73838">
+              <material>
+                <mattext texttype="text/plain">El conjunto de todas las actividades y activos de la compañía y cómo se relacionan para constituir una forma única y sostenible de entregar el valor prometido a los clientes maximizando el valor para la compañía.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="42585">
+              <material>
+                <mattext texttype="text/html">El conjunto de core competences de la compañía&lt;br&gt;Los procesos necesarios para entregar sus productos y servicios</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">73838</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El modelo estratégico es una representación del conjunto de actividades y activos y cómo se relacionan de una manera distinta al resto de los competidores para entregar la propuesta de valor de una forma diferencial y difícilmente copiable. &amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g270f378c64d16646473387ea4919f0a2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>74562,50248,73316</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La clave de un buen modelo estratégico será:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="74562">
+              <material>
+                <mattext texttype="text/plain">Que sea eficiente y entregue nuestra propuesta de valor de la forma más barata posible.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="50248">
+              <material>
+                <mattext texttype="text/plain">Que esté alineado con la propuesta de valor para el cliente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73316">
+              <material>
+                <mattext texttype="text/plain">Que dé coherencia a todas nuestras actividades tanto desde el punto de vista de la propuesta de valor para el cliente como la propuesta de valor de la empresa</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">73316</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">En estrategia el modelo estratégico es parte integrante de la misma, no una consecuencia. Es la combinación única de actividades que garantizan que entreguemos tanto nuestra propuesta de valor para los clientes como para la compañía. &amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g8ac6799594e89d154d3e9913096bfbd5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>27593,19844,56092</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cuando hablamos de trade-offs dentro de un modelo estratégico nos referimos: (elige la opción que consideres más correcta)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="27593">
+              <material>
+                <mattext texttype="text/html">Entender que las actividades que realiza la compañía pueden ser incompatibles, los beneficios en un área sólo los podemos alcanzar si renunciamos a los beneficios en otras&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="19844">
+              <material>
+                <mattext texttype="text/plain">Que debemos enfocarnos en nuestras Core Competencies y subcontratar todo los demás</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56092">
+              <material>
+                <mattext texttype="text/plain">Entender que una empresa sólo puede hacer tres cosas muy bien y enfocarse en ellas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">27593</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El modelo estratégico nos ayuda a entender porqué una combinación única de actividades realizadas de forma distinta son claves para entregar la propuesta de valor de manera sostenible. Si un competidor intenta copiar sólo una parte no será capaz de entregar la misma propuesta de valor.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gb6410bd0ee663016e7774573404b5a7d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1359,65088,88783</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cada vez que lancemos un nuevo producto o servicio será necesario:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1359">
+              <material>
+                <mattext texttype="text/plain">Cambiar nuestro modelo estratégico.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="65088">
+              <material>
+                <mattext texttype="text/plain">Cambiar nuestra estrategia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="88783">
+              <material>
+                <mattext texttype="text/plain">Ninguno de los dos</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">88783</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El modelo estratégico es el alma de la estrategia y configura la forma en que la empresa entrega su propuesta de valor. Al igual que nuestro público objetivo debe de permanecer invariante entre todos nuestros productos el modelo estratégico no debe adaptarse para cada servicio sino al revés (salvo que queramos afrontar una transformación radical de la compañía y su estrategia, pero entonces el cambio de nuestra oferta será el resultado del cambio de nuestra estrategia y no al revés).</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g467fed23430966e0544838ec11c431c0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>58443,4822,47926</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuáles son las tres razones por la que pueden existir trade-offs dentro de nuestro modelo estratégico? (Elige la opción que consideres más correcta)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="58443">
+              <material>
+                <mattext texttype="text/plain">Precio, Calidad y Servicio</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4822">
+              <material>
+                <mattext texttype="text/plain">B2B, B2C y B2B2C</mattext>
+              </material>
+            </response_label>
+            <response_label ident="47926">
+              <material>
+                <mattext texttype="text/plain">Inconsistencias en el imagen, configuración de actividades, limitaciones coordinación</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">47926</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Cuando diseñemos nuestro modelo estratégico deberemos ser coherentes con nuestra imagen y/o reputación, nuestras actividades diferenciales son compartidas por toda la empresa y entendemos las renuncias que realizamos y todos nuestros empleados utilizan el mismo esquema de toma de decisiones que es estable en el tiempo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g0ba6adb014bb28020d96f6b7df60d61c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>50008,67596,21558,91822</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuál de las siguientes afirmaciones podemos considerar que es una verdadera declaración estratégica? Elige una.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="50008">
+              <material>
+                <mattext texttype="text/plain">Nuestra estrategia para el año que viene es internacionalizar nuestro negocio entrando en Europa y África</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67596">
+              <material>
+                <mattext texttype="text/html">Es estratégico para nosotros mejorar la calidad de nuestra fuerza de ventas, transformándolos de "tomadores de pedidos" en "asesores comerciales" que ayuden a nuestros clientes a sacar el máximo valor de nuestros productos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="21558">
+              <material>
+                <mattext texttype="text/plain">Nuestra estrategia es optimizar nuestro proceso de compras de manera que reduzcamos significativamente los costes de materia prima y podamos ofrecer precios más bajos que nuestros competidores</mattext>
+              </material>
+            </response_label>
+            <response_label ident="91822">
+              <material>
+                <mattext texttype="text/plain">Ninguna de las anteriores.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">91822</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Ninguna de esas afirmaciones nos ayuda a contestar las tres preguntas claves de un buen posicionamiento estratégico; ¿Quiénes son y quienes no son nuestros clientes objetivo?, ¿por qué me deben elegir frente a los competidores?, ¿Cómo hago las cosas diferentes?. Todos son proyectos tácticos de gran relevancia para el futuro de la empresa, pero no son estrategia</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g131f2f24bd24a8fb37cd1b2bd4783a19" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4133,40430,91006</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Hemos dicho muchas veces que una empresa puede ser exitosa pese a no tener estrategia, en qué entorno esto es más cierto…(selecciona la respuesta más correcta)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4133">
+              <material>
+                <mattext texttype="text/plain">Para una start-up donde es mucho más importante captar cuota de mercado que preocuparse por la estrategia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="40430">
+              <material>
+                <mattext texttype="text/plain">Para una empresa que destaca sobre sus competidores en al menos un área operativa (hace mejor marketing, gestiona mejor su fuerza comercial, produce más barato, innova más rápido…)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="91006">
+              <material>
+                <mattext texttype="text/plain">Para una empresa grande donde no importa tener estrategia porque sólo su tamaño le garantiza el éxito</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">40430</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La excelencia operativa puede proporcionar éxito a una empresa durante un cierto periodo de tiempo hasta que los competidores copian sus tácticas. Tanto la start-up como la gran empresa deberán ser excelentes en una o varias dimensiones operativas para ser temporalmente exitosas sin estrategia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ge39b6b558d639b47b819914767e275c8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>60301,71598,76637</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cómo podemos combinar velocidad y estrategia? (selecciona la afirmación más correcta)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="60301">
+              <material>
+                <mattext texttype="text/plain">No podemos, la estrategia requiere tiempo. Si no tenemos una estrategia clara deberemos esperar a definirla para actuar</mattext>
+              </material>
+            </response_label>
+            <response_label ident="71598">
+              <material>
+                <mattext texttype="text/plain">La estrategia nos garantiza el largo plazo y la excelencia operativa nos garantiza las ventas de mañana. Si tenemos nuestro modelo operativo definido, pongámonos en marcha y vayamos definiendo la estrategia poco a poco</mattext>
+              </material>
+            </response_label>
+            <response_label ident="76637">
+              <material>
+                <mattext texttype="text/plain">Lancemos lo primero que se nos ocurra que luego ya tendremos tiempo de ir ajustándolo con el feedback de los clientes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">71598</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La estrategia se puede ajustar, pero es muy difícil de reinventar. La velocidad es importante, pero hay muchos ejemplos de buenas ideas que deberían de haber sido un éxito pero que como se lanzaron precipitadamente y sin darles el valor adecuado se pierden como fortaleza estratégica. Un ejemplo es como Samsung fracasa en poner en valor sus innovaciones (el desbloqueo por reconocimiento facial estaba disponible en el Samsung S3 y sin embargo Apple es quien lo ha puesto en valor en su IPhone X).</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gff7cf695582468bba61e7cadda22c758" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>53633,51646,89018,90578,58805,1848</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuáles de los siguientes proyectos podrían considerarse estratégicos y no tácticos?&lt;br&gt;&lt;br&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="53633">
+              <material>
+                <mattext texttype="text/plain">Implantar la metodología Lean de Toyota para mejorar la calidad en nuestras fábricas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="51646">
+              <material>
+                <mattext texttype="text/plain">Contratar al equipo de marketing de la competencia que ha ganado multitud de premios de publicidad</mattext>
+              </material>
+            </response_label>
+            <response_label ident="89018">
+              <material>
+                <mattext texttype="text/plain">Implantar un Cuadro de Mando Integral desde las dimensiones de Cliente, Procesos, Finanzas, y Personas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="90578">
+              <material>
+                <mattext texttype="text/plain">Implantar un departamento de Big Data para analizar los datos de los clientes</mattext>
+              </material>
+            </response_label>
+            <response_label ident="58805">
+              <material>
+                <mattext texttype="text/plain">Implantar una herramienta para el seguimiento y control de la fuerza comercial</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1848">
+              <material>
+                <mattext texttype="text/plain">Ninguno de los anteriores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1848</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Todos los proyectos listados son muy importantes, incluso críticos para la correcta gestión de la empresa, pero ninguno de ellos ayuda a responder las tres preguntas estratégicas clave.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gf87bd7a06270ec3a669e5126944df23c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>22261,4892,85156,37888</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuáles son las razones para dar visibilidad a nuestra estrategia? (Respuesta múltiple)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="22261">
+              <material>
+                <mattext texttype="text/plain">Que todos los empleados de la compañía tengan claro que los principios por lo que se deben guiar para tomar las decisiones de su día a día</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4892">
+              <material>
+                <mattext texttype="text/html">Para que se dediquen los recursos a aquellas actividades que aportan más valor a la compañía&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85156">
+              <material>
+                <mattext texttype="text/plain">Para que nuestra fuerza comercial sepa cómo actuar</mattext>
+              </material>
+            </response_label>
+            <response_label ident="37888">
+              <material>
+                <mattext texttype="text/plain">Para que nuestros clientes tengan claro qué pueden esperar de nosotros y que no</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">22261</varequal>
+              <varequal respident="response1">4892</varequal>
+              <varequal respident="response1">85156</varequal>
+              <varequal respident="response1">37888</varequal>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Todas las alternativas son ventajas que obtendremos de una estrategia correctamente comunicada.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g6b6a2557f050c38fca988a67bd79b7b5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9326,66467,23063</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cuando decimos que tener una estrategia requiere hacer trade-offs, ¿a qué nos estamos refiriendo?...(seleccionar la opción más adecuada)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9326">
+              <material>
+                <mattext texttype="text/plain">Los trade-off son los descuentos y ofertas que tengo que hacer para que los clientes más sensibles al precio compren mis productos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="66467">
+              <material>
+                <mattext texttype="text/html">El trade-off es el diferencial de precio que tengo con mis competidores&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="23063">
+              <material>
+                <mattext texttype="text/plain">Queremos decir que intentar ser buenos en todo lo más que lograremos es ser mediocres en muchas cosas. Una verdadera estrategia requiere tomar decisiones sobre que queremos hacer bien para diferenciarnos de los competidores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">23063</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Los trade-off en la estrategia se refieren al punto de equilibrio entre lo que consiguen y a lo que renuncian los clientes por hacer negocios conmigo en lugar de nuestros competidores. Por ejemplo, ofrecer más calidad pero más cara, o soy más barato pero renuncias al servicio postventa.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g5c94dabaf554012979e0771ec2829adf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>92979,30448,70190</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿A qué nos referimos cuando decimos que tener una estrategia supone asumir riesgos?…(seleccionar la opción más adecuada)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="92979">
+              <material>
+                <mattext texttype="text/plain">Quiere decir que la estrategia que propongamos puede no gustarle a nuestros accionistas y que nos despidan</mattext>
+              </material>
+            </response_label>
+            <response_label ident="30448">
+              <material>
+                <mattext texttype="text/html">Quiere decir que las buenas estrategias son las que nos llevan a tomar más riesgos que nuestros competidores&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="70190">
+              <material>
+                <mattext texttype="text/plain">Quiere decir que cuando ideamos una estrategia estamos ofreciendo algo concreto para un nicho concreto de clientes en lugar de hacer un producto que guste a todo el mundo, pero que puede ser que nos equivoquemos, ese es el riesgo que tomamos</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">70190</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Apostar por una estrategia supone asumir riesgos porque apostamos por un grupo concreto de clientes, con una propuesta de valor concreta y un modelo operativo diferente. Esto será siempre más arriesgado que lanzar un producto genérico que complazca a todos pero que no enamore a ninguno.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ge8028c3c183038626eb7f6dbca5a9796" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>88580,58029,85185</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué tres niveles de interrelación pueden existir entre las actividades que constituyen nuestro modelo estratégico?. (Elige la respuesta que consideres más correcta)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="88580">
+              <material>
+                <mattext texttype="text/plain">Consistencia Estratégica, Sinergia entre Actividades, Optimización cruzada</mattext>
+              </material>
+            </response_label>
+            <response_label ident="58029">
+              <material>
+                <mattext texttype="text/plain">Estratégico, Táctico, Operativo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85185">
+              <material>
+                <mattext texttype="text/plain">Diferenciación, Especialización, Costes</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">88580</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Los tres niveles de sinergia son la consistencia estratégica (la actividad debe sumar a la estrategia), entre actividades (que las distintas actividades en nuestro modelo estratégico se refuercen entre ellas) y Optimización Cruzada (Cuanto mejor hago una actividad más beneficiada sale la otra).&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g772a671a58c3de83ed9b4be1f85fbaf6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>81666,2176,34863</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué es lo que define que una decisión sea o no acertada?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="81666">
+              <material>
+                <mattext texttype="text/plain">Que maximice el retorno de la inversión.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2176">
+              <material>
+                <mattext texttype="text/plain">Que minimice los costes operativos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34863">
+              <material>
+                <mattext texttype="text/plain">Que contribuya a alcanzar el objetivo para el cual se toma</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">34863</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Que contribuya a alcanzar el objetivo para el cual se toma. Explicación: Una decisión acertada es aquella que ayuda a lograr el propósito o meta para la cual se está tomando, más allá de simplemente maximizar el retorno de inversión o minimizar costos operativos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ge71a48c6acedcf9b36757fec6531f153" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>12164,95856,35373</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿En qué consiste el diagrama de Ishikawa&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="12164">
+              <material>
+                <mattext texttype="text/plain">Es un proceso que establece que variables causa efecto determinan lo predecible que son los factores que pueden originar un proceso óptimo de decisión.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="95856">
+              <material>
+                <mattext texttype="text/plain">Es un diagrama causa efecto o diagrama espina de pescado que establece que un procedimiento no puede ser predecible sin tomar en cuenta todos aquellos factores que pueden originar el proceso y de qué forma se interrelacionan entre sí.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="35373">
+              <material>
+                <mattext texttype="text/plain">Es un diagrama causa coste o diagrama espina de pescado que establece que un procedimiento no puede ser predecible sin tomar en cuenta todos aquellos factores que pueden originar el proceso y de qué forma se interrelacionan entre sí.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">95856</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Es un diagrama causa efecto o diagrama espina de pescado que establece que un procedimiento no puede ser predecible sin tomar en cuenta todos aquellos factores que pueden originar el proceso y de qué forma se interrelacionan entre sí. Explicación: El diagrama de Ishikawa, también conocido como diagrama de espina de pescado, se utiliza para identificar y visualizar las posibles causas de un problema o efecto, ayudando a comprender cómo se interrelacionan los factores involucrados.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g2766bccde3c2896b4f55cfd7e52138d4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>12435,28276,11861</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué es el Método 635?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="12435">
+              <material>
+                <mattext texttype="text/plain">Es una técnica estructurada de generación de ideas que se utiliza para la toma de decisiones individuales.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="28276">
+              <material>
+                <mattext texttype="text/plain">Es una técnica estructurada de generación de ideas que se utiliza para la toma de decisiones grupales.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="11861">
+              <material>
+                <mattext texttype="text/plain">Es una técnica estructurada de generación de ideas que se utiliza para la toma de decisiones tanto grupales como individuales.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">28276</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Es una técnica estructurada de generación de ideas que se utiliza para la toma de decisiones. Explicación: El Método 635 es una técnica de generación de ideas que involucra a un grupo de personas para producir, evaluar y priorizar ideas en un proceso colaborativo para toma de decisiones grupales. Permite aprovechar al máximo la creatividad colectiva y generar un amplio abanico de soluciones a un problema o reto común.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gc0b7520ad4054a1197d0073e4a18e211" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>51808,98293,73441</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Es la Matriz de valoración de criterios una herramienta de consenso?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="51808">
+              <material>
+                <mattext texttype="text/html">Si&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="98293">
+              <material>
+                <mattext texttype="text/plain">No</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73441">
+              <material>
+                <mattext texttype="text/plain">De consenso y de toma de decisión</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">51808</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La Matriz de valoración de criterios es una herramienta utilizada para alcanzar un consenso al evaluar y comparar diferentes alternativas en base a criterios predefinidos, por lo tanto, es una herramienta de consenso.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gd7fe8e88352e67e51fce48e2b65e0ea2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>19894,69715,56370</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuáles son las fases en la construcción de modelos de decisión?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="19894">
+              <material>
+                <mattext texttype="text/plain">Definición del Problema y Recolección de Información, Desarrollo del Modelo de Decisión, Análisis y Evaluación de Alternativas e Implementación y Seguimiento.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="69715">
+              <material>
+                <mattext texttype="text/plain">Definición de la metodología, Desarrollo del Modelo de Decisión, Análisis y Evaluación de Alternativas e Implementación y Seguimiento.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56370">
+              <material>
+                <mattext texttype="text/plain">Definición de la metodología, Desarrollo del Modelo de Decisión, Análisis y Evaluación de Alternativas y comprobación de resultados.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">19894</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Las fases en la construcción de modelos de decisión incluyen definir el problema, recopilar información relevante, desarrollar el modelo de decisión, analizar y evaluar las alternativas disponibles, y finalmente, implementar y dar seguimiento a la decisión tomada.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gad6eb731dcbfb90954aaabf008bd0800" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>44659,64291,71236,87485</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Por qué es importante que las actividades del modelo estratégico de una empresa se refuercen mutuamente?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="44659">
+              <material>
+                <mattext texttype="text/plain">Para reducir costos de producción</mattext>
+              </material>
+            </response_label>
+            <response_label ident="64291">
+              <material>
+                <mattext texttype="text/plain">Para dificultar la replicación de la estrategia por los competidores</mattext>
+              </material>
+            </response_label>
+            <response_label ident="71236">
+              <material>
+                <mattext texttype="text/plain">Para incrementar los precios de venta</mattext>
+              </material>
+            </response_label>
+            <response_label ident="87485">
+              <material>
+                <mattext texttype="text/plain">Para expandirse a nuevos mercados</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">64291</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Para dificultar la replicación de la estrategia por los competidores. La clave para la sostenibilidad de una estrategia no puede basarse en hacer actividades mejor que nuestros competidores sino en hacer las actividades de forma diferente garantizando que entregamos una propuesta de valor diferencial. Cuando las actividades se refuerzan mutuamente, los competidores no pueden replicarse fácilmente, asegurando así la sostenibilidad de la estrategia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gd24d55adf604c75acc8c881de564cd46" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>85702,94654,15049,93835</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué tres niveles de relaciones entre actividades y propuestas de valor pueden existir dentro de un modelo estratégico?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="85702">
+              <material>
+                <mattext texttype="text/plain">Consistencia, Sinergia, Optimización Cruzada</mattext>
+              </material>
+            </response_label>
+            <response_label ident="94654">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;Innovación, Costos, Expansión</mattext>
+              </material>
+            </response_label>
+            <response_label ident="15049">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;Marketing, Ventas, Producción</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93835">
+              <material>
+                <mattext texttype="text/plain">Calidad, Precio, Diversificación</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">85702</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">&amp;nbsp;Consistencia, Sinergia, Optimización Cruzada. &amp;nbsp;La clave en un modelo estratégico consiste en encontrar formas únicas en que se relacionan nuestras actividades de forma que se refuercen entre sí aumentando por tanto la capacidad de diferenciación. Para esto las actividades deben ser consistentes con la estrategia, sinérgicas de forma que se refuercen mutuamente y con refuerzo cruzado para que la combinación ofrezca una eficiencia y eficacia superior.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

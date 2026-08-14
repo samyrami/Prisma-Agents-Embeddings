@@ -1,0 +1,1508 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gf6fcbf8cec51fb03913d5b6a1837df8c" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MAN-563 Test 1</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="7abdcc7d4f94c367525ae2c6662d5a23" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ddf1159a-ab13-43b9-a997-4987138981f9,0bfdacaa-b874-48e6-9176-6b10333e4c89,af25aa05-729c-4858-a2ce-485c76082c0d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>326c2328088528fbbf0c3d42e6a887b3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El control estrat&#xE9;gico&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ddf1159a-ab13-43b9-a997-4987138981f9">
+              <material>
+                <mattext texttype="text/html">Tiene como objetivo principal registrar desviaciones y deficiencias con respecto a la implantaci&#xF3;n de la estrategia, sin incidir en el &#xE9;xito de la estrategia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0bfdacaa-b874-48e6-9176-6b10333e4c89">
+              <material>
+                <mattext texttype="text/html">Debe centrarse en que se ejecute lo planificado</mattext>
+              </material>
+            </response_label>
+            <response_label ident="af25aa05-729c-4858-a2ce-485c76082c0d">
+              <material>
+                <mattext texttype="text/html">Ninguna de las otras opciones es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">0bfdacaa-b874-48e6-9176-6b10333e4c89</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El objetivo principal del control estrat&#xE9;gico es asegurar que las ideas planificadas se ejecuten tal y como estaban previstas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ef7c124cc2dc57c92ee13759ddbf8354" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>212ecf84-4d18-4444-8e98-fcbedda545a9,74c282f0-adee-4fb4-aff1-d0dedac9dbef,2a0ccc55-a152-409a-bd67-d8f45083e3cc,408ebd20-8b16-4d81-a34b-7db68f3ec681</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>5b4faf9911e09cbb37d04b267819dddd</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; afirmaci&#xF3;n es correcta con respecto a la planificaci&#xF3;n estrat&#xE9;gica y la planificaci&#xF3;n t&#xE1;ctica?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="212ecf84-4d18-4444-8e98-fcbedda545a9">
+              <material>
+                <mattext texttype="text/html">Ambas abarcan periodos largos e iguales de tiempo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="74c282f0-adee-4fb4-aff1-d0dedac9dbef">
+              <material>
+                <mattext texttype="text/html">La planificaci&#xF3;n estrat&#xE9;gica abarca periodos m&#xE1;s largos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2a0ccc55-a152-409a-bd67-d8f45083e3cc">
+              <material>
+                <mattext texttype="text/html">La planificaci&#xF3;n t&#xE1;ctica abarca periodos m&#xE1;s largos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="408ebd20-8b16-4d81-a34b-7db68f3ec681">
+              <material>
+                <mattext texttype="text/html">Ninguna de las otras opciones es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">74c282f0-adee-4fb4-aff1-d0dedac9dbef</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Es la planificaci&#xF3;n estrat&#xE9;gica la que abarca esos periodos largos de tiempo. La planificaci&#xF3;n t&#xE1;ctica est&#xE1; enfocada al cumplimiento de los objetivos parciales que se hayan definido y por tanto, su periodo de tiempo es m&#xE1;s corto.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="6a9cb8df88ef40fd163b97c3a2ff3351" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>f170669d-2657-4b26-bc8d-53a516e1cd1f,4f2b6f3f-47e7-425e-a6b7-0f08f5786ed5,b1b4560d-6a38-4490-bd53-59c9568a17f3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>fa14e42890da98cc961be4b32119e99b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Si no existe congruencia entre la cultura y la estrategia&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="f170669d-2657-4b26-bc8d-53a516e1cd1f">
+              <material>
+                <mattext texttype="text/html">Se debe ignorar la cultura para no aumentar el riesgo en la estrategia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4f2b6f3f-47e7-425e-a6b7-0f08f5786ed5">
+              <material>
+                <mattext texttype="text/html">Ignorar la cultura no es positivo, pero no necesariamente incrementa el riesgo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b1b4560d-6a38-4490-bd53-59c9568a17f3">
+              <material>
+                <mattext texttype="text/html">No se debe ignorar la cultura, pues eso siempre pondr&#xE1; en mayor riesgo la estrategia</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b1b4560d-6a38-4490-bd53-59c9568a17f3</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En este tipo de situaciones, ignorar la cultura es una opci&#xF3;n muy peligrosa e incluso inaceptable cuando hay importantes incongruencias.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="1e75944125f13f3884d1c1ac2808da08" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a5078376-6092-489f-b044-a01e1405135e,14a89d78-2595-4704-b207-77562241cc12,e81a3a04-f2c2-4d04-837d-2e2a546603d2,1a4c96e7-1943-4f3f-8441-50bd4f9e1711</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>bdbe27df9257e00127da2f2118a90e30</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La cultura corporativa:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a5078376-6092-489f-b044-a01e1405135e">
+              <material>
+                <mattext texttype="text/html">Brinda una imagen diversificada a los miembros de la organizaci&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="14a89d78-2595-4704-b207-77562241cc12">
+              <material>
+                <mattext texttype="text/html">Puede o no generar una imagen integrada, no es una de las cualidades en las que puede influir</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e81a3a04-f2c2-4d04-837d-2e2a546603d2">
+              <material>
+                <mattext texttype="text/html">Facilita una imagen integrada a todos sus miembros</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1a4c96e7-1943-4f3f-8441-50bd4f9e1711">
+              <material>
+                <mattext texttype="text/html">Ninguna de las otras opciones es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">e81a3a04-f2c2-4d04-837d-2e2a546603d2</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La cultura facilita una imagen integrada de la empresa a todos sus miembros.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="693b73a44959901037a155430ac29da4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7fd351a9-0dab-4e06-8b6c-891251d79634,2bcea031-3d7c-42d2-9f70-38c306ee5434,4f344728-181d-48e7-a562-051dfe21f242,c915baca-604f-4b96-a942-56dbc2aa8d6a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>879234b617027c2571ee70a145605a21</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Una cultura corporativa que prima la &#xE9;tica y los valores morales:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7fd351a9-0dab-4e06-8b6c-891251d79634">
+              <material>
+                <mattext texttype="text/html">Consigue mayor arraigo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2bcea031-3d7c-42d2-9f70-38c306ee5434">
+              <material>
+                <mattext texttype="text/html">Es siempre deseable, pero no va a conseguir un mayor arraigo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4f344728-181d-48e7-a562-051dfe21f242">
+              <material>
+                <mattext texttype="text/html">Seguramente perjudica el arraigo al expulsar a miembros que no se adapten a reglas &#xE9;ticas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c915baca-604f-4b96-a942-56dbc2aa8d6a">
+              <material>
+                <mattext texttype="text/html">Ninguna de las otras opciones es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7fd351a9-0dab-4e06-8b6c-891251d79634</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Este tipo de culturas denotan integridad y preocupaci&#xF3;n por hacer las cosas bien, y su arraigo es mayor en los componentes de la organizaci&#xF3;n, ya que se sienten orgullosos de pertenecer a la misma.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="3c6305a496666be279ec7e315386ba9f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c895ee6c-3cfc-43d1-b420-d8a628dabcaf,d04d9bb6-ea4f-415e-a921-bc43e6aa67b4,85dd3ac0-369b-444f-8be2-5b78d8825487,046353a6-5fac-47f0-a021-e2fd2e2beb53</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>30ce85fcbe185c4fafbe856ad307eec3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El l&#xED;der de la implantaci&#xF3;n de la estrategia debe realizar:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c895ee6c-3cfc-43d1-b420-d8a628dabcaf">
+              <material>
+                <mattext texttype="text/html">El dise&#xF1;o organizativo de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d04d9bb6-ea4f-415e-a921-bc43e6aa67b4">
+              <material>
+                <mattext texttype="text/html">Definir la orientaci&#xF3;n b&#xE1;sica de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85dd3ac0-369b-444f-8be2-5b78d8825487">
+              <material>
+                <mattext texttype="text/html">Asegurar que la cultura se orienta a la excelencia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="046353a6-5fac-47f0-a021-e2fd2e2beb53">
+              <material>
+                <mattext texttype="text/html">Todas las otras opciones son correctas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">046353a6-5fac-47f0-a021-e2fd2e2beb53</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El dise&#xF1;o organizativo, junto con la definici&#xF3;n de la orientaci&#xF3;n b&#xE1;sica de la empresa y el aseguramiento de que la cultura comprometida tiene imbuida la orientaci&#xF3;n hacia la excelencia y el comportamiento &#xE9;tico, son las principales actividades a realizar por el l&#xED;der de la implantaci&#xF3;n de la estrategia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="55a83c8bd5c49fb5673550498da1bb09" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8b2dc2fe-ffd0-49ec-934a-8ae8869ab16e,76ac43f8-64a8-4576-b75d-40d9113078a5,fff8b25c-2881-455b-87a2-1d73b4c9e615</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7cfc655dd25f632ce46c366e32150529</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las estructuras organizativas:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8b2dc2fe-ffd0-49ec-934a-8ae8869ab16e">
+              <material>
+                <mattext texttype="text/html">Son siempre similares entre empresas, independientemente del n&#xFA;mero de productos de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="76ac43f8-64a8-4576-b75d-40d9113078a5">
+              <material>
+                <mattext texttype="text/html">Deben ser diferentes entre empresas monoproducto y multi producto</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fff8b25c-2881-455b-87a2-1d73b4c9e615">
+              <material>
+                <mattext texttype="text/html">Podr&#xED;an ser o no diferentes entre empresas monoproducto o multi producto</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">76ac43f8-64a8-4576-b75d-40d9113078a5</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En funci&#xF3;n de la diversidad que presente la empresa requerir&#xE1; una estructura organizativa diferente. Por tanto, empresas multi - producto requerir&#xE1;n estructuras diferentes que las empresas monoproducto.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="f33e9e4808564bc794f29446b371d491" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7cbd8830-b657-4bd3-8c0a-94ff1dcbdcc0,07408581-a192-4fe0-a51f-4cfb0f6b7dfa,bad7afe5-ab87-4059-8b87-73133964c6c4,22c9094d-5dbb-40c8-956e-9368022a58d5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>85a94b6159a5fbccd1d53a5f431de3c5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La puesta en pr&#xE1;ctica de la estrategia incluye las actividades de dise&#xF1;o y preparaci&#xF3;n de la estrategia.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7cbd8830-b657-4bd3-8c0a-94ff1dcbdcc0">
+              <material>
+                <mattext texttype="text/html">Las actividades de ejecuci&#xF3;n &#xFA;nicamente</mattext>
+              </material>
+            </response_label>
+            <response_label ident="07408581-a192-4fe0-a51f-4cfb0f6b7dfa">
+              <material>
+                <mattext texttype="text/html">Las actividades de dise&#xF1;o, preparaci&#xF3;n y ejecuci&#xF3;n de la estrategia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bad7afe5-ab87-4059-8b87-73133964c6c4">
+              <material>
+                <mattext texttype="text/html">Las actividades de preparaci&#xF3;n y dise&#xF1;o &#xFA;nicamente</mattext>
+              </material>
+            </response_label>
+            <response_label ident="22c9094d-5dbb-40c8-956e-9368022a58d5">
+              <material>
+                <mattext texttype="text/html">Ninguna de las otras opciones es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7cbd8830-b657-4bd3-8c0a-94ff1dcbdcc0</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Precisamente la puesta en pr&#xE1;ctica de la estrategia es una actividad cuyo foco es la acci&#xF3;n. En esta etapa, la empresa ejecuta la estrategia seleccionada (el dise&#xF1;o de la estrategia ya se llev&#xF3; a cabo en etapas anteriores)</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="2387406eeb728a9f25f696645491201b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>bf6be535-2f2a-484d-8c84-e6593cbcc4bb,b0ea5408-f39c-469a-a25e-8833c71b7a80,72a1cc15-7ed1-4e18-8ca9-60e9397d32e8,20bde8d5-d48a-4404-a357-76f5a3f2598d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>f5d356f5d153a42f31a77e6e904ecb41</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La cultura empresarial se refiere a los valores, creencias, tradiciones, estilo de operaci&#xF3;n y ambiente interno de trabajo en la empresa.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="bf6be535-2f2a-484d-8c84-e6593cbcc4bb">
+              <material>
+                <mattext texttype="text/html">Una vez implantada, la direcci&#xF3;n de la empresa debe cuidar que la misma cambie y evolucione en la medida que evoluciona la estructura organizativa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b0ea5408-f39c-469a-a25e-8833c71b7a80">
+              <material>
+                <mattext texttype="text/html">Una vez creada, la cultura persiste y resiste al cambio</mattext>
+              </material>
+            </response_label>
+            <response_label ident="72a1cc15-7ed1-4e18-8ca9-60e9397d32e8">
+              <material>
+                <mattext texttype="text/html">La cultura facilita implantar una nueva estrategia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="20bde8d5-d48a-4404-a357-76f5a3f2598d">
+              <material>
+                <mattext texttype="text/html">Ninguna de las otras opciones es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b0ea5408-f39c-469a-a25e-8833c71b7a80</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La cultura es un fen&#xF3;meno persistente. Una vez creada, la cultura persiste y resiste al cambio. De hecho, la cultura puede ser uno de los principales problemas que se presenten a la hora de implantar una nueva estrategia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="d95924f28c4b1e6b9c2ef0432ff15a9b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>dbd1327c-9d8e-40c6-b9cc-eaf4f617bff8,e65afbac-0842-4a6d-ba60-85f7bb3e1d32,44dfba83-88b5-41a9-9376-e359c3f7278e,060bb817-405f-4d71-8979-35ae87d8cebe</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7d9539ffb25a3feba3abb2d4d53a0f92</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Los estilos de direcci&#xF3;n y liderazgo:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="dbd1327c-9d8e-40c6-b9cc-eaf4f617bff8">
+              <material>
+                <mattext texttype="text/html">No condicionan la puesta en marcha de la estrategia ni las decisiones estrat&#xE9;gicas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e65afbac-0842-4a6d-ba60-85f7bb3e1d32">
+              <material>
+                <mattext texttype="text/html">No condicionan la puesta en marcha de la estrategia, pero s&#xED; las decisiones estrat&#xE9;gicas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="44dfba83-88b5-41a9-9376-e359c3f7278e">
+              <material>
+                <mattext texttype="text/html">Condicionan la puesta en marcha de la estrategia, pero no las decisiones estrat&#xE9;gicas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="060bb817-405f-4d71-8979-35ae87d8cebe">
+              <material>
+                <mattext texttype="text/html">Condicionan tanto la puesta en marcha de la estrategia como las decisiones estrat&#xE9;gicas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">060bb817-405f-4d71-8979-35ae87d8cebe</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El estilo de direcci&#xF3;n y liderazgo condicionan no solo las decisiones estrat&#xE9;gicas, sino tambi&#xE9;n la implantaci&#xF3;n y la puesta en marcha de la misma.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="6f89b5e49de24e9f28c461ab54778f3b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3e014b21-977a-486b-9115-f400d3b1523d,61f7e3ad-4942-4757-9b89-1eda4414e599,bb4689c1-6f8c-4505-9f41-bc9b26670f01,5ba46895-468c-47d2-99cb-573bc1a892bf</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>357132bd5383ca8e5fbb00b9b2d057d2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es un factor necesario para llevar a cabo la implantaci&#xF3;n de una estrategia?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3e014b21-977a-486b-9115-f400d3b1523d">
+              <material>
+                <mattext texttype="text/html">La capacidad directiva para llevar a cabo la estrategia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61f7e3ad-4942-4757-9b89-1eda4414e599">
+              <material>
+                <mattext texttype="text/html">La capacidad de la organizaci&#xF3;n para llevar a cabo la estrategia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bb4689c1-6f8c-4505-9f41-bc9b26670f01">
+              <material>
+                <mattext texttype="text/html">Todas las cualidades mencionadas en otras opciones</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5ba46895-468c-47d2-99cb-573bc1a892bf">
+              <material>
+                <mattext texttype="text/html">Ninguna de las cualidades mencionadas en otras opciones</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">bb4689c1-6f8c-4505-9f41-bc9b26670f01</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La capacidad directiva y de la organizaci&#xF3;n para llevar a cabo la estrategia, permite asegurar un resultado exitoso de la misma.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="258185144d596c5b1e8ea8c3c861f88a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1fd5962d-d6c3-4746-9f5a-b62372ff8095,baa6cabf-d3d7-42f9-bf86-f9cc60f1d465,b9514311-e4c7-4760-a642-da455f22ddd0,01fa3f1a-6749-445a-a67f-5f95bc81f363</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>68b15890f49021ff5e3dd408e73ed248</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La tarea de creaci&#xF3;n de una estrategia implica el desarrollo de un plan de acci&#xF3;n intencionado y una adaptaci&#xF3;n en la medida que se produzcan acontecimientos que as&#xED; lo requieran.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1fd5962d-d6c3-4746-9f5a-b62372ff8095">
+              <material>
+                <mattext texttype="text/html">Un plan de acci&#xF3;n intencionado y una adaptaci&#xF3;n en la medida que se produzcan acontecimientos que as&#xED; lo requieran</mattext>
+              </material>
+            </response_label>
+            <response_label ident="baa6cabf-d3d7-42f9-bf86-f9cc60f1d465">
+              <material>
+                <mattext texttype="text/html">Un plan de acci&#xF3;n intencionado &#xFA;nicamente</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b9514311-e4c7-4760-a642-da455f22ddd0">
+              <material>
+                <mattext texttype="text/html">Reacciones adaptativas &#xFA;nicamente</mattext>
+              </material>
+            </response_label>
+            <response_label ident="01fa3f1a-6749-445a-a67f-5f95bc81f363">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1fd5962d-d6c3-4746-9f5a-b62372ff8095</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En la tarea de creaci&#xF3;n de una estrategia encontramos un elemento intencional (estrategia intencional) y reacciones adaptativas a los cambios que se produzcan.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="55a2c599da138a358895a41a8259a82b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>b3a74967-6c32-4492-ba07-a1d59c6109db,a3f062d4-ef22-42e9-aaab-6c2ae701fb0a,75aec8cf-ea06-45f1-b1be-60e58a0b85ac,59ed93e8-461a-430e-91b5-f6c5cc2da210</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>9d38ba43bbd2ae51883865b57fb1e285</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La forma en la que se desarrollar&#xE1;n los negocios&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="b3a74967-6c32-4492-ba07-a1d59c6109db">
+              <material>
+                <mattext texttype="text/html">Debe ser un compromiso exclusivo de los altos directivos de la empresa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a3f062d4-ef22-42e9-aaab-6c2ae701fb0a">
+              <material>
+                <mattext texttype="text/html">Debe comprometer exclusivamente a los altos directivos y mandos intermedios</mattext>
+              </material>
+            </response_label>
+            <response_label ident="75aec8cf-ea06-45f1-b1be-60e58a0b85ac">
+              <material>
+                <mattext texttype="text/html">Debe ser un compromiso de todos los integrantes de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59ed93e8-461a-430e-91b5-f6c5cc2da210">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">75aec8cf-ea06-45f1-b1be-60e58a0b85ac</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Todos los integrantes de la empresa deben estar comprometidos en la forma en la que se desarrollar&#xE1;n los negocios. La direcci&#xF3;n debe liderar y asegurarse de que ese compromiso se extiende a toda la empresa.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="756cd6adb6523a0f5c6ef95a481057f5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>055d6b88-8712-494b-9f08-9d089aede8ec,d02fffb0-b022-4a38-9c19-103110f8bead,cc021573-4090-490a-adf6-a8df8aca2dd2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>3471c405f8a64f0661c3fbc40c6465f1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La creaci&#xF3;n de una estrategia&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="055d6b88-8712-494b-9f08-9d089aede8ec">
+              <material>
+                <mattext texttype="text/html">Debe involucrar a los directivos, aunque basta con una aceptaci&#xF3;n pasiva de la estrategia impuesta por la compa&#xF1;&#xED;a</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d02fffb0-b022-4a38-9c19-103110f8bead">
+              <material>
+                <mattext texttype="text/html">Debe involucrar a los directivos de forma proactiva</mattext>
+              </material>
+            </response_label>
+            <response_label ident="cc021573-4090-490a-adf6-a8df8aca2dd2">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">d02fffb0-b022-4a38-9c19-103110f8bead</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La creaci&#xF3;n de una estrategia de &#xE9;xito deber&#xED;a ser una tarea prioritaria en cada organizaci&#xF3;n. Los directivos de la empresa deben ser proactivos al modelar la forma en que se desarrollar&#xE1;n los negocios de la compa&#xF1;&#xED;a.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="0b7c52569868d6c34b015bd909694295" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5b7c06c7-8a56-4fb1-82a7-ddf0607221f0,bfe145d3-b654-4715-95d8-5cb0342b34a2,8be72e4d-6c02-43ee-a16e-a8440c07dc2c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>cfbda67de9f8099e9e8152f7d9c0bfb4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Los objetivos estrat&#xE9;gicos deben definirse&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5b7c06c7-8a56-4fb1-82a7-ddf0607221f0">
+              <material>
+                <mattext texttype="text/html">De arriba abajo, pues hay que asegurar la coherencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bfe145d3-b654-4715-95d8-5cb0342b34a2">
+              <material>
+                <mattext texttype="text/html">De abajo a arriba, ya que las unidades inferiores son las que mejor conocen el negocio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8be72e4d-6c02-43ee-a16e-a8440c07dc2c">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5b7c06c7-8a56-4fb1-82a7-ddf0607221f0</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Los objetivos estrat&#xE9;gicos deben definirse de arriba a abajo, sirviendo de gu&#xED;a a los niveles inferiores y asegurando la coherencia entre todas las unidades.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ab8bafc929fbe211e3904295441811c8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>678716f4-7550-4cab-967c-19a7c797f224,5f23ceaa-7743-4d69-af0b-aff412afd516,37fb1f48-7603-48fc-a115-a487da2e6194</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ad2a29c124f8daae753ff17fb08b58d1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La misi&#xF3;n de la empresa est&#xE1; relacionada con el presente.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="678716f4-7550-4cab-967c-19a7c797f224">
+              <material>
+                <mattext texttype="text/html">Est&#xE1; centrada &#xFA;nicamente en el futuro</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5f23ceaa-7743-4d69-af0b-aff412afd516">
+              <material>
+                <mattext texttype="text/html">Est&#xE1; relacionada con el presente</mattext>
+              </material>
+            </response_label>
+            <response_label ident="37fb1f48-7603-48fc-a115-a487da2e6194">
+              <material>
+                <mattext texttype="text/html">Est&#xE1; centrada en describir el pasado</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5f23ceaa-7743-4d69-af0b-aff412afd516</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La misi&#xF3;n de la empresa es lo que la misma trata de hacer en estos momentos para satisfacer las necesidades de sus clientes. Por tanto, es un concepto asociado al presente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="88bde7fbba6c3296566044891655a425" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>dc07e264-0e23-4143-b46f-59cd0ae4815a,361f6627-8ca5-434d-9c88-5e1c67db71aa,1b526ad7-abda-4dde-9cb4-41bf9a739d40</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4e89bcc06bf448ac9308a7db101bc49c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En la definici&#xF3;n de la visi&#xF3;n estrat&#xE9;gica&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="dc07e264-0e23-4143-b46f-59cd0ae4815a">
+              <material>
+                <mattext texttype="text/html">Deben incluirse aspectos de negocio, y tambi&#xE9;n otros relacionados con el medio ambiente, la sociedad&#x2026;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="361f6627-8ca5-434d-9c88-5e1c67db71aa">
+              <material>
+                <mattext texttype="text/html">S&#xF3;lo deben incluirse aspectos de negocio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1b526ad7-abda-4dde-9cb4-41bf9a739d40">
+              <material>
+                <mattext texttype="text/html">S&#xF3;lo deben incluirse aspectos relacionados con el medio ambiente, la sociedad&#x2026;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">dc07e264-0e23-4143-b46f-59cd0ae4815a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En la visi&#xF3;n estrat&#xE9;gica deben incluirse aspectos relacionados con el medio ambiente, con la sociedad, etc.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="b799352151f92f4767bffbf3eb1e9b58" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>34186595-e9f0-43b4-a57c-785f371bbff7,d2e736e5-0da8-4048-b536-80f764bf108b,b92e97ac-9dd9-4391-a8e3-ea584f61a4e1,a3f9fe34-05eb-4487-9d6e-7f0c4917e688</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c59e76050d3bf62053bba08a3caac07c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El an&#xE1;lisis estrat&#xE9;gico&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="34186595-e9f0-43b4-a57c-785f371bbff7">
+              <material>
+                <mattext texttype="text/html">Permite a la empresa decidir los objetivos futuros.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d2e736e5-0da8-4048-b536-80f764bf108b">
+              <material>
+                <mattext texttype="text/html">Define la estrategia de la empresa a partir &#xFA;nicamente del an&#xE1;lisis del entorno.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b92e97ac-9dd9-4391-a8e3-ea584f61a4e1">
+              <material>
+                <mattext texttype="text/html">Identifica oportunidades, amenazas, debilidades y fortalezas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a3f9fe34-05eb-4487-9d6e-7f0c4917e688">
+              <material>
+                <mattext texttype="text/html">Se centra &#xFA;nicamente en entender la situaci&#xF3;n interna de la empresa.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b92e97ac-9dd9-4391-a8e3-ea584f61a4e1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El an&#xE1;lisis estrat&#xE9;gico se centra en identificar las oportunidades y amenazas del entorno y las fortalezas y debilidades internas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="1e2b12585e195f091db6dc886d879782" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6dc8277a-30b9-433d-9a63-a341d0631451,fb30ba53-e7bc-47df-8a58-03ffcf989614,814c88a7-14b1-4c2a-86dc-46360f1a6860,80a8a933-7fc5-4b5f-9ef3-5fb117cf1fe7</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>817ab4a87d405c42933c77bd12fe3e71</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La visi&#xF3;n estrat&#xE9;gica de la empresa.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6dc8277a-30b9-433d-9a63-a341d0631451">
+              <material>
+                <mattext texttype="text/html">Deben conocerla todos los integrantes de la empresa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fb30ba53-e7bc-47df-8a58-03ffcf989614">
+              <material>
+                <mattext texttype="text/html">Basta con que la conozcan los directivos intermedios.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="814c88a7-14b1-4c2a-86dc-46360f1a6860">
+              <material>
+                <mattext texttype="text/html">Basta con que la conozcan los directivos de primer nivel.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="80a8a933-7fc5-4b5f-9ef3-5fb117cf1fe7">
+              <material>
+                <mattext texttype="text/html">Es un elemento b&#xE1;sico de la estrategia, y por tanto debe conocerla &#xFA;nicamente el CEO de la compa&#xF1;&#xED;a.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6dc8277a-30b9-433d-9a63-a341d0631451</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La visi&#xF3;n estrat&#xE9;gica debe ser conocida por todos los integrantes de la empresa, ya que las personas que la componen deben conocer hacia d&#xF3;nde se dirige, facilitando su compromiso con la compa&#xF1;&#xED;a y reforzando el orgullo de sentirse parte de ella.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="0086226173ae4ec5864bacc1f4a7fa9c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>95d0047f-3834-49de-ba3f-0cbb2e242143,582f76fb-3d8c-4d3e-b52c-3781cc7dc035,2cb43925-354e-42d7-a0c7-c5b7a673a104,b676db3b-6364-4fe4-b3ce-23320e9c46ac</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4ffb225eae14c53000a875e90a3a82e1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En la creaci&#xF3;n de una estrategia&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="95d0047f-3834-49de-ba3f-0cbb2e242143">
+              <material>
+                <mattext texttype="text/html">Debe opinar y participar toda la compa&#xF1;&#xED;a.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="582f76fb-3d8c-4d3e-b52c-3781cc7dc035">
+              <material>
+                <mattext texttype="text/html">S&#xF3;lo opinan y se involucran los directivos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2cb43925-354e-42d7-a0c7-c5b7a673a104">
+              <material>
+                <mattext texttype="text/html">Los directivos definen la estrategia, y la estrategia es ajena al resto de la organizaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b676db3b-6364-4fe4-b3ce-23320e9c46ac">
+              <material>
+                <mattext texttype="text/html">Los directivos definen la estrategia, y deben involucrar al resto de la compa&#xF1;&#xED;a en su ejecuci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b676db3b-6364-4fe4-b3ce-23320e9c46ac</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La creaci&#xF3;n de una estrategia, junto con su ejecuci&#xF3;n son funciones directivas esenciales. Corresponde por tanto a los directivos definir la estrategia e involucrar a todos los integrantes de la empresa para que su ejecuci&#xF3;n se ajuste a la definici&#xF3;n realizada.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="7716ce8dc42141cd3c3717e535d06eb4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>36fb83a9-8956-4f66-a43d-0441c508552f,a6aa3ea1-e011-466e-905e-0c15cc7069ce,0be2b497-029a-496c-9415-94b8aa69c326</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>f39e2c092f070cd743e97693d04483d3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En el proceso de creaci&#xF3;n de una estrategia&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="36fb83a9-8956-4f66-a43d-0441c508552f">
+              <material>
+                <mattext texttype="text/html">Se definen los negocios en los que est&#xE1; compitiendo una compa&#xF1;&#xED;a.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a6aa3ea1-e011-466e-905e-0c15cc7069ce">
+              <material>
+                <mattext texttype="text/html">Se definen los negocios en los que competir&#xE1; la compa&#xF1;&#xED;a en un futuro.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0be2b497-029a-496c-9415-94b8aa69c326">
+              <material>
+                <mattext texttype="text/html">No es necesario definir los negocios en los que compite la compa&#xF1;&#xED;a, o competir&#xE1; en un futuro.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">a6aa3ea1-e011-466e-905e-0c15cc7069ce</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En el proceso de creaci&#xF3;n de una estrategia se deben definir los negocios en los que la compa&#xF1;&#xED;a competir&#xE1; en el futuro. De esta forma, se podr&#xE1;n enfocar los recursos para alcanzar una ventaja competitiva.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

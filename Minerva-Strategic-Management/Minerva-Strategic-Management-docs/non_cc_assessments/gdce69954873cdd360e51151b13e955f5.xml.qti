@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gdce69954873cdd360e51151b13e955f5">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>Preguntas sin archivar</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>ElGhguvoE9qi6k3tVsqtKgTfuZZTxmhzmzH0Q9KW</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_state</fieldlabel>
+        <fieldentry>active</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g7b0441ed2329c505fd3f6095c84ab484" title="Pregunta">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4406,6255,4053,4874,7130</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;¿Qué tan útil consideras la experiencia de calificación entre pares de este período? ¿Encontraste valor en evaluar el trabajo de tus compañeros y en recibir retroalimentación del tuyo?&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4406">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6255">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4053">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4874">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7130">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4406</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gdf8bf6b93db4c59ab910415cc0e24185" title="Pregunta">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8637,8703,2321,3645,8851</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;div id="" class="quiz_sortable question_holder " role="region" aria-label="Pregunta" data-group-id=""&gt;
+&lt;div id="question_50210" class="display_question question text_only_question hover"&gt;
+&lt;div class="text"&gt;
+&lt;div id="question_50210_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;A continuación, encontrarás una serie de preguntas a puntuar de 1 a 5, considerándose 5 la mayor puntuación o excelente y 1 la puntuación más baja o pobre.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8637">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8703">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2321">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3645">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8851">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8637</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

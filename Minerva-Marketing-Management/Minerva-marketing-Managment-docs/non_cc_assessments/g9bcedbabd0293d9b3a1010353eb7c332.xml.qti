@@ -1,0 +1,1335 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g9bcedbabd0293d9b3a1010353eb7c332" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MKA 501 (MBA) MKA 502 (EMBA) Test 6 V2</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="78297ac34ec5166ebb9293cd3db05241" title="Pregunta 20">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>fd10cc44-d6b2-47e7-86cc-91d206e7695d,c07d1f05-73ac-47a3-8c04-24586c65c89c,b6778413-41b6-4a86-9c21-d11895cd7e7a,e8811781-bb01-4254-ab5c-df9b369d1edc</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ea3505b75416d558de31b92df6344d45</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">Seg&#xFA;n el texto, &#xBF;por qu&#xE9; estas influencers son valiosas para las marcas?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="fd10cc44-d6b2-47e7-86cc-91d206e7695d">
+              <material>
+                <mattext texttype="text/html">Porque sustituyen al marketing tradicional</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c07d1f05-73ac-47a3-8c04-24586c65c89c">
+              <material>
+                <mattext texttype="text/html">Porque garantizan ventas inmediatas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b6778413-41b6-4a86-9c21-d11895cd7e7a">
+              <material>
+                <mattext texttype="text/html">Porque son cre&#xED;bles y menos costosas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e8811781-bb01-4254-ab5c-df9b369d1edc">
+              <material>
+                <mattext texttype="text/html">Porque controlan los medios</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b6778413-41b6-4a86-9c21-d11895cd7e7a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="03cd380852837f90ab44e0231f46d8e3" title="Pregunta 19">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>84e861a7-d6da-4b9a-a04c-23c03f08cdc3,e28efc67-9a02-4a2d-9f2f-9e58eb450775,e4d3727a-dc8b-482e-900c-b18f301639f5,4bb78d53-86ec-4295-bce7-bef2a053e835</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>b180698bf19f88bb8d1967446f0f6859</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Qui&#xE9;nes son las &#x201C;fashion influentials&#x201D;?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="84e861a7-d6da-4b9a-a04c-23c03f08cdc3">
+              <material>
+                <mattext texttype="text/html">Celebridades internacionales</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e28efc67-9a02-4a2d-9f2f-9e58eb450775">
+              <material>
+                <mattext texttype="text/html">Pol&#xED;ticas y l&#xED;deres econ&#xF3;micos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e4d3727a-dc8b-482e-900c-b18f301639f5">
+              <material>
+                <mattext texttype="text/html">Personas cercanas con influencia cotidiana</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4bb78d53-86ec-4295-bce7-bef2a053e835">
+              <material>
+                <mattext texttype="text/html">Expertos acad&#xE9;micos</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">e4d3727a-dc8b-482e-900c-b18f301639f5</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="1345524f0820ce5860c9b103dd7a2b4c" title="Pregunta 18">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>802124ea-0774-4fbb-946d-62f4f5a6af90,5a4de541-058a-40c3-b23f-e61f7b0ee04f,1a33c669-c383-4425-b752-de9b1e02739d,352b1a12-42c5-4d57-8e2b-1fbab6790118</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4c90fdab0435f214acfac16c4c93956c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Qu&#xE9; limitaci&#xF3;n tecnol&#xF3;gica se menciona actualmente?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="802124ea-0774-4fbb-946d-62f4f5a6af90">
+              <material>
+                <mattext texttype="text/html">Falta de datos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5a4de541-058a-40c3-b23f-e61f7b0ee04f">
+              <material>
+                <mattext texttype="text/html">Incapacidad para medir tr&#xE1;fico</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1a33c669-c383-4425-b752-de9b1e02739d">
+              <material>
+                <mattext texttype="text/html">Dificultad para interpretar contexto y sentimientos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="352b1a12-42c5-4d57-8e2b-1fbab6790118">
+              <material>
+                <mattext texttype="text/html">Falta de plataformas sociales</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1a33c669-c383-4425-b752-de9b1e02739d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="fc0d973596002eb55ab5cda4319c6f1d" title="Pregunta 17">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9c814fa6-af32-4b86-a4f3-b0557f50c551,c8c26b96-4a73-4bed-bef7-4e27ac6bc765,7f1a1549-0f65-4623-b0eb-5f7be6e5a965,98ce8e7c-c549-4cfb-98b9-216eb5ff323b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d7ab5510b62102a662cc2d997a12bb0a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Qu&#xE9; es la &#x201C;mente o cerebro social&#x201D;?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9c814fa6-af32-4b86-a4f3-b0557f50c551">
+              <material>
+                <mattext texttype="text/html">Una red neuronal artificial</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c8c26b96-4a73-4bed-bef7-4e27ac6bc765">
+              <material>
+                <mattext texttype="text/html">Un software de an&#xE1;lisis</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7f1a1549-0f65-4623-b0eb-5f7be6e5a965">
+              <material>
+                <mattext texttype="text/html">La concentraci&#xF3;n de la difusi&#xF3;n en nodos clave</mattext>
+              </material>
+            </response_label>
+            <response_label ident="98ce8e7c-c549-4cfb-98b9-216eb5ff323b">
+              <material>
+                <mattext texttype="text/html">Un nuevo tipo de red social</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7f1a1549-0f65-4623-b0eb-5f7be6e5a965</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="4f3c84738d9e8aa5b331a94830b0c3b5" title="Pregunta 16">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>005fc573-fed7-46a7-866e-8cb30e9205ee,34838b2c-a777-42c7-a68c-0967336cbd43,5e541888-58a8-4271-8191-dcf5a6d667ec,a9a42854-6654-4333-91c7-9eaab8a11e69</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>278b7f97bc7f85b49e7af72e52fc368c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">Seg&#xFA;n Universal McCann, una buena estrategia social debe:</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="005fc573-fed7-46a7-866e-8cb30e9205ee">
+              <material>
+                <mattext texttype="text/html">Saturar de mensajes</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34838b2c-a777-42c7-a68c-0967336cbd43">
+              <material>
+                <mattext texttype="text/html">Mejorar la experiencia al compartir</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5e541888-58a8-4271-8191-dcf5a6d667ec">
+              <material>
+                <mattext texttype="text/html">Eliminar la publicidad</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a9a42854-6654-4333-91c7-9eaab8a11e69">
+              <material>
+                <mattext texttype="text/html">Usar solo influencers</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">34838b2c-a777-42c7-a68c-0967336cbd43</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="6369935a3c502c92aaa88bb43cc67530" title="Pregunta 15">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9872f65f-fe85-45f5-9776-8a60d1bbe608,1d7cc2ee-5c82-4a6c-9fea-f251e79522b6,7cb196ce-8999-4150-873b-7589d3bb68a3,1c8ff2b8-3078-4b15-9640-0ba3c274f902</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>382f65ebaf86f5a4f9ba9da1e970e153</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Qu&#xE9; caracteriza a la red social &#x201C;X&#x201D; (antes Twitter)?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9872f65f-fe85-45f5-9776-8a60d1bbe608">
+              <material>
+                <mattext texttype="text/html">Uso exclusivo de v&#xED;deos largos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1d7cc2ee-5c82-4a6c-9fea-f251e79522b6">
+              <material>
+                <mattext texttype="text/html">Microblogs de 140 caracteres</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7cb196ce-8999-4150-873b-7589d3bb68a3">
+              <material>
+                <mattext texttype="text/html">Comunicaci&#xF3;n privada</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1c8ff2b8-3078-4b15-9640-0ba3c274f902">
+              <material>
+                <mattext texttype="text/html">Contenido ef&#xED;mero</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1d7cc2ee-5c82-4a6c-9fea-f251e79522b6</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="0019d25dda74dc1d6b4c4b147ba70e6c" title="Pregunta 14">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>12987d69-8a62-4979-91ea-ea7c51a41df4,c392eae0-5085-4184-a5ac-5ae0f5ca8f73,c56145a5-974e-406a-967f-f89ea0731179,5c694f28-039c-480c-aedb-560f9b831fac</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>db6fb4bd02375df179245db5b7285932</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Por qu&#xE9; el boca a boca es m&#xE1;s poderoso hoy?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="12987d69-8a62-4979-91ea-ea7c51a41df4">
+              <material>
+                <mattext texttype="text/html">Porque es m&#xE1;s barato</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c392eae0-5085-4184-a5ac-5ae0f5ca8f73">
+              <material>
+                <mattext texttype="text/html">Porque tiene distribuci&#xF3;n masiva gracias a las redes</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c56145a5-974e-406a-967f-f89ea0731179">
+              <material>
+                <mattext texttype="text/html">Porque lo controlan las marcas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5c694f28-039c-480c-aedb-560f9b831fac">
+              <material>
+                <mattext texttype="text/html">Porque sustituye al contenido audiovisual</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c392eae0-5085-4184-a5ac-5ae0f5ca8f73</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="f95442249202b7bbc595e0d3885a7a70" title="Pregunta 13">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>25413bcb-e3eb-4bff-9e8f-5a9e2204803d,bc25c063-57c7-4dbb-a492-57f38b1f1ad7,5991b5ab-4d78-4cf9-afe7-f7358efc56a0,9ebca1eb-5e74-44a9-b58a-99a68a8762a1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>5da73bad7ba50951436fe78ef07359be</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Por qu&#xE9; las redes sociales desaf&#xED;an al marketing tradicional?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="25413bcb-e3eb-4bff-9e8f-5a9e2204803d">
+              <material>
+                <mattext texttype="text/html">Porque eliminan la publicidad</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bc25c063-57c7-4dbb-a492-57f38b1f1ad7">
+              <material>
+                <mattext texttype="text/html">Porque reducen el uso de Internet</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5991b5ab-4d78-4cf9-afe7-f7358efc56a0">
+              <material>
+                <mattext texttype="text/html">Porque cambian c&#xF3;mo los consumidores se informan y deciden</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9ebca1eb-5e74-44a9-b58a-99a68a8762a1">
+              <material>
+                <mattext texttype="text/html">Porque sustituyen a las marcas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5991b5ab-4d78-4cf9-afe7-f7358efc56a0</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="bf1177e342150f01d0f02796bb2b95f6" title="Pregunta 12">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>e8add851-07f3-4cbb-8d3f-880b0b6bd5b9,e0adef4c-a0e1-4696-aa4c-13c0b1e39d6f,c0944190-f306-4bdb-b541-d24cf8965a5a,61e3959b-2a1d-4910-a3a9-1015a61cb9f3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d127b350c96eb72168349cbc4488bf44</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Qu&#xE9; es el crowdsourcing seg&#xFA;n el texto?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="e8add851-07f3-4cbb-8d3f-880b0b6bd5b9">
+              <material>
+                <mattext texttype="text/html">Una t&#xE9;cnica publicitaria</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e0adef4c-a0e1-4696-aa4c-13c0b1e39d6f">
+              <material>
+                <mattext texttype="text/html">Una encuesta online</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c0944190-f306-4bdb-b541-d24cf8965a5a">
+              <material>
+                <mattext texttype="text/html">Participaci&#xF3;n masiva de voluntarios para resolver problemas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61e3959b-2a1d-4910-a3a9-1015a61cb9f3">
+              <material>
+                <mattext texttype="text/html">Un modelo de negocio cerrado</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c0944190-f306-4bdb-b541-d24cf8965a5a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="a577cb558932bfe09be491d7d36a3f6c" title="Pregunta 11">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>fe6bae5c-3827-4514-b6b6-846b01d0a52a,3a1804d9-7e9b-4ce3-ac1e-4e5d9fcb832d,d66140a3-64e7-473f-9e89-d67e9fc63b43,74b7a57e-2e13-4e64-9c7e-6588e98f83ce</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d03a901d8b1e341b3ae70d80b06dd762</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Qu&#xE9; concepto explica la creaci&#xF3;n de conocimiento colectivo seg&#xFA;n Surowiecki?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="fe6bae5c-3827-4514-b6b6-846b01d0a52a">
+              <material>
+                <mattext texttype="text/html">Marketing relacional</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3a1804d9-7e9b-4ce3-ac1e-4e5d9fcb832d">
+              <material>
+                <mattext texttype="text/html">Sabidur&#xED;a de la multitud</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d66140a3-64e7-473f-9e89-d67e9fc63b43">
+              <material>
+                <mattext texttype="text/html">Publicidad viral</mattext>
+              </material>
+            </response_label>
+            <response_label ident="74b7a57e-2e13-4e64-9c7e-6588e98f83ce">
+              <material>
+                <mattext texttype="text/html">Comunicaci&#xF3;n corporativa</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3a1804d9-7e9b-4ce3-ac1e-4e5d9fcb832d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="b684b954ee357dd7ee6fd197743bd7ab" title="Pregunta 10">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>803a060a-57b0-46bc-b2b8-5797f454551d,7ef014ba-c1cc-4d47-b7d6-3041acbe02c7,67b5322e-aa52-48a6-b7e2-8e2ec89472bc,17c58206-8ded-4fa8-a2be-37c6736d7bae</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6165ae704f8b82e2a2f994c7341989bf</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Cu&#xE1;l es una regla b&#xE1;sica de Wikipedia?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="803a060a-57b0-46bc-b2b8-5797f454551d">
+              <material>
+                <mattext texttype="text/html">Permitir opiniones personales</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7ef014ba-c1cc-4d47-b7d6-3041acbe02c7">
+              <material>
+                <mattext texttype="text/html">Basarse en investigaciones nuevas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67b5322e-aa52-48a6-b7e2-8e2ec89472bc">
+              <material>
+                <mattext texttype="text/html">Mantener un punto de vista neutro</mattext>
+              </material>
+            </response_label>
+            <response_label ident="17c58206-8ded-4fa8-a2be-37c6736d7bae">
+              <material>
+                <mattext texttype="text/html">Priorizar expertos sobre usuarios</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">67b5322e-aa52-48a6-b7e2-8e2ec89472bc</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="08edba4eff78438cf8435bf0a70e1c59" title="Pregunta 9">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d59031a9-f5a6-4142-9f24-3a9cfb2b06da,77227b7c-370e-4a91-ab19-a71907a8c164,dcbae14e-4a8e-42b4-88ad-59fb126de015,0abfa2ca-1990-4cb8-b69c-79acf4882a37</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>8ac491bd94e5a159e0db7877a8fbfee7</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Qu&#xE9; significa el t&#xE9;rmino &#x201C;wiki&#x201D;?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d59031a9-f5a6-4142-9f24-3a9cfb2b06da">
+              <material>
+                <mattext texttype="text/html">Comunidad cerrada</mattext>
+              </material>
+            </response_label>
+            <response_label ident="77227b7c-370e-4a91-ab19-a71907a8c164">
+              <material>
+                <mattext texttype="text/html">P&#xE1;gina personal</mattext>
+              </material>
+            </response_label>
+            <response_label ident="dcbae14e-4a8e-42b4-88ad-59fb126de015">
+              <material>
+                <mattext texttype="text/html">Palabra hawaiana que significa &#x201C;r&#xE1;pido&#x201D;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0abfa2ca-1990-4cb8-b69c-79acf4882a37">
+              <material>
+                <mattext texttype="text/html">Software de pago</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">dcbae14e-4a8e-42b4-88ad-59fb126de015</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="92d734fb56bab42cbb8986f3afc4ea43" title="Pregunta 8">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>fde38370-4e9e-461f-9029-c11c34554656,359c80a0-a240-4e53-a75e-6f222809b929,145f2063-badc-4fbf-9731-4c8111ec22da,227bbfb4-0eed-40fd-9a29-44ae3ea2a5c9</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e512e62e5c4aef7a59d46580145b8650</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Qu&#xE9; error grave se menciona respecto a la participaci&#xF3;n de empresas en blogs?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="fde38370-4e9e-461f-9029-c11c34554656">
+              <material>
+                <mattext texttype="text/html">No actualizar el contenido</mattext>
+              </material>
+            </response_label>
+            <response_label ident="359c80a0-a240-4e53-a75e-6f222809b929">
+              <material>
+                <mattext texttype="text/html">Usar im&#xE1;genes corporativas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="145f2063-badc-4fbf-9731-4c8111ec22da">
+              <material>
+                <mattext texttype="text/html">No identificar los mensajes como provenientes de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="227bbfb4-0eed-40fd-9a29-44ae3ea2a5c9">
+              <material>
+                <mattext texttype="text/html">Publicar demasiados art&#xED;culos</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">145f2063-badc-4fbf-9731-4c8111ec22da</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="3c44921ba044401d751a76670e8e738c" title="Pregunta 7">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>82861d56-5009-489c-9082-10aaba9747e3,31acbba2-f020-49d2-90c9-6dffbe7f5e40,5ec15d4a-b477-4c5f-8ce7-0caabb06a65b,738cb04d-d7eb-4d21-a942-a2700ddb6ab3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>3f26a5629a8b008d13ce31db8ee9de15</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Por qu&#xE9; son importantes los blogs para el marketing?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="82861d56-5009-489c-9082-10aaba9747e3">
+              <material>
+                <mattext texttype="text/html">Porque sustituyen a la televisi&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="31acbba2-f020-49d2-90c9-6dffbe7f5e40">
+              <material>
+                <mattext texttype="text/html">Porque influyen en decisiones de compra y venden publicidad</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5ec15d4a-b477-4c5f-8ce7-0caabb06a65b">
+              <material>
+                <mattext texttype="text/html">Porque son gratuitos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="738cb04d-d7eb-4d21-a942-a2700ddb6ab3">
+              <material>
+                <mattext texttype="text/html">Porque eliminan la competencia</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">31acbba2-f020-49d2-90c9-6dffbe7f5e40</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="218583d109f2fb26f6911b75f579f259" title="Pregunta 6">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c2d9dcee-e1aa-4712-b4ad-a67ad0249fa3,c4ee1032-c9b4-4e68-a392-a40682182ba2,c08689b7-abaf-4e44-8c2c-ebb3c144b05a,ebb65ab0-21e6-4748-97ed-5306d45219d0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7a5eaa2db36ab923316ca10a996f9659</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Qu&#xE9; son los blogs en su origen?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c2d9dcee-e1aa-4712-b4ad-a67ad0249fa3">
+              <material>
+                <mattext texttype="text/html">Redes sociales de v&#xED;deo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c4ee1032-c9b4-4e68-a392-a40682182ba2">
+              <material>
+                <mattext texttype="text/html">Plataformas publicitarias</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c08689b7-abaf-4e44-8c2c-ebb3c144b05a">
+              <material>
+                <mattext texttype="text/html">Diarios personales online</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ebb65ab0-21e6-4748-97ed-5306d45219d0">
+              <material>
+                <mattext texttype="text/html">Foros empresariales</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c08689b7-abaf-4e44-8c2c-ebb3c144b05a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="593a14ce90e849268d399fc884c27bb3" title="Pregunta 5">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>68340093-1f1b-4fb6-bcf8-ee895097c5ed,599e76ce-2d5a-492c-bb5e-0ac249f6e182,155a06a2-6955-4884-a2b3-7530ddd5c435,aeccfce2-b85f-4594-b905-9c0526fa986d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4ec63ed1443f06d55f2563d586f7f5a2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Por qu&#xE9; las marcas deben dejar de hablar bien de s&#xED; mismas?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="68340093-1f1b-4fb6-bcf8-ee895097c5ed">
+              <material>
+                <mattext texttype="text/html">Porque est&#xE1; prohibido legalmente</mattext>
+              </material>
+            </response_label>
+            <response_label ident="599e76ce-2d5a-492c-bb5e-0ac249f6e182">
+              <material>
+                <mattext texttype="text/html">Porque los usuarios no lo creen</mattext>
+              </material>
+            </response_label>
+            <response_label ident="155a06a2-6955-4884-a2b3-7530ddd5c435">
+              <material>
+                <mattext texttype="text/html">Porque es muy costoso</mattext>
+              </material>
+            </response_label>
+            <response_label ident="aeccfce2-b85f-4594-b905-9c0526fa986d">
+              <material>
+                <mattext texttype="text/html">Porque no genera tr&#xE1;fico web</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">599e76ce-2d5a-492c-bb5e-0ac249f6e182</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="c90205280153b34e674e8cc38fc19b4c" title="Pregunta 4">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>bef75821-033d-4850-9685-3c08c9cc3e9c,7c89ea10-228c-4251-a269-00fb22353ff2,e0e623ba-d2e5-4bbb-8bc9-dd4e72af184c,26a97407-773f-4f2c-88ea-b3fa7c1c0335</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>3b1e1937b3c0964e6d84f8eb60506787</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">Seg&#xFA;n el texto, la influencia digital depende principalmente de:</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="bef75821-033d-4850-9685-3c08c9cc3e9c">
+              <material>
+                <mattext texttype="text/html">La frecuencia de publicaci&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7c89ea10-228c-4251-a269-00fb22353ff2">
+              <material>
+                <mattext texttype="text/html">El presupuesto publicitario</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e0e623ba-d2e5-4bbb-8bc9-dd4e72af184c">
+              <material>
+                <mattext texttype="text/html">El volumen de mensajes emitidos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="26a97407-773f-4f2c-88ea-b3fa7c1c0335">
+              <material>
+                <mattext texttype="text/html">La participaci&#xF3;n en la conversaci&#xF3;n</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">26a97407-773f-4f2c-88ea-b3fa7c1c0335</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="1ce265c295d691e16c8c4b2968f16a9f" title="Pregunta 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>22871726-0d78-4fc5-b722-595d8078fb6a,73c7d074-b349-4b94-89bd-7fc502fc3451,6b23cd80-da25-4aa7-879b-0806f0f6508d,135e3c13-586c-47d9-8992-e4b877ca0c67</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>34f33b6ff50f3e55169aa85dfde06add</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;Qu&#xE9; diferencia fundamental existe entre el modelo push y el modelo pull?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="22871726-0d78-4fc5-b722-595d8078fb6a">
+              <material>
+                <mattext texttype="text/html">El coste de la publicidad</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73c7d074-b349-4b94-89bd-7fc502fc3451">
+              <material>
+                <mattext texttype="text/html">La tecnolog&#xED;a utilizada</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6b23cd80-da25-4aa7-879b-0806f0f6508d">
+              <material>
+                <mattext texttype="text/html">Qui&#xE9;n decide cu&#xE1;ndo y qu&#xE9; contenido consumir</mattext>
+              </material>
+            </response_label>
+            <response_label ident="135e3c13-586c-47d9-8992-e4b877ca0c67">
+              <material>
+                <mattext texttype="text/html">El tipo de producto anunciado</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6b23cd80-da25-4aa7-879b-0806f0f6508d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="aeba264008641c004298598305f83172" title="Pregunta 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>87bd1fb5-1429-4fac-94bd-3e2e8c278bd9,9de421ed-8d80-4f23-82c8-117fde06b999,b70abc87-71f1-485f-b97e-89e5eb0c56d3,9324ad37-b882-4757-bf6b-aa1dbc21bb7a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e0da8914e0dae1e67e67bce880648c50</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">En el nuevo paradigma digital, &#xBF;qui&#xE9;n controla el consumo de contenidos?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="87bd1fb5-1429-4fac-94bd-3e2e8c278bd9">
+              <material>
+                <mattext texttype="text/html">Las marcas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9de421ed-8d80-4f23-82c8-117fde06b999">
+              <material>
+                <mattext texttype="text/html">Los medios tradicionales</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b70abc87-71f1-485f-b97e-89e5eb0c56d3">
+              <material>
+                <mattext texttype="text/html">Los influencers</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9324ad37-b882-4757-bf6b-aa1dbc21bb7a">
+              <material>
+                <mattext texttype="text/html">Los usuarios</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9324ad37-b882-4757-bf6b-aa1dbc21bb7a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="0e3504e1f4f19297726ed6c4d5e1d318" title="Pregunta 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d502b3e5-1f9e-4cbd-a4ce-3ddfe0c1eede,3710358f-25dd-46be-87c8-e040453a04e6,7dcd3ae2-b947-44d2-bef0-fb733ff20c4f,44d969dd-3e97-4d07-bbb2-28edd698c7b0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>8ee262d5ec4f68389ca1b489f3a8d17c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&#xBF;C&#xF3;mo se caracterizaba el marketing antes de la llegada de las redes sociales y la web social?</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d502b3e5-1f9e-4cbd-a4ce-3ddfe0c1eede">
+              <material>
+                <mattext texttype="text/html">Era interactivo y participativo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3710358f-25dd-46be-87c8-e040453a04e6">
+              <material>
+                <mattext texttype="text/html">Se basaba en la conversaci&#xF3;n con el consumidor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7dcd3ae2-b947-44d2-bef0-fb733ff20c4f">
+              <material>
+                <mattext texttype="text/html">Funcionaba como un modelo push e interruptivo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="44d969dd-3e97-4d07-bbb2-28edd698c7b0">
+              <material>
+                <mattext texttype="text/html">Depend&#xED;a del boca a boca digital</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7dcd3ae2-b947-44d2-bef0-fb733ff20c4f</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>

@@ -1,0 +1,1682 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gf86e043a07ebe43f51c5e3a303035963" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MKA 501 (MBA) / MKA 502 (EMBA) Test 5</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="39bbb062cd5dd04578088316d3bcdac7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>0e5cfc56-4f21-4959-a186-e3667d1dcf1d,4ca33dfa-3f3d-4861-b7a5-98abf83bb65c,b0e7f07d-4ecd-4766-813c-921381b3bf3a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7a670be1796231834c5d1d535358464c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;El ROI debe entenderse como?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="0e5cfc56-4f21-4959-a186-e3667d1dcf1d">
+              <material>
+                <mattext texttype="text/html">La relaci&#xF3;n entre los objetivos alcanzados por la acci&#xF3;n de marketing y los recursos utilizados.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4ca33dfa-3f3d-4861-b7a5-98abf83bb65c">
+              <material>
+                <mattext texttype="text/html">La ganancia obtenida, como el incremento de los ingresos, del cash flow o del beneficio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b0e7f07d-4ecd-4766-813c-921381b3bf3a">
+              <material>
+                <mattext texttype="text/html">La ganancia obtenida, menos los recursos destinados a ello.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b0e7f07d-4ecd-4766-813c-921381b3bf3a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El ROI es una medida financiera, que expresa la ganancia neta obtenida por la inversi&#xF3;n, para lo cual es necesario restarle a &#xE9;sta el coste de la inversi&#xF3;n realizada para obtenerla.Suele expresarse como un ratio, para lo cual es necesario dividir el resultado de la resta anterior por el coste de la inversi&#xF3;n, lo que facilita hacer comparaciones entre estrategias distintas. As&#xED;, puede, por ejemplo, obtenerse una mayor ganancia con la estrategia A que con la B, pero con un ROI menor, porque para ello ser&#xED;a necesario destinar un mayor n&#xFA;mero de recursos a la estrategia A, que no son proporcionales con la diferencia de ganancia obtenida.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="b42f67fdbcb336fd1a60156c788b0a19" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d3cbd40f-6dab-4dee-a23e-db37a5cac589,8585471b-1f67-4267-9025-9b03e82ebc49,1196c2fc-ca90-4fee-a934-6a090cb02060,06550dfc-a0d3-4393-875e-a19dc3891e65</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6fc3ac65bbbf038458e0f94b2a579d71</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En relaci&#xF3;n al Briefing y sus caracter&#xED;sticas como importante herramienta publicitaria, se&#xF1;ala con V o F las siguientes afirmaciones: Se&#xF1;ala como V o F las siguientes afirmaciones:&lt;br&gt;- Mitificado por todos, restringe la posibilidad de la verdadera creatividad.&lt;br&gt;- Un buen Briefing debe ser el &#x201C;fruto&#x201D; de la experiencia del responsable de marketing del anunciante.&lt;br&gt;- Verbal o escrito sirve para evitar equivocaciones en el punto de partida.&lt;br&gt;- Es la referencia aceptada por todos para juzgar la propuesta creativa de la agencia.&lt;br&gt;- El Briefing ofrece un cuadro exhaustivo y coherente de la situaci&#xF3;n de la comercializaci&#xF3;n y en el que se definan las competencias de la Agencia.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d3cbd40f-6dab-4dee-a23e-db37a5cac589">
+              <material>
+                <mattext texttype="text/html">FFVVV</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8585471b-1f67-4267-9025-9b03e82ebc49">
+              <material>
+                <mattext texttype="text/html">VFVFV</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1196c2fc-ca90-4fee-a934-6a090cb02060">
+              <material>
+                <mattext texttype="text/html">FVVVF</mattext>
+              </material>
+            </response_label>
+            <response_label ident="06550dfc-a0d3-4393-875e-a19dc3891e65">
+              <material>
+                <mattext texttype="text/html">VFFFV</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">d3cbd40f-6dab-4dee-a23e-db37a5cac589</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Es falso que est&#xE9; mitificado por todos, que restringe la posibilidad de la verdadera creatividad y que un buen Briefing deba ser el fruto de la experiencia del responsable de marketing del anunciante.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="243286917aceef09517a742460057269" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>98b116a0-1c46-49dc-a678-78872a185442,39e55b86-2173-414a-adb6-cc42b144da4e,265321da-c189-4578-83f3-2ec45d39c518,fc0fd28d-e628-48bc-9d25-ddc7fd93cd3c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7b0c80fe7a976ec8a45f7253661631e2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El Briefing, considerado como el documento donde, con mayor o menor acierto, se expresan los objetivos de marketing y comunicaci&#xF3;n que se pretenden alcanzar con la campa&#xF1;a y toda la informaci&#xF3;n/conocimiento necesarios y pertinentes que debemos conocer para alcanzarlos, es potestad de:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="98b116a0-1c46-49dc-a678-78872a185442">
+              <material>
+                <mattext texttype="text/html">Anunciante y Agencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="39e55b86-2173-414a-adb6-cc42b144da4e">
+              <material>
+                <mattext texttype="text/html">Agencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="265321da-c189-4578-83f3-2ec45d39c518">
+              <material>
+                <mattext texttype="text/html">La Agencia de Medios</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fc0fd28d-e628-48bc-9d25-ddc7fd93cd3c">
+              <material>
+                <mattext texttype="text/html">Anunciante</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">fc0fd28d-e628-48bc-9d25-ddc7fd93cd3c</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El Briefing as&#xED; descrito es potestad del Anunciante, aunque la Agencia pueda ganarse la confianza del Anunciante y aportar valor a medida que la relaci&#xF3;n se estrecha entre ambos; pero es potestad del Anunciante.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="837ff6fa2848ff719e2bb1db69ce4b9b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2800de79-935c-4ef0-ac63-ea04c463a5fb,226f948a-a4b2-403f-a6b9-346eb352eed3,a2314cb0-e6e9-4926-85c1-21aca82561c0,d229153e-b6fa-4856-895c-27453098d143</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>9fc721708eced6c53d776cb9a037b61e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Los componentes de la eficacia de la comunicaci&#xF3;n publicitaria son: Se&#xF1;ala como V o F las siguientes afirmaciones:&lt;br&gt;- El presupuesto disponible para la campa&#xF1;a.&lt;br&gt;- El planteamiento del problema, reto u oportunidad de comunicaci&#xF3;n.&lt;br&gt;- La creatividad como &#x201C;soluci&#xF3;n&#x201D; a ese problema, reto u oportunidad.&lt;br&gt;- El Plan de Medios y/o Plan de Acciones.&lt;br&gt;- El tipo de agencia que nos proporciona el servicio.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2800de79-935c-4ef0-ac63-ea04c463a5fb">
+              <material>
+                <mattext texttype="text/html">VVVVV</mattext>
+              </material>
+            </response_label>
+            <response_label ident="226f948a-a4b2-403f-a6b9-346eb352eed3">
+              <material>
+                <mattext texttype="text/html">VFVFV</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a2314cb0-e6e9-4926-85c1-21aca82561c0">
+              <material>
+                <mattext texttype="text/html">FVVVF</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d229153e-b6fa-4856-895c-27453098d143">
+              <material>
+                <mattext texttype="text/html">VFFFF</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">a2314cb0-e6e9-4926-85c1-21aca82561c0</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Los tres componentes de la eficacia son: el Planteamiento del problema, reto u oportunidad de comunicaci&#xF3;n; la Creatividad como &#x201C;soluci&#xF3;n&#x201D; a ese problema, reto u oportunidad; y el Plan de Medios y/o Plan de Acciones. Ni el presupuesto disponible, ni el tipo de agencia deben ser factores de eficacia y eficiencia, aunque puedan serlo si no hace bien su trabajo, la agencia, y si no se destinan suficientes recursos, el presupuesto.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="0803fa82fd9712b708ddd88bc076de99" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2e793173-0494-4778-92cc-5477c596d9f0,aa4b4802-8e7a-48e8-8b6e-ec40a6019c12,cec9374d-27df-4b59-b7db-2b83d55e2e59</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>dc08d1cacede7e883c7d40393a8080c2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l debe ser el objetivo &#xFA;ltimo de toda acci&#xF3;n de marketing communications?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2e793173-0494-4778-92cc-5477c596d9f0">
+              <material>
+                <mattext texttype="text/html">Modificar o reforzar actitudes y/o comportamientos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="aa4b4802-8e7a-48e8-8b6e-ec40a6019c12">
+              <material>
+                <mattext texttype="text/html">Contribuir a obtener una ganancia y por lo tanto vender m&#xE1;s.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="cec9374d-27df-4b59-b7db-2b83d55e2e59">
+              <material>
+                <mattext texttype="text/html">Generar conocimiento.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">aa4b4802-8e7a-48e8-8b6e-ec40a6019c12</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El fin &#xFA;ltimo es el de contribuir a una ganancia, que es el objetivo de todas las acciones emprendidas por cualquier organizaci&#xF3;n mercantil. Los objetivos espec&#xED;ficos de una acci&#xF3;n de marketing pueden ser los de reforzar o modificar una o varias variables intermedias, una de las cu&#xE1;les ser&#xED;a el conocimiento, pero siempre como un paso para contribuir a los objetivos de negocio. Nunca debe perderse este fin de vista.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="d5df3efbe093caed0e5ed65c925f983f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4f64ccbf-fe5e-48b9-9f51-1c6731840911,1d50183d-beb2-4f70-9bdd-d5cc32dc3369,fcb38222-2a7b-4efe-8f20-eb8a8c386630,ce32d150-b300-46bf-9314-a2a89bb78e66</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>278d334b015dd2c0c0e6c7baf0b944a4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l de las siguientes definiciones es falsa?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4f64ccbf-fe5e-48b9-9f51-1c6731840911">
+              <material>
+                <mattext texttype="text/html">Medio: veh&#xED;culo de la comunicaci&#xF3;n publicitaria; est&#xE1; compuesto por un conjunto de soportes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1d50183d-beb2-4f70-9bdd-d5cc32dc3369">
+              <material>
+                <mattext texttype="text/html">Briefing: documento de la agencia donde el anunciante entrega la informaci&#xF3;n necesaria para el desarrollo de la campa&#xF1;a.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fcb38222-2a7b-4efe-8f20-eb8a8c386630">
+              <material>
+                <mattext texttype="text/html">Anunciante: persona f&#xED;sica o jur&#xED;dica en cuyo inter&#xE9;s se realiza una acci&#xF3;n publicitaria.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ce32d150-b300-46bf-9314-a2a89bb78e66">
+              <material>
+                <mattext texttype="text/html">Jingle: melod&#xED;a publicitaria.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1d50183d-beb2-4f70-9bdd-d5cc32dc3369</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El Briefing es el documento donde el anunciante entrega la informaci&#xF3;n necesaria para el desarrollo de la campa&#xF1;a, por tanto no es un documento propio de la agencia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="de284fbe14745aeb7805f4406d79b540" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7e1041bd-4c61-49e8-8b9e-223829317883,399a9b31-6fb4-49fc-a320-3aa7700ddbbe,e56aa057-21e1-430f-8cc1-73f8e9c41081,e4bcd5d6-32b5-4848-8689-7bb7952198d4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d5cf44248fb5dddb5a2b5b26fd27176a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La industria publicitaria est&#xE1; compuesta fundamentalmente por:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7e1041bd-4c61-49e8-8b9e-223829317883">
+              <material>
+                <mattext texttype="text/html">Los anunciantes; las agencias de modelos; los medios; y las imprentas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="399a9b31-6fb4-49fc-a320-3aa7700ddbbe">
+              <material>
+                <mattext texttype="text/html">Los anunciantes; las agencias creativas y de medios; los medios; y el p&#xFA;blico objetivo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e56aa057-21e1-430f-8cc1-73f8e9c41081">
+              <material>
+                <mattext texttype="text/html">Los anunciantes; las agencias creativas y de medios; y el p&#xFA;blico objetivo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e4bcd5d6-32b5-4848-8689-7bb7952198d4">
+              <material>
+                <mattext texttype="text/html">Los anunciantes; las agencias creativas, de medios y otras agencias; los medios; y el p&#xFA;blico objetivo.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">e4bcd5d6-32b5-4848-8689-7bb7952198d4</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La denominada &#x201C;industria publicitaria&#x201D; incluye todas las acciones en los medios convencionales y no convencionales y, por supuesto, a los protagonistas de las mismas: ANUNCIANTES, AGENCIAS (Creativas, de Medios, Especializadas), MEDIOS, EMPRESAS RELACIONADAS (Imprentas, Productoras audiovisuales, Estudios fotogr&#xE1;ficos, Agencias de modelos, etc.) y el &#x201C;actor&#x201D; m&#xE1;s importante, el P&#xDA;BLICO OBJETIVO, para el cual se realizan todas esas acciones.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ce1d661c6f3580dfc2f6d669c5f20bbc" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3bfac591-14ce-44a5-838f-fa173943cb6b,c7d8c6ae-c5e8-4764-9c7c-8888a67766d3,bc01c143-1e2b-42a4-9026-1c0155c9136f,24f1d4cc-57a1-4c77-b0b3-8cbf114a68b9</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>37d5a771b3bb82d792452fe3cef34fd0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Con el desarrollo y difusi&#xF3;n de la tecnolog&#xED;a digital los consumidores han ganado el control del mercado y, en particular, el &#xE1;rea de la comunicaci&#xF3;n. Se&#xF1;ale la afirmaci&#xF3;n incorrecta:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3bfac591-14ce-44a5-838f-fa173943cb6b">
+              <material>
+                <mattext texttype="text/html">Aunque se ha producido un aumento del n&#xFA;mero de "touch points" o puntos de relaci&#xF3;n, en el mercado se mantienen los roles como viene siendo habitual: "push-pull".</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c7d8c6ae-c5e8-4764-9c7c-8888a67766d3">
+              <material>
+                <mattext texttype="text/html">Los anunciantes siguen utilizando comunicaciones "push" dirigidas a los consumidores a trav&#xE9;s de medios tradicionales (on) y de nuevas formas de comunicaci&#xF3;n (off).</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bc01c143-1e2b-42a4-9026-1c0155c9136f">
+              <material>
+                <mattext texttype="text/html">Los consumidores desarrollan diferentes variaciones electr&#xF3;nicas de WOM (Redes Sociales).</mattext>
+              </material>
+            </response_label>
+            <response_label ident="24f1d4cc-57a1-4c77-b0b3-8cbf114a68b9">
+              <material>
+                <mattext texttype="text/html">Los consumidores tienen la capacidad de acceder ("pull") a informaci&#xF3;n del anunciante y del mercado.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3bfac591-14ce-44a5-838f-fa173943cb6b</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La afirmaci&#xF3;n incorrecta es la que has se&#xF1;alado, precisamente a consecuencia de haberse producido un aumento del n&#xFA;mero de &#x201C;touch points&#x201D; o puntos de relaci&#xF3;n lo que se ha generado es un nuevo tipo de mercado: &#x201C;push-pull&#x201D; donde los roles del anunciante y de los consumidores han cambiado sensiblemente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="248e6250fe40da2f020f83a870c58a07" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a2fa91c2-6dce-4348-9ab8-082a744dd284,4cd2c5a1-7046-4f27-9648-f1d4ab322e31,7270b53f-ce92-4720-abf5-dd2aea7f2c37,8ebd71e1-1a64-494e-8ec5-448d1e4c5813</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>2bf39446602125f557970fd939139f39</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;A qu&#xE9; definici&#xF3;n responde la publicidad como concepto?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a2fa91c2-6dce-4348-9ab8-082a744dd284">
+              <material>
+                <mattext texttype="text/html">Una fracci&#xF3;n de la multitud de mensajes que impactan en el individuo en su vida cotidiana.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4cd2c5a1-7046-4f27-9648-f1d4ab322e31">
+              <material>
+                <mattext texttype="text/html">Una herramienta eficaz del marketing que garantiza a los gerentes de las empresas e instituciones conseguir sus objetivos de comunicaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7270b53f-ce92-4720-abf5-dd2aea7f2c37">
+              <material>
+                <mattext texttype="text/html">Comunicaci&#xF3;n persuasiva pagada y responsable.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8ebd71e1-1a64-494e-8ec5-448d1e4c5813">
+              <material>
+                <mattext texttype="text/html">Mensajes difundidos, algunos de los cuales son relevantes para el consumidor.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7270b53f-ce92-4720-abf5-dd2aea7f2c37</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Pedimos una definici&#xF3;n conceptual completa de publicidad. Como hemos argumentado en el texto de la clase, es comunicaci&#xF3;n porque se ajusta al esquema cl&#xE1;sico de la comunicaci&#xF3;n; es persuasiva porque tiene siempre una intenci&#xF3;n; los anunciantes tienen que pagar los diversos costes; por &#xFA;ltimo, podemos afirmar que la publicidad es responsable ante la sociedad y la ley que la regula de forma precisa.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="d6fb9b43fabe86cc34e7d5b8152a3381" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>b2c910d2-1248-48db-ae30-2ac0dbbb907c,8184b95c-47c5-450d-8f60-febdc35dccc7,2dfb0923-6ba3-4b4e-99e0-49c36824fbdf</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>79635a0e2c2b3f1bc132e629ae4dbe09</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Si mediante un DMP un banco recogiera informaci&#xF3;n de transacciones comerciales hechas mediante tarjeta de cr&#xE9;dito en una tienda online, esos datos ser&#xED;an considerados como&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="b2c910d2-1248-48db-ae30-2ac0dbbb907c">
+              <material>
+                <mattext texttype="text/html">First party data.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8184b95c-47c5-450d-8f60-febdc35dccc7">
+              <material>
+                <mattext texttype="text/html">Second party data.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2dfb0923-6ba3-4b4e-99e0-49c36824fbdf">
+              <material>
+                <mattext texttype="text/html">Third party data</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8184b95c-47c5-450d-8f60-febdc35dccc7</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Es un second party data ya que proviene de un tercero, pero al integrarlo en el DMP se transforma en data propia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="4785957fa7ebba7a2b9d933e8adf5736" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>de747e6f-5a5e-4fc2-b90d-92586aa7e9d1,20a4d16a-cbb3-4e4c-bfbd-efc2b58d9580,ef7ab74e-4698-4256-a3a9-5ea954c274da</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ea531d514d79f58076ecaee9403fc093</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cuando una gran empresa como un banco o una aseguradora no cuidan el contexto y las url&#xB4;s en el que se lanzan sus impresiones.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="de747e6f-5a5e-4fc2-b90d-92586aa7e9d1">
+              <material>
+                <mattext texttype="text/html">Transmite una imagen de debilidad que afecta a la marca.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="20a4d16a-cbb3-4e4c-bfbd-efc2b58d9580">
+              <material>
+                <mattext texttype="text/html">No debe tener una repercusi&#xF3;n en la imagen de marca.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ef7ab74e-4698-4256-a3a9-5ea954c274da">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">de747e6f-5a5e-4fc2-b90d-92586aa7e9d1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Se corre el riesgo de que si no se gestiona bien el brand safety se puedan servir impresiones en contextos poco adecuados para la marca que pueden afectar a la credibilidad de esta.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="75f929ea34ca2d7f9c4273e0d5eed11b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ba0fef50-75af-41b3-95f7-a551d3167aa3,89f1fd1c-35b0-4bae-bad5-e6e8011bc737,c9038d77-28c0-41e5-a129-f421c9bbfcd7</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c1f0b4f474416e9c2cad180299bfe869</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cuando hablamos de Brand Safety en el entorno digital, &#xBF;a qu&#xE9; hacemos referencia?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ba0fef50-75af-41b3-95f7-a551d3167aa3">
+              <material>
+                <mattext texttype="text/html">Hace referencia a la competitividad de la marca.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="89f1fd1c-35b0-4bae-bad5-e6e8011bc737">
+              <material>
+                <mattext texttype="text/html">Es la seguridad de marca.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c9038d77-28c0-41e5-a129-f421c9bbfcd7">
+              <material>
+                <mattext texttype="text/html">Se trata de mantener la imagen del anunciante segura y protegida, esto proporcionar&#xE1; un mejor reconocimiento de marca y una mejora del rendimiento en los medios.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c9038d77-28c0-41e5-a129-f421c9bbfcd7</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Brand safety es el proceso por el cual se pueden generar per&#xED;metros controlados a trav&#xE9;s de la agrupaci&#xF3;n de URLs ofreciendo entornos seguros para la marca, generando las llamadas &#x201C;listas blancas&#x201D;. El uso de estas listas significa que sus campa&#xF1;as s&#xF3;lo se mostrar&#xE1;n en este tipo de contenido y no en cualquier otro entorno.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="d66d58c4fb90ef2b9bc3909886c7bf20" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>94a228ed-bca8-45ad-9c14-9bbcb4cafde6,68562d58-e723-460a-a57a-46de7de166ee,cebf2aa8-9ae3-4972-9507-820eaa77d72a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>03868a67fc4e4e870fe1a4321f068ac3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En el mundo de la publicidad online, &#xBF;el ad Exchange es?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="94a228ed-bca8-45ad-9c14-9bbcb4cafde6">
+              <material>
+                <mattext texttype="text/html">Es una plataforma online donde los anunciantes y los soportes se ponen en contacto.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="68562d58-e723-460a-a57a-46de7de166ee">
+              <material>
+                <mattext texttype="text/html">Los ad Exchange proveen de una plataforma tecnol&#xF3;gica que facilita la automatizaci&#xF3;n de las subastas basadas en precio y las compras en tiempo real, lo que conocemos como RTB (Real Time Bidding).</mattext>
+              </material>
+            </response_label>
+            <response_label ident="cebf2aa8-9ae3-4972-9507-820eaa77d72a">
+              <material>
+                <mattext texttype="text/html">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">cebf2aa8-9ae3-4972-9507-820eaa77d72a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Seg&#xFA;n la IABpedia: un ad Exchange es un canal de ventas entre, por un lado, soportes y redes publicitarias, y por otro anunciante a los se ofrece inventario agregado.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="f81845bbd2a1ba1551605be0aa519421" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c42440cb-7a36-41c3-adb2-b0a3356dd0e5,4cd318a2-4f36-4378-9160-3c4db511b315,bf2ba4fb-494d-4441-95b2-37923cb4e1b4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>46e36dc0118c2a33922ef6dd17d206f2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; es un Kpi en display marketing?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c42440cb-7a36-41c3-adb2-b0a3356dd0e5">
+              <material>
+                <mattext texttype="text/html">Son indicadores que nos permiten medir, controlar y establecer los resultados, as&#xED; como poder optimizar las campa&#xF1;as en base a ellos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4cd318a2-4f36-4378-9160-3c4db511b315">
+              <material>
+                <mattext texttype="text/html">Es el acr&#xF3;nimo de un DSP.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bf2ba4fb-494d-4441-95b2-37923cb4e1b4">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c42440cb-7a36-41c3-adb2-b0a3356dd0e5</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Son indicadores de variables clave que nos van a permitir medir el desempe&#xF1;o del plan y optimizar la campa&#xF1;a.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="691605b881e041c1879b87bfb11d9926" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a5aa9557-4300-44e8-8e90-a151a810111d,3c97586c-bd7b-4842-a71c-1da103d6d5f2,f9f7a309-f9e9-4080-9091-8a27bbe5ce1e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>30c19691af4419bac0878f6ad2534ec9</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;les son las diferencias entre los diferentes DSP's?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a5aa9557-4300-44e8-8e90-a151a810111d">
+              <material>
+                <mattext texttype="text/html">No existen diferencias m&#xE1;s all&#xE1; del diferente propietario y desarrollador.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3c97586c-bd7b-4842-a71c-1da103d6d5f2">
+              <material>
+                <mattext texttype="text/html">En funci&#xF3;n del n&#xFA;mero de fuentes de inventario a las que tienen acceso automatizado, la tipolog&#xED;a y la procedencia de datos que integran y la eficacia de su algoritmo de optimizaci&#xF3;n y su escala internacional.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f9f7a309-f9e9-4080-9091-8a27bbe5ce1e">
+              <material>
+                <mattext texttype="text/html">Ambas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3c97586c-bd7b-4842-a71c-1da103d6d5f2</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Existen diferencias entre los distintos DSP&#xB4;s y cada uno tiene unas caracter&#xED;sticas espec&#xED;ficas que los hacen m&#xE1;s adecuados para unos tipos u otros de inventario o soporte.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="c188ad919009b9e4e5824d7179d1217a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d08d9794-7a8a-4756-8a56-a4a7e22c9832,b9e35102-1896-4a14-be8c-6f03d256d8cd,05178689-65f3-439d-86a8-6f0c96e0c42d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>8f145560f635e52833777467f7d4e1dc</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un DSP es:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d08d9794-7a8a-4756-8a56-a4a7e22c9832">
+              <material>
+                <mattext texttype="text/html">Un DSP es una tecnolog&#xED;a de puja que permite a anunciantes y/o agencias de medios comprar inventario en diferentes ad exchanges.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b9e35102-1896-4a14-be8c-6f03d256d8cd">
+              <material>
+                <mattext texttype="text/html">Los DSPs tambi&#xE9;n conocidos como bidders pujan por el inventario utilizando datos de la audiencia, de forma que la compra se hace impresi&#xF3;n a impresi&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="05178689-65f3-439d-86a8-6f0c96e0c42d">
+              <material>
+                <mattext texttype="text/html">Ambos.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">05178689-65f3-439d-86a8-6f0c96e0c42d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Un DSP tiene una interfaz &#xFA;nica que permite pujar, optimizar, y obtener informes para poder optimizar las campa&#xF1;as.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="7aaef2e8073aca96b6b456a77f6e86f8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>19e6fac7-86e0-4578-afab-ee3ef121db61,2fe91324-b908-404b-b66c-fca607daf5e1,7cf27218-a12d-4da0-8fd7-cd30856633f2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>0f070baf54c57c5d739271f624ab432a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El trading desk en el ecosistema program&#xE1;tico:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="19e6fac7-86e0-4578-afab-ee3ef121db61">
+              <material>
+                <mattext texttype="text/html">No es parte de la compra program&#xE1;tica.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2fe91324-b908-404b-b66c-fca607daf5e1">
+              <material>
+                <mattext texttype="text/html">Es el dispositivo que permite servir impresiones.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7cf27218-a12d-4da0-8fd7-cd30856633f2">
+              <material>
+                <mattext texttype="text/html">Es el equipo t&#xE9;cnico de personas que optimizan la compra program&#xE1;tica de sus distintos anunciantes conectando con m&#xFA;ltiples DSPs.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7cf27218-a12d-4da0-8fd7-cd30856633f2</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El trading desk est&#xE1; enfocado hacia la compra inteligente de audiencias mediante tecnolog&#xED;as de optimizaci&#xF3;n en m&#xFA;ltiples plataformas (ad exchanges, networks, DSPs, soportes) de manera tal, que comprar&#xE1; aquella impresi&#xF3;n de manera m&#xE1;s eficiente para los objetivos de sus clientes/anunciantes.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="aead9670f7baf367a2e2116ebdd3ae93" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>76798209-59e6-4715-92df-81a666425be7,f0b60a34-6e86-485b-a0a2-b9abd40e4af2,8397302e-126a-4335-b125-680c60a183c5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>b50b5fa5f29c797070f4d5522fc6f377</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;ndo hablamos de optimizar una campa&#xF1;a de Compra Program&#xE1;tica entendemos?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="76798209-59e6-4715-92df-81a666425be7">
+              <material>
+                <mattext texttype="text/html">Revisar que las impresiones son las fijadas en el briefing.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f0b60a34-6e86-485b-a0a2-b9abd40e4af2">
+              <material>
+                <mattext texttype="text/html">Una vez lanzada la campa&#xF1;a podemos ir analizando para ir optimizando y conocer qu&#xE9; medio y soporte tiene el mejor KPI de medici&#xF3;n. De esta manera podemos modificar la campa&#xF1;a para lograr un mejor resultado final.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8397302e-126a-4335-b125-680c60a183c5">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">f0b60a34-6e86-485b-a0a2-b9abd40e4af2</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Optimizar consiste en seguir los kpi&#xB4;s que permiten encontrar el mejor formato y medio para alcanzar de la manera m&#xE1;s satisfactoria los objetivos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="103216b81fbc91979aa89675050a1b90" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>10f04a43-2d1e-4e42-8ab7-8a8271f16293,73a78c34-1f55-4c0c-862d-49539e566650,54c1cadc-4546-48a8-ba43-59e989d42639</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>2f7c63777e950091051f3dea8f0b6442</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;La forma de exposici&#xF3;n de los anuncios en los soportes que denominamos ROS hace referencia a?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="10f04a43-2d1e-4e42-8ab7-8a8271f16293">
+              <material>
+                <mattext texttype="text/html">Run on site (ROS), las impresiones rotan por las p&#xE1;ginas del portal y en todos los horarios.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73a78c34-1f55-4c0c-862d-49539e566650">
+              <material>
+                <mattext texttype="text/html">Las impresiones rotan por las p&#xE1;ginas del portal y se pueden seleccionar horas por ejemplos que coincidan con los horarios del call center, o bien cuando creemos que nuestro target se encuentra en un horario determinado.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="54c1cadc-4546-48a8-ba43-59e989d42639">
+              <material>
+                <mattext texttype="text/html">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">54c1cadc-4546-48a8-ba43-59e989d42639</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Es un formato com&#xFA;n de compra a CPM en los principales medios y grupos editoriales, tiene poca inteligencia y la migraci&#xF3;n a Compra Program&#xE1;tica en estos modelos de compra es imparable.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="2fc4367a9fc2298904e14bc20180c19b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>12b7bd2d-9887-41aa-a526-01858e6a822d,3c86e8ae-eec2-489e-80e8-e71dc6962ae9,34ce9b4f-5ab5-45f3-8ccd-0a33ce02cb05</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>74799eb60a6021dc661bccae26ca4b61</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; aspectos inciden en el precio de las impresiones?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="12b7bd2d-9887-41aa-a526-01858e6a822d">
+              <material>
+                <mattext texttype="text/html">Formato, ubicaci&#xF3;n, peso y fees externos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3c86e8ae-eec2-489e-80e8-e71dc6962ae9">
+              <material>
+                <mattext texttype="text/html">Eso m&#xE1;s el soporte o Publisher.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34ce9b4f-5ab5-45f3-8ccd-0a33ce02cb05">
+              <material>
+                <mattext texttype="text/html">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">34ce9b4f-5ab5-45f3-8ccd-0a33ce02cb05</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El medio m&#xE1;s las caracter&#xED;sticas propias de la creatividad configuran el precio CPM que vamos a pagar en nuestra campa&#xF1;a.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="48a558707fb9b3de449f9956498b8594" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>b57ec311-6936-4b75-93e1-40067f328057,a063ad38-fef6-465b-b17f-27d959e55439,3140e4ae-49a6-40cd-91f6-bad1895e52f0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>88f3199dab6d7daf0ad2d27300e9e04e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; se conoce como campa&#xF1;as always on?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="b57ec311-6936-4b75-93e1-40067f328057">
+              <material>
+                <mattext texttype="text/html">Campa&#xF1;as puntuales con objetivo de performance.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a063ad38-fef6-465b-b17f-27d959e55439">
+              <material>
+                <mattext texttype="text/html">Campa&#xF1;as puntuales con objetivo de branding.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3140e4ae-49a6-40cd-91f6-bad1895e52f0">
+              <material>
+                <mattext texttype="text/html">Acciones y campa&#xF1;as mixtas tanto de branding a CPM como de performance a CPC.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3140e4ae-49a6-40cd-91f6-bad1895e52f0</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Son campa&#xF1;as que est&#xE1;n permanentemente activas y pueden tener objetivos mixtos tanto de performance como de branding.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="5201afd2429338d322b908a18df7bdd3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a6ab200b-9e94-4ade-adb7-ef807d24f975,9258e977-06f6-4154-ad60-5fd9b02ca109,af53e4df-2526-4c44-8e8f-5665fda7bab1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>aa605cd9306cf691bd7b1eb76939066a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En relaci&#xF3;n con el modelo de compra que elijamos para nuestras campa&#xF1;as:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a6ab200b-9e94-4ade-adb7-ef807d24f975">
+              <material>
+                <mattext texttype="text/html">En funci&#xF3;n del objetivo que nos marquemos en nuestra campa&#xF1;a podremos aplicar un modelo u otro.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9258e977-06f6-4154-ad60-5fd9b02ca109">
+              <material>
+                <mattext texttype="text/html">Para una campa&#xF1;a que busque notoriedad de marca, deber&#xED;as inclinarte por un esquema del tipo CPM si por el contrario quiere adem&#xE1;s un objetivo de ventas, deber&#xED;as ir a modelos m&#xE1;s a CPC, CPL o CPA.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="af53e4df-2526-4c44-8e8f-5665fda7bab1">
+              <material>
+                <mattext texttype="text/html">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">af53e4df-2526-4c44-8e8f-5665fda7bab1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El modelo de compra est&#xE1; muy relacionado con el objetivo que persigue la campa&#xF1;a.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="e84040513487ded59d5994a974b1a725" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>66158d6e-59bb-4af0-92c7-1cef697230e5,41872bfa-5c7f-440c-87b3-1165fccce9c5,92a77d2f-3cf5-4bed-a2ca-9d8ccd9518eb</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>79c6b16279196e19208e26ce2609aea1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El modelo de compra de publicidad digital a CPC es com&#xFA;n para:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="66158d6e-59bb-4af0-92c7-1cef697230e5">
+              <material>
+                <mattext texttype="text/html">Objetivos de performance.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="41872bfa-5c7f-440c-87b3-1165fccce9c5">
+              <material>
+                <mattext texttype="text/html">Objetivos de performance y branding.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="92a77d2f-3cf5-4bed-a2ca-9d8ccd9518eb">
+              <material>
+                <mattext texttype="text/html">Ambas son incorrectas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">66158d6e-59bb-4af0-92c7-1cef697230e5</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Es un modelo que va orientado hacia el performance y la generaci&#xF3;n de tr&#xE1;fico.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="747d338a8fe7e30880d6bc0e56dba325" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c22f07c5-c5c0-426c-96a1-e35196e4fa4f,0caa6f13-d721-4059-8d89-28199defeb2e,fc0adbe7-c751-4928-b6c6-1810518dc7c9</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>bd218fe6afebc34cdc95154b3b549072</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El modelo de compra de publicidad digital a CPM quiere decir:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c22f07c5-c5c0-426c-96a1-e35196e4fa4f">
+              <material>
+                <mattext texttype="text/html">Es el coste por cada mill&#xF3;n de impresiones.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0caa6f13-d721-4059-8d89-28199defeb2e">
+              <material>
+                <mattext texttype="text/html">Es el coste por cada mil impresiones.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fc0adbe7-c751-4928-b6c6-1810518dc7c9">
+              <material>
+                <mattext texttype="text/html">Ambas son falsas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">0caa6f13-d721-4059-8d89-28199defeb2e</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Es el modelo m&#xE1;s usual y hace referencia al coste de servir mil impresiones.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz identifier="gf42ca9fe6836447217cfc67d11c4e67a" xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <title>Encuesta final</title>
+  <description>&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;¡Ayúdanos a mejorar!&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;br&gt;&lt;span style="font-size: 14pt;"&gt;En Westfield Business School, tu opinión abierta y sincera es muy importante. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;Agradecemos tu valiosa retroalimentación, que es base para nuestra mejora continua.&lt;/span&gt;&lt;/p&gt;</description>
+  <shuffle_answers>false</shuffle_answers>
+  <scoring_policy>keep_highest</scoring_policy>
+  <hide_results>always</hide_results>
+  <quiz_type>survey</quiz_type>
+  <points_possible/>
+  <require_lockdown_browser>false</require_lockdown_browser>
+  <require_lockdown_browser_for_results>false</require_lockdown_browser_for_results>
+  <require_lockdown_browser_monitor>false</require_lockdown_browser_monitor>
+  <lockdown_browser_monitor_data></lockdown_browser_monitor_data>
+  <show_correct_answers>false</show_correct_answers>
+  <anonymous_submissions>false</anonymous_submissions>
+  <could_be_locked>true</could_be_locked>
+  <disable_timer_autosubmission>false</disable_timer_autosubmission>
+  <allowed_attempts>1</allowed_attempts>
+  <one_question_at_a_time>false</one_question_at_a_time>
+  <cant_go_back>false</cant_go_back>
+  <available>true</available>
+  <one_time_results>false</one_time_results>
+  <show_correct_answers_last_attempt>false</show_correct_answers_last_attempt>
+  <only_visible_to_overrides>false</only_visible_to_overrides>
+  <module_locked>false</module_locked>
+  <assignment_group_identifierref>gee9076795f482d1cac0b2e145b4fccd3</assignment_group_identifierref>
+  <assignment_overrides>
+  </assignment_overrides>
+</quiz>

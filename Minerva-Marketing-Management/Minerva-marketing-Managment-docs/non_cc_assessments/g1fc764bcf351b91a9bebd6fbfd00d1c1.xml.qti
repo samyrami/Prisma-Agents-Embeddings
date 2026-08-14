@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g1fc764bcf351b91a9bebd6fbfd00d1c1">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MKA 501 Marketing Management Sección 6</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>xrxEqHJcMZ6E6w7xz4khYJ6rnorTnbcvB2yfVgzc</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_state</fieldlabel>
+        <fieldentry>active</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gb15d63c5d0ce129a362f6294bafc806f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>57552,3265,89490</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La llamada Web 2.0. hace referencia a:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="57552">
+              <material>
+                <mattext texttype="text/plain">Una segunda generación en la historia del desarrollo de la tecnología web.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3265">
+              <material>
+                <mattext texttype="text/plain">La base de la web 2.0. son comunidades de usuarios y una gama especial de servicios, como las redes sociales, los blogs, los wikis, etc.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="89490">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">89490</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La web 2.0 es una evolución de la web que permite una mayor interacción entre usuarios.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ga698b7eae7cf4fa2a04f15349944183e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>73130,28633,4480</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El modelo de marketing de las actuales redes sociales es a diferencia del tradicional:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="73130">
+              <material>
+                <mattext texttype="text/plain">Un modelo pull, en el cual el consumidor es quien tira del contenido, es la gente quien manda en el medio digital.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="28633">
+              <material>
+                <mattext texttype="text/plain">Un modelo igual al marketing off line.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4480">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">73130</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Es un modelo en donde el usuario tiene la capacidad de seleccionar el qué y el cuándo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g24e91f92abd85161a2cf749d7f7af763" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>91100,59872,18718</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las redes sociales ganan cada día mayor protagonismo en la actividad comunicativa de empresas, instituciones y todo tipo de entidades. Pero los millones de mensajes que corren a diario por esos canales, con especial atención al Twitter, son un arma de doble filo:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="91100">
+              <material>
+                <mattext texttype="text/plain">Si son positivos, pueden ayudar a reforzar la imagen de esa empresa o a aumentar las ventas de una marca; pero si son negativos, se produce el efecto contrario.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59872">
+              <material>
+                <mattext texttype="text/plain">Controlar toda esa información o dirigirla hacia unos intereses determinados parece una tarea imposible, aunque hay que diferenciar el tráfico orgánico más difícil de controlar por el community manager de las impresiones pagadas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="18718">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">18718</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tal y como hemos visto el uso de las redes sociales es un elemento de comunicación clave para nuestras marca y producto pero hay que tener una estrategia que use tanto la comunicación orgánica como la pagada.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g9a0f0c9b73e0562ace8edf106fb23ffa" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>73389,97594,86179</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Desde un punto de vista de marketing, los blogs son importantes por:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="73389">
+              <material>
+                <mattext texttype="text/plain">Están influyendo en la conducta de los consumidores respecto de las compras.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97594">
+              <material>
+                <mattext texttype="text/plain">Venden espacio publicitario y se han convertido en importantes vehículos publicitarios en sí mismos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86179">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">86179</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Por ambas razones los blogs son importantes tanto por su capacidad de influir como por su capacidad para congregar potenciales usuarios de nuestro producto o servicio.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g6038aba2625ab46695a151853785f40c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>69370,9428,73307</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué es el crowdsourcing?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="69370">
+              <material>
+                <mattext texttype="text/html">Es el beneficio derivado del uso de redes sociales.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9428">
+              <material>
+                <mattext texttype="text/html">Es la capacidad de reunir a grupos de gente alrededor de una marca y de que trabajen para desarrollar productos y/o soluciones.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73307">
+              <material>
+                <mattext texttype="text/plain">Ninguna es correcta.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9428</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Es una oportunidad que nos brinda el poder intercambiar ideas y opiniones de manera masiva a través de las redes sociales.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g9e6f501b592761914d2b100c00acbef5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>33175,97468,29910</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Los principales desafíos que plantean las redes sociales al marketing son:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="33175">
+              <material>
+                <mattext texttype="text/plain">Quitan tiempo a los medios tradicionales.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97468">
+              <material>
+                <mattext texttype="text/plain">Han cambiado el modo en que los consumidores se enteran de cosas y deciden sobre los productos que van a comprar.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="29910">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">29910</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Son los principales desafíos que las redes sociales plantean al marketing tradicional: reducción del tiempo y capacidad de modificar la toma de decisiones.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gdd79affc04dbf943be84a4c276df6c9f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>37985,73392,69203</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La parte perversa de las redes sociales es...&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="37985">
+              <material>
+                <mattext texttype="text/html">Ninguna.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73392">
+              <material>
+                <mattext texttype="text/html">Que son gratuitas para los usuarios.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="69203">
+              <material>
+                <mattext texttype="text/plain">La pérdida de control de la información.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">69203</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La pérdida de control de la información es algo que puede causar problemas y conceptos como la muerte digital, son temas de preocupación en los países más garantistas.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gb9c9916c369e52389b5a37d53121de2f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>95371,74931,16158</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Para qué tiene que estar una empresa en las redes sociales?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="95371">
+              <material>
+                <mattext texttype="text/plain">Para poder determinar unos objetivos en redes sociales, es necesario poseer metas y objetivos empresariales en su conjunto.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="74931">
+              <material>
+                <mattext texttype="text/html">Los objetivos de social media marketing serán los objetivos relacionados con las redes sociales, integrados dentro de los objetivos empresariales.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="16158">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">16158</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Los objetivos de las redes sociales se encuentran integrados dentro de los objetivos empresariales.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g809637e0dbf79aad09d6846d242b27d0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>66351,10793,67683</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En relación a nuestro público objetivo:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="66351">
+              <material>
+                <mattext texttype="text/plain">Hay que tener una idea muy clara de cuál es nuestro público objetivo para determinar en donde pasa más tiempo nuestra audiencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="10793">
+              <material>
+                <mattext texttype="text/plain">Podemos pensar en ello cuando comencemos a desarrollar una estrategia en redes sociales.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67683">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">67683</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Conocer a nuestro público objetivo es prioritario incluso antes de determinar ningún tipo de estrategia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g5337a38ff63e9788ce2da32c986375a6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>51604,81920,80704</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Sobre cómo elegir las redes sociales más adecuadas:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="51604">
+              <material>
+                <mattext texttype="text/plain">No cabe caer en la tentación a la hora de escoger en qué red estar presentes el utilizar un criterio de popularidad y masa crítica.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="81920">
+              <material>
+                <mattext texttype="text/html">Sin embargo, no debemos caer en la tentación de obviar otros criterios más estratégicos como modelo de negocio, estructura empresarial, presupuesto y sobre todo donde está la audiencia.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="80704">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">80704</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tenemos que tener en cuenta criterios estratégicos para seleccionar las redes sociales: modelo de negocio, estructura empresarial, presupuesto y sobre todo donde está la audiencia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g64ebf785cc53ae185093bbb9a56b4aff" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>30111,6309,79908</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un buscador o motor de búsqueda es:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="30111">
+              <material>
+                <mattext texttype="text/plain">Una característica de una página web.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6309">
+              <material>
+                <mattext texttype="text/plain">Es un sitio web que lee todo lo que se publica en otras páginas web, y a este acto de leer de forma algorítmica se le conoce como indexar y para elaboran luego un ranking para posicionarlas según un criterio establecido.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="79908">
+              <material>
+                <mattext texttype="text/plain">Ninguna.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6309</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Es un sitio web que permite encontrar información relacionada con una o varias palabras.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g8629c8a25590868e3f9bc3311a91cb16" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>98902,81113,45062</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El objetivo de las acciones de social media optimización son:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="98902">
+              <material>
+                <mattext texttype="text/plain">El objetivo de esta optimización es triple, conseguir tráfico, posicionamiento y visibilidad. Aunque pueden realizarse por separado ya que incluyen varias acciones muy diferenciadas , es unidas como mejor resultado obtienen.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="81113">
+              <material>
+                <mattext texttype="text/html">Evitar una dependencia de herramientas de posicionamiento de pago como Google Ads.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="45062">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">45062</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El objetivo de esta optimización es triple y además se consigue evitar utilizar herramientas de pago.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g234136f743e63829a297f9f6e38f26b9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>76327,56550,235</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las campañas y acciones en redes sociales van orientadas hacia qué objetivos fundamentales:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="76327">
+              <material>
+                <mattext texttype="text/plain">Posicionar la marca, difundir y dar a conocer un producto o servicio, comunicar un mensaje específico, promocionar y crear leads y bases de datos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56550">
+              <material>
+                <mattext texttype="text/plain">Los objetivos pueden ser variados y no se pueden catalogar.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="235">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">76327</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Los objetivos de una campaña en redes sociales se pueden resumir en 5 aunque pueden adoptar variadas presentaciones.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g28e3365f1e0a660cdec1ed3f4926d090" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>63452,84780,12399</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En todas las acciones que se llevan a cabo dentro de un Social Media Marketing:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="63452">
+              <material>
+                <mattext texttype="text/plain">No es imprescindible la presencia de acciones de fidelización en un Plan de social media marketing.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="84780">
+              <material>
+                <mattext texttype="text/plain">Las campañas de social media marketing no deben orientarse a la fidelización de la cartera.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="12399">
+              <material>
+                <mattext texttype="text/plain">En cualquier Plan de social media marketing, por muy modesto que sea, debe contar con ciertas campañas enfocadas en optimizar la relación con los clientes existentes, es decir hacer fidelización sobre los clientes ya existentes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">12399</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">En cualquier plan que planteemos siempre hemos de incluir campañas de fidelización de clientes.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g997af7161fb178b1717fbdd779072398" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>11738,79932,56366</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Algunos principios básicos para que un sistema de co-creación funcione son:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="11738">
+              <material>
+                <mattext texttype="text/plain">Dar acceso a los usuarios a la base de información e ideas que la empresa ya está usando.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="79932">
+              <material>
+                <mattext texttype="text/plain">La empresa debe ser muy transparente y honesta así como ceñirse a lo convenido con los clientes y evitar que pueda ser interpretado de manera diferente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56366">
+              <material>
+                <mattext texttype="text/plain">Ambas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">56366</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Son algunos de los principios que debemos de tomar en consideración para lanzar una estrategia de co -creación con los clientes.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g8ad9b75e589d9297a7eb96a76d90b6fe" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>19420,37786,48676</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué es un Kpi?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="19420">
+              <material>
+                <mattext texttype="text/plain">Son indicadores que nos permiten medir, controlar y establecer los resultados (éxito o fracaso) del plan.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="37786">
+              <material>
+                <mattext texttype="text/plain">Es el acrónimo de una variable clave en Social Media marketing.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48676">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;Ninguna es correcta.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">19420</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Son indicadores de variables clave que nos van a permitir medir el desempeño del Plan</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g35b6c7e53df6c0775ece8e631305b2a3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>67574,86639,27314</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Si hablamos de roi en social media marketing:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="67574">
+              <material>
+                <mattext texttype="text/plain">Resulta complicado calcular el roi en social media, en parte porque se trata de medir emociones, opiniones, experiencias.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86639">
+              <material>
+                <mattext texttype="text/plain">Resulta más fácil de calcular el impacto que tienen en el modelo de negocio las relaciones que establecemos en la red.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="27314">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">67574</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">En definitiva resulta más fácil medir qué es lo que conseguimos con nuestras interacciones en las redes sociales.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g0229fc551476fb0f3fa769103431cb77" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>70419,86967,97750</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El concepto de SEM incluye la idea de:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="70419">
+              <material>
+                <mattext texttype="text/plain">Las búsquedas se basan en Palabras Clave que describen o posicionan el producto o servicio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86967">
+              <material>
+                <mattext texttype="text/plain">Los anuncios aparecen por lo tanto cuando el usuario busca algo relacionado con dicho anuncio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97750">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">97750</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">&amp;nbsp;Es la manera en que la impresión llega a los usuarios en el preciso momento en que buscan sus productos y servicios.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g75ba0dc742b1d8cfa2c6fac50435f986" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>24337,83828,92523</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cuanto más genérica sea una palabra clave, más caro y complicado será su posicionamiento:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="24337">
+              <material>
+                <mattext texttype="text/plain">Sí, porque las palabras estarán menos asociadas a nuestra marca y más competencia vamos a encontrar por lo que se encarece el CPC.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="83828">
+              <material>
+                <mattext texttype="text/plain">No, porque hay más oportunidades de poder pujar.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="92523">
+              <material>
+                <mattext texttype="text/plain">Ninguna es verdadera.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">24337</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Estas palabras suelen ser demasiado amplias y pueden dar lugar a clicks de usuarios que no están realmente interesados en nuestro producto o servicio. Por esta razón, los resultados serán mejores utilizando palabras más específicas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g2b90db00f87b6d0ea582eae2585f61e0" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>40141,77560,70303</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un buscador o motor de búsqueda es:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="40141">
+              <material>
+                <mattext texttype="text/plain">Una característica de una página web.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="77560">
+              <material>
+                <mattext texttype="text/plain">Es un sitio web que lee todo lo que se publica en otras páginas web, y a este acto de leer de forma algorítmica se le conoce como indexar y para elaborar luego un ranking para posicionarlas según un criterio establecido.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="70303">
+              <material>
+                <mattext texttype="text/plain">Ninguna de las opciones es correcta.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">77560</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Un buscador es un sitio web que permite encontrar información relacionada con una o varias palabras.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g786a0b0507ddc5409ca99b59d6b6d5dd" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>74348,1816,65817</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Algunas de las variables que se utilizan para determinar la posición en los enlaces patrocinados de Google en una campaña de SEM:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="74348">
+              <material>
+                <mattext texttype="text/plain">El quality score y el importe de las pujas por palabras.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1816">
+              <material>
+                <mattext texttype="text/plain">La rapidez con que se hace la puja.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="65817">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">74348</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La fórmula del quality score y la puja que se hace por la palabra clave determinan la posición que ocupa el anuncio.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g437776224eab6dc5cc868463a61f164d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>63999,59249,63540</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El posicionamiento natural SEO consiste en:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="63999">
+              <material>
+                <mattext texttype="text/plain">Posicionar la marca, difundir y dar a conocer un producto o servicio, comunicar un mensaje específico, promocionar y crear leads y bases de datos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59249">
+              <material>
+                <mattext texttype="text/plain">Aplicar una serie de criterios y procedimientos sobre la página web (código, contenido, enlaces externos) para lograr que los motores de búsqueda localicen y presenten dicha página web entre los primeros resultados de una búsqueda, ya sea por un término o grupo de estos objetos de negocio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="63540">
+              <material>
+                <mattext texttype="text/plain">Ninguna es correcta.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">59249</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">SEO es aplicar una serie de criterios y procedimientos sobre la página web (código, contenido, enlaces externos) para lograr que los motores de búsqueda localicen y presenten dicha página web entre los primeros resultados de una búsqueda, ya sea por un término o grupo de estos objetos de negocio.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

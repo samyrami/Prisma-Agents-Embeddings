@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <module identifier="g6f9ad258397361800890d092f2b35926">
+    <title>Información Inicial </title>
+    <workflow_state>active</workflow_state>
+    <position>1</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gf038d2253e3a2679e5776f5239f4f7b9">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Información sesiones síncronas</title>
+        <identifierref>g9f6d3995a45cbc3163c6f26f3fb98f11</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3438e6af2243f49ebf761b35c5de90ff">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Información equipos de trabajo</title>
+        <identifierref>g610dddda27e1fe5f2374dac637189f3c</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8c4dbd96109688976e4170809eed4e25">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Avanza con Éxito - ¿Qué necesitas para aprobar?</title>
+        <identifierref>g5d17e78c9daca4df0f8034886e294ff0</identifierref>
+        <position>3</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g028f515bcbbedad825d98dd0c7d3fa99">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Temas de interés </title>
+        <identifierref>g35986f6f5fe3bfc790660cbfa425044d</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ga0c32073323b7f40ce281ce52ca85065">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Perfiles profesionales de estudiantes - solo para el profesor (no publicar)</title>
+        <identifierref>g514d96b0bdf8b898b986c0c518dd6ad5</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g72a3154359bf4a3b7b5b6b0ee0947ca9">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Presentación entre docentes y tutora (Solo docentes NO PUBLICAR)</title>
+        <identifierref>g06c0d8f446cffe04b38e29e654b3b6c2</identifierref>
+        <position>6</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="gb8b81d323645a5b1108beb64091437c6">
+    <title>Grabación sesiones síncronas</title>
+    <workflow_state>active</workflow_state>
+    <position>2</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gaebb420eba04e5a52ad4738d4c5a88fe">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Sesiones síncronas lesson 1</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g605e2dd8af03cc284594b66d75824f49">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Sesiones síncronas lesson 2</title>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gaa4f08acd1d170bfb94e3326a4617a7d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Sesiones síncronas lesson 3</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g981c74b10fcf3223745d12340da9d309">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Sesiones síncronas lesson 4</title>
+        <position>4</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfa0a8944212a08f2a3a645be80959563">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Sesiones síncronas lesson 5</title>
+        <position>5</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g87153a423daea91a409e5aafa259a80d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Sesiones síncronas lesson 6</title>
+        <position>6</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g0f055e052677f7b0caed76cbb795dcf4">
+    <title>Syllabus</title>
+    <workflow_state>active</workflow_state>
+    <position>3</position>
+    <locked>false</locked>
+    <items>
+      <item identifier="gd7f1d4dd9cbe84bd2dcc5b3e6868913f">
+        <content_type>Attachment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>N - MBA - Marketing Management.pdf</title>
+        <identifierref>gd626417943261f2b6c3c0bee7a462a2a</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g0e4137927c4a6dacc2f5e7e2d6942ad5">
+        <content_type>Attachment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>NE - EMBA - Marketing Management.pdf</title>
+        <identifierref>g483b8e467201e789c9a1f9e79cdd7faa</identifierref>
+        <position>2</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="gc5b5bdc270ac19e539d1e9fb76bf6830">
+    <title>Presentación docentes</title>
+    <workflow_state>active</workflow_state>
+    <position>4</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g5b2bbce101cc3f1a7c8a23e5a0aaeb4e">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Conoce tus docentes</title>
+        <identifierref>g7886767f6547e37f1a09bc8d92e5bc76</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>g5b2bbce101cc3f1a7c8a23e5a0aaeb4e</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="g3ffbb05601dab1ec916115221b51d15f">
+    <title>Foro de dudas</title>
+    <workflow_state>active</workflow_state>
+    <position>5</position>
+    <locked>false</locked>
+    <items>
+      <item identifier="gea8e3977bbd2632da2f9410ece0b3922">
+        <content_type>DiscussionTopic</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Foro de dudas</title>
+        <identifierref>g9dc6bdd96bacbd71c3e84a87ab5e72cc</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g8e51dbd6991c377b2e18768c412a4b7a">
+    <title>Información para el docente practitioner (No publicar)</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>6</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gcdfcab4f42c236edffc1eef4edcc0d32">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Como subir Lecturas de Tendencia en Canvas</title>
+        <identifierref>g0178b25da937ce5283cebe0554bcbcf7</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g0670f0b38f8413ffe633597cc2f32977">
+    <title>Introducción a la materia</title>
+    <workflow_state>active</workflow_state>
+    <position>7</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gc6831b50b29c3ac30ae656bb8b802a78">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción Marketing Management</title>
+        <identifierref>g7863d23d2a25c3b74962f1f87972bf09</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>gc6831b50b29c3ac30ae656bb8b802a78</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="geedb0adf5f96459a38e83a30e50c8b03">
+    <title>Lesson 1 Fundamentación  teórica</title>
+    <workflow_state>active</workflow_state>
+    <position>8</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g5a132c348114848c9a03e49f4124c5aa">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la lección</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g71fcec0c2176a035df773b4a32906cd4">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la lección 1</title>
+        <identifierref>ge4101cdacbeefe678bda1443cdf5d941</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g351f5d45a5853b191322095fd4e3f8d0">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Fundamentación teórica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g276a91710844cd219a2588687ea4cbef">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tema</title>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gf8945b3540f38f2cfef03e603dd9aefe">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Entorno del Marketing, Consumidor y Mercado </title>
+        <identifierref>ge73a298f8bdacdbcfbe5574b8e0d5de0</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8d60a19c61cd6338a31512163a3d10e5">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Lecturas de profundización</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g22db454bfa40ca94af5ba78c0c0ddc95">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>¿Cómo es el proceso de compra del cliente?</title>
+        <identifierref>gcff3422fab33baf117a84246cc6b8bba</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ga337fb62875e1aeee5d2ec3ac3808d61">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>8 agentes del proceso de compra</title>
+        <identifierref>g60b95e723bd77c6fc23b567e72b5183c</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc499504fc387e72deab94c4f39569487">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Algunos errores a la hora de dirigirnos a un público objetivo</title>
+        <identifierref>g8c4d0e748054d16f83bb719a6cbfa1b3</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g2a89c8917fec003c466748fee4305754">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>23 ejemplos de segmentación de clientes de acuerdo a las necesidades de la empresa </title>
+        <identifierref>ga88cdc50af12476a9181fae9f26b5bf2</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>g71fcec0c2176a035df773b4a32906cd4</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gf8945b3540f38f2cfef03e603dd9aefe</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g22db454bfa40ca94af5ba78c0c0ddc95</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>ga337fb62875e1aeee5d2ec3ac3808d61</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gc499504fc387e72deab94c4f39569487</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g2a89c8917fec003c466748fee4305754</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="gfc57f46dcf847ced4c9b102757ed1681">
+    <title>Lesson 1 Validación de conocimiento y componente práctico</title>
+    <workflow_state>active</workflow_state>
+    <position>9</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gcd57a0570e92834b113cee88d948e4eb">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Validación de conocimientos</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ge0f40aff6306483fab98ad41f9166b16">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Test 1 (Supervisado remotamente) </title>
+        <identifierref>gb670456de18c7e1b462db6af714b893c</identifierref>
+        <position>2</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g39071235b4d144286ed0ba54994dd16d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía Didáctica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc033e4b892cba3bd8d13c97d9cef4b47">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía didáctica marketing management - Lesson 1</title>
+        <identifierref>gbefe1c5950118dfa23dcf2e1a852d945</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g550d17830b304eb5bd94d108997659d7">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Eje de tendencia</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g0ade0353e598cf0edb82e594c29421e7">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 1.1</title>
+        <identifierref>g0ade0353e598cf0edb82e594c29421e7</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g7c69240f588f1c1488c636851d79072c">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 1.2</title>
+        <identifierref>g7c69240f588f1c1488c636851d79072c</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g70f7b8d19f60771e8eb17154234e6c05">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 1.3</title>
+        <identifierref>g70f7b8d19f60771e8eb17154234e6c05</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gacd7e6dc3e647f40f422efef2c215d69">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Componente práctico</title>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8fe1e327966d887f6efa31574723534b">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso</title>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g85fec967151c07c02e4895bd4aef1a3d">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso HERBARIUM</title>
+        <identifierref>g37450fcef8c83d10ef385c87fdfce99b</identifierref>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8791fa26fe19b42543824bf72f3c917f">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual</title>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ge053d0d9dd65cc8e0c2f2afdb8a4bbeb">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual 1</title>
+        <identifierref>gbc617fafad683631118c7eac1a5e7fd0</identifierref>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd0783ab946cca98d8f605ca44d077f75">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo</title>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g656571e99ad167768d005a8d1a128211">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo 1</title>
+        <identifierref>gf9f085abd8985fa5191e733498a5ea67</identifierref>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>g0ade0353e598cf0edb82e594c29421e7</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g7c69240f588f1c1488c636851d79072c</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g70f7b8d19f60771e8eb17154234e6c05</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g85fec967151c07c02e4895bd4aef1a3d</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>ge053d0d9dd65cc8e0c2f2afdb8a4bbeb</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g656571e99ad167768d005a8d1a128211</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gc033e4b892cba3bd8d13c97d9cef4b47</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>ge0f40aff6306483fab98ad41f9166b16</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="g4c0797cabf0bea91e67997359cd0df46">
+    <title>Extra credit Lesson 1</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>10</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g561693dd2496e62b72a313fdbcc251b6">
+        <content_type>Assignment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Extra credit Lesson 1</title>
+        <identifierref>ga033d8a9ab7836994885ae49f771f06e</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g3d5c1e206622138c36f9ce3e19dde333">
+    <title>Notas del caso 1</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>11</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g13ff7ecdfb49da8db762689532e33b04">
+        <content_type>Attachment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Guia Caso Herbarium.pdf</title>
+        <identifierref>ge1d36eba1765f409d03d2224175e78de</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="ged1157f63b8a4084ab467f90cb10e281">
+    <title>Lesson 2 Fundamentación teórica</title>
+    <workflow_state>active</workflow_state>
+    <position>12</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g8e303d37ca0b7ac1380a4fd6926b1c2d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la clase</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8e2e1cc6d16c80da18b2e97ac82d464c">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la lección 2</title>
+        <identifierref>g1931a0f54644793f8bf6f9692a8ffb2e</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gdce0212a4be7c3f6a77b219fbd2521ad">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Fundamentación teórica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g37d094891dc9c76479853f9ca95ec01d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tema</title>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g68ce61a546583ad343f54fe6ee92a039">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>La Matriz STP: La Espina Dorsal Del Marketing Estratégico</title>
+        <identifierref>ga5fa5a89b6811c7a586318bcdb99e9cd</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3197c84ca5fda33e7134a293c49d9783">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Lecturas de profundización</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g0c6dd292696864f29465d00c0bc113dc">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>El modelo Vals de segmentación</title>
+        <identifierref>g6f2971035ff7909df2f2de9366cfbec0</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g96a59d710bd623b6910ea8e65ffaa1a3">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Targeting: quién y cómo son nuestros consumidores</title>
+        <identifierref>g02941b9df98b919d68d1501f2a14dc93</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5ff33e224b7c50e0ea8def00e796cd56">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Posicionamiento, la batalla por tu mente</title>
+        <identifierref>gdd6d430175f2e7ac41cb9a0b6a758ba7</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd1eeaaabe0461b50d7bf2d2924303fa5">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Fijando los objetivos de marketing</title>
+        <identifierref>ge163362245f6e9bad5b793228020a375</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>g8e2e1cc6d16c80da18b2e97ac82d464c</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g68ce61a546583ad343f54fe6ee92a039</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g0c6dd292696864f29465d00c0bc113dc</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g96a59d710bd623b6910ea8e65ffaa1a3</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g5ff33e224b7c50e0ea8def00e796cd56</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gd1eeaaabe0461b50d7bf2d2924303fa5</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="g3b3911145f3ff041fd58f27ef65ce2a4">
+    <title>Lesson 2  Validación de conocimiento y componente práctico</title>
+    <workflow_state>active</workflow_state>
+    <position>13</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g216503a16a103ba1ee53af55321a2375">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Validación de conocimientos</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g61706e19534d0c899d326c08d628da50">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Test 2 (Supervisado remotamente) </title>
+        <identifierref>g36cec4ac388e9940f9b9ba508043b84d</identifierref>
+        <position>2</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g20b5c988f02d8f495223f0bb168a66b6">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía Didáctica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gaac9926a4b1ac550a52fe87acb7770f6">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía didáctica marketing management - Lesson 2</title>
+        <identifierref>gf00407c9b82a40a0f3465f01b93319be</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9fa55404b397db0499708858c3f86aad">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Eje de Tendencia</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfd5c73861ef48e49c1ce99cca215064b">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 2.1</title>
+        <identifierref>gfd5c73861ef48e49c1ce99cca215064b</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc1f1e28e8fba00ac94328e2152790b0d">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 2.2</title>
+        <identifierref>gc1f1e28e8fba00ac94328e2152790b0d</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb6dc2be35be1779b5d8a76eee9bbd582">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 2.3</title>
+        <identifierref>gb6dc2be35be1779b5d8a76eee9bbd582</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gccb173f3f9bffff30ef55bddfe3be804">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Componente práctico</title>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd2925542f1f9f67534ea2da0cb745d0d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso</title>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3a0ce4b04e54c2d10be3129082c5fac3">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso DIXAN KAPSELS</title>
+        <identifierref>gadd7cb1f1ae8f23d26ad980b83fcbd0d</identifierref>
+        <position>11</position>
+        <new_tab/>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g0f4f48eabf998551235db557f63bb63e">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual</title>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g913d05ecfdfc9bd3baafd4dc4c0e1783">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual 2</title>
+        <identifierref>g2ec5a5bbcf9dbf8ff2fec895286eb45d</identifierref>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb46d670d30c5b0afc9426e0d277d97f9">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo</title>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9f259691d49680b2501b3c40f74718f2">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo 2</title>
+        <identifierref>g12ada8d4a17993af411a84a63d122ffa</identifierref>
+        <position>16</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>gfd5c73861ef48e49c1ce99cca215064b</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gc1f1e28e8fba00ac94328e2152790b0d</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gb6dc2be35be1779b5d8a76eee9bbd582</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g913d05ecfdfc9bd3baafd4dc4c0e1783</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g9f259691d49680b2501b3c40f74718f2</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gaac9926a4b1ac550a52fe87acb7770f6</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="ge530d1a1a14976d9437e02286aba9388">
+    <title>Extra credit Lesson 2</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>14</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g58848ac349425b2f1a5339ad6a0f6c23">
+        <content_type>Assignment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Extra credit Lesson 2</title>
+        <identifierref>g3d4b58e4ea569b81d73b29b0dc8edb02</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g52dee672eb59eacaeef7e78d459ebd0a">
+    <title>Notas del caso 2</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>15</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="ga6b952f7f99d0f9d260588726672d35b">
+        <content_type>Attachment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Notas Instructor Caso Dixan.pdf</title>
+        <identifierref>ge153fa6a352b906a7f011a9ee83e9c9c</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g9bb717c7a82aa39c4e0796261114bbcd">
+    <title>Lesson 3 Fundamentación teórica</title>
+    <workflow_state>active</workflow_state>
+    <position>16</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g940ff69c3ba052d3109da88d9c9550f0">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la clase</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g558cf52cd18f3e034f2a2e73af0589f4">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la lección 3</title>
+        <identifierref>gbfc020a2f753d9249f70fe4febad2410</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g138b3c58b2277a1352f56c8a63da49b6">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Fundamentación teórica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g82ee2c72ec98414618d434955a624006">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tema</title>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5007e74b2f5a26a190dbfaf2bdc001c1">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Product development and innovation</title>
+        <identifierref>g866af1f7aee1ed7f5f0e5f5b7c898e9b</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1945cbd28868d818e022d493386496da">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Lecturas de profundización</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g34420cf69bc3fb66e33defcdad1b4bba">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Elasticity of demand</title>
+        <identifierref>g0ef262bb571186dcfca8527087714e65</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g7ccefb0752d43ad1451deadd1ea9b493">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Costumer satisfaction and loyalty</title>
+        <identifierref>gc40cc150a5b0cc7fee33147722ec2a29</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5db584204e032728b33fed1fac8c2a32">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Fixation of prices in internet: digitalization</title>
+        <identifierref>gc67259f1eea7d870539c8c127e6e346f</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gda5d0b8fd2bf1103ab552db3dc47cd0e">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Pricing Policy</title>
+        <identifierref>g5568f478f0de8dbbdeba62fda8eb2468</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>g558cf52cd18f3e034f2a2e73af0589f4</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g5007e74b2f5a26a190dbfaf2bdc001c1</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g34420cf69bc3fb66e33defcdad1b4bba</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g7ccefb0752d43ad1451deadd1ea9b493</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g5db584204e032728b33fed1fac8c2a32</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gda5d0b8fd2bf1103ab552db3dc47cd0e</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="ga0307612f58bdaddea6ae64f5408d333">
+    <title>Lesson 3 Validación de conocimiento y componente práctico</title>
+    <workflow_state>active</workflow_state>
+    <position>17</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g34538432a77a1c4d3d269e0eba8848f4">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Validación de conocimientos</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g61073f93f30b21b64bcbbebe3845618c">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Test 3 (Supervisado remotamente) </title>
+        <identifierref>g2dabcccdc268a7fc06f5cdaf23e1dccb</identifierref>
+        <position>2</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb90a86cbc1757a15890e5b75a4f38003">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía Didáctica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfd8ac8b7011942e487005cc7c066dadb">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía didáctica marketing management - Lesson 3</title>
+        <identifierref>g2fe18e918e970ca09e08213a43df3c9f</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g36ecaf097bdbf3b787cfed786a1b7501">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Eje de Tendencia</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g69b96878ecbda339d2af3e69efd6714f">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 3.1</title>
+        <identifierref>g69b96878ecbda339d2af3e69efd6714f</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g6b04eeac331d0a8dbfd46d36909758df">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 3.2</title>
+        <identifierref>g6b04eeac331d0a8dbfd46d36909758df</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g7398a558ca2c5c164e2b10c62682f86b">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 3.3</title>
+        <identifierref>g7398a558ca2c5c164e2b10c62682f86b</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g348b646874723677fd5ce1794e8d196c">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Componente práctico</title>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gab1b15e520840b3c23079b7f1441cfa5">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso</title>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g603a5259f35247820853fa287d9c9226">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso Ejemplo de Per Carstedt y la evolución a Tesla</title>
+        <identifierref>g2afe259fb424a83d20f4e13ca6e34013</identifierref>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g516ec58383bd9ad3a1dbe11418bc4b81">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual</title>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g13ee7fb8f4e5ca21148f7b0f80293d7f">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual 3</title>
+        <identifierref>g21b4b4cd53e4a652fd7f095101c0e29d</identifierref>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g12f5951d25358165e322bf7eb55076bd">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo</title>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g396ee75c561d96971e73a8323a2d57b1">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo 3</title>
+        <identifierref>gf05f7598aa7865c387fc93d8996c5fd1</identifierref>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>g69b96878ecbda339d2af3e69efd6714f</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g6b04eeac331d0a8dbfd46d36909758df</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g7398a558ca2c5c164e2b10c62682f86b</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g603a5259f35247820853fa287d9c9226</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g13ee7fb8f4e5ca21148f7b0f80293d7f</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g396ee75c561d96971e73a8323a2d57b1</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gfd8ac8b7011942e487005cc7c066dadb</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g61073f93f30b21b64bcbbebe3845618c</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="g665d0b812831a2ed4046735f5676b9c5">
+    <title>Extra credit Lesson 3</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>18</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gd57807a42a35a85453de31cad5c924e6">
+        <content_type>Assignment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Extra credit Lesson 3</title>
+        <identifierref>gce972920b014596d02b6d225ea6b48fd</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g2da5a7c1535993be81ba8680cb47f95c">
+    <title>Notas del caso 3</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>19</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gd6dbfbf1896cd2c9bde08a9251226e82">
+        <content_type>Attachment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Notas del caso Tesla.pdf</title>
+        <identifierref>ge15c8948b591c3cc0a6b1bf80a63d8a5</identifierref>
+        <position>2</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="gf57c2427611155d1ee82d315544e3f7f">
+    <title>Lesson 4 Fundamentación teórica</title>
+    <workflow_state>active</workflow_state>
+    <position>20</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="ga891713f9c4f13168b3d53b4a3bae773">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la lección</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfe8f18dea817a33475c5c6c5a70b5a23">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la lección 4</title>
+        <identifierref>g939f6b4c2642eee64ce5a0193583aeec</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd6a761fa3c40ebfd38eaf50fb1b7cb79">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Fundamentación teórica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g76d5ab309d4f4e8dfeb5ea2a23e5dcb1">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tema</title>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g65fb3a2dbd28d5a470a07f75b50da778">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Main challenges in the distribution nowadays</title>
+        <identifierref>g32d4ad11b3f577689e682ed75817abdb</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g88f7f1110e01e8d11c89449115261765">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Lecturas de profundización</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ge97919ad63d31e46080b3a86daae4248">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Carrier's main role in Ecommerce</title>
+        <identifierref>g630ff1b39ad38170e09116654c28b41c</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5ebf7aa10d62d3109613bc287da6c225">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Los Modelos Comerciales </title>
+        <identifierref>gf2368795d57066c72b4a12d3574b4eb7</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g2cf9d71019afbe3e3c46a30e58c59b2a">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Clienting y la lealtad de los clientes</title>
+        <identifierref>g5109aad352c2ef7a86d2707b2ef0daec</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb71ace7a7c9bf0555e141dcfaccace44">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>El coste de captar versus el coste de fidelizar</title>
+        <identifierref>g33f44a29a6cb34589bceac9f0894ebbb</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd023e412ca243b6ccdfadabb978bc306">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Misión y visión comercial para una empresa: captación y fidelización</title>
+        <identifierref>g04b984efbc007a1dfe7823b8312ec55c</identifierref>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>gfe8f18dea817a33475c5c6c5a70b5a23</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g65fb3a2dbd28d5a470a07f75b50da778</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>ge97919ad63d31e46080b3a86daae4248</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g5ebf7aa10d62d3109613bc287da6c225</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g2cf9d71019afbe3e3c46a30e58c59b2a</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gb71ace7a7c9bf0555e141dcfaccace44</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gd023e412ca243b6ccdfadabb978bc306</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="ge9c3e49ded96c711ceadc1a06716c2d0">
+    <title>Lesson 4 Validación de conocimiento y componente práctico</title>
+    <workflow_state>active</workflow_state>
+    <position>21</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g3d21141714061730471fa914d00c83f8">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Validación de conocimientos</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb10f2c9466ea7252f9bd30b49f0a66e2">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Test 4 (Supervisado remotamente) </title>
+        <identifierref>ga64b7809fcb8d163ad5e6e0a01d4bd77</identifierref>
+        <position>2</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g4d8b3fe7e738fb497aa30e58b11833b8">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía Didáctica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g40be9a039575677ad9a340a6a6888fab">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía didáctica marketing management - Lesson 4</title>
+        <identifierref>gb04afce276b6119a71e8582445576494</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g4b74376b6a10e5e318d5fb0566c28335">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Eje de tendencia</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g56222fa4ca85ec96d6ee9db67d35ec9d">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 4.1</title>
+        <identifierref>g56222fa4ca85ec96d6ee9db67d35ec9d</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb3e71a4333868136dbaec2b0157eb55e">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 4.2</title>
+        <identifierref>gb3e71a4333868136dbaec2b0157eb55e</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g159c379619178f2f3c9e2e27ccc0b8f5">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 4.3</title>
+        <identifierref>g159c379619178f2f3c9e2e27ccc0b8f5</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g7a35869a143085b029651602f97d7968">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Componente práctico</title>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g2799f78014a4949b2914d0743c4cf5ed">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso</title>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5aad600f43bb8fe39a3996e7e5cccad7">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso THE HONEST COMPANY</title>
+        <identifierref>gc6908b143d6ab7f4490a1590ef215c5b</identifierref>
+        <position>11</position>
+        <new_tab/>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1f82b7ce4858048411e9c5b0881fc29d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual</title>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g458547ebacc352391ad591b0aa04f93b">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual 4</title>
+        <identifierref>g590fcf44bd0c9ae6ab22c7c52e41ee6d</identifierref>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g75be8f424935a5d5cc5b7c24d235a79b">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo</title>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g7693bd9ac1cd5ae76fa800e89c73d0f3">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo 4</title>
+        <identifierref>g885f54ac07765b09847ba5d4e2080146</identifierref>
+        <position>16</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>g56222fa4ca85ec96d6ee9db67d35ec9d</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gb3e71a4333868136dbaec2b0157eb55e</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g159c379619178f2f3c9e2e27ccc0b8f5</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g458547ebacc352391ad591b0aa04f93b</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g7693bd9ac1cd5ae76fa800e89c73d0f3</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g40be9a039575677ad9a340a6a6888fab</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gb10f2c9466ea7252f9bd30b49f0a66e2</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="g0bbcc232f07256a63248eaf40667be84">
+    <title>Extra credit Lesson 4</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>22</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g66ea0943cba82ff81b00cf9e763fd2cc">
+        <content_type>Assignment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Extra credit Lesson 4</title>
+        <identifierref>g8e9e4e25fdd96a35a97934ab3fc4cd94</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="gb0ee0e202eb5b2d1034dca325052fe5d">
+    <title>Notas del caso 4 </title>
+    <workflow_state>unpublished</workflow_state>
+    <position>23</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g878cda4d28c4838f931c627dcc6cc1d4">
+        <content_type>Attachment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Notas del instructor Caso The Honest Company.pdf</title>
+        <identifierref>g0af4df24f2cda65ab8e3fd628c4328d5</identifierref>
+        <position>2</position>
+        <new_tab/>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="gcafc0327e1c760dc691b47416aa23fe8">
+    <title>Lesson 5 Fundamentación teórica</title>
+    <workflow_state>active</workflow_state>
+    <position>24</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gfd133d6f354c93eff687c84b3b678482">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la clase</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfb137e7ae5d6b85af370f2a8ca0989c1">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la lección 5</title>
+        <identifierref>gc402300a6985154bb3192a44d1a42e1a</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1350f6257e2d0f4288d3567b3e224bd5">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Fundamentación teórica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g52b81ee65f835c3f883acf27b984d44b">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tema</title>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1bee0a8b6fabdac4491da7947a7dc621">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Marketing Communications</title>
+        <identifierref>g95bd18dffacf4ecffc8175fbdcc40f97</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb3a9cef051fac2e067dc18c1de855194">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Lecturas de profundización</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gbdce42460e3ad5dccd0ee876d603a1ed">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>El Briefing y el proceso creativo </title>
+        <identifierref>g63eec042cb9476c4049bfec3f386ca15</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ga28e86ab6d2ec94f7bd7d069f872f97d">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Programmatic buying</title>
+        <identifierref>g2e990d89fccf3d9d0786b09a3294260f</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g47f60857b59c200e818cbbb5f17a196d">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Marketing Directo </title>
+        <identifierref>g39ad001ad1e4cb0e9ae2fae02e9cd16c</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8e82059166ffaf97fff79be3bb0b608b">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Digital advertising ecosystem</title>
+        <identifierref>gd72dc4820bee24a533eb5f81042b9f95</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>gfb137e7ae5d6b85af370f2a8ca0989c1</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g1bee0a8b6fabdac4491da7947a7dc621</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gbdce42460e3ad5dccd0ee876d603a1ed</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>ga28e86ab6d2ec94f7bd7d069f872f97d</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g47f60857b59c200e818cbbb5f17a196d</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g8e82059166ffaf97fff79be3bb0b608b</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="g16490eec07c897d93e1bf0c71f673b9a">
+    <title>Lesson 5 Validación de conocimiento y componente práctico</title>
+    <workflow_state>active</workflow_state>
+    <position>25</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g88a81a5b2a4b6e8ca6aa2abc9051fc5b">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Validación de conocimientos</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd722936a63fc5bde1193ef859ef250a5">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Test 5 (Supervisado remotamente) </title>
+        <identifierref>g9f366395debc5fa06398bf692054f00c</identifierref>
+        <position>2</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g0a0896ce472e1d3536aaaa625c803f53">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía Didáctica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g2628cfec777678d58fea8d3413b7b74f">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía didáctica marketing management - Lesson 5</title>
+        <identifierref>gd2f74407d930e181bdf000c67ba615ff</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5281c1e333286ad6bc9b27e478fa4bc2">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Eje de Tendencia</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9da7a5095f1ce18fff95df52bb9faf30">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 5.1</title>
+        <identifierref>g9da7a5095f1ce18fff95df52bb9faf30</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gbea4674805828f7cc0639ef7da5037c6">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 5.2</title>
+        <identifierref>gbea4674805828f7cc0639ef7da5037c6</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gbdd83eaaa9f337be046ccab29f5ffa98">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 5.3</title>
+        <identifierref>gbdd83eaaa9f337be046ccab29f5ffa98</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1626dc22a4801d0046090b2f782946a8">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Componente práctico</title>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ge7605ff3d02df9a492edc87633f52d7e">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso</title>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g69e369139a541f2354d32d75aa23db4d">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso Triodos Bank</title>
+        <identifierref>gf2f765049049d9763e71de1782d1856a</identifierref>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g2086c0a475c565af0a1ae5b06705a89c">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual</title>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gff417abd914f91065f1507355cc92f73">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual 5</title>
+        <identifierref>g21edcf24e8ca68533c7000be11af3754</identifierref>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ga6eb2e0ad899345f6a88000808407180">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo</title>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8373b8503c5a1f357b6eb2907c32d973">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo 5</title>
+        <identifierref>g98d3decf0643b1b9ea90218318ca18e9</identifierref>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>g9da7a5095f1ce18fff95df52bb9faf30</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gbea4674805828f7cc0639ef7da5037c6</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gbdd83eaaa9f337be046ccab29f5ffa98</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g69e369139a541f2354d32d75aa23db4d</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gff417abd914f91065f1507355cc92f73</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g8373b8503c5a1f357b6eb2907c32d973</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g2628cfec777678d58fea8d3413b7b74f</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gd722936a63fc5bde1193ef859ef250a5</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="gf525df826f3d87047ecbf96bd8fe7464">
+    <title>Extra credit Lesson 5</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>26</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g08a156e6f88d7468484e6c9cf710167b">
+        <content_type>Assignment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Extra credit Lesson 5</title>
+        <identifierref>g45f152bd089049a8511d7af412665670</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g3df88b53c1f1bd0b88aa4d9ca7a76f55">
+    <title>Notas del caso 5 </title>
+    <workflow_state>unpublished</workflow_state>
+    <position>27</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g4d82225662dda7f4c8c14494344354c0">
+        <content_type>Attachment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Ideas para Analizar el Caso de Triodos Bank .pdf</title>
+        <identifierref>g967a17643b5010d995b822058eebcbfc</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g3324547bf136c1ad742b031b24f151cb">
+    <title>Lesson 6 Fundamentación teórica</title>
+    <workflow_state>active</workflow_state>
+    <position>28</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="ga1ed9f53a5f314bb59afffca11983888">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la clase</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g6d085e3bfdfd785ba28850fd2dd2bcd3">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introducción a la lección 6</title>
+        <identifierref>gc73109ead7f28d975402cc14dd1cbb12</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb9720a93f7b7ba0e287224f97543331b">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Fundamentación teórica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfa63fe86ddc8abe62817555e1346b4ef">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tema</title>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g6ec92103660ab6d7b3f1c9373dd7dcc2">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Social network: marketing socialization</title>
+        <identifierref>g078b26614184fe1d95222d4cb7dfcb3d</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g67a7c9e07a4ccce26819993b47c70c3d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Lecturas de profundización</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g265a0ac089c74c6e76e89697d358f948">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>SEM y SEO </title>
+        <identifierref>ge72b446745a3ae77e7fc8b86ac394769</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>3</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd9879ed6ca7172f7413e042ce49460f8">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Social Media Marketing</title>
+        <identifierref>g15518b2feed532559d3aca68c7ecc049</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>3</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g08064080e3f18d9a20a8eb94bdff5f2f">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Campañas en social media marketing </title>
+        <identifierref>gac42212858253999db98d7dab893c711</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>3</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g97e3d9da81b94276a693d8f1fd9b5c7e">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Estrategia de SEM</title>
+        <identifierref>g2eb82bf9a421ee4c3159048af5356879</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>3</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>g6d085e3bfdfd785ba28850fd2dd2bcd3</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g6ec92103660ab6d7b3f1c9373dd7dcc2</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g265a0ac089c74c6e76e89697d358f948</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gd9879ed6ca7172f7413e042ce49460f8</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g08064080e3f18d9a20a8eb94bdff5f2f</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g97e3d9da81b94276a693d8f1fd9b5c7e</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="ged97ffc16d64111f4bdda97422fd24bc">
+    <title>Lesson 6 Validación de conocimiento y componente práctico</title>
+    <workflow_state>active</workflow_state>
+    <position>29</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g4f58808ff01bc47e598be1a2fae1282a">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Validación de conocimientos</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g63d214d72eabc05869cc25020d1f5132">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Test 6 (Supervisado remotamente) </title>
+        <identifierref>gb1b34c11a0cc7ccab24c6d6626df4bcb</identifierref>
+        <position>2</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8ff42ecafd45f0014df9be40e3c74504">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía Didáctica</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfb29b31f6896e93e5f9a7580dfab461e">
+        <content_type>Attachment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guía didáctica marketing management - Lesson 6</title>
+        <identifierref>g0779cb63ec319d625ca4660aed2fc08b</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g558fdfe22d6f03ef12b9e742e759b3f7">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Eje de Tendencia</title>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g40b34f6e5771c770f759c144c60fafe8">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 6.1</title>
+        <identifierref>g40b34f6e5771c770f759c144c60fafe8</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfcac6e66878d97cf80497a38338e3c6f">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 6.2</title>
+        <identifierref>gfcac6e66878d97cf80497a38338e3c6f</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g14e6691bda83723fbf8938d9566c57da">
+        <content_type>ExternalUrl</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Tendencia 6.3</title>
+        <identifierref>g14e6691bda83723fbf8938d9566c57da</identifierref>
+        <url>https://westfield.edu/</url>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g69c8a95797018c0a7598e3457b0b92d3">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Componente práctico</title>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g51ce34ee44501284067afc61a5bfcfdc">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso</title>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g444e1b76a09dda87d351f88ca12a6c77">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Caso Orange: Por un uso Love de la Tecnología</title>
+        <identifierref>gf24084bfe7a3ba6ccd36b28737b15691</identifierref>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb94a3bda68fe56546c82da206ac5fa6d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual</title>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9ba27bf45c505202c762716ba2af1057">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introspección individual 6</title>
+        <identifierref>g478f9f10d30e1bc4dc1ba1fb411f8cc1</identifierref>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g68424d0fd0d1b151037bf157ff9beeb3">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo</title>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g139c943d32f2ac54fbef8cd8225b329b">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Proyecto en equipo 6</title>
+        <identifierref>g4c868c514e212189dccb2673a5a4e35f</identifierref>
+        <position>16</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_view">
+        <identifierref>g40b34f6e5771c770f759c144c60fafe8</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>gfcac6e66878d97cf80497a38338e3c6f</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g14e6691bda83723fbf8938d9566c57da</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g444e1b76a09dda87d351f88ca12a6c77</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g9ba27bf45c505202c762716ba2af1057</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g139c943d32f2ac54fbef8cd8225b329b</identifierref>
+      </completionRequirement>
+      <completionRequirement type="must_view">
+        <identifierref>g63d214d72eabc05869cc25020d1f5132</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+  <module identifier="g181c7fcbc4efb7c6f5d5c218b8f16bbb">
+    <title>Extra credit Lesson 6</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>30</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g9f465340fe2a3f2bca56026c5db5766e">
+        <content_type>Assignment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Extra credit Lesson 6</title>
+        <identifierref>g7391196e98898dba1705f64107dd7db3</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g5f635ad5d510bd181267fb832233f0e8">
+    <title>Notas del caso 6 </title>
+    <workflow_state>unpublished</workflow_state>
+    <position>31</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g205f7fdb7fd96d0c542de853bb088a5b">
+        <content_type>Attachment</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Ideas para Analizar el Caso de Orange .pdf</title>
+        <identifierref>g7c0cd2cc1530383f26cb40e858399eb9</identifierref>
+        <position>1</position>
+        <new_tab/>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g35dcdf9162040eb266974bf4659c89b1">
+    <title>Encuesta sobre el curso</title>
+    <workflow_state>active</workflow_state>
+    <position>32</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="ga0dc97990677a16cc769341e6beb460e">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Encuesta final</title>
+        <identifierref>gf42ca9fe6836447217cfc67d11c4e67a</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+    <completionRequirements>
+      <completionRequirement type="must_submit">
+        <identifierref>ga0dc97990677a16cc769341e6beb460e</identifierref>
+      </completionRequirement>
+    </completionRequirements>
+  </module>
+</modules>

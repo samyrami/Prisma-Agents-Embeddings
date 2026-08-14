@@ -1,0 +1,1386 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g69ae50a477ebc68bee13af759539d1ba" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MAN-563  Test 4 </fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="479cb781c1cd0812c3b9642df185566c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>346bf36f-e2b8-4d08-825d-bcf603ce188e,6624fd5e-8245-47fe-8747-d1ad35362a2d,c496750f-33e7-4a96-853d-cb84acd283ca</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>1c47670394adade007f467c36a2a8b97</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Desde una perspectiva organizacional, &#xBF;Qu&#xE9; poderes est&#xE1;n m&#xE1;s vinculados al liderazgo?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="346bf36f-e2b8-4d08-825d-bcf603ce188e">
+              <material>
+                <mattext texttype="text/html">El poder experto y el poder referente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6624fd5e-8245-47fe-8747-d1ad35362a2d">
+              <material>
+                <mattext texttype="text/html">El poder coercitivo y el poder leg&#xED;timo.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c496750f-33e7-4a96-853d-cb84acd283ca">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;El poder coercitivo y el poder de recompensa.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">346bf36f-e2b8-4d08-825d-bcf603ce188e</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El liderazgo queda m&#xE1;s vinculado al poder experto y al poder referente mientras que un gestor que no lidera tendr&#xE1; cierta tendencia a abusar del poder de recompensa, del poder coercitivo y del poder leg&#xED;timo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="91ec4b23da812e9bf33404e131d5d514" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>b4fd7bf8-b981-4d57-8f26-956b472441e5,b78f9f9b-24bb-4438-b4b6-84cbb0dc0139,ac5d6a78-e258-4ad9-b8e7-76a54c81d56b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>bd7e5ce0cdcea98b3d4f9e49c22cd9ff</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Respecto a los tipos de poder, &#xBF;Cu&#xE1;l se basa en la capacidad de obligar a alguien a cumplir por medio de amenazas con consecuencias f&#xED;sicas, psicol&#xF3;gicas o emocionales?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="b4fd7bf8-b981-4d57-8f26-956b472441e5">
+              <material>
+                <mattext texttype="text/html">Poder experto.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b78f9f9b-24bb-4438-b4b6-84cbb0dc0139">
+              <material>
+                <mattext texttype="text/html">Poder coercitivo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ac5d6a78-e258-4ad9-b8e7-76a54c81d56b">
+              <material>
+                <mattext texttype="text/html">Poder referente.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b78f9f9b-24bb-4438-b4b6-84cbb0dc0139</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El poder coercitivo, es la capacidad de obligar a alguien a cumplir por medio de amenazas con consecuencias f&#xED;sicas, psicol&#xF3;gicas o emocionales.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="f24b9963cfc1069b77dee02d2245a025" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7988c778-2a21-477f-8ea9-754229204f74,ec092630-5395-45b8-b523-8b0aad371e00,9bebe613-5d5b-4885-a06c-c66793ebf58f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>623098d72c081903a1be9cd6e8830caf</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Respecto a los tipos de poder, &#xBF;Cu&#xE1;l se basa en la vida personal para relacionarse y en el poder personal de atracci&#xF3;n?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7988c778-2a21-477f-8ea9-754229204f74">
+              <material>
+                <mattext texttype="text/html">Poder experto.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ec092630-5395-45b8-b523-8b0aad371e00">
+              <material>
+                <mattext texttype="text/html">Poder leg&#xED;timo.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9bebe613-5d5b-4885-a06c-c66793ebf58f">
+              <material>
+                <mattext texttype="text/html">Poder referente.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9bebe613-5d5b-4885-a06c-c66793ebf58f</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Poder referente: se basa en la vida personal para relacionarse y en el poder personal de atracci&#xF3;n. Los l&#xED;deres que atraen a los dem&#xE1;s por su estilo con su carisma poseen poder referente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="e5986ac2a6cb1338a61d2f9baddba201" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>791bf3fe-1864-4a6a-8617-3887cbe121fd,7f9ac8b4-8c9e-4993-abfb-ae20e9102dc9,8d090fa9-00b4-4021-b51b-2a3a2eed1eb7</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>b04b2e7c480c09ea69cd0511f204b82a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un l&#xED;der eficaz en realidad debe enfocarse en:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="791bf3fe-1864-4a6a-8617-3887cbe121fd">
+              <material>
+                <mattext texttype="text/html">Dirigir a los equipos con herramientas de eficacia que les d&#xE9; seguridad y resultados cuantitativos. Con esas herramientas el l&#xED;der debe esperar que aumente la satisfacci&#xF3;n laboral, el compromiso e inter&#xE9;s del equipo en lograr los resultados.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7f9ac8b4-8c9e-4993-abfb-ae20e9102dc9">
+              <material>
+                <mattext texttype="text/html">Facilitar la interacci&#xF3;n de los equipos de trabajo y esto tiene una relaci&#xF3;n positiva con la satisfacci&#xF3;n laboral pues se comparten no solamente un prop&#xF3;sito, sino tambi&#xE9;n objetivo, valor e inter&#xE9;s com&#xFA;n, donde los roles son interdependientes, y las destrezas complementarias.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8d090fa9-00b4-4021-b51b-2a3a2eed1eb7">
+              <material>
+                <mattext texttype="text/html">Lograr resultados a toda costa</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7f9ac8b4-8c9e-4993-abfb-ae20e9102dc9</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El l&#xED;der eficaz facilita la interacci&#xF3;n de los equipos de trabajo y esto tiene una relaci&#xF3;n positiva con la satisfacci&#xF3;n laboral pues se comparten no solamente un prop&#xF3;sito, sino tambi&#xE9;n objetivo, valor e inter&#xE9;s com&#xFA;n, donde los roles son interdependientes, y las destrezas complementarias.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="584ad2af90272f5ccf871ed416c7511a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>675849eb-4dce-4ef5-9202-c5d15fade37c,8e6c967b-c38b-4b9c-a14a-d978d61577c6,2923fe33-2fc2-4c96-99e5-3bcedde3b8e3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>95604dfe7d757a9f9a85fdc401cc6a6b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cardona y Labarga mencionan espec&#xED;ficamente la siguiente caracter&#xED;stica como propia del liderazgo: &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="675849eb-4dce-4ef5-9202-c5d15fade37c">
+              <material>
+                <mattext texttype="text/html">La competencia emocional, el pensamiento contextual y su capacidad de ser jefe y dar &#xF3;rdenes</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8e6c967b-c38b-4b9c-a14a-d978d61577c6">
+              <material>
+                <mattext texttype="text/html">La capacidad de trascender en los dem&#xE1;s compaginando habilidades directivas y organizativas con las del comportamiento</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2923fe33-2fc2-4c96-99e5-3bcedde3b8e3">
+              <material>
+                <mattext texttype="text/html">La &#xFA;nica competencia que verdaderamente requiere el liderazgo es la perseverancia.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8e6c967b-c38b-4b9c-a14a-d978d61577c6</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Por su parte Cardona y Labarga apuntan en un nuevo aspecto que merece la pena comentar. Se refieren a la trascendencia del ser humano en otros como una caracter&#xED;stica propia del l&#xED;der: &#x201C;El hombre de la organizaci&#xF3;n que solo fuese h&#xE1;bil en temas de comportamiento, comunicaci&#xF3;n, motivaci&#xF3;n no podr&#xED;a ser un l&#xED;der sin ayuda a trascenderse a las personas. Una palmadita en la espalda puede ser un acto degradante. Se requiere tambi&#xE9;n que sea h&#xE1;bil para establecer estrategias, estructuras organizativas, procesos y pol&#xED;ticas motivantes. El l&#xED;der maneja y domina las t&#xE9;cnicas directivas y organizativas, adem&#xE1;s de las habilidades de comportamiento&#x201D;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="7340f9ae9d619efeaf002c4633a52323" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8a86c005-610a-45b4-a52a-05bf97a888a1,66b7783e-6e22-4210-a915-5aa92539e0ce,aa1968eb-bf37-445b-8dce-9a697538a9d4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>a3db00e3f6cb6b5bc56dd156735ae820</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&amp;nbsp;Aprender liderazgo:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8a86c005-610a-45b4-a52a-05bf97a888a1">
+              <material>
+                <mattext texttype="text/html">Es una decisi&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="66b7783e-6e22-4210-a915-5aa92539e0ce">
+              <material>
+                <mattext texttype="text/html">Es una obligaci&#xF3;n&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="aa1968eb-bf37-445b-8dce-9a697538a9d4">
+              <material>
+                <mattext texttype="text/html">Es un pasatiempo</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8a86c005-610a-45b4-a52a-05bf97a888a1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Aprender liderazgo es la decisi&#xF3;n de emprender un camino de cambio. La mayor&#xED;a de los factores del liderazgo efectivo se aprenden, por lo que requiere dedicaci&#xF3;n, recursos y decisi&#xF3;n.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="84fbf431631c268c336c10b12e5890da" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c0c89caa-95fa-44cd-bd77-78076f360635,9fbd8276-6747-4938-934a-4cd7b1484082,c7896941-9dca-4087-9605-e1e9f69092fc</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>8e76f1f3ae6e36102de22fb1e62cbdbc</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l de las siguientes afirmaciones es la m&#xE1;s correcta?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c0c89caa-95fa-44cd-bd77-78076f360635">
+              <material>
+                <mattext texttype="text/html">El liderazgo se aprende, pero si no hay carisma innato, ese liderazgo ser&#xE1; incompleto</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9fbd8276-6747-4938-934a-4cd7b1484082">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;El liderazgo se aprende, tenemos la capacidad de aprenderlo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c7896941-9dca-4087-9605-e1e9f69092fc">
+              <material>
+                <mattext texttype="text/html">El l&#xED;der no se hace; nace con cualidades espec&#xED;ficas de liderazgo</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9fbd8276-6747-4938-934a-4cd7b1484082</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Los participantes que defienden el lado carism&#xE1;tico como imprescindible en el l&#xED;der, demuestran c&#xF3;mo esta idea que arrastramos desde los a&#xF1;os 30 a&#xFA;n perdura en nuestro registro de creencias. En estas ocasiones invit&#xF3; a los alumnos a diferenciar bien el determinismo al que aboca el concepto de &#x201C;carisma&#x201D; como factor crucial del liderazgo, frente a la acci&#xF3;n responsable a que est&#xE1; emplazado el l&#xED;der que lo puede ser por desarrollo de habilidades. &#xBF;Puede una persona tener carisma y no hacer nada al servicio de otros con ello? La respuesta suele ser afirmativa. El liderazgo se aprende</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="bfbbce8118828a5b5341252bf18c69e9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7d9ab3d4-2998-468d-8e7e-b4e06c138d2a,407555e4-6465-4c71-ab96-0ebed2c8afc7,20ac6722-f0eb-43d1-9533-c8b2b7bf526f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e06008e6f83a3351064de76dd7c2254d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Aprender a liderar requiere la voluntad&#x2026;&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7d9ab3d4-2998-468d-8e7e-b4e06c138d2a">
+              <material>
+                <mattext texttype="text/html">Porque es una decisi&#xF3;n de emprender un camino de cambio que no tiene por qu&#xE9; tener un sentido para quien lo emprende</mattext>
+              </material>
+            </response_label>
+            <response_label ident="407555e4-6465-4c71-ab96-0ebed2c8afc7">
+              <material>
+                <mattext texttype="text/html">Porque si naces con dotes de liderazgo solo tienes que querer ejercerlo sin importar para qu&#xE9; ya que lo importante es que tienes esas dotes</mattext>
+              </material>
+            </response_label>
+            <response_label ident="20ac6722-f0eb-43d1-9533-c8b2b7bf526f">
+              <material>
+                <mattext texttype="text/html">Porque es una decisi&#xF3;n de emprender un camino de cambio que tiene un para quien lo emprende</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">20ac6722-f0eb-43d1-9533-c8b2b7bf526f</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Aprender liderazgo requiere voluntad&#x2026; Mejor dicho... la decisi&#xF3;n de emprender un camino de cambio. La mayor&#xED;a de los factores del liderazgo efectivo se aprende, ya lo hemos dicho, pero de nada sirve si ese camino, si ese cambio no tiene un sentido, &#xED;ntimo por qu&#xE9; no, para quien lo aprende.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="246d99a8316756860b116878e852001a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>aa01b1d2-97b4-4736-887c-0bfd0fe6f057,6a8bf1ae-9241-4cc0-b8d1-17633e856f20,e885d814-8b37-4410-b78c-20c75a57b786</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>0ef8e5e34dc99544d7dee3ea7d7c8cc0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las fases en la vida de un grupo son:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="aa01b1d2-97b4-4736-887c-0bfd0fe6f057">
+              <material>
+                <mattext texttype="text/html">Iniciaci&#xF3;n, Orientaci&#xF3;n, Clarificaci&#xF3;n, Madurez y Disoluci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6a8bf1ae-9241-4cc0-b8d1-17633e856f20">
+              <material>
+                <mattext texttype="text/html">Iniciaci&#xF3;n, Orientaci&#xF3;n, Clarificaci&#xF3;n, Integraci&#xF3;n y Disoluci&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e885d814-8b37-4410-b78c-20c75a57b786">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;Iniciaci&#xF3;n, Orientaci&#xF3;n, Clarificaci&#xF3;n, Reconfiguraci&#xF3;n</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6a8bf1ae-9241-4cc0-b8d1-17633e856f20</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Las fases en la vida de un grupo son: Iniciaci&#xF3;n, Orientaci&#xF3;n, Clarificaci&#xF3;n, Integraci&#xF3;n y Disoluci&#xF3;n. &amp;nbsp;La madurez es algo que se va logrando a lo largo de todas las fases de la vida de un grupo. La reconfiguraci&#xF3;n no es algo que forme parte necesariamente como fase de la vida de un equipo, de acuerdo con los postulados de Ken Blanchard.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="3adfc643b8c06727054fd052ae823c72" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d230cf96-c9ea-484e-902e-f10b850cf9c5,88bf3c0e-12cc-4812-9b1c-826b62146c28,4536b8b9-45dd-46ba-ae97-14fecf603aa3,da11b828-2174-49e8-8d9d-c901f11e9144</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>dc868e55e01989452cd41b85be425fb6</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;les de estas caracter&#xED;sticas corresponden a una persona inteligente emocionalmente?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d230cf96-c9ea-484e-902e-f10b850cf9c5">
+              <material>
+                <mattext texttype="text/html">Autoconsciencia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="88bf3c0e-12cc-4812-9b1c-826b62146c28">
+              <material>
+                <mattext texttype="text/html">Automotivaci&#xF3;n y autorregulaci&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4536b8b9-45dd-46ba-ae97-14fecf603aa3">
+              <material>
+                <mattext texttype="text/html">Conciencia social</mattext>
+              </material>
+            </response_label>
+            <response_label ident="da11b828-2174-49e8-8d9d-c901f11e9144">
+              <material>
+                <mattext texttype="text/html">Todas son correctas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">da11b828-2174-49e8-8d9d-c901f11e9144</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Competencias agrupadas por categor&#xED;as para una persona inteligente emocionalmente:&lt;br&gt;- &amp;nbsp; &amp;nbsp;Autoconciencia: Se trata del conocimiento, principalmente de lo que sentimos acerca de una circunstancia y su impacto en la toma de decisiones. Tiene que ver con la autoconfianza y con el reconocimiento realista sobre nuestras capacidades y limitaciones.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Automotivaci&#xF3;n y autorregulaci&#xF3;n: es el motor que impulsa la toma de iniciativas con el fin de mejorar, perseverar, establecer mejores est&#xE1;ndares y manejar las frustraciones. Lo m&#xE1;s importante es la capacidad de autocontrol y la facilidad de responder e irradiar calma ante una situaci&#xF3;n extrema. En esta competencia est&#xE1; tambi&#xE9;n la caracter&#xED;stica de actuar consistentemente con sus valores e inspirar a otros para que act&#xFA;en igual. Tambi&#xE9;n es clave la conciencia y la auto responsabilidad sobre los actos y sus consecuencias, as&#xED; como la adaptabilidad a nuevas situaciones y a tolerar la ambig&#xFC;edad.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Conciencia social: integrada por la empat&#xED;a, la orientaci&#xF3;n de servicio al cliente, la sensibilidad intercultural y la conciencia organizacional.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Habilidades sociales: tienen que ver con el control de las emociones de situaciones que implican redes de trabajo y en labores de cooperaci&#xF3;n. Implica el uso de habilidades para convencer, liderar o negociar.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="1eb728136a468382e68909c59d6242de" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>19b37fb0-a360-415c-81cf-ec67bb57f5ea,fa54b6fb-7012-4e92-9e38-a538127cc51c,b2cc12f3-5268-472b-8a16-842ba537a960</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>1220b78b0a8066b629db1495048ba4a1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;ndo sabemos que un l&#xED;der es eficaz?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="19b37fb0-a360-415c-81cf-ec67bb57f5ea">
+              <material>
+                <mattext texttype="text/html">Cuando cumple con lo que se propone y logra que sus colaboradores ejecuten sus tareas en tiempo y forma</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fa54b6fb-7012-4e92-9e38-a538127cc51c">
+              <material>
+                <mattext texttype="text/html">Cuando demuestra flexibilidad y aplica un estilo de liderazgo de acuerdo a la situaci&#xF3;n y la persona</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b2cc12f3-5268-472b-8a16-842ba537a960">
+              <material>
+                <mattext texttype="text/html">Cuando a trav&#xE9;s de la admiraci&#xF3;n y el respeto, logra que sus colaboradores sigan sus &#xF3;rdenes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">fa54b6fb-7012-4e92-9e38-a538127cc51c</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El l&#xED;der m&#xE1;s eficaz ser&#xE1; aquel que demuestra una mayor flexibilidad de estilo y que utilice el estilo adecuado en cada situaci&#xF3;n con la persona adecuada. Los estilos de liderazgo son:&lt;br&gt;- &amp;nbsp; &amp;nbsp;Estilo de direcci&#xF3;n: se caracteriza por la utilizaci&#xF3;n de un elevado nivel de comportamiento directivo y un bajo nivel de comportamiento de apoyo.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Estilo de entrenamiento o coaching: estilo de supervisi&#xF3;n que supone utilizar ambos tipos de comportamiento, direcci&#xF3;n y apoyo de manera intensa. Si bien mantiene alta direcci&#xF3;n, la supervisi&#xF3;n implica reconocer los avances que se producen en el rendimiento del colaborador y solicitar sugerencias.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Estilo de apoyo: el l&#xED;der mantiene un comportamiento de apoyo elevado disminuyendo el comportamiento de direcci&#xF3;n. Toma las decisiones juntamente con sus colaboradores y apoya los esfuerzos que &#xE9;stos realizan.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Estilo de delegaci&#xF3;n el l&#xED;der disminuye su nivel de intervenci&#xF3;n delegando la toma de decisiones en sus colaboradores.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="181a0b82fe987fafaee6d43c78a61c1e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5fecf9fc-e8fb-49dd-8d3e-d42102966142,ac58536b-dc7e-4dca-a19c-2ba23f1f5c08,822c2f24-fa80-4a7c-973d-58effcb4e376</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6890f0a8b484c7bd36030b864792a099</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;A qu&#xE9; hace referencia la teor&#xED;a X e Y de McGregor?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5fecf9fc-e8fb-49dd-8d3e-d42102966142">
+              <material>
+                <mattext texttype="text/html">Hace referencia a las condiciones que se tienen que dar para que haya liderazgo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ac58536b-dc7e-4dca-a19c-2ba23f1f5c08">
+              <material>
+                <mattext texttype="text/html">Hace referencia a las dos caracter&#xED;sticas que debe tener un l&#xED;der: ambici&#xF3;n y perseverancia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="822c2f24-fa80-4a7c-973d-58effcb4e376">
+              <material>
+                <mattext texttype="text/html">Hace referencia a los estilos de direcci&#xF3;n b&#xE1;sicos: el autoritario y el igualitario.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">822c2f24-fa80-4a7c-973d-58effcb4e376</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">McGregor establece que existen dos estilos b&#xE1;sicos de direcci&#xF3;n, un estilo autoritario que denomin&#xF3; Teor&#xED;a X y un estilo m&#xE1;s igualitario que denomin&#xF3; Teor&#xED;a Y. La teor&#xED;a X parte del supuesto de que el ser humano siente repugnancia por el trabajo, prefiere ser dirigido, tiene poca ambici&#xF3;n y busca sobre todo seguridad. &amp;nbsp;El directivo X considera que las personas tienen que ser obligadas a trabajar, tienen que ser dirigidas, controladas y amenazadas con castigo. Para conseguir buenos resultados deber&#xE1; utilizar medidas duras. El directivo se considera responsable de organizar al grupo y deber&#xE1; centrar sus esfuerzos en dirigir organizar y controlar a los miembros de su grupo y modificar sus conductas seg&#xFA;n las necesidades organizacionales.&lt;br&gt;La teor&#xED;a Y presupone que es preciso integrar los intereses individuales y los objetivos considera que las personas trabajar&#xE1;n y asumir&#xE1;n responsabilidades si tienen la oportunidad de satisfacer sus necesidades personales al tiempo que consiguen las organizacionales. El directivo Y tiene la capacidad de auto dirigirse y auto controlarse</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="d5ccfe8d3ec047250340306d0a98e8d2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>fd8cc808-77db-4239-bb36-f4a557f0dc2e,b337d32a-dd26-4c18-9c33-e5dcf47d9156,64d8c136-83cc-4216-b4e2-78e00c687944</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>db155f0755036fc1028536b1017231b5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; dos dimensiones caracter&#xED;sticas del liderazgo considera la Universidad de Ohio que son esenciales para un l&#xED;der?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="fd8cc808-77db-4239-bb36-f4a557f0dc2e">
+              <material>
+                <mattext texttype="text/html">La compasi&#xF3;n y la empat&#xED;a</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b337d32a-dd26-4c18-9c33-e5dcf47d9156">
+              <material>
+                <mattext texttype="text/html">La consideraci&#xF3;n y la estructura</mattext>
+              </material>
+            </response_label>
+            <response_label ident="64d8c136-83cc-4216-b4e2-78e00c687944">
+              <material>
+                <mattext texttype="text/html">La ambici&#xF3;n y la consideraci&#xF3;n</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b337d32a-dd26-4c18-9c33-e5dcf47d9156</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Estudios de la universidad de Ohio se especializaron en dos dimensiones caracter&#xED;sticas del liderazgo:&lt;/p&gt;
+&lt;p&gt;- &amp;nbsp; &amp;nbsp;Consideraci&#xF3;n: en qu&#xE9; medida el l&#xED;der tiene en cuenta los sentimientos de los subordinados. Hace referencia a aquellas conductas del l&#xED;der que favorecen las relaciones de amistad, crean cohesi&#xF3;n y armon&#xED;a en el grupo, facilita la participaci&#xF3;n en la toma de decisiones, ayudan a los subordinados con los problemas personales, muestran proximidad y cercan&#xED;a, mejoran la comunicaci&#xF3;n, etc. L&#xED;deres con alta consideraci&#xF3;n: consigue mayor nivel de satisfacci&#xF3;n de sus colaboradores, menor absentismo y n&#xFA;mero menor de quejas.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Iniciaci&#xF3;n de estructura o lo que es lo mismo, se relacionan con la conducta del l&#xED;der que facilita y define las interacciones del grupo para as&#xED; alcanzar sus metas. Se relaciona con otras tareas como obtener buenos niveles de rendimiento, confirmar que se comprenden sus &#xF3;rdenes, clarificar y asignar funciones y tareas, asegurarse que est&#xE1;n orientados hacia la tarea, etc. Los l&#xED;deres con alto nivel en consideraci&#xF3;n y en estructura son los que consiguen tanto un buen rendimiento de sus subordinados, como una alta satisfacci&#xF3;n de los mismos.&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="7934618dce367338f96a235c158880b2" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c6d0ceb5-e547-4420-b068-499653c8da77,316f3c6f-fad7-45e0-8cfd-b2db45017824,530c0a49-940a-4e47-8bae-fbdbfbf61a47</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>215b852d40bb3a1fa74bc8672321a832</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Hacia d&#xF3;nde se orienta la nueva figura o rol de un l&#xED;der?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c6d0ceb5-e547-4420-b068-499653c8da77">
+              <material>
+                <mattext texttype="text/html">Hacia la acumulaci&#xF3;n de conocimiento</mattext>
+              </material>
+            </response_label>
+            <response_label ident="316f3c6f-fad7-45e0-8cfd-b2db45017824">
+              <material>
+                <mattext texttype="text/html">Hacia la acumulaci&#xF3;n de control&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="530c0a49-940a-4e47-8bae-fbdbfbf61a47">
+              <material>
+                <mattext texttype="text/html">Hacia la acumulaci&#xF3;n de prestigio</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c6d0ceb5-e547-4420-b068-499653c8da77</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La nueva figura o rol de los dirigentes, o l&#xED;deres, se orienta m&#xE1;s hacia la acumulaci&#xF3;n de conocimiento que hacia la acumulaci&#xF3;n de control, hacia l&#xED;deres capaces de aprovechar la inteligencia colectiva, de crear entornos de confianza, que fomenten la implicaci&#xF3;n, la creatividad y la comunicaci&#xF3;n.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="c44908eed14ddfd80c0c3a05cb444cb6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>35f8aa59-cd1b-4132-bf23-dba9f2ca039e,16c69410-059b-42fb-9c0d-e2a94ecb88d5,d3089b6f-c998-4f51-abb7-93a05c6a3985</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>9175c4619bec6e8b02615129b308b056</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Para afrontar el mundo actual con sus cambios, necesitamos:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="35f8aa59-cd1b-4132-bf23-dba9f2ca039e">
+              <material>
+                <mattext texttype="text/html">Una buena formaci&#xF3;n acad&#xE9;mica reconocida que me d&#xE9; el "saber" es cuanto necesito para poner a un equipo en marcha ya que tendr&#xE9; las herramientas operativas necesarias para medir rendimientos y organizar al equipo para que logren los objetivos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="16c69410-059b-42fb-9c0d-e2a94ecb88d5">
+              <material>
+                <mattext texttype="text/html">Desarrollar una bater&#xED;a de t&#xE9;cnicas lo m&#xE1;s amplia posible para poder dar respuesta a los cambios</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d3089b6f-c998-4f51-abb7-93a05c6a3985">
+              <material>
+                <mattext texttype="text/html">Comprender que los equipos son sistemas formados por personas con necesidades, incluido el l&#xED;der, por lo que debe empezar su desarrollo por s&#xED; mismo; cuidar su calidad humana.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">d3089b6f-c998-4f51-abb7-93a05c6a3985</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Los equipos est&#xE1;n formados por personas. Podemos hablar de los equipos como sistemas integrados por individuos; y no nos enga&#xF1;emos, son esos individuos, los que integran los equipos, quienes representan los verdaderos motores de desarrollo y funcionamiento en la organizaci&#xF3;n. Estos integrantes de un equipo tienen necesidades de pertenencia, de desarrollo personal y profesional, necesidades econ&#xF3;micas, de apoyo etc. Es dif&#xED;cil que el l&#xED;der, por mucho que se arme de t&#xE9;cnicas, logre que ese equipo funcione eficazmente si no se ocupa en primer lugar de s&#xED; mismo como l&#xED;der (de desarrollar su calidad humana y liderazgo) y de los integrantes de su equipo en segundo lugar.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ffe12fb3078e5d415e13f1a7ea862f1f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c57e0d7a-4f8c-48f8-ab20-b395f1b2ce2d,97940242-5b39-4a16-b753-17cac191466a,4580b42b-25f5-4b2b-8471-e5743cc7baed</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>a366147ae6ef73eae1496d41718f44f2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l de estos elementos son una entidad?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c57e0d7a-4f8c-48f8-ab20-b395f1b2ce2d">
+              <material>
+                <mattext texttype="text/html">La organizaci&#xF3;n, el equipo y el individuo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97940242-5b39-4a16-b753-17cac191466a">
+              <material>
+                <mattext texttype="text/html">El equipo y el individuo, pero no la organizaci&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4580b42b-25f5-4b2b-8471-e5743cc7baed">
+              <material>
+                <mattext texttype="text/html">La organizaci&#xF3;n solo</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c57e0d7a-4f8c-48f8-ab20-b395f1b2ce2d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tanto la organizaci&#xF3;n, como el equipo son una entidad, tal como lo es tambi&#xE9;n un individuo. El equipo tiene un ciclo de vida, con identidad propia. Cada equipo puede tener diferentes prop&#xF3;sitos, objetivos y naturalezas. Pueden tener una sola funci&#xF3;n o ser multifuncionales, haber sido concebidos de forma permanente o temporal, como es el caso de los equipos de proyecto, pueden ser grandes o con pocos integrantes, todos esto son aspectos que van a condicional el papel del liderazgo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="04a5839ac41be1d7046f875e464f921d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c1e46bb8-5ffb-403c-ac87-008c88046ef3,8c6c3d1e-9e06-4f7f-93c9-1e3652617fd4,3c21fc3f-e3df-486b-a153-7c562b3c7be2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>e0d6b8dc7b8d3b091211a2d8a6ecbd84</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En el contexto organizacional actual &#xBF;C&#xF3;mo son las demandas actuales de la fuerza laboral?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c1e46bb8-5ffb-403c-ac87-008c88046ef3">
+              <material>
+                <mattext texttype="text/html">M&#xE1;s comprensiva.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8c6c3d1e-9e06-4f7f-93c9-1e3652617fd4">
+              <material>
+                <mattext texttype="text/html">M&#xE1;s conformista.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3c21fc3f-e3df-486b-a153-7c562b3c7be2">
+              <material>
+                <mattext texttype="text/html">Mas diversa y exigente.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3c21fc3f-e3df-486b-a153-7c562b3c7be2</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Entre los retos que nuestros l&#xED;deres tienen por delante, es adaptarse a la creciente complejidad que viven las organizaciones y a la necesidad de dar respuesta a las demandas una fuerza laboral, cada vez m&#xE1;s diversa y exigente.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="6f567bc9a87d55bf2b78cb56dfdccf1e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c25219cd-7d43-4883-8c01-73f4a514b5be,849e3d66-2776-4be0-92f4-e63c35cbc0d4,9cee874d-fa99-4ed8-acec-be3441cbdb0f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4aab2ec8019de3bb14d13312ca39b51b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El l&#xED;der en su rol de movilizador de los equipos ha de desafiar a sus colaboradores para lograr los objetivos marcados. Para ello ha de poner en pr&#xE1;ctica su habilidad para: &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c25219cd-7d43-4883-8c01-73f4a514b5be">
+              <material>
+                <mattext texttype="text/html">Reconocer y gestionar sus propias emociones y estados de &#xE1;nimo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="849e3d66-2776-4be0-92f4-e63c35cbc0d4">
+              <material>
+                <mattext texttype="text/html">Delegar responsabilidades, fomentando la autonom&#xED;a en la toma de decisiones y en la resoluci&#xF3;n de problemas.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9cee874d-fa99-4ed8-acec-be3441cbdb0f">
+              <material>
+                <mattext texttype="text/html">Priorizar el bienestar de sus colaboradores.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">849e3d66-2776-4be0-92f4-e63c35cbc0d4</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Entre otros roles, los l&#xED;deres han de ser Movilizadores, retando, desafianzo a los miembros del equipo para lograr los objetivos marcados. Para ello tendr&#xE1;n que poner en pr&#xE1;ctica su habilidad para delegar responsabilidades, fomentando la autonom&#xED;a en la toma de decisiones y en la resoluci&#xF3;n de problemas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="63763ef4cb82cbfed10c3bcbd04bc1ad" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>55e4cf68-8d1e-4f1c-8d0c-d10d5e29806f,3996b712-b5ef-44fb-b62e-2d80be3fd84d,29b981d8-32ac-4e0c-9520-a867fd91c8db</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7328732af7500bc1e553b9e31993b220</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; reto le supone al l&#xED;der considerar el triple impacto (Triple Bottom Line)?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="55e4cf68-8d1e-4f1c-8d0c-d10d5e29806f">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;Integrar la sostenibilidad en sus estrategias y demostrar un compromiso real con la sociedad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3996b712-b5ef-44fb-b62e-2d80be3fd84d">
+              <material>
+                <mattext texttype="text/html">Gestionar equipos distribuidos geogr&#xE1;ficamente, garantizando el bienestar de los empleados en entornos remotos.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="29b981d8-32ac-4e0c-9520-a867fd91c8db">
+              <material>
+                <mattext texttype="text/html">Crear ambientes seguros, donde los l&#xED;deres ejerzan un papel crucial para generar seguridad psicol&#xF3;gica entre sus colaboradores.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">55e4cf68-8d1e-4f1c-8d0c-d10d5e29806f</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Los l&#xED;deres actuales no solo son responsables del &#xE9;xito financiero de las organizaciones, sino que deben considerar el triple impacto (Triple Bottom Line), es decir, el beneficio econ&#xF3;mico (ganancias de las empresas), el impacto social (foco en el bienestar de las comunidades, los empleados y los clientes) y el impacto ambiental (huella ecol&#xF3;gica en la empresa). &amp;nbsp;As&#xED; pues, los l&#xED;deres deben integrar la sostenibilidad en sus estrategias y demostrar un compromiso real con la sociedad.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="e67c8e6547dc3c9a968fea92290f4c70" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>f9fdba8f-af01-4d40-9cf7-c1b7bcbefa1d,a8d3fb6f-9f77-46f0-9880-6a12eb08a46c,8a3d8292-c237-4b1f-ae25-30d9a18b173c,d47bf2bd-8442-418f-acef-2fa81efea7a1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d7b29baef6b1320c6d5417393ddf113c</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; factores destacables han contribuido a la redefinici&#xF3;n del concepto de liderazgo y a la incorporaci&#xF3;n de nuevas habilidades y competencias de los l&#xED;deres, en el contexto organizativo a partir del 2021? &amp;nbsp;&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="f9fdba8f-af01-4d40-9cf7-c1b7bcbefa1d">
+              <material>
+                <mattext texttype="text/html">La pandemia de COVID-19</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a8d3fb6f-9f77-46f0-9880-6a12eb08a46c">
+              <material>
+                <mattext texttype="text/html">La aceleraci&#xF3;n de la digitalizaci&#xF3;n&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8a3d8292-c237-4b1f-ae25-30d9a18b173c">
+              <material>
+                <mattext texttype="text/html">Las demandas sociales de una mayor equidad y sostenibilidad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d47bf2bd-8442-418f-acef-2fa81efea7a1">
+              <material>
+                <mattext texttype="text/html">Todas las opciones son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">d47bf2bd-8442-418f-acef-2fa81efea7a1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El contexto organizativo ha experimentado una transformaci&#xF3;n acelerada desde el 2021, impulsada por la combinaci&#xF3;n de factores tecnol&#xF3;gicos, sociales y econ&#xF3;micos. Entre ellos destacaremos, la pandemia de COVID-19, la aceleraci&#xF3;n de la digitalizaci&#xF3;n y las demandas sociales de una mayor equidad y sostenibilidad. Todos ellos han propiciado una redefinici&#xF3;n del concepto de liderazgo y la incorporaci&#xF3;n de nuevas habilidades y competencias por parte de los l&#xED;deres.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

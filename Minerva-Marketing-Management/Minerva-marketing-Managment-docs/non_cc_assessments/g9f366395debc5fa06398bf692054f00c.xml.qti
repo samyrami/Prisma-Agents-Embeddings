@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g9f366395debc5fa06398bf692054f00c" title="Test 5 (Supervisado remotamente)" external_assignment_id="268990000000011564">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>120</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>3</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <section ident="g7f5450e71cb0572b4294fa4095ca0605" title="MKA 501 (MBA) / MKA 502 (EMBA) Test 5">
+        <selection_ordering>
+          <selection>
+            <sourcebank_ref>gf86e043a07ebe43f51c5e3a303035963</sourcebank_ref>
+            <selection_number>5</selection_number>
+            <selection_extension>
+              <points_per_item>3.0</points_per_item>
+            </selection_extension>
+          </selection>
+        </selection_ordering>
+      </section>
+    </section>
+  </assessment>
+</questestinterop>

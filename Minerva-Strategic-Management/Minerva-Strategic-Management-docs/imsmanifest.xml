@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="g9cae4693122450e056b54dfdd5e87cbe" xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:lomimscc="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_imscp_v1p2_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lomresource_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lommanifest_v1p0.xsd">
+  <metadata>
+    <schema>IMS Common Cartridge</schema>
+    <schemaversion>1.1.0</schemaversion>
+    <lomimscc:lom>
+      <lomimscc:general>
+        <lomimscc:title>
+          <lomimscc:string>M-MAN 650 Strategic Management</lomimscc:string>
+        </lomimscc:title>
+      </lomimscc:general>
+      <lomimscc:lifeCycle>
+        <lomimscc:contribute>
+          <lomimscc:date>
+            <lomimscc:dateTime>2026-07-09</lomimscc:dateTime>
+          </lomimscc:date>
+        </lomimscc:contribute>
+      </lomimscc:lifeCycle>
+      <lomimscc:rights>
+        <lomimscc:copyrightAndOtherRestrictions>
+          <lomimscc:value>yes</lomimscc:value>
+        </lomimscc:copyrightAndOtherRestrictions>
+        <lomimscc:description>
+          <lomimscc:string>Private (Copyrighted) - http://en.wikipedia.org/wiki/Copyright</lomimscc:string>
+        </lomimscc:description>
+      </lomimscc:rights>
+    </lomimscc:lom>
+  </metadata>
+  <organizations>
+    <organization identifier="org_1" structure="rooted-hierarchy">
+      <item identifier="LearningModules">
+        <item identifier="g8c90f91d4a5bc4638c44e68ebe6f6b00">
+          <title>Información Inicial </title>
+          <item identifier="g25f82c84a4df9407e5192e1e7dbb11f9" identifierref="g7f3746b08b33f468a36ff949a62be65d">
+            <title>Información sesiones síncronas</title>
+          </item>
+          <item identifier="gb134c155bd527c3e14ba06eff18ebacb" identifierref="ga7a241b9e9acb5d7d8285db87952a208">
+            <title>Información equipos de trabajo</title>
+          </item>
+          <item identifier="gfde5e5d6cc6d3c8e84f087575be56642" identifierref="g6d76c1cba8156e71f5374bb2e13c82d6">
+            <title>Avanza con Éxito - ¿Qué necesitas para aprobar?</title>
+          </item>
+          <item identifier="gd44ea0ec6a434ebe767ee578a3673919" identifierref="g0d6e7f3f06c0f6de57f6fc37a8068d92">
+            <title>Temas de interés </title>
+          </item>
+          <item identifier="ge2505e1e07f13c77ad5002032539b690" identifierref="g15068a6fc036da1c3a36b0753a19abe9">
+            <title>Perfiles profesionales de estudiantes - solo para el profesor (no publicar)</title>
+          </item>
+          <item identifier="gbbe9511eb84d6088f296e069fcaa0a88" identifierref="g14dc268f42efb3733751419cea65d21b">
+            <title>Presentación entre docentes y tutora (Solo docentes NO PUBLICAR)</title>
+          </item>
+        </item>
+        <item identifier="gf851ab8d992e518eaf53a42ac220d655">
+          <title>Grabación sesiones síncronas</title>
+          <item identifier="gbdc6126b557a8d48c5da66c7b849f87c">
+            <title>Sesiones síncronas lesson 1</title>
+          </item>
+          <item identifier="g69821db19c3da562e4372bca4ede9a80">
+            <title>Sesiones síncronas lesson 2</title>
+          </item>
+          <item identifier="g0c0b49999650b57e22a7690b1685eaab">
+            <title>Sesiones síncronas lesson 3</title>
+          </item>
+          <item identifier="geaea126e4c8a3f72df667dfe0fb4e427">
+            <title>Sesiones síncronas lesson 4</title>
+          </item>
+          <item identifier="g02377830a698a406f4c169cea2b52738">
+            <title>Sesiones síncronas lesson 5</title>
+          </item>
+          <item identifier="gcd597f518c406ed5fb2469521b1d0631">
+            <title>Sesiones síncronas lesson 6</title>
+          </item>
+        </item>
+        <item identifier="g1e4024c918b5cac99625670dfe675999">
+          <title>Syllabus</title>
+          <item identifier="g10e51fc1d332c0b1c6f5284e6092fce5" identifierref="g2b66fe92c2acc223f832c94b753c77b1">
+            <title>Syllabus</title>
+          </item>
+          <item identifier="ga5c0ea29c252e5dbcd1f3d5cb329ea6d" identifierref="g2b66fe92c2acc223f832c94b753c77b1">
+            <title>N - MBA - Strategic Management.pdf</title>
+          </item>
+        </item>
+        <item identifier="g778f551f22aee416fc70fa279a5b27c3">
+          <title>Presentación docentes</title>
+          <item identifier="gc37719085b125b81528d13fe8a0b917c" identifierref="g3080ac62f8fabf0b13152bfb10bf2a44">
+            <title>Conoce tus docentes</title>
+          </item>
+        </item>
+        <item identifier="g0ecd714c27aba6fc538d3f6fba03e4af">
+          <title>Foro de dudas</title>
+          <item identifier="g102f44fd425e407721854eabf2a1ab08" identifierref="g38dee075505e1eaacd125b9ef36cbe60">
+            <title>Foro de dudas</title>
+          </item>
+        </item>
+        <item identifier="gb4311d3e5cc73b39eea13826ad014940">
+          <title>Información para el docente practitioner (No publicar)</title>
+          <item identifier="gc341a0054a6c5795e0cd89c5d44c4813" identifierref="ga8ebd39f7fc038c686c381256a1db3f6">
+            <title>Como subir Lecturas de Tendencia en Canvas</title>
+          </item>
+        </item>
+        <item identifier="g6b62a84759388ed7336e99cce2d944f3">
+          <title>Parte I</title>
+          <item identifier="g9adac2f2c0f3b8fb1204db9294f4961b" identifierref="ga887e873e2d737ad780c64ad01397761">
+            <title>Introducción a la parte I</title>
+          </item>
+        </item>
+        <item identifier="gedb35ba96acbd8a1c8a233c91752ee77">
+          <title>Lesson 1 Fundamentación teórica</title>
+          <item identifier="g578342a50e4edb36b69afe3816b97dbb">
+            <title>Introducción a la lección</title>
+          </item>
+          <item identifier="g032005f0e1582e3ddea57723ab9b029b" identifierref="g96a2affbd640f489ef61b66b8767a1f0">
+            <title>Introducción a la lección 1</title>
+          </item>
+          <item identifier="g13e70b6f9091911b1bb74fbf882d6925">
+            <title>Fundamentación teórica</title>
+          </item>
+          <item identifier="g4ed1ef35f12148a2f5b3ddc1104b6895">
+            <title>Tema</title>
+          </item>
+          <item identifier="g1fb75aa1153c3eef05c8d544eeaec7dd" identifierref="g52de6ac6664e14d92ba8d12b634cc515">
+            <title>Introducción a la estrategia</title>
+          </item>
+          <item identifier="g7dbc78561b6c1b5bc717a6b14233ab7e">
+            <title>Lecturas de profundización</title>
+          </item>
+          <item identifier="g6e949229b3d538d1be6700698e7add9f" identifierref="g05de326cb96bfbfe6cc4898b907b48c4">
+            <title>La cultura empresarial</title>
+          </item>
+          <item identifier="g50a7b4319840d7d9def9ee90f7aa8855" identifierref="g7cdd2bca45d610ab255890bf9d196964">
+            <title>Visión estratégica</title>
+          </item>
+          <item identifier="g1d95a1d99f6bc0ac599062acd096c216" identifierref="g91a03793c71c32e0f1dc5d08f64b791a">
+            <title>Creación y evolución de la estrategia</title>
+          </item>
+          <item identifier="ge979cf2173d5f61aad4d591d935f190e" identifierref="gfaa1f7add81f02170100d6406251a036">
+            <title>Puesta en práctica de la estrategia</title>
+          </item>
+          <item identifier="ga66d2bb6dd6a21512964706f895996a4" identifierref="gd4021cf5af632bb0274258a5f950d1fe">
+            <title>La planificación y el control estratégico</title>
+          </item>
+        </item>
+        <item identifier="g07d7cc9fa5119f095ecd3ff20cbc7aee">
+          <title>Lesson 1 Validación de conocimiento y componente práctico</title>
+          <item identifier="g93b1a3bbd4eafff29ee1916eb6e90e20">
+            <title>Validación de conocimientos</title>
+          </item>
+          <item identifier="g1ab37fca0e59e2cf13993776072b5a00" identifierref="gabacf709859118f187b498478aa9609d">
+            <title>Test 1 (Supervisado remotamente) </title>
+          </item>
+          <item identifier="g0607ca81d08fe4eacfa47962029702aa">
+            <title>Guía Didáctica</title>
+          </item>
+          <item identifier="gc55a3495cf170d44f4d90e01f8decb3d" identifierref="g2cc55acf54ae998541f9e5d4c5ddd5d8">
+            <title>Guía Didáctica Strategic Management Lesson 1.pdf</title>
+          </item>
+          <item identifier="g857f3a1e54b94a8a6c35128f0303628b">
+            <title>Eje de tendencia</title>
+          </item>
+          <item identifier="g06222d0d3bd3e3020e4b541dcb5f29c5" identifierref="gf8fd0ec4366e786639f5114da858c042">
+            <title>Tendencia 1.1</title>
+          </item>
+          <item identifier="gbce5d5a802c9bf69455a50f0da5eaa65" identifierref="gf75b09a259bbef8b85e9b572f13e9004">
+            <title>Tendencia 1.2</title>
+          </item>
+          <item identifier="gc6327d479add1940d54fc21d8dd4782e" identifierref="gdd2e5014c84fee05d5f67fa36c23ea66">
+            <title>Tendencia 1.3</title>
+          </item>
+          <item identifier="g4bb4363d8b45d15ee56ca63943fe02ff">
+            <title>Componente práctico</title>
+          </item>
+          <item identifier="g002856d447afb2efe58313ab1fe44977">
+            <title>Caso</title>
+          </item>
+          <item identifier="gbd520f5fb1da28b7947bd0b7972f743f" identifierref="g31c537e8ab33166f09f57738bfc3bd1d">
+            <title>Caso UNILEVER: La cultura de la sostenibilidad</title>
+          </item>
+          <item identifier="g3bebf323389e784625b201d663b2ebc7">
+            <title>Introspección individual</title>
+          </item>
+          <item identifier="ge2c789bf342e234cadbd8a36a5d85132" identifierref="gcdede06fe6fd67fe393a12cefcbc216b">
+            <title>Introspección individual 1</title>
+          </item>
+          <item identifier="gf41443a44d7fdb4af7d9c018f3be3391">
+            <title>Proyecto en equipo</title>
+          </item>
+          <item identifier="gd6907ed78e10d65dab96373450ec1c0c" identifierref="gb21b3920178297008592169f5a194941">
+            <title>Proyecto en equipo 1</title>
+          </item>
+        </item>
+        <item identifier="ga221fdf15b3a6c332f7503b82025dc46">
+          <title>Extra credit Lesson 1</title>
+          <item identifier="ga9c471185b6da3dde2049db4dd02ee23" identifierref="gdedaa59f5ce525c26e25aa8da72ae445">
+            <title>Extra credit Lesson 1</title>
+          </item>
+        </item>
+        <item identifier="g6512287b6186f6c10a11abf38f26d563">
+          <title>Notas del caso 1</title>
+          <item identifier="ge6dff66bf897d0ac6d112702bac05189" identifierref="g43f3dc8f0966e34cf9a94e1a1ccf1b35">
+            <title>Nota del instructor-UNILEVER.pdf</title>
+          </item>
+        </item>
+        <item identifier="gab58575c69cf3742fcd322986c70f650">
+          <title>Lesson 2 Fundamentación teórica</title>
+          <item identifier="g122a65f70bfe0fa1990d52aa9dc9a033">
+            <title>Introducción a la clase</title>
+          </item>
+          <item identifier="g05d3c8b9121e43442d928adc51406411" identifierref="g71b1f6f7dc5f3542cecb294e33bdb541">
+            <title>Introducción a la lección 2</title>
+          </item>
+          <item identifier="g0e07312eaeaa40c71a7b67f5ea61ba41">
+            <title>Fundamentación teórica</title>
+          </item>
+          <item identifier="g2ab6e8ad77844d2d7b3965b328982fcb">
+            <title>Tema</title>
+          </item>
+          <item identifier="gb60e3b5295d12229cce9a098b1195764" identifierref="gfd700fa220121d94f42c3ace2e95fc8f">
+            <title>Análisis del entorno I - Macroentorno</title>
+          </item>
+          <item identifier="g4c309d4640d74b75bdebbe6d5ae81ed5">
+            <title>Lecturas de profundización</title>
+          </item>
+          <item identifier="g8948df2902cdcc935b55b6a9b78b778a" identifierref="ge455c5f058640cd7f9587b16f11b7f70">
+            <title>Análisis del entorno II - Microentorno</title>
+          </item>
+          <item identifier="gf155c039949249b5717421b8039a4297" identifierref="g29440d3188a54175c194bceaf0d772ad">
+            <title>Fuerzas competitivas básicas</title>
+          </item>
+          <item identifier="g4a5cdfb991b06d65dd3319f0f7eca2a3" identifierref="g436957b6f746f742c66fb855f73bcc84">
+            <title>Perfil estratégico y cadena de valor</title>
+          </item>
+          <item identifier="g4ba601369f5cc12aa490e4b27596acb8" identifierref="g43e736e7e7374332bb0d262a3f4a9a25">
+            <title>Análisis interno</title>
+          </item>
+          <item identifier="g135a5376f6c52053cd040f0d577a6ee6" identifierref="g72d049aaddb0f5b0c69f5f3842f7925f">
+            <title>Análisis DAFO y orientaciones estratégicas</title>
+          </item>
+        </item>
+        <item identifier="g7ff5dba2149d3fa97fbed570b185fdbe">
+          <title>Lesson 2 Validación de conocimiento y componente práctico</title>
+          <item identifier="g24255a0b9feefaec3548ac5ece91c99b">
+            <title>Validación de conocimientos</title>
+          </item>
+          <item identifier="gd5ad969883baf1c2aa0f4ab434993db1" identifierref="g22265e77aaf81271174efc028e7e1527">
+            <title>Test 2 (Supervisado remotamente) </title>
+          </item>
+          <item identifier="g25d7396a4bda4cad6c744098a35d5e84">
+            <title>Guía Didáctica</title>
+          </item>
+          <item identifier="gcc50d0e36961798fc40c749a53cfd168" identifierref="ge9969607e2029a8b6037d857e3b023b8">
+            <title>Guía Didáctica Strategic Management Lesson 2.pdf</title>
+          </item>
+          <item identifier="g7cec4d7a1901ea8761d9785796dbed64">
+            <title>Eje de Tendencia</title>
+          </item>
+          <item identifier="gcb591c8a7bcf4a858cf6357b579ac103" identifierref="g5c750ebaf142bbc1c2355e45b3649cd4">
+            <title>Tendencia 2.1</title>
+          </item>
+          <item identifier="gccbb72d11590dcf5dddf364658eeeb91" identifierref="g7fe7c9f669043eafaafca190784f6291">
+            <title>Tendencia 2.2</title>
+          </item>
+          <item identifier="g62d1583412fae49011ae65d83f226ccf" identifierref="g4050aa2a7ab6527bbced3993720d4947">
+            <title>Tendencia 2.3</title>
+          </item>
+          <item identifier="gb7fdb97d90f8099f083ce9554585958b">
+            <title>Componente práctico</title>
+          </item>
+          <item identifier="g798c064d1eba5ffdbe2d3c73024690f1">
+            <title>Caso</title>
+          </item>
+          <item identifier="g77c9ce03a18f939345240a95b2c4bcc1" identifierref="g644d73c24cb589feca72ac5bbe866027">
+            <title>Caso DANONE: Competir en mercados globales con estrategias socialmente responsables</title>
+          </item>
+          <item identifier="g89427fbf09266acafc8742206c9165af">
+            <title>Introspección individual</title>
+          </item>
+          <item identifier="g1c3fb641970f60b60d8ae651d53e3943" identifierref="g6202026c648edb3cb9df4cd8d3c5dc1b">
+            <title>Introspección individual 2</title>
+          </item>
+          <item identifier="g4a01b34e322fac4341725f94fbd94067">
+            <title>Proyecto en equipo</title>
+          </item>
+          <item identifier="g99da0858a7b81f689516559f4701851a" identifierref="g5e022ee692cef61ac81e06065ecb1eb0">
+            <title>Proyecto en equipo 2</title>
+          </item>
+        </item>
+        <item identifier="ge1690acd121b6d27469334f97bfa8070">
+          <title>Extra credit Lesson 2</title>
+          <item identifier="g261561fdaced598ef5af235cb1a8f93b" identifierref="g94642872d2df6b65b0a66b371ac7b9e7">
+            <title>Extra credit Lesson  2</title>
+          </item>
+        </item>
+        <item identifier="gdfa6eacb09e91d3371f421674360d9bc">
+          <title>Notas del caso 2</title>
+          <item identifier="g00e8b072c09f84549f9ef2157325aec4" identifierref="g86f5f2f3e136f3ae1a10259812fd31d7">
+            <title>Nota del instructor-DANONE.pdf</title>
+          </item>
+        </item>
+        <item identifier="g19344108bae099a8c9bf2f515937e4a5">
+          <title>Lesson 3 Fundamentación teórica</title>
+          <item identifier="g470655a50767e2fbd5311bc09361eab7">
+            <title>Introducción a la clase</title>
+          </item>
+          <item identifier="gb118e0aece3cf2ea902807ab22fa7df9" identifierref="g695d0c639d73ef35e2ff0c160a890400">
+            <title>Introducción a la lección 3</title>
+          </item>
+          <item identifier="gfdf2783566e9f814411850d57ea0213f">
+            <title>Fundamentación teórica</title>
+          </item>
+          <item identifier="g8d922af16b9bf69e08247d99d39a7669">
+            <title>Tema</title>
+          </item>
+          <item identifier="gbb438c8fa4dea7abd8b33fac0f48c618" identifierref="g34d0047064617dc7cc0e2c2128b6ca53">
+            <title>Estrategia y ventaja competitiva</title>
+          </item>
+          <item identifier="gafa2d456ad30e27610809302a098b4bf">
+            <title>Lecturas de profundización</title>
+          </item>
+          <item identifier="g2690051b5006d5bc9a841e827d436eca" identifierref="gbfdacf530756802ba258f3c2f2200548">
+            <title>Estrategias de crecimiento</title>
+          </item>
+          <item identifier="gce9f46459531e46dbdaf79c6ff7e80a0" identifierref="gbc06cc10d113b3ad8c7bdbe0dc1a9f30">
+            <title>Consistencia de la estrategia con la situación de una empresa I</title>
+          </item>
+          <item identifier="g4b5e8d1d1328b312d17278239b783db5" identifierref="g01740ae26826c2d46934400631452986">
+            <title>Consistencia de la estrategia con la situación de una empresa II</title>
+          </item>
+          <item identifier="gf136b28adf54bfb2793d45df7f790ce4" identifierref="g80f61ebcf68e38d288bc520f69a65cfc">
+            <title>Estrategias de integración vertical y diversificación</title>
+          </item>
+          <item identifier="g72ca59409aa581cab74aa99c7e9b6cdc" identifierref="gf62a888268c895e61c5a5c3bff7913cf">
+            <title>Estrategias para competir en mercados internacionales</title>
+          </item>
+        </item>
+        <item identifier="gc5e03c69ac4cd5a58736f4d8eec84e09">
+          <title>Lesson 3 Validación de conocimiento y componente práctico</title>
+          <item identifier="g0f26005bfbe1b5204dbc3d5b4512edc1">
+            <title>Validación de conocimientos</title>
+          </item>
+          <item identifier="g5e8d0beddb43de1c8ab19723045672d1" identifierref="g55c82a6cb989219b10148716c2ee31f2">
+            <title>Test 3 (Supervisado remotamente) </title>
+          </item>
+          <item identifier="g598e92e6365671cc7986f0a9f7a278b1">
+            <title>Guía Didáctica</title>
+          </item>
+          <item identifier="g370a55d5a9ce11af24a49bcb02b39720" identifierref="g97389981e736b47dee53101003da3f9b">
+            <title>Guía Didáctica Strategic Management Lesson 3.pdf</title>
+          </item>
+          <item identifier="g28625b53e7169a7488ebd2cb18b26bb1">
+            <title>Eje de Tendencia</title>
+          </item>
+          <item identifier="g14b59fd5d249ac8244b47cd19cff8d4a" identifierref="g472844108b8851cb9d9f051e76b9d5df">
+            <title>Tendencia 3.1</title>
+          </item>
+          <item identifier="g4fbf49575235180d97359e127475c89f" identifierref="g0281a10839c17b469a164a5112f2805c">
+            <title>Tendencia 3.2</title>
+          </item>
+          <item identifier="g6d115c7ade0c46c2323989a87bd9f478" identifierref="g554837025b7f1b933c130e43ef662d63">
+            <title>Tendencia 3.3</title>
+          </item>
+          <item identifier="gad80adf8edd423a1174dba55e9714abf">
+            <title>Componente práctico</title>
+          </item>
+          <item identifier="g57e584443710630ccb1cf5fab084e9e8">
+            <title>Caso</title>
+          </item>
+          <item identifier="gaed6f677a511723bcb53be21a9656b7c" identifierref="g5b75256f2970eaa5dc4fd56231dbeff2">
+            <title>Caso Alsea: una estrategia de crecimiento apoyada en la sustentabilidad</title>
+          </item>
+          <item identifier="g0f8ec8d23b5d02eb224c6dd05434f87b">
+            <title>Introspección individual</title>
+          </item>
+          <item identifier="ga166aea5430481be96ed866b2f990069" identifierref="gf8daca1a137cf0f4eaf55dc168b77521">
+            <title>Introspección individual 3</title>
+          </item>
+          <item identifier="g62b84a8d7c90bcf584ae80b640505743">
+            <title>Proyecto en equipo</title>
+          </item>
+          <item identifier="g0c23f1c54e1a8870350fcce21bc48ab5" identifierref="g16706a2f87498a4bcb09318d03627fee">
+            <title>Proyecto en equipo 3</title>
+          </item>
+        </item>
+        <item identifier="geedd7243145e7d933f1b34a6cb884829">
+          <title>Extra credit Lesson 3</title>
+          <item identifier="g62f34b03a342773a5122b27b17a07003" identifierref="gcba28a3110fb81e7a7ce1b0cc1e8d7b9">
+            <title>Extra credit Lesson 3</title>
+          </item>
+        </item>
+        <item identifier="gda33a9548f85979250cfd3576b62a206">
+          <title>Notas del caso 3</title>
+          <item identifier="g38e0952155d6a7504af94314e5447c81" identifierref="g58f36205a1fa0cb620a98b1964c48a4a">
+            <title>Nota del instructor-ALSEA.pdf</title>
+          </item>
+        </item>
+        <item identifier="g7620f8a903770c8961be89aacc79693f">
+          <title>Encuesta sobre el curso  I</title>
+          <item identifier="g3f9cdc5da617ca8a3284ec00edf14f3b" identifierref="g4a231c038342dc4928864a892970d6a6">
+            <title>Encuesta I</title>
+          </item>
+        </item>
+        <item identifier="g44727ba5ffc9d26c1e0b7b823d64e8e9">
+          <title>Lesson 4 Fundamentación teórica</title>
+          <item identifier="g7d38d50b69aa8e13a85399ebc80b532c">
+            <title>Introducción a la lección</title>
+          </item>
+          <item identifier="g19c3c3313d7b1d9ce96b75ea863e6d50" identifierref="ge8bdec9a0786b4ffd20b6080daa9781c">
+            <title>Introducción a la lección 4</title>
+          </item>
+          <item identifier="g0444c6c96d61ae8b8b766791fe53ef2f">
+            <title>Fundamentación teórica</title>
+          </item>
+          <item identifier="g4e5508e1699bc2c42c4fc3ddd73b8aea">
+            <title>Tema</title>
+          </item>
+          <item identifier="g6a922bb8c5a9f55fb01a90153987b918" identifierref="gb8640419ace1f972278f48c8b023058e">
+            <title>¿Qué es estrategia?</title>
+          </item>
+          <item identifier="g55041261f757764e3b615c4551f54671">
+            <title>Lecturas de profundización</title>
+          </item>
+          <item identifier="g478bf1b1a462083fa9c049a8ced594b7" identifierref="g24b93d12c245b83e66c78571fca2939a">
+            <title>Dónde competir</title>
+          </item>
+          <item identifier="gdc11a313ab6412a862b016f6f7c3d019" identifierref="g5102ed0baa22b2126015be25c7aa8c3f">
+            <title>Analizando las alternativas estrategias de los competidores</title>
+          </item>
+          <item identifier="gd017ab5d1ec6c19629ddc784b7fb43b7" identifierref="gd807d95ed79201ca03c5c603a81b4578">
+            <title>Conceptos generales de la toma de decisiones</title>
+          </item>
+          <item identifier="g8dc12a0721e0dd2dc217555c9e72dd22" identifierref="gdf7f562cd3253d19245bc6101d3304fe">
+            <title>Estrategia e incertidumbre</title>
+          </item>
+          <item identifier="g8068bd158514a056a8d99125b4d67ca2" identifierref="gd9b5d9f2d666bfb0b325a00c6eef9f07">
+            <title>Construyendo escenarios plausibles</title>
+          </item>
+        </item>
+        <item identifier="g55a8f7ad7ab15f0b946f9f9689b0ed55">
+          <title>Lesson 4 Validación de conocimiento y componente práctico</title>
+          <item identifier="g1892661f00cbe8ca115b6f10af9c8803">
+            <title>Validación de conocimientos</title>
+          </item>
+          <item identifier="g692f8cceaa84bd172acb2671bdb9672a" identifierref="g24491897078396f199bb7e134aee3dbd">
+            <title>Test 4 (Supervisado remotamente) </title>
+          </item>
+          <item identifier="g1c5d2582783815ff776f505ea209331f">
+            <title>Guía Didáctica</title>
+          </item>
+          <item identifier="g1bdb1f84e8b8e081d5e57c3375145045" identifierref="g832e833e5ffd06dce01de25bf2271f10">
+            <title>Guía Didáctica Strategic Management Lesson 4.pdf</title>
+          </item>
+          <item identifier="g7e4e24700055d1a857d39a4fa7b61211">
+            <title>Eje de tendencia</title>
+          </item>
+          <item identifier="g607603e74c9cf2259da1fee5417305f2" identifierref="g6617779820d099a3b1cade97d7c6bebd">
+            <title>Tendencia 4.1</title>
+          </item>
+          <item identifier="g429ae65f5b7db6038040943c54822710" identifierref="g6f7b42214c154e52b22643ad7cb3c4ab">
+            <title>Tendencia 4.2</title>
+          </item>
+          <item identifier="ga482ca94ee28ca4c58cce85a9303df9c" identifierref="gc116a8d935acc7d5b2ab912ea534eb33">
+            <title>Tendencia 4.3</title>
+          </item>
+          <item identifier="gd2e932ff594f0a93c9335a84cb4ae2bd">
+            <title>Componente práctico</title>
+          </item>
+          <item identifier="g80c6aaac57eb75812f529fd3f820f62b">
+            <title>Caso</title>
+          </item>
+          <item identifier="gc17498491a5244034f842f963c4c9160" identifierref="g29f86a6e42db19c214b4a4a74fb1d3c9">
+            <title>Caso Nokia vs. el nuevo concepto de teléfono</title>
+          </item>
+          <item identifier="g11de106b06174aed080906c07a8a081e">
+            <title>Introspección individual</title>
+          </item>
+          <item identifier="g0422147c4586a1e3cc3df11f72ac15bb" identifierref="gba4de827fdf02f7e88f45f0809aa6afd">
+            <title>Introspección individual 4</title>
+          </item>
+          <item identifier="g254531042e361143a78c7bef9940d9b9">
+            <title>Proyecto en equipo</title>
+          </item>
+          <item identifier="g38d2941a15f5877e55d3efa1fc7d968f" identifierref="gd5ff6af3d2bfccfe13a4fc345fd3ed07">
+            <title>Proyecto en equipo 4</title>
+          </item>
+        </item>
+        <item identifier="g105c3e2ba61cce2a254336e93291bc63">
+          <title>Extra credit Lesson 4</title>
+          <item identifier="g87de221383d7e8d380e0edc1f2c42e52" identifierref="g652c3745f19dbb8a78efc6e22899fba2">
+            <title>Extra credit Lesson 4</title>
+          </item>
+        </item>
+        <item identifier="gbc9f2bfd35be8105639ed11a5fdb6848">
+          <title>Notas del caso 4</title>
+          <item identifier="gb27bfa3594fe1295d3f5d774bf1d1777" identifierref="g2f7d7b724eaba372eeb68930c2eec1da">
+            <title>Discusiones Caso IPhone vs. Nokia.pdf</title>
+          </item>
+        </item>
+        <item identifier="g7acd0892fc5e6011eafb321c046087da">
+          <title>Lesson 5 Fundamentación teórica</title>
+          <item identifier="g2e81f58ac45d6f770304df82890b2b5d">
+            <title>Introducción a la clase</title>
+          </item>
+          <item identifier="g14750b239f6fbc712dfabf80db2d9297" identifierref="gc56069dd5ba8a813cdf696eb5abe874b">
+            <title>Introducción a la lección 5</title>
+          </item>
+          <item identifier="ge72eaaebe1e615f2a9bbae1c005dce5f">
+            <title>Fundamentación teórica</title>
+          </item>
+          <item identifier="gd1ce92f4bbc65435c39395aae29349d4">
+            <title>Tema</title>
+          </item>
+          <item identifier="g7894e898e42a258484ac0d0b1c817452" identifierref="gbab6d64acd7b3fe03171f46e3bbedfb8">
+            <title>Cómo queremos competir</title>
+          </item>
+          <item identifier="g1160a21902b9fad9acda5738f5f7a062">
+            <title>Lecturas de profundización</title>
+          </item>
+          <item identifier="gdc0dbfa3cb070f03a3498d2023cd1e03" identifierref="gc4f46047ed8fe3958366691222dd8de8">
+            <title>El camino hacia la hypercompetencia</title>
+          </item>
+          <item identifier="g05966c81bbee3bba9f4f63ad50d7fe60" identifierref="g477b53100fe2f80a6f1d8c4a53cb8c33">
+            <title>La tecnología como habilitador de la estrategia</title>
+          </item>
+          <item identifier="g2a26c3cc1d690e26fe34bfe9d576b10a" identifierref="g733f9625cc1dfd4b09af3983f3841532">
+            <title>Toma de decisiones individuales</title>
+          </item>
+          <item identifier="gd18ec535bbaf57e54c2210dad9843671" identifierref="g8b843c357b32355b50c4f2f7ca4b9f2e">
+            <title>Entendiendo los escenarios de mercado</title>
+          </item>
+          <item identifier="g9f14e930be395fd45dbf462e0c8283f9" identifierref="g87fd5d94ab595598c85780e916bd7aae">
+            <title>Evaluando el atractivo de los escenarios</title>
+          </item>
+        </item>
+        <item identifier="geefc2f707d2c458dacc812fc148168c0">
+          <title>Lesson 5 Validación de conocimiento y componente práctico</title>
+          <item identifier="g35bb08cd31ce7541ce853dafed90d464">
+            <title>Validación de conocimientos</title>
+          </item>
+          <item identifier="g054240a6e27f551c2a536e6573ee1fc8" identifierref="g0b6bda7985b621737c3bfd2d0bff6e32">
+            <title>Test 5 (Supervisado remotamente) </title>
+          </item>
+          <item identifier="gebe65ac67e41d52976221f3a5ac36ff6">
+            <title>Guía Didáctica</title>
+          </item>
+          <item identifier="g67e5f050800dad7b93af1f3b321584b2" identifierref="g526a8cfce4f4434cafed074a8e046366">
+            <title>Guía Didáctica Strategic Management Lesson 5.pdf</title>
+          </item>
+          <item identifier="g97a002ca59626e418940d7bdc7ddecfa">
+            <title>Eje de Tendencia</title>
+          </item>
+          <item identifier="g118321bdfb6f735766fa4e595de5e2ac" identifierref="g60ee3eddfe1f1801150e435c2f897635">
+            <title>Tendencia 5.1</title>
+          </item>
+          <item identifier="g6e9f89109d018af9bca0346bd2740439" identifierref="ge47f2eed9e7833af6ebe1849cd5e62a8">
+            <title>Tendencia 5.2</title>
+          </item>
+          <item identifier="g66424fc8e855516b2cb998adf96e237a" identifierref="g268ea0ca48b90944e2b206fb5effef94">
+            <title>Tendencia 5.3</title>
+          </item>
+          <item identifier="g641492e7fa20106571a9cf70afeda0b6">
+            <title>Componente práctico</title>
+          </item>
+          <item identifier="g943b6303a09b76591bf0dc84c3a59ff5">
+            <title>Caso</title>
+          </item>
+          <item identifier="g9b30f0c4cba01e9cd87a3adb2aaec98b" identifierref="g1e6dcb909858171af454dded3fed92e9">
+            <title>Caso Ferrovial, la ciudad inteligente y el coche eléctrico</title>
+          </item>
+          <item identifier="g390b22a6dff25753600793c069c01e38">
+            <title>Introspección individual</title>
+          </item>
+          <item identifier="g3c894ec9743ff31a2656bb73f37c81aa" identifierref="gab955aff36f8925812ada5dcd14cfece">
+            <title>Introspección individual 5</title>
+          </item>
+          <item identifier="g09033a2a34e3b29d745a15baa8983edb">
+            <title>Proyecto en equipo</title>
+          </item>
+          <item identifier="gd9024227f227dcae9bee01337da4efce" identifierref="g0bda902294664a7730417b0b3017a6d8">
+            <title>Proyecto en equipo 5</title>
+          </item>
+        </item>
+        <item identifier="gf91fc5f7a79c7c83914acdbca8918617">
+          <title>Extra credit Lesson 5</title>
+          <item identifier="gfac378ca9dfb1afb21aa8a56488ee935" identifierref="g069805f44ded1937eb36b2f916784964">
+            <title>Extra credit Lesson 5</title>
+          </item>
+        </item>
+        <item identifier="g41327717d692d5706dcd6850b90b3303">
+          <title>Notas del caso 5</title>
+          <item identifier="g64a8856a0e3c6fe96816256c2a0979c8" identifierref="g6aa3d173a05226cf7ee1e2a7b43dc61a">
+            <title>Notas del Caso. Ferrovial.pdf</title>
+          </item>
+        </item>
+        <item identifier="g32be35ffc0e3db87aa54c5f9e141de88">
+          <title>Lesson 6 Fundamentación teórica</title>
+          <item identifier="g80124f3c0d14a5ef122599b2b35c01a9">
+            <title>Introducción a la clase</title>
+          </item>
+          <item identifier="g7293ad24f4e46932717d399fcb14ab88" identifierref="gfd8cfc74c7221e0671da3ba24fa59dc2">
+            <title>Introducción a la lección 6</title>
+          </item>
+          <item identifier="g31d1892388d91b770875e603334a6792">
+            <title>Fundamentación teórica</title>
+          </item>
+          <item identifier="gc7ba907f8cc79dfdc63c839721a42963">
+            <title>Tema</title>
+          </item>
+          <item identifier="g6fa633d24ed2ad6593c7740020ad15b3" identifierref="g484acb9b625e1c547ea6a915ab6f86f7">
+            <title>El modelo estratégico</title>
+          </item>
+          <item identifier="g1c03b5cbf7fea0b8adfef62a56da76a7">
+            <title>Lecturas de profundización</title>
+          </item>
+          <item identifier="g3e51e2e28980c56c9116b2847436049d" identifierref="g91afe4e81451a9d6d1b00cd903b03f18">
+            <title>Desplegando la estrategia</title>
+          </item>
+          <item identifier="gbfd8e37d493159ea4db5fc08ecf11309" identifierref="g1584667e8f77c9da3b00557c51acb9dd">
+            <title>“Improvisando” la estrategia</title>
+          </item>
+          <item identifier="g4fe966f2e64df140f4c2414fa0d4066f" identifierref="g94449d12b93ef7921b635c16b61921da">
+            <title>La toma de decisiones grupales</title>
+          </item>
+        </item>
+        <item identifier="g45f5005cd68984b4407377262908a84d">
+          <title>Lesson 6 Validación de conocimiento y componente práctico</title>
+          <item identifier="g4aa7bca198a798d565f5f94afad8e7a0">
+            <title>Validación de conocimientos</title>
+          </item>
+          <item identifier="g7e9f2ed59f57c9ad251d5bd6bf35e084" identifierref="g25ef82c353bb06191a6e06f83083df58">
+            <title>Test 6 (Supervisado remotamente) </title>
+          </item>
+          <item identifier="ga0a62a7c4eb46062aeca8841734ca794">
+            <title>Guía Didáctica</title>
+          </item>
+          <item identifier="geefa42ba34342d3d05aa84d3cc3b20af" identifierref="g5a579a10343847413e931baf55557909">
+            <title>Guía Didáctica Strategic Management Lesson 6.pdf</title>
+          </item>
+          <item identifier="gc04a8c35d984628d9e9dbc6bf1c6efbd">
+            <title>Eje de Tendencia</title>
+          </item>
+          <item identifier="gd7ce08d2f45cdd5cdb72f5e78cbcc95a" identifierref="g0b20648f866e80d14f812e3d1843ea38">
+            <title>Tendencia 6.1</title>
+          </item>
+          <item identifier="g9a5c741cca8cd3e9f559008c555a98c8" identifierref="g38d26dd004ce2f4d2692e4b763d5a180">
+            <title>Tendencia 6.2</title>
+          </item>
+          <item identifier="g829dd4c01231b1257f4dc3dff57c3cb6" identifierref="gbae824cea8373cccdab2cfbff3ec52d5">
+            <title>Tendencia 6.3</title>
+          </item>
+          <item identifier="gec66b38b54d405ae24c4e7f4e9bcf639">
+            <title>Componente práctico</title>
+          </item>
+          <item identifier="gc227620fa6bf08aca5ffef92bbe31c19">
+            <title>Caso</title>
+          </item>
+          <item identifier="gbff0fed6a24897b1e52066663369da48" identifierref="g8c779a546096b5f9767e6694e5d234f4">
+            <title>Caso Zara y la venta online</title>
+          </item>
+          <item identifier="g1e295a9baafc6d00e7ce801209fbba3d">
+            <title>Introspección individual</title>
+          </item>
+          <item identifier="g2f5aaf93aa60f8c9538969c07a550812" identifierref="g5e27829c3a41f3ebef5b64beea3718e9">
+            <title>Introspección individual 6</title>
+          </item>
+          <item identifier="g930faf36c655eb5eeb2e4b91a9cf7693">
+            <title>Proyecto en equipo</title>
+          </item>
+          <item identifier="g09e714ce9810c17ecb860c41a5f5237b" identifierref="g1c006e3cad91b10ab359af271789adfa">
+            <title>Proyecto en equipo 6</title>
+          </item>
+        </item>
+        <item identifier="g9c9d6125550c2a89512e2ac7f62b2a27">
+          <title>Extra credit Lesson 6</title>
+          <item identifier="gd5603d5792a6ca910960d491ff4b1a45" identifierref="ge2bc77d5586efb1c8a418756c04fe6b9">
+            <title>Extra credit Lesson 6</title>
+          </item>
+        </item>
+        <item identifier="gaec4f298759ea12b5e9d487ed62a57b9">
+          <title>Notas del caso 6</title>
+          <item identifier="g26c1bc921226dd61f2c7fb7abe2d69f5" identifierref="g805348837e79dc0e2de27819e28cf1dd">
+            <title>Notas del Caso Zara.pdf</title>
+          </item>
+        </item>
+        <item identifier="gbd10238ea48ac509e6065f26ea55a62a">
+          <title>Encuesta sobre el curso</title>
+          <item identifier="g99311223976df45656cf38512dc796b7" identifierref="gf4b1b40509cbde672d1fb08cfd8f0748">
+            <title>Encuesta II</title>
+          </item>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="g4535e0301a32328b5e15fd9bc93a6b97" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="course_settings/canvas_export.txt">
+      <file href="course_settings/course_settings.xml"/>
+      <file href="course_settings/module_meta.xml"/>
+      <file href="course_settings/assignment_groups.xml"/>
+      <file href="course_settings/grading_standards.xml"/>
+      <file href="course_settings/rubrics.xml"/>
+      <file href="course_settings/files_meta.xml"/>
+      <file href="course_settings/late_policy.xml"/>
+      <file href="course_settings/context.xml"/>
+      <file href="course_settings/media_tracks.xml"/>
+      <file href="course_settings/canvas_export.txt"/>
+    </resource>
+    <resource identifier="g71b1f6f7dc5f3542cecb294e33bdb541" type="webcontent" href="wiki_content/introduccion-a-la-leccion-2.html">
+      <file href="wiki_content/introduccion-a-la-leccion-2.html"/>
+    </resource>
+    <resource identifier="ge8bdec9a0786b4ffd20b6080daa9781c" type="webcontent" href="wiki_content/introduccion-a-la-leccion-4.html">
+      <file href="wiki_content/introduccion-a-la-leccion-4.html"/>
+    </resource>
+    <resource identifier="ge455c5f058640cd7f9587b16f11b7f70" type="webcontent" href="wiki_content/analisis-del-entorno-ii-microentorno.html">
+      <file href="wiki_content/analisis-del-entorno-ii-microentorno.html"/>
+    </resource>
+    <resource identifier="g29440d3188a54175c194bceaf0d772ad" type="webcontent" href="wiki_content/fuerzas-competitivas-basicas.html">
+      <file href="wiki_content/fuerzas-competitivas-basicas.html"/>
+    </resource>
+    <resource identifier="g436957b6f746f742c66fb855f73bcc84" type="webcontent" href="wiki_content/perfil-estrategico-y-cadena-de-valor.html">
+      <file href="wiki_content/perfil-estrategico-y-cadena-de-valor.html"/>
+    </resource>
+    <resource identifier="g0b91863f456d7d528163c3bb2f194f50" type="webcontent" href="wiki_content/discussion-forums.html">
+      <file href="wiki_content/discussion-forums.html"/>
+    </resource>
+    <resource identifier="ga887e873e2d737ad780c64ad01397761" type="webcontent" href="wiki_content/introduccion-a-la-parte-i.html">
+      <file href="wiki_content/introduccion-a-la-parte-i.html"/>
+    </resource>
+    <resource identifier="g96a2affbd640f489ef61b66b8767a1f0" type="webcontent" href="wiki_content/introduccion-a-la-leccion-1.html">
+      <file href="wiki_content/introduccion-a-la-leccion-1.html"/>
+    </resource>
+    <resource identifier="g01740ae26826c2d46934400631452986" type="webcontent" href="wiki_content/consistencia-de-la-estrategia-con-la-situacion-de-una-empresa-ii.html">
+      <file href="wiki_content/consistencia-de-la-estrategia-con-la-situacion-de-una-empresa-ii.html"/>
+    </resource>
+    <resource identifier="gfd700fa220121d94f42c3ace2e95fc8f" type="webcontent" href="wiki_content/analisis-del-entorno-i-macroentorno.html">
+      <file href="wiki_content/analisis-del-entorno-i-macroentorno.html"/>
+    </resource>
+    <resource identifier="g91a03793c71c32e0f1dc5d08f64b791a" type="webcontent" href="wiki_content/creacion-y-evolucion-de-la-estrategia.html">
+      <file href="wiki_content/creacion-y-evolucion-de-la-estrategia.html"/>
+    </resource>
+    <resource identifier="gc56069dd5ba8a813cdf696eb5abe874b" type="webcontent" href="wiki_content/introduccion-a-la-leccion-5.html">
+      <file href="wiki_content/introduccion-a-la-leccion-5.html"/>
+    </resource>
+    <resource identifier="gfaa1f7add81f02170100d6406251a036" type="webcontent" href="wiki_content/puesta-en-practica-de-la-estrategia.html">
+      <file href="wiki_content/puesta-en-practica-de-la-estrategia.html"/>
+    </resource>
+    <resource identifier="ged51750cb9e6e6f40119b9e4f2a58c5a" type="webcontent" href="wiki_content/herramienta-de-monitorizacion.html">
+      <file href="wiki_content/herramienta-de-monitorizacion.html"/>
+    </resource>
+    <resource identifier="g43e736e7e7374332bb0d262a3f4a9a25" type="webcontent" href="wiki_content/analisis-interno.html">
+      <file href="wiki_content/analisis-interno.html"/>
+    </resource>
+    <resource identifier="gfd8cfc74c7221e0671da3ba24fa59dc2" type="webcontent" href="wiki_content/introduccion-a-la-leccion-6.html">
+      <file href="wiki_content/introduccion-a-la-leccion-6.html"/>
+    </resource>
+    <resource identifier="g1584667e8f77c9da3b00557c51acb9dd" type="webcontent" href="wiki_content/improvisando-la-estrategia.html">
+      <file href="wiki_content/improvisando-la-estrategia.html"/>
+    </resource>
+    <resource identifier="g644d73c24cb589feca72ac5bbe866027" type="webcontent" href="wiki_content/caso-danone-competir-en-mercados-globales-con-estrategias-socialmente-responsables.html">
+      <file href="wiki_content/caso-danone-competir-en-mercados-globales-con-estrategias-socialmente-responsables.html"/>
+    </resource>
+    <resource identifier="g29f86a6e42db19c214b4a4a74fb1d3c9" type="webcontent" href="wiki_content/caso-nokia-vs-el-nuevo-concepto-de-telefono.html">
+      <file href="wiki_content/caso-nokia-vs-el-nuevo-concepto-de-telefono.html"/>
+    </resource>
+    <resource identifier="gd0d78beea400b8b4e6a0126f0b7444f7" type="webcontent" href="wiki_content/como-queremos-competir-copiar.html">
+      <file href="wiki_content/como-queremos-competir-copiar.html"/>
+    </resource>
+    <resource identifier="gcfec29992c830165eb29dfce2a54b347" type="webcontent" href="wiki_content/toma-de-decisiones-individuales-copiar.html">
+      <file href="wiki_content/toma-de-decisiones-individuales-copiar.html"/>
+    </resource>
+    <resource identifier="gb02e2799c47436b6416ac918174c5f8a" type="webcontent" href="wiki_content/evaluando-el-atractivo-de-los-escenarios-copiar.html">
+      <file href="wiki_content/evaluando-el-atractivo-de-los-escenarios-copiar.html"/>
+    </resource>
+    <resource identifier="g1fde76f881ee90d103dddbb8d0af613f" type="webcontent" href="wiki_content/entendiendo-los-escenarios-de-mercado-copiar.html">
+      <file href="wiki_content/entendiendo-los-escenarios-de-mercado-copiar.html"/>
+    </resource>
+    <resource identifier="g6c8f4ae805348bae5b462b3d79b0e490" type="webcontent" href="wiki_content/introduccion-a-la-leccion-5-copiar.html">
+      <file href="wiki_content/introduccion-a-la-leccion-5-copiar.html"/>
+    </resource>
+    <resource identifier="g0a9e9cc009f4f2f675cfc29b42b2c3b3" type="webcontent" href="wiki_content/el-camino-hacia-la-hypercompetencia-copiar.html">
+      <file href="wiki_content/el-camino-hacia-la-hypercompetencia-copiar.html"/>
+    </resource>
+    <resource identifier="g94ad56641be65dd07fff9b8ba2623067" type="webcontent" href="wiki_content/la-tecnologia-como-habilitador-de-la-estrategia-copiar.html">
+      <file href="wiki_content/la-tecnologia-como-habilitador-de-la-estrategia-copiar.html"/>
+    </resource>
+    <resource identifier="g924b43dbf5309719dbab2e536702933f" type="webcontent" href="wiki_content/caso-ferrovial-la-ciudad-inteligente-y-el-coche-electrico.html">
+      <file href="wiki_content/caso-ferrovial-la-ciudad-inteligente-y-el-coche-electrico.html"/>
+    </resource>
+    <resource identifier="g484acb9b625e1c547ea6a915ab6f86f7" type="webcontent" href="wiki_content/el-modelo-estrategico.html">
+      <file href="wiki_content/el-modelo-estrategico.html"/>
+    </resource>
+    <resource identifier="g695d0c639d73ef35e2ff0c160a890400" type="webcontent" href="wiki_content/introduccion-a-la-leccion-3.html">
+      <file href="wiki_content/introduccion-a-la-leccion-3.html"/>
+    </resource>
+    <resource identifier="g7f3746b08b33f468a36ff949a62be65d" type="webcontent" href="wiki_content/informacion-sesiones-sincronas.html">
+      <file href="wiki_content/informacion-sesiones-sincronas.html"/>
+    </resource>
+    <resource identifier="g0d6e7f3f06c0f6de57f6fc37a8068d92" type="webcontent" href="wiki_content/temas-de-interes.html">
+      <file href="wiki_content/temas-de-interes.html"/>
+    </resource>
+    <resource identifier="ga7a241b9e9acb5d7d8285db87952a208" type="webcontent" href="wiki_content/informacion-equipos-de-trabajo.html">
+      <file href="wiki_content/informacion-equipos-de-trabajo.html"/>
+    </resource>
+    <resource identifier="g15068a6fc036da1c3a36b0753a19abe9" type="webcontent" href="wiki_content/perfiles-profesionales-de-estudiantes-solo-para-el-profesor-no-publicar.html">
+      <file href="wiki_content/perfiles-profesionales-de-estudiantes-solo-para-el-profesor-no-publicar.html"/>
+    </resource>
+    <resource identifier="g14dc268f42efb3733751419cea65d21b" type="webcontent" href="wiki_content/presentacion-entre-docentes-y-tutora-solo-docentes-no-publicar-2.html">
+      <file href="wiki_content/presentacion-entre-docentes-y-tutora-solo-docentes-no-publicar-2.html"/>
+    </resource>
+    <resource identifier="gb544ac1865078616eb61715de2579cc4" type="webcontent" href="wiki_content/presentacion-entre-docentes-y-tutora-solo-docentes-no-publicar.html">
+      <file href="wiki_content/presentacion-entre-docentes-y-tutora-solo-docentes-no-publicar.html"/>
+    </resource>
+    <resource identifier="g3080ac62f8fabf0b13152bfb10bf2a44" type="webcontent" href="wiki_content/conoce-tus-docentes.html">
+      <file href="wiki_content/conoce-tus-docentes.html"/>
+    </resource>
+    <resource identifier="g31c537e8ab33166f09f57738bfc3bd1d" type="webcontent" href="wiki_content/caso-unilever-la-cultura-de-la-sostenibilidad.html">
+      <file href="wiki_content/caso-unilever-la-cultura-de-la-sostenibilidad.html"/>
+    </resource>
+    <resource identifier="gbfdacf530756802ba258f3c2f2200548" type="webcontent" href="wiki_content/estrategias-de-crecimiento.html">
+      <file href="wiki_content/estrategias-de-crecimiento.html"/>
+    </resource>
+    <resource identifier="gbc06cc10d113b3ad8c7bdbe0dc1a9f30" type="webcontent" href="wiki_content/consistencia-de-la-estrategia-con-la-situacion-de-una-empresa-i.html">
+      <file href="wiki_content/consistencia-de-la-estrategia-con-la-situacion-de-una-empresa-i.html"/>
+    </resource>
+    <resource identifier="g80f61ebcf68e38d288bc520f69a65cfc" type="webcontent" href="wiki_content/estrategias-de-integracion-vertical-y-diversificacion.html">
+      <file href="wiki_content/estrategias-de-integracion-vertical-y-diversificacion.html"/>
+    </resource>
+    <resource identifier="gf62a888268c895e61c5a5c3bff7913cf" type="webcontent" href="wiki_content/estrategias-para-competir-en-mercados-internacionales.html">
+      <file href="wiki_content/estrategias-para-competir-en-mercados-internacionales.html"/>
+    </resource>
+    <resource identifier="g5b75256f2970eaa5dc4fd56231dbeff2" type="webcontent" href="wiki_content/caso-alsea-una-estrategia-de-crecimiento-apoyada-en-la-sustentabilidad.html">
+      <file href="wiki_content/caso-alsea-una-estrategia-de-crecimiento-apoyada-en-la-sustentabilidad.html"/>
+    </resource>
+    <resource identifier="g94449d12b93ef7921b635c16b61921da" type="webcontent" href="wiki_content/la-toma-de-decisiones-grupales.html">
+      <file href="wiki_content/la-toma-de-decisiones-grupales.html"/>
+    </resource>
+    <resource identifier="g8c779a546096b5f9767e6694e5d234f4" type="webcontent" href="wiki_content/caso-zara-y-la-venta-online.html">
+      <file href="wiki_content/caso-zara-y-la-venta-online.html"/>
+    </resource>
+    <resource identifier="gb8640419ace1f972278f48c8b023058e" type="webcontent" href="wiki_content/que-es-estrategia.html">
+      <file href="wiki_content/que-es-estrategia.html"/>
+    </resource>
+    <resource identifier="g24b93d12c245b83e66c78571fca2939a" type="webcontent" href="wiki_content/donde-competir.html">
+      <file href="wiki_content/donde-competir.html"/>
+    </resource>
+    <resource identifier="g5102ed0baa22b2126015be25c7aa8c3f" type="webcontent" href="wiki_content/analizando-las-alternativas-estrategias-de-los-competidores.html">
+      <file href="wiki_content/analizando-las-alternativas-estrategias-de-los-competidores.html"/>
+    </resource>
+    <resource identifier="g6d76c1cba8156e71f5374bb2e13c82d6" type="webcontent" href="wiki_content/avanza-con-exito-que-necesitas-para-aprobar-2.html">
+      <file href="wiki_content/avanza-con-exito-que-necesitas-para-aprobar-2.html"/>
+    </resource>
+    <resource identifier="gbab6d64acd7b3fe03171f46e3bbedfb8" type="webcontent" href="wiki_content/como-queremos-competir.html">
+      <file href="wiki_content/como-queremos-competir.html"/>
+    </resource>
+    <resource identifier="gc4f46047ed8fe3958366691222dd8de8" type="webcontent" href="wiki_content/el-camino-hacia-la-hypercompetencia.html">
+      <file href="wiki_content/el-camino-hacia-la-hypercompetencia.html"/>
+    </resource>
+    <resource identifier="g477b53100fe2f80a6f1d8c4a53cb8c33" type="webcontent" href="wiki_content/la-tecnologia-como-habilitador-de-la-estrategia.html">
+      <file href="wiki_content/la-tecnologia-como-habilitador-de-la-estrategia.html"/>
+    </resource>
+    <resource identifier="g72d049aaddb0f5b0c69f5f3842f7925f" type="webcontent" href="wiki_content/analisis-dafo-y-orientaciones-estrategicas.html">
+      <file href="wiki_content/analisis-dafo-y-orientaciones-estrategicas.html"/>
+    </resource>
+    <resource identifier="g34d0047064617dc7cc0e2c2128b6ca53" type="webcontent" href="wiki_content/estrategia-y-ventaja-competitiva.html">
+      <file href="wiki_content/estrategia-y-ventaja-competitiva.html"/>
+    </resource>
+    <resource identifier="gd807d95ed79201ca03c5c603a81b4578" type="webcontent" href="wiki_content/conceptos-generales-de-la-toma-de-decisiones.html">
+      <file href="wiki_content/conceptos-generales-de-la-toma-de-decisiones.html"/>
+    </resource>
+    <resource identifier="gdf7f562cd3253d19245bc6101d3304fe" type="webcontent" href="wiki_content/estrategia-e-incertidumbre.html">
+      <file href="wiki_content/estrategia-e-incertidumbre.html"/>
+    </resource>
+    <resource identifier="gd9b5d9f2d666bfb0b325a00c6eef9f07" type="webcontent" href="wiki_content/construyendo-escenarios-plausibles.html">
+      <file href="wiki_content/construyendo-escenarios-plausibles.html"/>
+    </resource>
+    <resource identifier="g733f9625cc1dfd4b09af3983f3841532" type="webcontent" href="wiki_content/toma-de-decisiones-individuales.html">
+      <file href="wiki_content/toma-de-decisiones-individuales.html"/>
+    </resource>
+    <resource identifier="g8b843c357b32355b50c4f2f7ca4b9f2e" type="webcontent" href="wiki_content/entendiendo-los-escenarios-de-mercado.html">
+      <file href="wiki_content/entendiendo-los-escenarios-de-mercado.html"/>
+    </resource>
+    <resource identifier="g87fd5d94ab595598c85780e916bd7aae" type="webcontent" href="wiki_content/evaluando-el-atractivo-de-los-escenarios.html">
+      <file href="wiki_content/evaluando-el-atractivo-de-los-escenarios.html"/>
+    </resource>
+    <resource identifier="g1e6dcb909858171af454dded3fed92e9" type="webcontent" href="wiki_content/caso-ferrovial-la-ciudad-inteligente-y-el-coche-electrico-2.html">
+      <file href="wiki_content/caso-ferrovial-la-ciudad-inteligente-y-el-coche-electrico-2.html"/>
+    </resource>
+    <resource identifier="g52de6ac6664e14d92ba8d12b634cc515" type="webcontent" href="wiki_content/introduccion-a-la-estrategia.html">
+      <file href="wiki_content/introduccion-a-la-estrategia.html"/>
+    </resource>
+    <resource identifier="g05de326cb96bfbfe6cc4898b907b48c4" type="webcontent" href="wiki_content/la-cultura-empresarial.html">
+      <file href="wiki_content/la-cultura-empresarial.html"/>
+    </resource>
+    <resource identifier="g7cdd2bca45d610ab255890bf9d196964" type="webcontent" href="wiki_content/vision-estrategica.html">
+      <file href="wiki_content/vision-estrategica.html"/>
+    </resource>
+    <resource identifier="gd4021cf5af632bb0274258a5f950d1fe" type="webcontent" href="wiki_content/la-planificacion-y-el-control-estrategico.html">
+      <file href="wiki_content/la-planificacion-y-el-control-estrategico.html"/>
+    </resource>
+    <resource identifier="g91afe4e81451a9d6d1b00cd903b03f18" type="webcontent" href="wiki_content/desplegando-la-estrategia.html">
+      <file href="wiki_content/desplegando-la-estrategia.html"/>
+    </resource>
+    <resource identifier="ga8ebd39f7fc038c686c381256a1db3f6" type="webcontent" href="wiki_content/como-subir-lecturas-de-tendencia-en-canvas.html">
+      <file href="wiki_content/como-subir-lecturas-de-tendencia-en-canvas.html"/>
+    </resource>
+    <resource identifier="g690dbbd15c70aecd5007bd6653dc2cae" type="imsbasiclti_xmlv1p3">
+      <file href="lti_resource_links/g690dbbd15c70aecd5007bd6653dc2cae.xml"/>
+    </resource>
+    <resource identifier="g7361d4a58ced8c9834b31cf1e360d690" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g7361d4a58ced8c9834b31cf1e360d690/calificacion-debate-sincrono-1.html">
+      <file href="g7361d4a58ced8c9834b31cf1e360d690/calificacion-debate-sincrono-1.html"/>
+      <file href="g7361d4a58ced8c9834b31cf1e360d690/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g1bc3f958d93edf5e1dd39debf1b22f35" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g1bc3f958d93edf5e1dd39debf1b22f35/calificacion-debate-sincrono-2.html">
+      <file href="g1bc3f958d93edf5e1dd39debf1b22f35/calificacion-debate-sincrono-2.html"/>
+      <file href="g1bc3f958d93edf5e1dd39debf1b22f35/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g1f4344dba1192cf8202b73539d956070" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g1f4344dba1192cf8202b73539d956070/calificacion-debate-sincrono-3.html">
+      <file href="g1f4344dba1192cf8202b73539d956070/calificacion-debate-sincrono-3.html"/>
+      <file href="g1f4344dba1192cf8202b73539d956070/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gcd13e43c885bb77d04d4c1d01cbe7bea" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gcd13e43c885bb77d04d4c1d01cbe7bea/calificacion-debate-sincrono-4.html">
+      <file href="gcd13e43c885bb77d04d4c1d01cbe7bea/calificacion-debate-sincrono-4.html"/>
+      <file href="gcd13e43c885bb77d04d4c1d01cbe7bea/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g97500eb65567d57d01900a98ffc4caa0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g97500eb65567d57d01900a98ffc4caa0/calificacion-debate-sincrono-5.html">
+      <file href="g97500eb65567d57d01900a98ffc4caa0/calificacion-debate-sincrono-5.html"/>
+      <file href="g97500eb65567d57d01900a98ffc4caa0/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g87594c46f01cc5421d6403be345d48da" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g87594c46f01cc5421d6403be345d48da/calificacion-debate-sincrono-6.html">
+      <file href="g87594c46f01cc5421d6403be345d48da/calificacion-debate-sincrono-6.html"/>
+      <file href="g87594c46f01cc5421d6403be345d48da/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g94642872d2df6b65b0a66b371ac7b9e7" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g94642872d2df6b65b0a66b371ac7b9e7/extra-credit-lesson-2.html">
+      <file href="g94642872d2df6b65b0a66b371ac7b9e7/extra-credit-lesson-2.html"/>
+      <file href="g94642872d2df6b65b0a66b371ac7b9e7/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gdedaa59f5ce525c26e25aa8da72ae445" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gdedaa59f5ce525c26e25aa8da72ae445/extra-credit-lesson-1.html">
+      <file href="gdedaa59f5ce525c26e25aa8da72ae445/extra-credit-lesson-1.html"/>
+      <file href="gdedaa59f5ce525c26e25aa8da72ae445/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gcba28a3110fb81e7a7ce1b0cc1e8d7b9" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gcba28a3110fb81e7a7ce1b0cc1e8d7b9/extra-credit-lesson-3.html">
+      <file href="gcba28a3110fb81e7a7ce1b0cc1e8d7b9/extra-credit-lesson-3.html"/>
+      <file href="gcba28a3110fb81e7a7ce1b0cc1e8d7b9/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g652c3745f19dbb8a78efc6e22899fba2" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g652c3745f19dbb8a78efc6e22899fba2/extra-credit-lesson-4.html">
+      <file href="g652c3745f19dbb8a78efc6e22899fba2/extra-credit-lesson-4.html"/>
+      <file href="g652c3745f19dbb8a78efc6e22899fba2/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g069805f44ded1937eb36b2f916784964" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g069805f44ded1937eb36b2f916784964/extra-credit-lesson-5.html">
+      <file href="g069805f44ded1937eb36b2f916784964/extra-credit-lesson-5.html"/>
+      <file href="g069805f44ded1937eb36b2f916784964/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="ge2bc77d5586efb1c8a418756c04fe6b9" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ge2bc77d5586efb1c8a418756c04fe6b9/extra-credit-lesson-6.html">
+      <file href="ge2bc77d5586efb1c8a418756c04fe6b9/extra-credit-lesson-6.html"/>
+      <file href="ge2bc77d5586efb1c8a418756c04fe6b9/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gcdede06fe6fd67fe393a12cefcbc216b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gcdede06fe6fd67fe393a12cefcbc216b/introspeccion-individual-1.html">
+      <file href="gcdede06fe6fd67fe393a12cefcbc216b/introspeccion-individual-1.html"/>
+      <file href="gcdede06fe6fd67fe393a12cefcbc216b/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g6202026c648edb3cb9df4cd8d3c5dc1b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g6202026c648edb3cb9df4cd8d3c5dc1b/introspeccion-individual-2.html">
+      <file href="g6202026c648edb3cb9df4cd8d3c5dc1b/introspeccion-individual-2.html"/>
+      <file href="g6202026c648edb3cb9df4cd8d3c5dc1b/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gf8daca1a137cf0f4eaf55dc168b77521" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gf8daca1a137cf0f4eaf55dc168b77521/introspeccion-individual-3.html">
+      <file href="gf8daca1a137cf0f4eaf55dc168b77521/introspeccion-individual-3.html"/>
+      <file href="gf8daca1a137cf0f4eaf55dc168b77521/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gba4de827fdf02f7e88f45f0809aa6afd" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gba4de827fdf02f7e88f45f0809aa6afd/introspeccion-individual-4.html">
+      <file href="gba4de827fdf02f7e88f45f0809aa6afd/introspeccion-individual-4.html"/>
+      <file href="gba4de827fdf02f7e88f45f0809aa6afd/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gab955aff36f8925812ada5dcd14cfece" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gab955aff36f8925812ada5dcd14cfece/introspeccion-individual-5.html">
+      <file href="gab955aff36f8925812ada5dcd14cfece/introspeccion-individual-5.html"/>
+      <file href="gab955aff36f8925812ada5dcd14cfece/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g5e27829c3a41f3ebef5b64beea3718e9" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g5e27829c3a41f3ebef5b64beea3718e9/introspeccion-individual-6.html">
+      <file href="g5e27829c3a41f3ebef5b64beea3718e9/introspeccion-individual-6.html"/>
+      <file href="g5e27829c3a41f3ebef5b64beea3718e9/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gb21b3920178297008592169f5a194941" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gb21b3920178297008592169f5a194941/proyecto-en-equipo-1.html">
+      <file href="gb21b3920178297008592169f5a194941/proyecto-en-equipo-1.html"/>
+      <file href="gb21b3920178297008592169f5a194941/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g5e022ee692cef61ac81e06065ecb1eb0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g5e022ee692cef61ac81e06065ecb1eb0/proyecto-en-equipo-2.html">
+      <file href="g5e022ee692cef61ac81e06065ecb1eb0/proyecto-en-equipo-2.html"/>
+      <file href="g5e022ee692cef61ac81e06065ecb1eb0/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g16706a2f87498a4bcb09318d03627fee" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g16706a2f87498a4bcb09318d03627fee/proyecto-en-equipo-3.html">
+      <file href="g16706a2f87498a4bcb09318d03627fee/proyecto-en-equipo-3.html"/>
+      <file href="g16706a2f87498a4bcb09318d03627fee/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gd5ff6af3d2bfccfe13a4fc345fd3ed07" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gd5ff6af3d2bfccfe13a4fc345fd3ed07/proyecto-en-equipo-4.html">
+      <file href="gd5ff6af3d2bfccfe13a4fc345fd3ed07/proyecto-en-equipo-4.html"/>
+      <file href="gd5ff6af3d2bfccfe13a4fc345fd3ed07/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g0bda902294664a7730417b0b3017a6d8" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g0bda902294664a7730417b0b3017a6d8/proyecto-en-equipo-5.html">
+      <file href="g0bda902294664a7730417b0b3017a6d8/proyecto-en-equipo-5.html"/>
+      <file href="g0bda902294664a7730417b0b3017a6d8/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g1c006e3cad91b10ab359af271789adfa" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g1c006e3cad91b10ab359af271789adfa/proyecto-en-equipo-6.html">
+      <file href="g1c006e3cad91b10ab359af271789adfa/proyecto-en-equipo-6.html"/>
+      <file href="g1c006e3cad91b10ab359af271789adfa/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g38dee075505e1eaacd125b9ef36cbe60" type="imsdt_xmlv1p1">
+      <file href="g38dee075505e1eaacd125b9ef36cbe60.xml"/>
+      <dependency identifierref="gdfec63bb3ee9acdc65d19dcd1ebd795a"/>
+    </resource>
+    <resource identifier="gdfec63bb3ee9acdc65d19dcd1ebd795a" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gdfec63bb3ee9acdc65d19dcd1ebd795a.xml">
+      <file href="gdfec63bb3ee9acdc65d19dcd1ebd795a.xml"/>
+    </resource>
+    <resource identifier="g5da46c82919828b0bc7e8e91591afbf9" type="imsdt_xmlv1p1">
+      <file href="g5da46c82919828b0bc7e8e91591afbf9.xml"/>
+      <dependency identifierref="gf184931434746b71ce427bf0356b8bbd"/>
+    </resource>
+    <resource identifier="gf184931434746b71ce427bf0356b8bbd" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gf184931434746b71ce427bf0356b8bbd.xml">
+      <file href="gf184931434746b71ce427bf0356b8bbd.xml"/>
+    </resource>
+    <resource identifier="g6f5ada139a86e0948ce87ed374c60495" type="imsdt_xmlv1p1">
+      <file href="g6f5ada139a86e0948ce87ed374c60495.xml"/>
+      <dependency identifierref="g1affcb2786ca6953e45ebb3d0178c32b"/>
+    </resource>
+    <resource identifier="g1affcb2786ca6953e45ebb3d0178c32b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g1affcb2786ca6953e45ebb3d0178c32b.xml">
+      <file href="g1affcb2786ca6953e45ebb3d0178c32b.xml"/>
+    </resource>
+    <resource identifier="gf8fd0ec4366e786639f5114da858c042" type="imswl_xmlv1p1">
+      <file href="gf8fd0ec4366e786639f5114da858c042.xml"/>
+    </resource>
+    <resource identifier="gf75b09a259bbef8b85e9b572f13e9004" type="imswl_xmlv1p1">
+      <file href="gf75b09a259bbef8b85e9b572f13e9004.xml"/>
+    </resource>
+    <resource identifier="gdd2e5014c84fee05d5f67fa36c23ea66" type="imswl_xmlv1p1">
+      <file href="gdd2e5014c84fee05d5f67fa36c23ea66.xml"/>
+    </resource>
+    <resource identifier="g5c750ebaf142bbc1c2355e45b3649cd4" type="imswl_xmlv1p1">
+      <file href="g5c750ebaf142bbc1c2355e45b3649cd4.xml"/>
+    </resource>
+    <resource identifier="g7fe7c9f669043eafaafca190784f6291" type="imswl_xmlv1p1">
+      <file href="g7fe7c9f669043eafaafca190784f6291.xml"/>
+    </resource>
+    <resource identifier="g4050aa2a7ab6527bbced3993720d4947" type="imswl_xmlv1p1">
+      <file href="g4050aa2a7ab6527bbced3993720d4947.xml"/>
+    </resource>
+    <resource identifier="g472844108b8851cb9d9f051e76b9d5df" type="imswl_xmlv1p1">
+      <file href="g472844108b8851cb9d9f051e76b9d5df.xml"/>
+    </resource>
+    <resource identifier="g0281a10839c17b469a164a5112f2805c" type="imswl_xmlv1p1">
+      <file href="g0281a10839c17b469a164a5112f2805c.xml"/>
+    </resource>
+    <resource identifier="g554837025b7f1b933c130e43ef662d63" type="imswl_xmlv1p1">
+      <file href="g554837025b7f1b933c130e43ef662d63.xml"/>
+    </resource>
+    <resource identifier="g6617779820d099a3b1cade97d7c6bebd" type="imswl_xmlv1p1">
+      <file href="g6617779820d099a3b1cade97d7c6bebd.xml"/>
+    </resource>
+    <resource identifier="g6f7b42214c154e52b22643ad7cb3c4ab" type="imswl_xmlv1p1">
+      <file href="g6f7b42214c154e52b22643ad7cb3c4ab.xml"/>
+    </resource>
+    <resource identifier="gc116a8d935acc7d5b2ab912ea534eb33" type="imswl_xmlv1p1">
+      <file href="gc116a8d935acc7d5b2ab912ea534eb33.xml"/>
+    </resource>
+    <resource identifier="g60ee3eddfe1f1801150e435c2f897635" type="imswl_xmlv1p1">
+      <file href="g60ee3eddfe1f1801150e435c2f897635.xml"/>
+    </resource>
+    <resource identifier="ge47f2eed9e7833af6ebe1849cd5e62a8" type="imswl_xmlv1p1">
+      <file href="ge47f2eed9e7833af6ebe1849cd5e62a8.xml"/>
+    </resource>
+    <resource identifier="g268ea0ca48b90944e2b206fb5effef94" type="imswl_xmlv1p1">
+      <file href="g268ea0ca48b90944e2b206fb5effef94.xml"/>
+    </resource>
+    <resource identifier="g0b20648f866e80d14f812e3d1843ea38" type="imswl_xmlv1p1">
+      <file href="g0b20648f866e80d14f812e3d1843ea38.xml"/>
+    </resource>
+    <resource identifier="g38d26dd004ce2f4d2692e4b763d5a180" type="imswl_xmlv1p1">
+      <file href="g38d26dd004ce2f4d2692e4b763d5a180.xml"/>
+    </resource>
+    <resource identifier="gbae824cea8373cccdab2cfbff3ec52d5" type="imswl_xmlv1p1">
+      <file href="gbae824cea8373cccdab2cfbff3ec52d5.xml"/>
+    </resource>
+    <resource identifier="g4a231c038342dc4928864a892970d6a6" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g4a231c038342dc4928864a892970d6a6/assessment_qti.xml"/>
+      <dependency identifierref="g26e9ebf9e6d1fefb84976c937667bfbc"/>
+    </resource>
+    <resource identifier="g26e9ebf9e6d1fefb84976c937667bfbc" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g4a231c038342dc4928864a892970d6a6/assessment_meta.xml">
+      <file href="g4a231c038342dc4928864a892970d6a6/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g4a231c038342dc4928864a892970d6a6.xml.qti"/>
+    </resource>
+    <resource identifier="gf4b1b40509cbde672d1fb08cfd8f0748" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="gf4b1b40509cbde672d1fb08cfd8f0748/assessment_qti.xml"/>
+      <dependency identifierref="ge088191dd05d4cc6a2e9a2aab7d332f0"/>
+    </resource>
+    <resource identifier="ge088191dd05d4cc6a2e9a2aab7d332f0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gf4b1b40509cbde672d1fb08cfd8f0748/assessment_meta.xml">
+      <file href="gf4b1b40509cbde672d1fb08cfd8f0748/assessment_meta.xml"/>
+      <file href="non_cc_assessments/gf4b1b40509cbde672d1fb08cfd8f0748.xml.qti"/>
+    </resource>
+    <resource identifier="g7b41d83bac81f2e02a77be738b34975d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/g7b41d83bac81f2e02a77be738b34975d.xml.qti">
+      <file href="non_cc_assessments/g7b41d83bac81f2e02a77be738b34975d.xml.qti"/>
+    </resource>
+    <resource identifier="g292bb51d7cb5ee64ed6e8cfd8363bf78" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/g292bb51d7cb5ee64ed6e8cfd8363bf78.xml.qti">
+      <file href="non_cc_assessments/g292bb51d7cb5ee64ed6e8cfd8363bf78.xml.qti"/>
+    </resource>
+    <resource identifier="g0f26d711cdd1238c6112ea6ee15f6f93" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/g0f26d711cdd1238c6112ea6ee15f6f93.xml.qti">
+      <file href="non_cc_assessments/g0f26d711cdd1238c6112ea6ee15f6f93.xml.qti"/>
+    </resource>
+    <resource identifier="ga1540222e0e19c79ed51ad569a5edc4d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/ga1540222e0e19c79ed51ad569a5edc4d.xml.qti">
+      <file href="non_cc_assessments/ga1540222e0e19c79ed51ad569a5edc4d.xml.qti"/>
+    </resource>
+    <resource identifier="gbc10017fa12f3cdbd12260da6b7af490" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/gbc10017fa12f3cdbd12260da6b7af490.xml.qti">
+      <file href="non_cc_assessments/gbc10017fa12f3cdbd12260da6b7af490.xml.qti"/>
+    </resource>
+    <resource identifier="g9d5a29c36b67ed30222695ae8d7afc6a" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/g9d5a29c36b67ed30222695ae8d7afc6a.xml.qti">
+      <file href="non_cc_assessments/g9d5a29c36b67ed30222695ae8d7afc6a.xml.qti"/>
+    </resource>
+    <resource identifier="gb30491ca6254c6f5569203fc91b4e44e" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/gb30491ca6254c6f5569203fc91b4e44e.xml.qti">
+      <file href="non_cc_assessments/gb30491ca6254c6f5569203fc91b4e44e.xml.qti"/>
+    </resource>
+    <resource identifier="gdce69954873cdd360e51151b13e955f5" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/gdce69954873cdd360e51151b13e955f5.xml.qti">
+      <file href="non_cc_assessments/gdce69954873cdd360e51151b13e955f5.xml.qti"/>
+    </resource>
+    <resource identifier="g0b6bda7985b621737c3bfd2d0bff6e32" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g0b6bda7985b621737c3bfd2d0bff6e32/assessment_qti.xml"/>
+      <dependency identifierref="i7bc51110d36709cba4b25d034645392c"/>
+    </resource>
+    <resource identifier="i7bc51110d36709cba4b25d034645392c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g0b6bda7985b621737c3bfd2d0bff6e32/assessment_meta.xml">
+      <file href="g0b6bda7985b621737c3bfd2d0bff6e32/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g0b6bda7985b621737c3bfd2d0bff6e32.xml.qti"/>
+    </resource>
+    <resource identifier="g2395487e76db8b00bb4e49bcae9ffefe" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/g2395487e76db8b00bb4e49bcae9ffefe.xml.qti">
+      <file href="non_cc_assessments/g2395487e76db8b00bb4e49bcae9ffefe.xml.qti"/>
+    </resource>
+    <resource identifier="g24491897078396f199bb7e134aee3dbd" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g24491897078396f199bb7e134aee3dbd/assessment_qti.xml"/>
+      <dependency identifierref="if8bac69e2838309cbfb659404686cc62"/>
+    </resource>
+    <resource identifier="if8bac69e2838309cbfb659404686cc62" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g24491897078396f199bb7e134aee3dbd/assessment_meta.xml">
+      <file href="g24491897078396f199bb7e134aee3dbd/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g24491897078396f199bb7e134aee3dbd.xml.qti"/>
+    </resource>
+    <resource identifier="g25ef82c353bb06191a6e06f83083df58" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g25ef82c353bb06191a6e06f83083df58/assessment_qti.xml"/>
+      <dependency identifierref="ifec123c566944084babd4c3264dc845d"/>
+    </resource>
+    <resource identifier="ifec123c566944084babd4c3264dc845d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g25ef82c353bb06191a6e06f83083df58/assessment_meta.xml">
+      <file href="g25ef82c353bb06191a6e06f83083df58/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g25ef82c353bb06191a6e06f83083df58.xml.qti"/>
+    </resource>
+    <resource identifier="g64bcab43c9fa3d8e136cb9cdaf344d3b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/g64bcab43c9fa3d8e136cb9cdaf344d3b.xml.qti">
+      <file href="non_cc_assessments/g64bcab43c9fa3d8e136cb9cdaf344d3b.xml.qti"/>
+    </resource>
+    <resource identifier="gabacf709859118f187b498478aa9609d" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="gabacf709859118f187b498478aa9609d/assessment_qti.xml"/>
+      <dependency identifierref="if19a0995f74735d57185500f7b15d9bb"/>
+    </resource>
+    <resource identifier="if19a0995f74735d57185500f7b15d9bb" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gabacf709859118f187b498478aa9609d/assessment_meta.xml">
+      <file href="gabacf709859118f187b498478aa9609d/assessment_meta.xml"/>
+      <file href="non_cc_assessments/gabacf709859118f187b498478aa9609d.xml.qti"/>
+    </resource>
+    <resource identifier="g7f317eab882f196ac3f6e42d619a7744" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/g7f317eab882f196ac3f6e42d619a7744.xml.qti">
+      <file href="non_cc_assessments/g7f317eab882f196ac3f6e42d619a7744.xml.qti"/>
+    </resource>
+    <resource identifier="g85ecd4b9392d755c7b6c6452ed35f959" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/g85ecd4b9392d755c7b6c6452ed35f959.xml.qti">
+      <file href="non_cc_assessments/g85ecd4b9392d755c7b6c6452ed35f959.xml.qti"/>
+    </resource>
+    <resource identifier="gaa62c9575142427b7301e545aef2ab17" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/gaa62c9575142427b7301e545aef2ab17.xml.qti">
+      <file href="non_cc_assessments/gaa62c9575142427b7301e545aef2ab17.xml.qti"/>
+    </resource>
+    <resource identifier="g22265e77aaf81271174efc028e7e1527" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g22265e77aaf81271174efc028e7e1527/assessment_qti.xml"/>
+      <dependency identifierref="i936b0516571eb28c143e92f572d8c48c"/>
+    </resource>
+    <resource identifier="i936b0516571eb28c143e92f572d8c48c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g22265e77aaf81271174efc028e7e1527/assessment_meta.xml">
+      <file href="g22265e77aaf81271174efc028e7e1527/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g22265e77aaf81271174efc028e7e1527.xml.qti"/>
+    </resource>
+    <resource identifier="ged5d9915b4741c2e16a71cf7198aef8c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/ged5d9915b4741c2e16a71cf7198aef8c.xml.qti">
+      <file href="non_cc_assessments/ged5d9915b4741c2e16a71cf7198aef8c.xml.qti"/>
+    </resource>
+    <resource identifier="g55c82a6cb989219b10148716c2ee31f2" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g55c82a6cb989219b10148716c2ee31f2/assessment_qti.xml"/>
+      <dependency identifierref="i4191dfb3f45856d1faa44c14677cd89e"/>
+    </resource>
+    <resource identifier="i4191dfb3f45856d1faa44c14677cd89e" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g55c82a6cb989219b10148716c2ee31f2/assessment_meta.xml">
+      <file href="g55c82a6cb989219b10148716c2ee31f2/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g55c82a6cb989219b10148716c2ee31f2.xml.qti"/>
+    </resource>
+    <resource type="webcontent" identifier="g50772fb7ccc79ba7243ea3d6864063e2" href="web_resources/Caso 2.html">
+      <file href="web_resources/Caso 2.html"/>
+    </resource>
+    <resource type="webcontent" identifier="ga2b152fd18718ef626332f92b800cb27" href="web_resources/Caso 3.html">
+      <file href="web_resources/Caso 3.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g4e0aa3cb7783adc6c7fc1565f88f71d5" href="web_resources/Lectura 1.html">
+      <file href="web_resources/Lectura 1.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g56b21ee5da9c2bb2ec86548f674e25e6" href="web_resources/Lectura 2.1.html">
+      <file href="web_resources/Lectura 2.1.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g41b65f3af9a3b210ba9ff4425d65105b" href="web_resources/Lectura 2.2.html">
+      <file href="web_resources/Lectura 2.2.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g1098ef38666f24bf9fa8add9f0f06c18" href="web_resources/Lectura 2.3.html">
+      <file href="web_resources/Lectura 2.3.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g5e70ca325304a83eb9e808df7a743a45" href="web_resources/Lectura 2.4.html">
+      <file href="web_resources/Lectura 2.4.html"/>
+    </resource>
+    <resource type="webcontent" identifier="ge4b2261b0e2705ba8166a791dea0c684" href="web_resources/Lectura 2.html">
+      <file href="web_resources/Lectura 2.html"/>
+    </resource>
+    <resource type="webcontent" identifier="gf702650b745867d826140050d3cf3530" href="web_resources/Lectura 3.1.html">
+      <file href="web_resources/Lectura 3.1.html"/>
+    </resource>
+    <resource type="webcontent" identifier="ge9425884701815924484a6f0b228f1f7" href="web_resources/Lectura 3.2.html">
+      <file href="web_resources/Lectura 3.2.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g56e36fcdb96b4d90c47f6553b433ef31" href="web_resources/Lectura 3.3.html">
+      <file href="web_resources/Lectura 3.3.html"/>
+    </resource>
+    <resource type="webcontent" identifier="ge619a7908b2a0b68911fde863f13d391" href="web_resources/Lectura 3.4.html">
+      <file href="web_resources/Lectura 3.4.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g63e8e5aea38c99c6c15a82c4f3f2eb18" href="web_resources/Lectura 3.html">
+      <file href="web_resources/Lectura 3.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g8bb761c0a2cf5681e5be55f90c0a29f5" href="web_resources/Lectura 4.html">
+      <file href="web_resources/Lectura 4.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g51ba0e851b1a56508e1ed68be7c074ca" href="web_resources/Lectura 5.html">
+      <file href="web_resources/Lectura 5.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g58a8e86d90898e3bde5dfb389e37ebf9" href="web_resources/Nombre caso.html">
+      <file href="web_resources/Nombre caso.html"/>
+    </resource>
+    <resource type="webcontent" identifier="ge0ca227fc88e97c22e26c54016137973" href="web_resources/Plantilla doc West 3.0">
+      <file href="web_resources/Plantilla doc West 3.0"/>
+    </resource>
+    <resource type="webcontent" identifier="gc1e9eb8c4dface0a16598ad7bdc3889a" href="web_resources/Tema 2.html">
+      <file href="web_resources/Tema 2.html"/>
+    </resource>
+    <resource type="webcontent" identifier="gb400e1d97123aa5142c349a52f0f2523" href="web_resources/Tema 3.html">
+      <file href="web_resources/Tema 3.html"/>
+    </resource>
+    <resource type="webcontent" identifier="g95d799bffcb37d851fe1dababdbd5f9e" href="web_resources/Tema.html">
+      <file href="web_resources/Tema.html"/>
+    </resource>
+    <resource type="webcontent" identifier="ge9969607e2029a8b6037d857e3b023b8" href="web_resources/Guía Didáctica Strategic Management Lesson 2.pdf">
+      <file href="web_resources/Guía Didáctica Strategic Management Lesson 2.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g97389981e736b47dee53101003da3f9b" href="web_resources/Guía Didáctica Strategic Management Lesson 3.pdf">
+      <file href="web_resources/Guía Didáctica Strategic Management Lesson 3.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gb04c99fc7830e56614453f2315b799d7" href="web_resources/Perfil de estudiantes.pdf">
+      <file href="web_resources/Perfil de estudiantes.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g7f90c61348e129b9b976301dfbbf731d" href="web_resources/MAN_24_000819_01.pdf">
+      <file href="web_resources/MAN_24_000819_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gff31993b02cff2c653c4c3a6ef8a7eb7" href="web_resources/MAN_24_000835_01.pdf">
+      <file href="web_resources/MAN_24_000835_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g2b3925bb148939bd3424aacbb781e6e4" href="web_resources/MAN_24_000851_01.pdf">
+      <file href="web_resources/MAN_24_000851_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g526a8cfce4f4434cafed074a8e046366" href="web_resources/Guía Didáctica Strategic Management Lesson 5.pdf">
+      <file href="web_resources/Guía Didáctica Strategic Management Lesson 5.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g5a579a10343847413e931baf55557909" href="web_resources/Guía Didáctica Strategic Management Lesson 6.pdf">
+      <file href="web_resources/Guía Didáctica Strategic Management Lesson 6.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g2c1474eb74f3b371227be3628161a287" href="web_resources/N - MBA - Strategic Management.pdf">
+      <metadata>
+        <lom:lom>
+          <lom:educational>
+            <lom:intendedEndUserRole>
+              <lom:source>IMSGLC_CC_Rolesv1p1</lom:source>
+              <lom:value>Instructor</lom:value>
+            </lom:intendedEndUserRole>
+          </lom:educational>
+        </lom:lom>
+      </metadata>
+      <file href="web_resources/N - MBA - Strategic Management.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g832e833e5ffd06dce01de25bf2271f10" href="web_resources/Guía Didáctica Strategic Management Lesson 4.pdf">
+      <file href="web_resources/Guía Didáctica Strategic Management Lesson 4.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g708db9942c76bfecf1f689ce8d871d5f" href="web_resources/MAN_24_000771_01.pdf">
+      <file href="web_resources/MAN_24_000771_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g2cc55acf54ae998541f9e5d4c5ddd5d8" href="web_resources/Guía Didáctica Strategic Management Lesson 1.pdf">
+      <file href="web_resources/Guía Didáctica Strategic Management Lesson 1.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g2b66fe92c2acc223f832c94b753c77b1" href="web_resources/N - MBA - Strategic Management.pdf">
+      <metadata>
+        <lom:lom>
+          <lom:educational>
+            <lom:intendedEndUserRole>
+              <lom:source>IMSGLC_CC_Rolesv1p1</lom:source>
+              <lom:value>Instructor</lom:value>
+            </lom:intendedEndUserRole>
+          </lom:educational>
+        </lom:lom>
+      </metadata>
+      <file href="web_resources/N - MBA - Strategic Management.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g2c47b783b0142d163a16d0e04d76acd7" href="web_resources/Multimedia cargada/pdf.png">
+      <file href="web_resources/Multimedia cargada/pdf.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g18a4fd89e3931fef2475e8d0f2f20ee7" href="web_resources/Multimedia cargada/Trabajo en equipo - Netflix.pdf">
+      <file href="web_resources/Multimedia cargada/Trabajo en equipo - Netflix.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g9ad18a00d004cfb733a0c9bdbf755e4d" href="web_resources/Multimedia cargada/Bienvenida parte I.mp4">
+      <file href="web_resources/Multimedia cargada/Bienvenida parte I.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="gaee5e4c98ba2d9bcb2f02ab9faab4528" href="web_resources/Multimedia cargada/image.png">
+      <file href="web_resources/Multimedia cargada/image.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g671922b1c6704c91c527b414541eb279" href="web_resources/Multimedia cargada/image-1.png">
+      <file href="web_resources/Multimedia cargada/image-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gbe1e504de468ec5d8bcc063cfc1de98d" href="web_resources/Multimedia cargada/image-2.png">
+      <file href="web_resources/Multimedia cargada/image-2.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g8b68bd1c34b88d5574847316fb0c9fb6" href="web_resources/Multimedia cargada/Perfil estratégico empresa.jpeg">
+      <file href="web_resources/Multimedia cargada/Perfil estratégico empresa.jpeg"/>
+    </resource>
+    <resource type="webcontent" identifier="gd22e9017be46ac4f774e2d19a6ebaf9c" href="web_resources/Multimedia cargada/Perfil estratégico empresa-1.jpeg">
+      <file href="web_resources/Multimedia cargada/Perfil estratégico empresa-1.jpeg"/>
+    </resource>
+    <resource type="webcontent" identifier="gd22a7682b2de796e548c1e5fb49d06f9" href="web_resources/Multimedia cargada/image-3.png">
+      <file href="web_resources/Multimedia cargada/image-3.png"/>
+    </resource>
+    <resource type="webcontent" identifier="ge95abd1d8046a79b12dd06cca2d1f1eb" href="web_resources/Multimedia cargada/image-4.png">
+      <file href="web_resources/Multimedia cargada/image-4.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g4f1500b4fa943e481ff55d4337219ba0" href="web_resources/Multimedia cargada/image_20240920183554052.png">
+      <file href="web_resources/Multimedia cargada/image_20240920183554052.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gbe330ce83baff9407e9456a9eadacbaa" href="web_resources/Multimedia cargada/image_20240920183554286.png">
+      <file href="web_resources/Multimedia cargada/image_20240920183554286.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gdbcfab8cc5eaa89c726e396b46054099" href="web_resources/Multimedia cargada/image_20240920171843185.png">
+      <file href="web_resources/Multimedia cargada/image_20240920171843185.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g73320ab2355078813954deb687a44484" href="web_resources/Multimedia cargada/image-5.png">
+      <file href="web_resources/Multimedia cargada/image-5.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g43f0ee5fc80b487fdb95d4138e27ce3b" href="web_resources/Multimedia cargada/image-2-1.png">
+      <file href="web_resources/Multimedia cargada/image-2-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g1d282dfa987e05f9d43cbc42504b5c03" href="web_resources/Multimedia cargada/pdf-1.png">
+      <file href="web_resources/Multimedia cargada/pdf-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g1082a54358c3de2f1c0dfb6fc417aa3c" href="web_resources/Multimedia cargada/image-6.png">
+      <file href="web_resources/Multimedia cargada/image-6.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g2a91339cc1ed5ea234c5b04f722f91f1" href="web_resources/Multimedia cargada/WhatsApp Image 2026-01-29 at 10.30.47 PM.jpeg">
+      <file href="web_resources/Multimedia cargada/WhatsApp Image 2026-01-29 at 10.30.47 PM.jpeg"/>
+    </resource>
+    <resource type="webcontent" identifier="gcc3b52b129c0ae275c34187e15893f05" href="web_resources/orgunitconfig/orgunitconfig-1.xml">
+      <file href="web_resources/orgunitconfig/orgunitconfig-1.xml"/>
+    </resource>
+    <resource type="webcontent" identifier="g707c31b886fad5cec2d6500b30f3c3be" href="web_resources/orgunitconfig/orgunitconfig-2.xml">
+      <file href="web_resources/orgunitconfig/orgunitconfig-2.xml"/>
+    </resource>
+    <resource type="webcontent" identifier="g5db2a10b065eb568a20cd34d085c5cee" href="web_resources/orgunitconfig/orgunitconfig.xml">
+      <file href="web_resources/orgunitconfig/orgunitconfig.xml"/>
+    </resource>
+    <resource type="webcontent" identifier="g9df020733b74015666374d33eb97d3c7" href="web_resources/Clase 2/MAN_24_000668_01.jpg">
+      <file href="web_resources/Clase 2/MAN_24_000668_01.jpg"/>
+    </resource>
+    <resource type="webcontent" identifier="g2d1fe27282aff6f8760c4982ef394ef5" href="web_resources/Clase 2/MAN_24_000670_01.pdf">
+      <file href="web_resources/Clase 2/MAN_24_000670_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gb44c155f0ca7b5785e2f5a6964c435a0" href="web_resources/Clase 2/MAN_24_000672_01.pdf">
+      <file href="web_resources/Clase 2/MAN_24_000672_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g5a7294f6113154da054f71349729cbd8" href="web_resources/Clase 2/MAN_24_000674_01.pdf">
+      <file href="web_resources/Clase 2/MAN_24_000674_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g5d15d35396223d9fcd7bbbbba4fb5a09" href="web_resources/Clase 2/MAN_24_000676_01.pdf">
+      <file href="web_resources/Clase 2/MAN_24_000676_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g70827e148ed66658a40024079aa65cd0" href="web_resources/Clase 2/MAN_24_000678_01.pdf">
+      <file href="web_resources/Clase 2/MAN_24_000678_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g226249f25fa0e7e291d554c9a3468713" href="web_resources/Clase 2/MAN_24_000680_01.pdf">
+      <file href="web_resources/Clase 2/MAN_24_000680_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g1cf7272d0bbf2af0a4118893838428fb" href="web_resources/Clase 2/MAN_24_000683_01.pdf">
+      <file href="web_resources/Clase 2/MAN_24_000683_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gc98ca3674288d4cf89e108e10646cef5" href="web_resources/Clase 2/MAN_24_000675_01.mp4">
+      <file href="web_resources/Clase 2/MAN_24_000675_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="gbff72be5e647448b5e0587c34d45e0f4" href="web_resources/Clase 2/MAN_24_000677_01.mp4">
+      <file href="web_resources/Clase 2/MAN_24_000677_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="gecb8d28fb5207e9782e894ac7170f456" href="web_resources/Clase 2/MAN_24_000671_01.mp4">
+      <file href="web_resources/Clase 2/MAN_24_000671_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="gc65fa349c2c9359705523e731f52bbb7" href="web_resources/Clase 2/MAN_24_000681_01.mp4">
+      <file href="web_resources/Clase 2/MAN_24_000681_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="gfcd3c24c60196ac1f20fbff3db0aa00a" href="web_resources/Clase 2/MAN_24_000673_01.mp4">
+      <file href="web_resources/Clase 2/MAN_24_000673_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="gfae5a07cc2c5d96579b7a408cbeb896f" href="web_resources/Clase 2/MAN_24_000679_01.mp4">
+      <file href="web_resources/Clase 2/MAN_24_000679_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g86f5f2f3e136f3ae1a10259812fd31d7" href="web_resources/Clase 2/Nota del instructor-DANONE.pdf">
+      <metadata>
+        <lom:lom>
+          <lom:educational>
+            <lom:intendedEndUserRole>
+              <lom:source>IMSGLC_CC_Rolesv1p1</lom:source>
+              <lom:value>Instructor</lom:value>
+            </lom:intendedEndUserRole>
+          </lom:educational>
+        </lom:lom>
+      </metadata>
+      <file href="web_resources/Clase 2/Nota del instructor-DANONE.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g2ab563c3e015b60453c6a76cc95b7d7a" href="web_resources/Clase 1/MAN_24_000650_01.jpg">
+      <file href="web_resources/Clase 1/MAN_24_000650_01.jpg"/>
+    </resource>
+    <resource type="webcontent" identifier="gf14d59dd24212e1138b6477b1c5550e0" href="web_resources/Clase 1/MAN_24_000652_01.pdf">
+      <file href="web_resources/Clase 1/MAN_24_000652_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g0c4178afcf4da445f8d9501f3d798a93" href="web_resources/Clase 1/MAN_24_000654_01.pdf">
+      <file href="web_resources/Clase 1/MAN_24_000654_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g32635c8822eec0e6db9d632bf55b99c5" href="web_resources/Clase 1/MAN_24_000656_01.pdf">
+      <file href="web_resources/Clase 1/MAN_24_000656_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="ge03ac914530849be855a3f960647158f" href="web_resources/Clase 1/MAN_24_000658_01.pdf">
+      <file href="web_resources/Clase 1/MAN_24_000658_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g13fe931eeded2c4da52fa8699b5da8f8" href="web_resources/Clase 1/MAN_24_000660_01.pdf">
+      <file href="web_resources/Clase 1/MAN_24_000660_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gf631c9c31f28c0878c7b0ec8f31d51c7" href="web_resources/Clase 1/MAN_24_000662_01.pdf">
+      <file href="web_resources/Clase 1/MAN_24_000662_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g25742883728d67e9c035d20b6b53e939" href="web_resources/Clase 1/MAN_24_000649_01.mp4">
+      <file href="web_resources/Clase 1/MAN_24_000649_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g52992efaa9136a898e81c89f72ff2b40" href="web_resources/Clase 1/MAN_24_000655_01.mp4">
+      <file href="web_resources/Clase 1/MAN_24_000655_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="gf959a54c9406d5072fd729b603ca2445" href="web_resources/Clase 1/MAN_24_000663_01.mp4">
+      <file href="web_resources/Clase 1/MAN_24_000663_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g70709dcda9a94bab672ad0667dd3b3d7" href="web_resources/Clase 1/MAN_24_000653_01.mp4">
+      <file href="web_resources/Clase 1/MAN_24_000653_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g37af92676878217bb8766d64d0bfb168" href="web_resources/Clase 1/MAN_24_000661_01.mp4">
+      <file href="web_resources/Clase 1/MAN_24_000661_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g0113bcccca2070e0372d3721de3305d7" href="web_resources/Clase 1/MAN_24_000657_01.mp4">
+      <file href="web_resources/Clase 1/MAN_24_000657_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="gfb712e05d0997f08c1daf39261b18961" href="web_resources/Clase 1/MAN_24_000659_01.mp4">
+      <file href="web_resources/Clase 1/MAN_24_000659_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="ga68380c17ecca6d19ad390ef08e5581d" href="web_resources/Clase 1/MAN_24_000665_01.pdf">
+      <file href="web_resources/Clase 1/MAN_24_000665_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g43f3dc8f0966e34cf9a94e1a1ccf1b35" href="web_resources/Clase 1/Nota del instructor-UNILEVER.pdf">
+      <metadata>
+        <lom:lom>
+          <lom:educational>
+            <lom:intendedEndUserRole>
+              <lom:source>IMSGLC_CC_Rolesv1p1</lom:source>
+              <lom:value>Instructor</lom:value>
+            </lom:intendedEndUserRole>
+          </lom:educational>
+        </lom:lom>
+      </metadata>
+      <file href="web_resources/Clase 1/Nota del instructor-UNILEVER.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gf0c8f0309ca55aef1a46b49f98a515f2" href="web_resources/Clase 4/MAN_24_000718_01.mp4">
+      <file href="web_resources/Clase 4/MAN_24_000718_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g81cb2a5040e5554883d80d88baad99f1" href="web_resources/Clase 4/MAN_24_000716_01.mp4">
+      <file href="web_resources/Clase 4/MAN_24_000716_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g044364b77e1c1588121d695c77e72c66" href="web_resources/Clase 4/MAN_24_000714_01.mp4">
+      <file href="web_resources/Clase 4/MAN_24_000714_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g1efffe0ce00ca421735aa0c31d97f2be" href="web_resources/Clase 4/MAN_24_000712_01.mp4">
+      <file href="web_resources/Clase 4/MAN_24_000712_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g423cb9c0fb8c54219ac85671520e84f2" href="web_resources/Clase 4/MAN_24_000710_01.mp4">
+      <file href="web_resources/Clase 4/MAN_24_000710_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g56797a45e43c39f714e5c1afddf57b81" href="web_resources/Clase 4/MAN_24_000708_01.mp4">
+      <file href="web_resources/Clase 4/MAN_24_000708_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g6dcc9e8cd442d6bbfef57d06aee933dc" href="web_resources/Clase 4/MAN_24_000704_01.mp4">
+      <file href="web_resources/Clase 4/MAN_24_000704_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="ge0e4bae7d8b498a2d38f2385296888b7" href="web_resources/Clase 4/MAN_24_000720_01.pdf">
+      <file href="web_resources/Clase 4/MAN_24_000720_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gb6e687c91e25b2be89e6b29280d83b08" href="web_resources/Clase 4/MAN_24_000717_01.pdf">
+      <file href="web_resources/Clase 4/MAN_24_000717_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g41873a9cc55ff766832fd50f14a13c86" href="web_resources/Clase 4/MAN_24_000715_01.pdf">
+      <file href="web_resources/Clase 4/MAN_24_000715_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g17d319ce6cfddc29045436373fb07e38" href="web_resources/Clase 4/MAN_24_000713_01.pdf">
+      <file href="web_resources/Clase 4/MAN_24_000713_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="ga7d38993de46349e67d9604bf0e1b4bd" href="web_resources/Clase 4/MAN_24_000711_01.pdf">
+      <file href="web_resources/Clase 4/MAN_24_000711_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g3d7ffd858e0eda0770835a852b7e4fd8" href="web_resources/Clase 4/MAN_24_000709_01.pdf">
+      <file href="web_resources/Clase 4/MAN_24_000709_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gf6c3a8a5b408bf09cd87bf47beabf2be" href="web_resources/Clase 4/MAN_24_000707_01.pdf">
+      <file href="web_resources/Clase 4/MAN_24_000707_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g25c49f7deaf77188345787ff82e849f9" href="web_resources/Clase 4/MAN_24_000706_01.jpg">
+      <file href="web_resources/Clase 4/MAN_24_000706_01.jpg"/>
+    </resource>
+    <resource type="webcontent" identifier="g2f7d7b724eaba372eeb68930c2eec1da" href="web_resources/Clase 4/Discusiones Caso IPhone vs. Nokia.pdf">
+      <metadata>
+        <lom:lom>
+          <lom:educational>
+            <lom:intendedEndUserRole>
+              <lom:source>IMSGLC_CC_Rolesv1p1</lom:source>
+              <lom:value>Instructor</lom:value>
+            </lom:intendedEndUserRole>
+          </lom:educational>
+        </lom:lom>
+      </metadata>
+      <file href="web_resources/Clase 4/Discusiones Caso IPhone vs. Nokia.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gb1e08e2786b2d9395038d30279db9b81" href="web_resources/Clase 5/MAN_24_000738_01.pdf">
+      <file href="web_resources/Clase 5/MAN_24_000738_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="ge588c7dbe5b9870e9dcc35cd5ae9d8fe" href="web_resources/Clase 5/MAN_24_000735_01.pdf">
+      <file href="web_resources/Clase 5/MAN_24_000735_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g89fb9ce0720ede633b49dcca4de5782a" href="web_resources/Clase 5/MAN_24_000733_01.pdf">
+      <file href="web_resources/Clase 5/MAN_24_000733_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gba7da14e32a8eb06545b59aba78ac21d" href="web_resources/Clase 5/MAN_24_000731_01.pdf">
+      <file href="web_resources/Clase 5/MAN_24_000731_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gffa5dc977e344cddd0eb0566920b53af" href="web_resources/Clase 5/MAN_24_000727_01.pdf">
+      <file href="web_resources/Clase 5/MAN_24_000727_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gfce12736a97047c2b4d51d107104faeb" href="web_resources/Clase 5/MAN_24_000729_01.pdf">
+      <file href="web_resources/Clase 5/MAN_24_000729_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g5effa8c8643045c12a6f8a9d5ef9330e" href="web_resources/Clase 5/MAN_24_000725_01.pdf">
+      <file href="web_resources/Clase 5/MAN_24_000725_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g650400e8c484a2da27451252f790484f" href="web_resources/Clase 5/MAN_24_000730_01.mp4">
+      <file href="web_resources/Clase 5/MAN_24_000730_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g21db134a81fb7cd3eb58df215f8061f6" href="web_resources/Clase 5/MAN_24_000728_01.mp4">
+      <file href="web_resources/Clase 5/MAN_24_000728_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g85dc96c0f81567d3719c57350b48f450" href="web_resources/Clase 5/MAN_24_000726_01.mp4">
+      <file href="web_resources/Clase 5/MAN_24_000726_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="gcd62e8883fff97b551d86b061bbaf17a" href="web_resources/Clase 5/MAN_24_000723_01.jpg">
+      <file href="web_resources/Clase 5/MAN_24_000723_01.jpg"/>
+    </resource>
+    <resource type="webcontent" identifier="g6aa3d173a05226cf7ee1e2a7b43dc61a" href="web_resources/Clase 5/Notas del Caso. Ferrovial.pdf">
+      <metadata>
+        <lom:lom>
+          <lom:educational>
+            <lom:intendedEndUserRole>
+              <lom:source>IMSGLC_CC_Rolesv1p1</lom:source>
+              <lom:value>Instructor</lom:value>
+            </lom:intendedEndUserRole>
+          </lom:educational>
+        </lom:lom>
+      </metadata>
+      <file href="web_resources/Clase 5/Notas del Caso. Ferrovial.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gab90d22870a9aa673ff491f2edd31626" href="web_resources/Clase 5/MAN_24_000736_01.mp4">
+      <file href="web_resources/Clase 5/MAN_24_000736_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="ge550f28693fe493261a69f94e8086de6" href="web_resources/Clase 5/MAN_24_000734_01.mp4">
+      <file href="web_resources/Clase 5/MAN_24_000734_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="ga63525e631058fcb85f533c3c4b413a6" href="web_resources/Clase 5/MAN_24_000732_01.mp4">
+      <file href="web_resources/Clase 5/MAN_24_000732_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g933c30130c54f03016fd7be19ac14ac0" href="web_resources/Clase 6/MAN_24_000752_01.pdf">
+      <file href="web_resources/Clase 6/MAN_24_000752_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g0094a87debdc6a8bb6eb078b98bbb2b5" href="web_resources/Clase 6/MAN_24_000749_01.pdf">
+      <file href="web_resources/Clase 6/MAN_24_000749_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g4d6f26e55cda46c8253100752cd44873" href="web_resources/Clase 6/MAN_24_000745_01.pdf">
+      <file href="web_resources/Clase 6/MAN_24_000745_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g3fc3669925fd2738e9a49852d1d39225" href="web_resources/Clase 6/MAN_24_000747_01.pdf">
+      <file href="web_resources/Clase 6/MAN_24_000747_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gf1ac04a3d721f9c9ec2a52dfd0b4aedc" href="web_resources/Clase 6/MAN_24_000750_01.mp4">
+      <file href="web_resources/Clase 6/MAN_24_000750_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g5ccc9a8cec098f8dfa758b800ae2ba4c" href="web_resources/Clase 6/MAN_24_000748_01.mp4">
+      <file href="web_resources/Clase 6/MAN_24_000748_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g8258e94974c18f278b5a8338ff4c19e4" href="web_resources/Clase 6/MAN_24_000746_01.mp4">
+      <file href="web_resources/Clase 6/MAN_24_000746_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="gff9dc92aa269ab0d508ad07629b4dd4a" href="web_resources/Clase 6/MAN_24_000744_01.mp4">
+      <file href="web_resources/Clase 6/MAN_24_000744_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g536a22d2454366ff09b091a393bcd041" href="web_resources/Clase 6/Reto clase 6.png">
+      <file href="web_resources/Clase 6/Reto clase 6.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g805348837e79dc0e2de27819e28cf1dd" href="web_resources/Clase 6/Notas del Caso Zara.pdf">
+      <metadata>
+        <lom:lom>
+          <lom:educational>
+            <lom:intendedEndUserRole>
+              <lom:source>IMSGLC_CC_Rolesv1p1</lom:source>
+              <lom:value>Instructor</lom:value>
+            </lom:intendedEndUserRole>
+          </lom:educational>
+        </lom:lom>
+      </metadata>
+      <file href="web_resources/Clase 6/Notas del Caso Zara.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g1c61b7a39d3f246ae2305c3d18d5f84c" href="web_resources/Clase 6/MAN_24_000743_01.pdf">
+      <file href="web_resources/Clase 6/MAN_24_000743_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gadfcf9604378d8bb207ec8770c88d7f1" href="web_resources/Clase 3/MAN_24_000686_01.jpg">
+      <file href="web_resources/Clase 3/MAN_24_000686_01.jpg"/>
+    </resource>
+    <resource type="webcontent" identifier="g087378d23a6dcc2168f739e71067ee31" href="web_resources/Clase 3/MAN_24_000688_01.pdf">
+      <file href="web_resources/Clase 3/MAN_24_000688_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gc325e6a06782fd1515928d109b3a2335" href="web_resources/Clase 3/MAN_24_000690_01.pdf">
+      <file href="web_resources/Clase 3/MAN_24_000690_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g1ce0d5f1df4fd02074c4e28f84a44cf5" href="web_resources/Clase 3/MAN_24_000692_01.pdf">
+      <file href="web_resources/Clase 3/MAN_24_000692_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g2fe09e4ad3a99ec8e8e18bdec838e5a0" href="web_resources/Clase 3/MAN_24_000694_01.pdf">
+      <file href="web_resources/Clase 3/MAN_24_000694_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g42fd9d608e3ac1c2c86563c9aa49ea63" href="web_resources/Clase 3/MAN_24_000696_01.pdf">
+      <file href="web_resources/Clase 3/MAN_24_000696_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g5a0fcbd66b9709b091f36f96785c2165" href="web_resources/Clase 3/MAN_24_000698_01.pdf">
+      <file href="web_resources/Clase 3/MAN_24_000698_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g0fff47dccb68961dc9c502437fd75ee1" href="web_resources/Clase 3/MAN_24_000699_01.mp4">
+      <file href="web_resources/Clase 3/MAN_24_000699_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g7d1be56a3df31a9732409db399f517b7" href="web_resources/Clase 3/MAN_24_000697_01.mp4">
+      <file href="web_resources/Clase 3/MAN_24_000697_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g309f70f1234b78e99368d2e718055e39" href="web_resources/Clase 3/MAN_24_000689_01.mp4">
+      <file href="web_resources/Clase 3/MAN_24_000689_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g13393166ce6d56b252a05de98bfcd206" href="web_resources/Clase 3/MAN_24_000691_01.mp4">
+      <file href="web_resources/Clase 3/MAN_24_000691_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g8bebd3d1bfe63af4bdf4d53ccd09d760" href="web_resources/Clase 3/MAN_24_000693_01.mp4">
+      <file href="web_resources/Clase 3/MAN_24_000693_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g8e13b848136e891bfb9c3d35546474f3" href="web_resources/Clase 3/MAN_24_000695_01.mp4">
+      <file href="web_resources/Clase 3/MAN_24_000695_01.mp4"/>
+    </resource>
+    <resource type="webcontent" identifier="g0d77a9e4dcc522508a28551552b007ad" href="web_resources/Clase 3/MAN_24_000701_01.pdf">
+      <file href="web_resources/Clase 3/MAN_24_000701_01.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g58f36205a1fa0cb620a98b1964c48a4a" href="web_resources/Clase 3/Nota del instructor-ALSEA.pdf">
+      <metadata>
+        <lom:lom>
+          <lom:educational>
+            <lom:intendedEndUserRole>
+              <lom:source>IMSGLC_CC_Rolesv1p1</lom:source>
+              <lom:value>Instructor</lom:value>
+            </lom:intendedEndUserRole>
+          </lom:educational>
+        </lom:lom>
+      </metadata>
+      <file href="web_resources/Clase 3/Nota del instructor-ALSEA.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g6c80cfab6e409d799821f516d034e0cd" href="web_resources/course_image/Diapositiva9.JPG">
+      <file href="web_resources/course_image/Diapositiva9.JPG"/>
+    </resource>
+    <resource type="webcontent" identifier="g34cc687887546aee3accbaea0b25b5d6" href="web_resources/course_image/Diapositiva8.JPG">
+      <file href="web_resources/course_image/Diapositiva8.JPG"/>
+    </resource>
+  </resources>
+</manifest>

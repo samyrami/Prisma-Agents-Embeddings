@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubrics xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <rubric identifier="gf585988c5ddaa78864ac3029b14cc8f0">
+    <read_only>true</read_only>
+    <title>Sesión Caso</title>
+    <reusable>false</reusable>
+    <public>false</public>
+    <points_possible>20.0</points_possible>
+    <hide_score_total>false</hide_score_total>
+    <free_form_criterion_comments>false</free_form_criterion_comments>
+    <rating_order>descending</rating_order>
+    <criteria>
+      <criterion>
+        <criterion_id>rubric_1_crit_1</criterion_id>
+        <points>15.0</points>
+        <description>Calidad de análisis y solución propuesta</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>15.0</points>
+            <criterion_id>rubric_1_crit_1</criterion_id>
+            <long_description>Aporta valor al debate, aplica conceptos relevantes con profundidad, analiza los contextos empresariales y personales, plantea diferentes opciones de decisión y toma decisiones justificando su elección. Sus soluciones son innovadoras, su interacción agrega valor a sus compañeros.</long_description>
+            <id>rubric_1_crit_1_660963</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>14.0</points>
+            <criterion_id>rubric_1_crit_1</criterion_id>
+            <long_description>Aporta valor al debate, aplica conceptos relevantes con profundidad, analiza los contextos empresariales y personales, plantea diferentes opciones de decision y toma decisiones justificando su eleccion.</long_description>
+            <id>rubric_1_crit_1_660964</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>13.0</points>
+            <criterion_id>rubric_1_crit_1</criterion_id>
+            <long_description>Aporta valor al debate, demostrando comprensión de conceptos de la materia aplicables al caso, e identifica alternativas de acción</long_description>
+            <id>rubric_1_crit_1_660965</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>10.0</points>
+            <criterion_id>rubric_1_crit_1</criterion_id>
+            <long_description>Aporta valor al debate de maneramarginal, repitiendo ideas ya discutidas,sin aplicar conceptos relevantes que corresponden a la materia, o aplicando conceptos con signos de escasa preparación ó profundidad.</long_description>
+            <id>rubric_1_crit_1_660966</id>
+          </rating>
+          <rating>
+            <description>Muy pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_1_crit_1</criterion_id>
+            <long_description>Ausencia de aportaciones, o aportes no relevantes sin valor para el debate</long_description>
+            <id>rubric_1_crit_1_660967</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>rubric_1_crit_2</criterion_id>
+        <points>5.0</points>
+        <description>Participación, interacción y valor añadido a los compañeros</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>5.0</points>
+            <criterion_id>rubric_1_crit_2</criterion_id>
+            <long_description>Participa activamente a través del micrófono o el chat construyendo sus contribuciones sobre los enfoques del intructor y los compañeros de clase y aportando nuevas ideas y reflexiones que agregan valor al curso</long_description>
+            <id>rubric_1_crit_2_660963</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>4.0</points>
+            <criterion_id>rubric_1_crit_2</criterion_id>
+            <long_description>Participa activamente a través del micrófono o el chat construyendo sus contribuciones sobre los enfoques del intructor y los compañeros de clase</long_description>
+            <id>rubric_1_crit_2_660964</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>3.0</points>
+            <criterion_id>rubric_1_crit_2</criterion_id>
+            <long_description>Participa activamente a través del micrófono o el chat construyendo sus contribuciones sobre los enfoques del intructor</long_description>
+            <id>rubric_1_crit_2_660965</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>2.0</points>
+            <criterion_id>rubric_1_crit_2</criterion_id>
+            <long_description>Asiste a la sesión pero no participa activamente ni a través de micrófono ni a través del chat</long_description>
+            <id>rubric_1_crit_2_660966</id>
+          </rating>
+          <rating>
+            <description>Muy pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_1_crit_2</criterion_id>
+            <long_description>No asiste a la sesión</long_description>
+            <id>rubric_1_crit_2_660967</id>
+          </rating>
+        </ratings>
+      </criterion>
+    </criteria>
+  </rubric>
+  <rubric identifier="ge2c91b2e98b41f560ad564e483e180f9">
+    <read_only>true</read_only>
+    <title>Rúbrica Extra Credit</title>
+    <reusable>false</reusable>
+    <public>false</public>
+    <points_possible>100.0</points_possible>
+    <hide_score_total>false</hide_score_total>
+    <free_form_criterion_comments>false</free_form_criterion_comments>
+    <rating_order>descending</rating_order>
+    <criteria>
+      <criterion>
+        <criterion_id>rubric_3_crit_1</criterion_id>
+        <points>60.0</points>
+        <description>Respuesta al reto planteado por el profesor</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>60.0</points>
+            <criterion_id>rubric_3_crit_1</criterion_id>
+            <long_description>Atiende al reto planteado por el profesor, aplica conceptos relevantes con profundidad, analiza los contextos empresariales y personales, y lo conecta en profundidad con el debate del caso y con las referencias bilbiográficas</long_description>
+            <id>rubric_3_crit_1_688075</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>57.0</points>
+            <criterion_id>rubric_3_crit_1</criterion_id>
+            <long_description>Atiende al reto planteado por el profesor, aplica conceptos relevantes con profundidad, analiza los contextos empresariales y personales, pero no lo conecta en profundidad con el debate del caso y con las referencias bilbiográficas</long_description>
+            <id>rubric_3_crit_1_688076</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>51.0</points>
+            <criterion_id>rubric_3_crit_1</criterion_id>
+            <long_description>Atiende al reto planteado por el profesor demostrando comprensión de conceptos de la materia, pero no lo conecta en profundidad con el debate del caso y con las referencias bilbiográficas</long_description>
+            <id>rubric_3_crit_1_688077</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>43.0</points>
+            <criterion_id>rubric_3_crit_1</criterion_id>
+            <long_description>Atiende al reto planteado sin aplicar conceptos relevantes que corresponden a la materia, o aplicando conceptos con signos de escasa preparación ó profundidad</long_description>
+            <id>rubric_3_crit_1_688078</id>
+          </rating>
+          <rating>
+            <description>Muy pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_3_crit_1</criterion_id>
+            <long_description>No atiende al reto planteado por el profesor</long_description>
+            <id>rubric_3_crit_1_688079</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>rubric_3_crit_2</criterion_id>
+        <points>30.0</points>
+        <description>Calidad de las referencias bibliográficas</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>30.0</points>
+            <criterion_id>rubric_3_crit_2</criterion_id>
+            <long_description>Aporta 10 referencias bibliográficas en correcto formato APA con aplicación relevante tanto al reto planteado por el profesor como al debate del caso</long_description>
+            <id>rubric_3_crit_2_688075</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>26.0</points>
+            <criterion_id>rubric_3_crit_2</criterion_id>
+            <long_description>Aporta entre 5 y 10 referencias bibliográficas con aplicación relevante tanto al reto planteado por el profesor como al debate del caso, y lo hace en correcto formato APA</long_description>
+            <id>rubric_3_crit_2_688076</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>23.0</points>
+            <criterion_id>rubric_3_crit_2</criterion_id>
+            <long_description>Aporta entre 5 y 10 referencias bibliográficas con aplicación relevante tanto al reto planteado por el profesor como al debate del caso</long_description>
+            <id>rubric_3_crit_2_688077</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>14.0</points>
+            <criterion_id>rubric_3_crit_2</criterion_id>
+            <long_description>Aporta menos de cinco referencias que tengan aplicación relevante tanto al reto planteado por el profesor como al debate del caso</long_description>
+            <id>rubric_3_crit_2_688078</id>
+          </rating>
+          <rating>
+            <description>Muy pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_3_crit_2</criterion_id>
+            <long_description>No aporta referencias bibliográficas relevantes al reto propuesto y al debate del caso</long_description>
+            <id>rubric_3_crit_2_688079</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>rubric_3_crit_3</criterion_id>
+        <points>10.0</points>
+        <description>Tratamiento del debate realizado sobre el caso</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>10.0</points>
+            <criterion_id>rubric_3_crit_3</criterion_id>
+            <long_description>En el análisis del debate aplica conceptos relevantes con profundidad, analiza los contextos empresariales y personales, y aporta un punto de vista crítico razonado sobre las alternativas de decisión y la decisión que adoptaría, conectando con el reto planteado por el profesor y las referencias bibliográficas</long_description>
+            <id>rubric_3_crit_3_688075</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>7.0</points>
+            <criterion_id>rubric_3_crit_3</criterion_id>
+            <long_description>En el análisis del debate aplica conceptos relevantes con profundidad, analiza los contextos empresariales y personales, y aporta un punto de vista crítico razonado sobre las alternativas de decisión y la decisión que adoptaría</long_description>
+            <id>rubric_3_crit_3_688076</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>6.0</points>
+            <criterion_id>rubric_3_crit_3</criterion_id>
+            <long_description>Analiza el debate del caso demostrando comprensión de conceptos de la materia aplicables al caso, e identifica alternativas de acción</long_description>
+            <id>rubric_3_crit_3_688077</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>3.0</points>
+            <criterion_id>rubric_3_crit_3</criterion_id>
+            <long_description>Se limita a un resumen del debate, sin aplicar conceptos relevantes que corresponden a la materia, o aplicando conceptos con signos de escasa preparación ó profundidad</long_description>
+            <id>rubric_3_crit_3_688078</id>
+          </rating>
+          <rating>
+            <description>Muy pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_3_crit_3</criterion_id>
+            <long_description>No aporta contenido referido al debate plantado en el caso</long_description>
+            <id>rubric_3_crit_3_688079</id>
+          </rating>
+        </ratings>
+      </criterion>
+    </criteria>
+  </rubric>
+  <rubric identifier="gefaf6cf97864656b6d0c6224ad2476c2">
+    <read_only>true</read_only>
+    <title>Introspección Personal</title>
+    <reusable>false</reusable>
+    <public>false</public>
+    <points_possible>25.0</points_possible>
+    <hide_score_total>false</hide_score_total>
+    <free_form_criterion_comments>false</free_form_criterion_comments>
+    <rating_order>descending</rating_order>
+    <criteria>
+      <criterion>
+        <criterion_id>rubric_4_crit_1</criterion_id>
+        <points>12.0</points>
+        <description>Calidad de análisis y solución propuesta</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>12.0</points>
+            <criterion_id>rubric_4_crit_1</criterion_id>
+            <long_description>Analiza en profundidad los retos planteados en las preguntas. Aplica conceptos relevantes con profundidad, analiza los contextos empresariales y personales, plantea diferentes opciones de decisión y toma decisiones justificando su elección. Sus soluciones son innovadoras</long_description>
+            <id>rubric_4_crit_1_689322</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>11.0</points>
+            <criterion_id>rubric_4_crit_1</criterion_id>
+            <long_description>Analiza en profundidad los retos planteados en las preguntas. Aplica conceptos relevantes con profundidad, analiza los contextos empresariales y personales, plantea diferentes opciones de decision y toma decisiones justificando su eleccion</long_description>
+            <id>rubric_4_crit_1_689323</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>10.0</points>
+            <criterion_id>rubric_4_crit_1</criterion_id>
+            <long_description>Demuestra comprensión de conceptos de la materia aplicables al caso, e identifica alternativas de acción, pero no logra analizar en profundidad los retos planteados en las preguntas</long_description>
+            <id>rubric_4_crit_1_689324</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>8.0</points>
+            <criterion_id>rubric_4_crit_1</criterion_id>
+            <long_description>No logra analizar en profundiad los retos planteados en las preguntas. No aplica conceptos relevantes que corresponden a la materia, o aplica los conceptos con signos de escasa preparación ó profundidad</long_description>
+            <id>rubric_4_crit_1_689325</id>
+          </rating>
+          <rating>
+            <description>Muy Pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_4_crit_1</criterion_id>
+            <long_description>Ausencia de aportaciones, o aportes no relevantes</long_description>
+            <id>rubric_4_crit_1_689326</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>rubric_4_crit_2</criterion_id>
+        <points>9.0</points>
+        <description>Tiempo, Forma, Claridad y Captación de atención</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>9.0</points>
+            <criterion_id>rubric_4_crit_2</criterion_id>
+            <long_description>Responde en tiempo y forma en formato vídeo. Existe claridad en los planteamientos, el formato utilizado es claro y ordenado, el estilo está cuidado, y el enfoque lo hace ameno y atractivo</long_description>
+            <id>rubric_4_crit_2_689322</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>8.0</points>
+            <criterion_id>rubric_4_crit_2</criterion_id>
+            <long_description>Responde en tiempo y forma en formato texto. Existe claridad en los planteamientos, el formato utilizado es claro y ordenado, el estilo está cuidado, y el enfoque lo hace ameno y atractivo</long_description>
+            <id>rubric_4_crit_2_689323</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>7.5</points>
+            <criterion_id>rubric_4_crit_2</criterion_id>
+            <long_description>Responde en tiempo. Existe claridad en los planteamientos, el formato utilizado es claro y ordenado, pero podría mejorarse el estilo para hacerlo ameno y atractivo, o utiliza un formato no adecuado en longitud o extensión</long_description>
+            <id>rubric_4_crit_2_689324</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>6.0</points>
+            <criterion_id>rubric_4_crit_2</criterion_id>
+            <long_description>Responde fuera de tiempo (entrega con retraso), o la respuesta no cubre todos los apartados solicitados en la introspeccion.</long_description>
+            <id>rubric_4_crit_2_689325</id>
+          </rating>
+          <rating>
+            <description>Muy Pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_4_crit_2</criterion_id>
+            <long_description>No responde</long_description>
+            <id>rubric_4_crit_2_689326</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>rubric_4_crit_3</criterion_id>
+        <points>4.0</points>
+        <description>Análisis Triple Bottom Line</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>4.0</points>
+            <criterion_id>rubric_4_crit_3</criterion_id>
+            <long_description>Aporta su propio análisis que responde al reto concreto de triple impacto planteado, y analiza las tres líneas, utilizando los datos proporcionados en el caso y otras fuentes adicionales</long_description>
+            <id>rubric_4_crit_3_689322</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>3.0</points>
+            <criterion_id>rubric_4_crit_3</criterion_id>
+            <long_description>Aporta su propio análisis que responde al reto concreto de triple impacto planteado, y analiza las tres líneas, pero usa únicamente los datos proporcionados en el caso</long_description>
+            <id>rubric_4_crit_3_689323</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>2.5</points>
+            <criterion_id>rubric_4_crit_3</criterion_id>
+            <long_description>Aporta su propio análisis que responde al reto concreto de triple impacto planteado, pero no cubre las tres líneas de beneficio</long_description>
+            <id>rubric_4_crit_3_689324</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>1.0</points>
+            <criterion_id>rubric_4_crit_3</criterion_id>
+            <long_description>Se limita a citar datos, sin aportar su propio análisis que responda al reto de triple impacto planteado</long_description>
+            <id>rubric_4_crit_3_689325</id>
+          </rating>
+          <rating>
+            <description>Muy Pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_4_crit_3</criterion_id>
+            <long_description>No analiza el triple impacto</long_description>
+            <id>rubric_4_crit_3_689326</id>
+          </rating>
+        </ratings>
+      </criterion>
+    </criteria>
+  </rubric>
+  <rubric identifier="g8bd3f7400d3adacb3273c81e59d2926f">
+    <read_only>true</read_only>
+    <title>Proyecto en equipo 12 puntos</title>
+    <reusable>false</reusable>
+    <public>false</public>
+    <points_possible>12.0</points_possible>
+    <hide_score_total>false</hide_score_total>
+    <free_form_criterion_comments>false</free_form_criterion_comments>
+    <rating_order>descending</rating_order>
+    <criteria>
+      <criterion>
+        <criterion_id>rubric_2_crit_1</criterion_id>
+        <points>5.4</points>
+        <description>Calidad de análisis y solución propuesta</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>5.4</points>
+            <criterion_id>rubric_2_crit_1</criterion_id>
+            <long_description>La solución al problema planteado tiene una justificación sólida, y está basada tanto en los conceptos de la lección como en las referencias bibliográficas. Además, la solución resulta innovadora</long_description>
+            <id>rubric_2_crit_1_660983</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>4.8</points>
+            <criterion_id>rubric_2_crit_1</criterion_id>
+            <long_description>La solución al problema planteado tiene una justificación sólida, y está basada tanto en los conceptos de la lección como en las referencias bibliográficas</long_description>
+            <id>rubric_2_crit_1_660984</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>4.2</points>
+            <criterion_id>rubric_2_crit_1</criterion_id>
+            <long_description>La solución al problema planteado tiene una justificación aceptable y está basada en los conceptos de la lección, pero podría tener mejor conexión con las referencias bibliográficas</long_description>
+            <id>rubric_2_crit_1_660985</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>3.0</points>
+            <criterion_id>rubric_2_crit_1</criterion_id>
+            <long_description>La solución al problema planteado está pobremente justificada. No aplica conceptos relevantes que corresponden a la materia, o aplica los conceptos con signos de escasa preparación ó profundidad</long_description>
+            <id>rubric_2_crit_1_660986</id>
+          </rating>
+          <rating>
+            <description>Muy Pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_2_crit_1</criterion_id>
+            <long_description>Ausencia de solución al problema planteado, o aporte de soluciones no relevantes</long_description>
+            <id>rubric_2_crit_1_660987</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>rubric_2_crit_2</criterion_id>
+        <points>3.6</points>
+        <description>Claridad y Captación de atención</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>3.6</points>
+            <criterion_id>rubric_2_crit_2</criterion_id>
+            <long_description>Responde en tiempo y forma. Existe claridad en los planteamientos, el formato utilizado es claro y ordenado, el estilo está cuidado, y el diseño de presentación utilizado lo hace ameno y atractivo</long_description>
+            <id>rubric_2_crit_2_660983</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>3.3</points>
+            <criterion_id>rubric_2_crit_2</criterion_id>
+            <long_description>Responde en tiempo y forma. Existe claridad en los planteamientos, el formato utilizado es claro y ordenado, y el diseño está cuidado, pero podría mejorarse para que resulte más interesante, ameno y atractivo</long_description>
+            <id>rubric_2_crit_2_660984</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>3.0</points>
+            <criterion_id>rubric_2_crit_2</criterion_id>
+            <long_description>Responde en tiempo y forma. Existe claridad en los planteamientos a través del estilo de redacción, pero el formato y diseño utilizado podría mejorarse para ganar en claridad</long_description>
+            <id>rubric_2_crit_2_660985</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>2.4</points>
+            <criterion_id>rubric_2_crit_2</criterion_id>
+            <long_description>Responde en tiempo y forma. El formato utilizado permite valorar el apartado, pero la expresión no resulta clara, y el formato hace complicado interpretar correctamente el enfoque</long_description>
+            <id>rubric_2_crit_2_660986</id>
+          </rating>
+          <rating>
+            <description>Muy Pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_2_crit_2</criterion_id>
+            <long_description>No responde en tiempo y forma (formato, longitud y entrega en tiempo)</long_description>
+            <id>rubric_2_crit_2_660987</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>rubric_2_crit_3</criterion_id>
+        <points>3.0</points>
+        <description>Referencias Bibliográficas</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>3.0</points>
+            <criterion_id>rubric_2_crit_3</criterion_id>
+            <long_description>Aporta 6 o más referencias bibliográficas en correcto formato APA con aplicación relevante al reto planteado, y las integra y aplica dentro del texto del trabajo</long_description>
+            <id>rubric_2_crit_3_660983</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>2.7</points>
+            <criterion_id>rubric_2_crit_3</criterion_id>
+            <long_description>Aporta 6 o más referencias bibliográficas con aplicación relevante al reto planteado, las integra y aplica dentro del texto del trabajo, pero no lo hace en formato correcto APA</long_description>
+            <id>rubric_2_crit_3_660984</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>2.4</points>
+            <criterion_id>rubric_2_crit_3</criterion_id>
+            <long_description>Aporta entre 3 y 5 referencias bibliográficas con aplicación relevante al reto planteado, y las integra y aplica dentro del trabajo aportado</long_description>
+            <id>rubric_2_crit_3_660985</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>1.8</points>
+            <criterion_id>rubric_2_crit_3</criterion_id>
+            <long_description>Aporta entre 1 y 3 referencias que tengan aplicación relevante al reto planteado, y que estén integradas y aplicadas dentro del texto del trabajo</long_description>
+            <id>rubric_2_crit_3_660986</id>
+          </rating>
+          <rating>
+            <description>Muy Pobre</description>
+            <points>0.0</points>
+            <criterion_id>rubric_2_crit_3</criterion_id>
+            <long_description>No aporta referencias con aplicación relevante al reto planteado</long_description>
+            <id>rubric_2_crit_3_660987</id>
+          </rating>
+        </ratings>
+      </criterion>
+    </criteria>
+  </rubric>
+  <rubric identifier="gd1102131802dd9ca829ca36216686eb1">
+    <read_only>true</read_only>
+    <title>Proyecto en equipo 96 puntos  (Participación en grupo)</title>
+    <reusable>false</reusable>
+    <public>false</public>
+    <points_possible>96.0</points_possible>
+    <hide_score_total>false</hide_score_total>
+    <free_form_criterion_comments>false</free_form_criterion_comments>
+    <rating_order>descending</rating_order>
+    <criteria>
+      <criterion>
+        <criterion_id>_68</criterion_id>
+        <points>30.0</points>
+        <description>Calidad de análisis y solución propuesta</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>30.0</points>
+            <criterion_id>_68</criterion_id>
+            <long_description>La solución al problema planteado tiene una justificación sólida, y está basada tanto en los conceptos de la lección como en las referencias bibliográficas. Además, la solución resulta innovadora</long_description>
+            <id>_9263</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>27.0</points>
+            <criterion_id>_68</criterion_id>
+            <long_description>La solución al problema planteado tiene una justificación sólida, y está basada tanto en los conceptos de la lección como en las referencias bibliográficas</long_description>
+            <id>_3919</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>24.0</points>
+            <criterion_id>_68</criterion_id>
+            <long_description>La solución al problema planteado tiene una justificación aceptable y está basada en los conceptos de la lección, pero podría tener mejor conexión con las referencias bibliográficas</long_description>
+            <id>_9073</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>18.0</points>
+            <criterion_id>_68</criterion_id>
+            <long_description>La solución al problema planteado está pobremente justificada. No aplica conceptos relevantes que corresponden a la materia, o aplica los conceptos con signos de escasa preparación ó profundidad</long_description>
+            <id>_7540</id>
+          </rating>
+          <rating>
+            <description>Muy Pobre</description>
+            <points>0.0</points>
+            <criterion_id>_68</criterion_id>
+            <long_description>Ausencia de solución al problema planteado, o aporte de soluciones no relevantes</long_description>
+            <id>_2914</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_5159</criterion_id>
+        <points>20.0</points>
+        <description>Claridad y Captación de atención</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>20.0</points>
+            <criterion_id>_5159</criterion_id>
+            <long_description>Responde en tiempo y forma. Existe claridad en los planteamientos, el formato utilizado es claro y ordenado, el estilo está cuidado, y el diseño de presentación utilizado lo hace ameno y atractivo</long_description>
+            <id>_4363</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>18.0</points>
+            <criterion_id>_5159</criterion_id>
+            <long_description>Responde en tiempo y forma. Existe claridad en los planteamientos, el formato utilizado es claro y ordenado, y el diseño está cuidado, pero podría mejorarse para que resulte más interesante, ameno y atractivo</long_description>
+            <id>_4297</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>16.0</points>
+            <criterion_id>_5159</criterion_id>
+            <long_description>Responde en tiempo y forma. Existe claridad en los planteamientos a través del estilo de redacción, pero el formato y diseño utilizado podría mejorarse para ganar en claridad</long_description>
+            <id>_8857</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>12.0</points>
+            <criterion_id>_5159</criterion_id>
+            <long_description>Responde en tiempo y forma. El formato utilizado permite valorar el apartado, pero la expresión no resulta clara, y el formato hace complicado interpretar correctamente el enfoque</long_description>
+            <id>_8718</id>
+          </rating>
+          <rating>
+            <description>Muy Pobre</description>
+            <points>0.0</points>
+            <criterion_id>_5159</criterion_id>
+            <long_description>No responde en tiempo y forma (formato, longitud y entrega en tiempo)</long_description>
+            <id>_8497</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_6958</criterion_id>
+        <points>16.0</points>
+        <description>Referencias Bibliográficas</description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>16.0</points>
+            <criterion_id>_6958</criterion_id>
+            <long_description>Aporta 6 o más referencias bibliográficas en correcto formato APA con aplicación relevante al reto planteado, y las integra y aplica dentro del texto del trabajo</long_description>
+            <id>_1349</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>14.4</points>
+            <criterion_id>_6958</criterion_id>
+            <long_description>Aporta 6 o más referencias bibliográficas con aplicación relevante al reto planteado, las integra y aplica dentro del texto del trabajo, pero no lo hace en formato correcto APA</long_description>
+            <id>_6771</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>12.8</points>
+            <criterion_id>_6958</criterion_id>
+            <long_description>Aporta entre 3 y 5 referencias bibliográficas con aplicación relevante al reto planteado, y las integra y aplica dentro del trabajo aportado</long_description>
+            <id>_7307</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>9.6</points>
+            <criterion_id>_6958</criterion_id>
+            <long_description>Aporta entre 1 y 3 referencias que tengan aplicación relevante al reto planteado, y que estén integradas y aplicadas dentro del texto del trabajo</long_description>
+            <id>_9192</id>
+          </rating>
+          <rating>
+            <description>Muy Pobre</description>
+            <points>0.0</points>
+            <criterion_id>_6958</criterion_id>
+            <long_description>No aporta referencias con aplicación relevante al reto planteado</long_description>
+            <id>_6227</id>
+          </rating>
+        </ratings>
+      </criterion>
+      <criterion>
+        <criterion_id>_2868</criterion_id>
+        <points>30.0</points>
+        <description>Evaluación entre pares</description>
+        <long_description>Evaluación del equipo entre pares.</long_description>
+        <ratings>
+          <rating>
+            <description>Excelente</description>
+            <points>30.0</points>
+            <criterion_id>_2868</criterion_id>
+            <long_description>Su aportación ha sido decisiva, ha construido con sus compañeros y su aportación para los entregables ha añadido valor por encima de la media de sus compañeros.</long_description>
+            <id>_4433</id>
+          </rating>
+          <rating>
+            <description>Superior</description>
+            <points>27.0</points>
+            <criterion_id>_2868</criterion_id>
+            <long_description>Su aportación ha sido constructiva, ha construido con sus compañeros y ha aportado soluciones de alto valor para los entregables.</long_description>
+            <id>_2156</id>
+          </rating>
+          <rating>
+            <description>Satisfactorio</description>
+            <points>24.0</points>
+            <criterion_id>_2868</criterion_id>
+            <long_description>Ha interactuado con el grupo y ha aportado a todas las entregas de manera comparable a la media del grupo.</long_description>
+            <id>_6670</id>
+          </rating>
+          <rating>
+            <description>Pobre</description>
+            <points>18.0</points>
+            <criterion_id>_2868</criterion_id>
+            <long_description>No ha aportado al grupo al mismo nivel que sus compañeros, o no ha logrado interactuar o contribuir a alguna de las entregas semanales.</long_description>
+            <id>_1796</id>
+          </rating>
+          <rating>
+            <description>Muy pobre</description>
+            <points>0.0</points>
+            <criterion_id>_2868</criterion_id>
+            <long_description>No ha aportado a ninguna de las entregas semanales del proyecto o no ha interactuado con el grupo</long_description>
+            <id>_5832</id>
+          </rating>
+        </ratings>
+      </criterion>
+    </criteria>
+  </rubric>
+</rubrics>

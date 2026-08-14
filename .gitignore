@@ -13,6 +13,23 @@ build/
 # Entorno
 .env
 
+# Secretos: claves privadas NUNCA al repo
+*.pem
+*.key
+
+# Carpetas de docs fuente (insumos de la ingesta; pesados, van a S3, no a git)
+Minerva/
+Student_Services/
+docs-soporte-ti/
+legacy/maia-index.json
+
+# Multimedia de los SCORM (pesada; va a S3, no a git)
+web_resources/
+*.mp4
+*.mov
+*.mp3
+*.wav
+
 # IDE
 .idea/
 .vscode/

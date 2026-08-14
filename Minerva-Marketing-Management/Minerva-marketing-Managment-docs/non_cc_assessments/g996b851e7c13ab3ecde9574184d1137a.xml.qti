@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g996b851e7c13ab3ecde9574184d1137a">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MKA 501 Marketing Management Sección 4</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>xrxEqHJcMZ6E6w7xz4khYJ6rnorTnbcvB2yfVgzc</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_state</fieldlabel>
+        <fieldentry>active</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gbb846367dc3d582bc0d58ae83e0f1c5e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>82503,38905,45876</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las funciones de un canal de distribución serían:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="82503">
+              <material>
+                <mattext texttype="text/plain">La función principal del canal de distribución es mostrar la proposición de valor frente a la competencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="38905">
+              <material>
+                <mattext texttype="text/plain">Reunir información y distribuir información de inteligencia acerca del consumidor y del entorno necesaria para planificar, hacer promoción, encontrar potenciales compradores y adecuar la oferta.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="45876">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">38905</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La función principal de la distribución es acercar el producto o servicio al consumidor y recoger la información necesaria para poder adaptar la oferta.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g20bbff2bdbd872fd4d08b660e034bd10" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>79229,12205,3923</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El modelo de distribución tradicional frente al digital supone que:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="79229">
+              <material>
+                <mattext texttype="text/plain">Potencialmente existe la posibilidad de captar clientes fuera del área de influencia y por lo tanto esa experiencia de compra se deslocaliza.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="12205">
+              <material>
+                <mattext texttype="text/plain">El modelo tradicional de distribución tiende a desaparecer.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3923">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">79229</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La deslocalización del acto comercial significa que el número de clientes potenciales aumenta pero también existen unos procesos logísticos que hay que acometer convenientemente para no penalizar la experiencia de compra.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g8c61f1c305f6df151fbcbaaa170c5b61" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>85987,15556,95019</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un Marketplace vendría a ser:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="85987">
+              <material>
+                <mattext texttype="text/plain">Como un centro comercial al uso pero dotado con la flexibilidad que es capaz de ofrecer Internet.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="15556">
+              <material>
+                <mattext texttype="text/plain">Plataformas que, a través de un amplio catálogo, venden productos de todo tipo de categorías, y que se encargan de todo el proceso.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="95019">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">95019</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">En efecto un Marketplace son sitios web donde aquellas empresas que no tienen experiencia previa en el mundo digital pueden hacer llegar sus productos a través de procesos ya estandarizados a cambio de una comisión de venta.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g958870571f2020113efb26bbd7b6f969" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>62057,39617,79115</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Una de las aplicaciones del blockchain en la distribución dentro del marketing sería?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="62057">
+              <material>
+                <mattext texttype="text/plain">Se podría hacer un seguimiento desde su fabricación hasta su destinatario. De este modo, podríamos verificar que lo que compramos no es una copia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="39617">
+              <material>
+                <mattext texttype="text/plain">Esto hace más débil a la marca por la falta de control del consumidor.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="79115">
+              <material>
+                <mattext texttype="text/plain">Ambas son falsas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">62057</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Gracias a esta tecnología se puede conseguir una trazabilidad que permita asegurar que el producto es auténtico lo que reforzaría la confianza del consumidor.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g97a96223a3329237fc7bec831944b67f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>86101,48713,73454</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿El concepto de desintermediación se refiere a...?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="86101">
+              <material>
+                <mattext texttype="text/plain">Que cuanto menos actores haya en la entrega de valor al cliente la atención será más inmediata y en consecuencia habrá más y mejores ventas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48713">
+              <material>
+                <mattext texttype="text/plain">El uso de la tecnología es imprescindible, es lo que nos ayuda a desintermediar o eliminar intermediarios.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73454">
+              <material>
+                <mattext texttype="text/plain">Ambas son ciertas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">73454</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Eliminar intermediarios gracias al uso de la tecnología es lo que se conoce como desintermediar.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g5eb159a6454168e749d993392935d472" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>85805,71906,94160</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿A qué hace referencia la expresión última milla?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="85805">
+              <material>
+                <mattext texttype="text/plain">El último tramo de la entrega logística que se hace casa a casa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="71906">
+              <material>
+                <mattext texttype="text/plain">La entrega logística que llega a los distribuidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="94160">
+              <material>
+                <mattext texttype="text/plain">Ambas son ciertas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">85805</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La expresión hace referencia a la distribución que se hace a los hogares de los clientes directamente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gf6e30eb6b41a3e45cb744897a8c9d39a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>74813,77346,48657</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En la distribución hoy los desafíos a los que se enfrenta el sector son…&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="74813">
+              <material>
+                <mattext texttype="text/plain">El cliente quiere el producto rápido, gratis y antes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="77346">
+              <material>
+                <mattext texttype="text/plain">La sostenibilidad ambiental.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48657">
+              <material>
+                <mattext texttype="text/plain">Ambos son ciertas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">48657</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La distribución en nuestros días se enfrenta a los desafíos del entorno digital que requiere inmediatez y al mismo tiempo un respeto por el medio ambiente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gaa27dcd32c5de5cd4f194b27632c4344" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>26710,59477,61433</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La adaptación de las antiguas compañías de logística al nuevo sistema digital va a ser…&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="26710">
+              <material>
+                <mattext texttype="text/plain">Es más fácil dejar ese mercado a las nuevas start up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59477">
+              <material>
+                <mattext texttype="text/html">No hay adaptación posible. &amp;nbsp;&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61433">
+              <material>
+                <mattext texttype="text/html">La eficiencia pesa más a la prisa y se deben adaptar nuevos sistemas de &amp;nbsp;información que prioricen rapidez y eficiencia.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">61433</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Hay un proceso de adaptación que deben promover que es pasar de la eficiencia a la eficacia y rapidez.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g896040268a01797ef525ac94f19cca98" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>49821,44884,8677</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las nuevas start up de distribución de la última milla…&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="49821">
+              <material>
+                <mattext texttype="text/plain">Utilizan una app para poner en contacto al rider con el distribuidor.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="44884">
+              <material>
+                <mattext texttype="text/plain">A los empleados se les conoce como riders porque van en bicicleta.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8677">
+              <material>
+                <mattext texttype="text/plain">Ambas son ciertas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8677</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Son start up que mezclan la tecnología y el medioambiente junto con la eficacia en la entrega de los pedidos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gc6e67805f78389c3759dded725fcaa97" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>78935,22513,96541</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Otro de los retos de la multicanalidad es…&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="78935">
+              <material>
+                <mattext texttype="text/plain">Es poner en común la información de los clientes recabada a través de los distintos canales (tiendas físicas, página web, app móvil o redes sociales).</mattext>
+              </material>
+            </response_label>
+            <response_label ident="22513">
+              <material>
+                <mattext texttype="text/plain">Utilizar herramientas de gestión analítica que sean capaces de identificar sus gustos y necesidades independientemente del canal en el que se encuentre el cliente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="96541">
+              <material>
+                <mattext texttype="text/plain">Ambas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">96541</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Podemos tratar de controlar muchas variables mediante algoritmos pero no siempre sabremos exactamente las características que marcan la diferencia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g5b85bf9dab894810831b82971659b167" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>42580,66216,34605</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La distribución como parte del marketing mix de una empresa debe incluir…&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="42580">
+              <material>
+                <mattext texttype="text/plain">Conocer las características y funcionamiento, así como los márgenes comerciales de cada intermediario.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="66216">
+              <material>
+                <mattext texttype="text/plain">No es una información que la empresa pueda controlar.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34605">
+              <material>
+                <mattext texttype="text/plain">Ninguna</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">42580</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El canal de distribución de la empresa tiene que tener el mayor control por parte de la empresa y conocer bien a los intermediarios.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g987925734570615851ecece6cc45e0ba" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>95471,83834,58342</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El canal que utiliza el marketing mix de un producto para llegar al consumidor…&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="95471">
+              <material>
+                <mattext texttype="text/plain">No afecta a la percepción del producto por parte del consumidor.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="83834">
+              <material>
+                <mattext texttype="text/plain">Incluye en la consideración que el consumidor tiene del producto.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="58342">
+              <material>
+                <mattext texttype="text/plain">Ambas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">83834</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El canal es otra parte del marketing mix y representa para el cliente una percepción particular sobre el producto o servicio que va a comprar.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gae5e89c3a73b778fe260597be7dcaf12" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3248,8923,81732,88982</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué significa no caer en la miopía de marketing según Theodore Levitte?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3248">
+              <material>
+                <mattext texttype="text/plain">Vender únicamente productos físicos sin considerar las necesidades emocionales del cliente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8923">
+              <material>
+                <mattext texttype="text/plain">Definir la misión de una empresa sin considerar la visión.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="81732">
+              <material>
+                <mattext texttype="text/plain">Vender productos sin ofrecer garantías.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="88982">
+              <material>
+                <mattext texttype="text/plain">Ofrecer una variedad excesiva de productos no relacionados.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3248</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tal y como se describe en la lectura MISIÓN Y VISIÓN COMERCIAL PARA UNA EMPRESA: CAPTACIÓN Y FIDELIZACIÓN la respuesta correcta es la a) Vender únicamente productos físicos sin considerar las necesidades emocionales del cliente. Levitte en su obra también se refiere al libro de Fred R. David “La Gerencia Estratégica” en la cual escribió frases como “No me ofrezcáis cosas, sino ideas, emociones, soluciones, ambientes, sentimientos y beneficios, pero por favor no me ofrezcáis cosas”.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ga5286a55b4316164b2ac3dba3d0413d1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>94768,98345,79570,59882</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;CAPTACIÓN Y FIDELIZACIÓN”, ¿Qué debe estar alineado con la misión y visión general de la empresa?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="94768">
+              <material>
+                <mattext texttype="text/plain">Los precios de los productos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="98345">
+              <material>
+                <mattext texttype="text/plain">La decoración de las oficinas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="79570">
+              <material>
+                <mattext texttype="text/plain">La misión y visión de los departamentos, especialmente el de ventas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59882">
+              <material>
+                <mattext texttype="text/plain">La ubicación de las sucursales.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">79570</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tal y como se describe en la lectura MISIÓN Y VISIÓN COMERCIAL PARA UNA EMPRESA: CAPTACIÓN Y FIDELIZACIÓN la respuesta correcta es la c) La misión y visión de los departamentos, especialmente el de ventas. La Misión y la Visión son componentes de la formulación estratégica que pueden y deben ser aplicadas a nivel departamental y, sobre todo, a nivel de un departamento tan fundamental en casi todas las empresas del mundo como es el departamento de ventas o su división comercial.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g877d6217e4c4920ad9d6ae126091ee71" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>22342,54077,58452,56972</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué término introdujo Edward Freeman y qué significa según la lectura “MISIÓN Y VISIÓN COMERCIAL PARA UNA EMPRESA: CAPTACIÓN Y FIDELIZACIÓN”?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="22342">
+              <material>
+                <mattext texttype="text/plain">Misión, la cual describe los productos y servicios de una empresa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="54077">
+              <material>
+                <mattext texttype="text/plain">Stakeholder, que hace referencia a todos los que se ven afectados por las actividades de una empresa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="58452">
+              <material>
+                <mattext texttype="text/plain">Marketing Myopia, que significa enfocarse solo en las ventas a corto plazo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56972">
+              <material>
+                <mattext texttype="text/plain">Customer Relationship Management, que se refiere a la gestión de las relaciones con los clientes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">54077</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tal y como se describe en la lectura MISIÓN Y VISIÓN COMERCIAL PARA UNA EMPRESA: CAPTACIÓN Y FIDELIZACIÓN la respuesta correcta es la b) Stakeholder, que hace referencia a todos los que se ven afectados por las actividades de una empresa. El concepto fue utilizado la primera vez por Edward Freeman en su obra Strategic Managment , que hace referencia a todos aquellos que se ven o se pueden ver afectados por las actividades de una empresa: accionistas y propietarios, empleados, proveedores, entorno social y por supuesto clientes.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g278e18be3a1fe54d384ab16ed906696f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>14060,32975,35199,36752</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuál es la capacidad de crecer de una empresa según el CLIENTING y la lealtad de los clientes?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="14060">
+              <material>
+                <mattext texttype="text/plain">Sólo captar nuevos clientes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="32975">
+              <material>
+                <mattext texttype="text/plain">Sólo retener a los clientes existentes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="35199">
+              <material>
+                <mattext texttype="text/plain">Captar muchos clientes y retenerlos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="36752">
+              <material>
+                <mattext texttype="text/plain">Reducir costos de producción.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">35199</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Respuesta correcta: Tal y como se describe en la lectura CLIENTING Y LA LEALTAD DE LOS CLIENTES la respuesta correcta es la c) Captar muchos clientes y retenerlos. La capacidad de crecer de una empresa está en relación directa tanto con su habilidad para captar clientes como con su destreza para conservar los que capta. Si un negocio espera ser próspero, no le quedará otro remedio más que captar muchos clientes, pero también tendrá que retenerlos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ge12b47601dbe7b74cf523e637dfd5021" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6886,49924,19903,26094</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuál es la primera fase del proceso de clienting?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6886">
+              <material>
+                <mattext texttype="text/plain">Diseñar servicios de calidad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49924">
+              <material>
+                <mattext texttype="text/plain">Evaluar los planes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="19903">
+              <material>
+                <mattext texttype="text/plain">Escuchar al cliente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="26094">
+              <material>
+                <mattext texttype="text/plain">Añadir valor a determinados clientes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">19903</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tal y como se describe en la lectura CLIENTING Y LA LEALTAD DE LOS CLIENTES la respuesta correcta es la c) Escuchar al cliente, la cual es la primera de las cinco fases. Después viene “diseñar servicios de calidad”; “añadir valor a determinados clientes”, “ejecutar los planes diseñados” y “evaluar los planes”. Escuchar al cliente es romper el anonimato en la compra, entender los perfiles de cada cliente y profundizar en sus necesidades a lo largo del periodo de tiempo que dura la relación entre el cliente y la empresa. &amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g7b01fec799f31d5d5b295a0dbf026fcd" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>98568,60686,54852,63373</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Según el CLIENTING y la lealtad de los clientes, ¿Qué se busca al diseñar servicios de calidad?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="98568">
+              <material>
+                <mattext texttype="text/plain">Reducir los costos de producción.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="60686">
+              <material>
+                <mattext texttype="text/plain">Diferenciar en el servicio postventa y personalizar la oferta según las necesidades del cliente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="54852">
+              <material>
+                <mattext texttype="text/plain">Aumentar el precio de los productos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="63373">
+              <material>
+                <mattext texttype="text/plain">Incrementar la producción sin considerar al cliente.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">60686</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tal y como se describe en la lectura CLIENTING Y LA LEALTAD DE LOS CLIENTES la respuesta correcta es la b) Diferenciarse en el servicio postventa y personalizar la oferta según las necesidades del cliente. Cuando la diferenciación de los servicios de venta, sean antes, durante o después de ella, no existe, las barreras de salida para los clientes son escasas y, por tanto, la capacidad para retener a los clientes es mínima. Diseñar servicios de calidad, integrando los sistemas de atención al cliente y los sistemas de gestión, tiene como consecuencia la personalización del servicio y una oferta más personalizada a las necesidades del cliente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ge4c46d9c95f79724a5ef793fc123778a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>99352,98186,48124,49582</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué es un comportamiento leal de un cliente según el CLIENTIING y la lealtad de los clientes?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="99352">
+              <material>
+                <mattext texttype="text/plain">Cambiar de proveedor frecuentemente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="98186">
+              <material>
+                <mattext texttype="text/plain">Ser sensible al precio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48124">
+              <material>
+                <mattext texttype="text/plain">Actuar como prescriptor de la empresa entre sus círculos de influencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49582">
+              <material>
+                <mattext texttype="text/plain">Evitar comprar productos adicionales de la empresa.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">48124</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tal y como se describe en la lectura CLIENTING Y LA LEALTAD DE LOS CLIENTES la respuesta correcta es la c) Actuar como prescriptor de la empresa entre sus círculos de influencia. La lealtad de los clientes conceptualmente contempla cinco aspectos que están relacionados con los periodos y la intensidad de las compras, predisposición para comprar otros productos de la empresa, escasa sensibilidad al precio, colaboración para mejorar el los procesos, y desde &amp;nbsp;luego. Conseguir que un cliente actúe de prescriptor de la empresa entre sus círculos de influencia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gec2e1a95c08d3ba13409623e59c183a8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>74948,13922,30121,81830</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿En qué momento las organizaciones se orientan principalmente a la captación de clientes?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="74948">
+              <material>
+                <mattext texttype="text/plain">En los momentos iniciales de su actividad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="13922">
+              <material>
+                <mattext texttype="text/plain">Cuando tienen una base sólida de clientes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="30121">
+              <material>
+                <mattext texttype="text/plain">Cuando deciden lanzar nuevos productos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="81830">
+              <material>
+                <mattext texttype="text/plain">Al alcanzar su madurez en el mercado.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">74948</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tal y como se describe en la lectura EL COSTE DE CAPTAR VERSUS EL &amp;nbsp;COSTE DE FIDELIZAR la respuesta correcta es la a) En los momentos iniciales de su actividad. Las organizaciones se orientan a la captación en los momentos iniciales de su actividad. En principio, ningún negocio nace teniendo clientes, como nadie nace sabiendo. Podremos tener cierta facilidad de acceso o de captación de los primeros clientes, porque venimos recomendados por una referencia o porque algunos clientes esperan la apertura de nuestro negocio debido a la escasez de negocios de ese tipo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g3337c74638fd02fd56b5f5d5063abb58" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>77800,33976,95285,68648</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Según sobre EL COSTE DE CAPTAR VERSUS EL COSTE DE FIDELIZAR ¿Cuál es una ventaja de la fidelización sobre la captación de clientes?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="77800">
+              <material>
+                <mattext texttype="text/plain">La fidelización es más fácil que la captación.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="33976">
+              <material>
+                <mattext texttype="text/plain">La fidelización es menos costosa que la captación.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="95285">
+              <material>
+                <mattext texttype="text/plain">La fidelización requiere menos comunicación con los clientes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="68648">
+              <material>
+                <mattext texttype="text/plain">La fidelización garantiza siempre el éxito de una empresa.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">33976</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tal y como se describe en la lectura EL COSTE DE CAPTAR VERSUS EL COSTE DE FIDELIZAR la respuesta correcta es la b) La fidelización es menos costosa que la captación. Un cliente fiel o fidelizado garantiza, en buena medida, que compre de nuevo en el futuro, que hable bien de las empresas de las que es cliente y que esté dispuesto a acudir a ellas ante una necesidad. Esto se puede lograr, y depende, entre otros factores, de la calidad del producto, de su relación con el precio, de la imagen de marca y de la calidad del servicio que estemos dispuestos a ofrecer.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g55bc6dd8ba3a7214425bd95561dddaab" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>41739,88814,48288</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué factores, entre otros, pueden garantizar que un cliente vuelva a un establecimiento?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="41739">
+              <material>
+                <mattext texttype="text/plain">La cantidad de dinero invertido en publicidad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="88814">
+              <material>
+                <mattext texttype="text/plain">La calidad del producto, la relación con el precio y la calidad del servicio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48288">
+              <material>
+                <mattext texttype="text/plain">La ubicación del establecimiento.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">88814</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tal y como se describe en la lectura EL COSTE DE CAPTAR VERSUS EL COSTE DE FIDELIZAR la respuesta correcta es la b) La calidad del producto, la relación con el precio y la calidad del servicio. la fidelización trabaja con la base de unos clientes ya captados, a los que se conoce y se identifica, pudiéndoles ofrecer productos, servicios, promociones y precios adaptados a sus gustos y necesidades</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gb71629cb6a10396a8d80299954ebf8b3" title="Pregunta">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>27853,50410,20258</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Si tuviéramos que resumir, ¿Qué es la distribución dentro del marketing operativo?&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="27853">
+              <material>
+                <mattext texttype="text/plain">El canal de distribución desplaza bienes y servicios de los productores a los consumidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="50410">
+              <material>
+                <mattext texttype="text/plain">Acercar mediante una experiencia de compra en un lugar y tiempo el producto o servicio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="20258">
+              <material>
+                <mattext texttype="text/plain">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">20258</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En ambas respuestas tenemos lo fundamental a lo que debe responder la distribución de un Plan de Marketing.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

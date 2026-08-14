@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gbc10017fa12f3cdbd12260da6b7af490">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MAN 650 Strategic Management Sección 4</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>ElGhguvoE9qi6k3tVsqtKgTfuZZTxmhzmzH0Q9KW</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_state</fieldlabel>
+        <fieldentry>active</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gea62c0dce881f5f9da6417219e17b86a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>40031,89798,80486</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Responder las tres preguntas de la estrategia es:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="40031">
+              <material>
+                <mattext texttype="text/plain">Una alternativa a metodologías de análisis estratégico como pueden ser las cinco fuerzas de Porter o el análisis DOFA</mattext>
+              </material>
+            </response_label>
+            <response_label ident="89798">
+              <material>
+                <mattext texttype="text/plain">La forma en que podemos describir nuestro posicionamiento diferencial, valioso y sostenible</mattext>
+              </material>
+            </response_label>
+            <response_label ident="80486">
+              <material>
+                <mattext texttype="text/plain">El primer capítulo de nuestro plan de negocios a cinco años</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">89798</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">B - En estrategia, encontrar una respuesta a las tres preguntas de forma que obtengamos un posicionamiento diferencial, valioso y sostenible es el objetivo, para ello podremos utilizar un amplio espectro de metodología que nos ayudan a encontrar la respuesta a esas preguntas, pero no debemos confundir las herramientas (las metodologías) con el objetivo (definir una estrategia diferencial, valiosa y sostenible).</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gb0cb2ec884bfbd30bacbb35f511d6bbf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8679,14622,77846,61079</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿En qué se diferencian las tácticas de las estrategias?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8679">
+              <material>
+                <mattext texttype="text/html">Las tácticas son acciones a corto plazo y la estrategia son las acciones a largo.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="14622">
+              <material>
+                <mattext texttype="text/plain">Las estrategias son nuestros objetivos a cinco años y las tácticas son las acciones</mattext>
+              </material>
+            </response_label>
+            <response_label ident="77846">
+              <material>
+                <mattext texttype="text/plain">Táctica y Estrategia son términos intercambiables que se pueden utilizar indistintamente</mattext>
+              </material>
+            </response_label>
+            <response_label ident="61079">
+              <material>
+                <mattext texttype="text/plain">La Estrategia define el dónde y cómo competir mientras que las tácticas son las acciones necesarias para alcanzar ese posicionamiento</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">61079</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La estrategia define el dónde y el cómo competir de una empresa tanto a corto plazo como a largo y se define en torno a alcanzar un posicionamiento diferencial, valioso y sostenible. Las tácticas pueden ser acciones tanto a corto como a largo plazo, además no todas nuestras tácticas (acciones) tienen porqué estar destinadas a entregar nuestra estrategia. La diferencia entre táctica y estrategia no es el plazo, sino que se trata de conceptos distintos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g04feaefb04ee80f617ba6389f17af4e6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>35051,13837,30476,44081</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuál de las siguientes opciones se puede considerar como decisión estratégica clave?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="35051">
+              <material>
+                <mattext texttype="text/plain">Definir los colores corporativos y diseñar la campaña publicitaria.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="13837">
+              <material>
+                <mattext texttype="text/plain">Establecer la política de recursos humanos y seleccionar proveedores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="30476">
+              <material>
+                <mattext texttype="text/plain">Determinar el mercado en que queremos competir y el posicionamiento que queremos alcanzar.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="44081">
+              <material>
+                <mattext texttype="text/plain">Elegir el software de gestión empresarial y diseñar el logotipo de la empresa.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">30476</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">&amp;nbsp;El “Dónde Competir” es el mercado en que compites. Idealmente cada uno de los competidores tendrá un posicionamiento diferente adaptado a cada uno de los públicos objetivo que componen el mercado. Todas las otras opciones se refieren a acciones tácticas que si bien pueden ser importantes, no por ello son estratégicas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g902c0b0756730d14d0f6cfcc5248bf01" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>40637,81391,49205,48077</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuál es la diferencia entre estrategia y eficiencia operativa?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="40637">
+              <material>
+                <mattext texttype="text/plain">La estrategia se refiere a las decisiones de marketing, mientras que la eficiencia operativa se refiere a las decisiones de producción.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="81391">
+              <material>
+                <mattext texttype="text/plain">La estrategia se centra en alcanzar un posicionamiento competitivo diferencial y sostenible, mientras que la eficiencia operativa se enfoca en mejorar continuamente los procesos para reducir costos y aumentar la calidad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49205">
+              <material>
+                <mattext texttype="text/plain">La estrategia implica la implementación de tácticas a largo plazo, mientras que la eficiencia operativa implica la implementación de tácticas a corto plazo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="48077">
+              <material>
+                <mattext texttype="text/plain">La estrategia se basa en responder a las tendencias del mercado, mientras que la eficiencia operativa se basa en la innovación y el desarrollo de nuevos productos.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">81391</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La estrategia se centra en alcanzar un posicionamiento competitivo diferencial y sostenible, mientras que la eficiencia operativa se enfoca en mejorar continuamente los procesos para reducir costos y aumentar la calidad.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g1bee0ac66e35cf72a11aeb32c2ceb700" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>71531,13810,45925,84466</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Por qué la búsqueda de la eficiencia operativa no puede considerarse una estrategia?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="71531">
+              <material>
+                <mattext texttype="text/plain">Porque la eficiencia operativa se enfoca en la mejora de procesos internos y no en la competencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="13810">
+              <material>
+                <mattext texttype="text/plain">Porque la eficiencia operativa solo se aplica a empresas manufactureras.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="45925">
+              <material>
+                <mattext texttype="text/plain">Porque la eficiencia operativa se basa en reducir costos sin considerar las necesidades del cliente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="84466">
+              <material>
+                <mattext texttype="text/plain">Porque la eficiencia operativa es fácilmente replicable por los competidores y no proporciona una ventaja competitiva sostenible a largo plazo</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">84466</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Perseguir la eficiencia operativa (ser la empresa más productiva del sector, de la empresa que mejores campañas de publicidad hace, la que recluta al mejor personal….) es una obligación de cualquier buen gestor pero no constituye en sí misma una estrategia. La Eficiencia Operativa no permite alcanzar posicionamientos sostenibles en el tiempo ya que siempre será fácilmente replicable por parte de los competidores</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g00860884e427cf7cbc85b746e8483bb9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>29171,70609,54596,64679</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&amp;nbsp;El público objetivo de una empresa pretende responder la pregunta de quien quiero y quien no quiero que sean mis clientes ¿Cuál es la mejor manera de definir el público objetivo de una empresa?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="29171">
+              <material>
+                <mattext texttype="text/plain">Definir el público objetivo exclusivamente con base en variables demográficas y socioeconómicas, como edad y nivel de ingresos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="70609">
+              <material>
+                <mattext texttype="text/plain">Identificar a todas las personas que puedan tener algún interés en el producto, sin excluir a ningún segmento potencial.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="54596">
+              <material>
+                <mattext texttype="text/plain">Definir el público objetivo desde el punto de vista de sus motivaciones y necesidades, identificando claramente quiénes tienen la necesidad que se quiere cubrir de la forma que se quiere cubrir.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="64679">
+              <material>
+                <mattext texttype="text/plain">Escoger un público objetivo amplio para maximizar el alcance del producto y atraer la mayor cantidad de clientes posibles</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">54596</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Definir el público objetivo desde el punto de vista de sus motivaciones y necesidades, identificando claramente quiénes tienen la necesidad que se quiere cubrir de la forma que se quiere cubrir. Definir el público objetivo desde el punto de vista de sus motivaciones y necesidades permite a la empresa identificar de manera precisa a aquellos individuos que tienen la necesidad específica que su producto o servicio está diseñado para satisfacer. Esta definición estratégica es crucial porque ayuda a alinear todos los esfuerzos de la empresa, desde el desarrollo de productos hasta las estrategias de marketing, con las necesidades y deseos específicos de su público objetivo. En contraste, definiciones basadas exclusivamente en variables demográficas y socioeconómicas asumiría que todas las personas de un mismo nivel socio económico tienen las mismas necesidades, o intentar abarcar un público muy amplio, pueden resultar en una falta de enfoque y una menor efectividad en la satisfacción de las necesidades específicas del mercado</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g5662e98e219893c9a38d7e73ee6fda29" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6645,57692,97606</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Que grupos de oportunidades estratégicas pueden existir en un mercado (Elige la opción correcta):&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6645">
+              <material>
+                <mattext texttype="text/plain">Mercado, Industria, Procesos y Cross-Industria</mattext>
+              </material>
+            </response_label>
+            <response_label ident="57692">
+              <material>
+                <mattext texttype="text/plain">Internacionalización, Concentración, Eficiencia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="97606">
+              <material>
+                <mattext texttype="text/plain">Integración vertical, Integración Horizontal</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6645</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">De forma general, en un mismo mercado podemos encontrar muchas oportunidades distintas, que podemos categorizar en cuatro grandes grupos:&lt;br&gt;1. Oportunidades de mercado (segmentos, productos, servicios, necesidades,…)&lt;br&gt;2. Oportunidades de industria (integración vertical, integración horizontal, nuevos entrantes, transformación de la cadena de valor, fusiones o adquisiciones…)&lt;br&gt;3. Oportunidades de proceso (transformación digital, movilidad, localización, realidad aumentada, …)&lt;br&gt;4. Oportunidades cross-industria (transformar una industria aplicando los activos y aprendizajes de otra)</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gca304941cb34a8069bf21f27b93d7319" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>30843,28901,39786</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Desde el punto de vista del proceso de planificación estratégica, las curvas de technology hype y las corvas de adopción de innovaciones pueden utilizarse para: (Elegir la opción correcta)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="30843">
+              <material>
+                <mattext texttype="text/plain">Identificar posibles oportunidades estratégicas en un mercado</mattext>
+              </material>
+            </response_label>
+            <response_label ident="28901">
+              <material>
+                <mattext texttype="text/plain">Calcular el tamaño de un segmento</mattext>
+              </material>
+            </response_label>
+            <response_label ident="39786">
+              <material>
+                <mattext texttype="text/plain">Hacer una estimación de nuestros costes</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">30843</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Las curvas de adopción, de technology hype, de análisis de tendencias, las cinco fuerzas de Porter son metodologías muy útiles que en planificación estratégica se pueden utilizar para identificar posibles oportunidades en el mercado.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g7d1546775c8d0c73e1c71e48df3a0868" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>57955,46166,21501</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;“Maximizar el valor para nuestros accionistas” ¿sería una visión o una misión?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="57955">
+              <material>
+                <mattext texttype="text/plain">Visión</mattext>
+              </material>
+            </response_label>
+            <response_label ident="46166">
+              <material>
+                <mattext texttype="text/plain">Misión.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="21501">
+              <material>
+                <mattext texttype="text/plain">Ninguna de las dos</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">57955</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Aunque sea una visión bastante mediocre por su falta de concreción, al menos establece lo que la empresa quiere alcanzar</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g597a84b72656fcff715224a4a05dec41" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>79350,99995,66216,58745</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuáles son las diferencias entre Misión y Visión?, selecciona la mejor opción&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="79350">
+              <material>
+                <mattext texttype="text/plain">La visión se centra en el presente y la misión se enfoca en el futuro.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="99995">
+              <material>
+                <mattext texttype="text/plain">La visión describe los productos y servicios actuales de la empresa, mientras que la misión se centra en la motivación y los valores de los empleados.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="66216">
+              <material>
+                <mattext texttype="text/plain">La visión se centra en los objetivos a largo plazo y aspiraciones de la empresa, mientras que la misión describe cómo la empresa enfoca su negocio y cuáles son sus objetivos actuales.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="58745">
+              <material>
+                <mattext texttype="text/plain">La visión se enfoca en los detalles operativos diarios, mientras que la misión define el mercado objetivo y las estrategias de marketing.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">66216</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La visión se centra en los objetivos a largo plazo y aspiraciones de la empresa, mientras que la misión describe cómo la empresa enfoca su negocio y cuáles son sus objetivos actuales. La visión de una empresa se enfoca en sus objetivos a largo plazo y aspiraciones, proporcionando una imagen de lo que la empresa quiere llegar a ser en el futuro. Por otro lado, la misión describe cómo la empresa enfoca su negocio y cuáles son sus objetivos actuales, proporcionando una guía sobre qué hace la empresa y cómo sirve a sus clientes en el presente. Esta distinción es clave para definir la dirección estratégica y operativa de la empresa, asegurando que todos los esfuerzos estén alineados con tanto las metas a largo plazo como las actividades y objetivos actuales</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g5698378b3ea9e664557880463922ea3a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>52771,20254,49009,2608</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué alternativa describe mejor la relación entre nuestra misión y nuestra oferta comercial?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="52771">
+              <material>
+                <mattext texttype="text/plain">La misión debe ser una descripción exhaustiva de nuestra oferta comercial para que no haya confusiones sobre lo que ofrecemos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="20254">
+              <material>
+                <mattext texttype="text/plain">La misión debe enfocarse en el valor y el propósito que nuestra empresa proporciona, mientras que la oferta comercial puede cambiar según el mercado.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49009">
+              <material>
+                <mattext texttype="text/plain">La misión debe ser una lista de todos los productos y servicios disponibles en nuestra oferta comercial para ser efectiva.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2608">
+              <material>
+                <mattext texttype="text/plain">La oferta comercial debe ser adaptada para que se alinee con la misión de la empresa, sin importar el valor que se entrega a los clientes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">20254</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La misión debe enfocarse en el valor y el propósito que nuestra empresa proporciona, mientras que la oferta comercial puede cambiar según el mercado. La misión de una empresa debe centrarse en el valor y propósito que proporciona a sus clientes y al mercado, reflejando la razón de ser y la dirección estratégica de la empresa. Esto es diferente de la oferta comercial, que puede variar y adaptarse según las necesidades del mercado y las condiciones del entorno. Mientras que la oferta comercial puede cambiar con el tiempo, la misión proporciona una guía constante sobre el propósito y los valores fundamentales de la empresa. Esto permite que la empresa mantenga su enfoque en lo que realmente importa para sus clientes, sin quedar restringida a una lista fija de productos o servicios. Si convertimos nuestra misión en una descripción de nuestra oferta comercial estaremos intentando describir nuestra estrategia desde el punto de vista de las tácticas y las funcionalidades en lugar de desde el punto de vista del valor diferencial que aportamos a nuestro público objetivo</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gd4c96819284ee2c31c8724defab29bf8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>88970,60161,84312</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Empleando la definición proporcionada en las clases, ¿Cuál crees que sería la visión de LinkedIn?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="88970">
+              <material>
+                <mattext texttype="text/plain">Conectar a todos los profesionales del mundo para hacerles más productivos y exitosos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="60161">
+              <material>
+                <mattext texttype="text/plain">Crear oportunidades profesionales para todos los miembros de la fuerza laboral global.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="84312">
+              <material>
+                <mattext texttype="text/plain">Ser la red social líder en el mundo empresarial</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">60161</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">En este caso la visión está fijando el objetivo (crear oportunidades) mientras que la misión fijaría el medio (Conectar a los profesionales)</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g61bf94279b6e6987ac46e1130f4f8f7a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>94428,33120,1046</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cómo deben relacionarse la Visión y la Misión con el Público Objetivo y el Posicionamiento de la empresa?. Elige la respuesta correcta&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="94428">
+              <material>
+                <mattext texttype="text/plain">Son independientes, ni la misión ni la visión tienen que incluir referencias al público objetivo ni al posicionamiento</mattext>
+              </material>
+            </response_label>
+            <response_label ident="33120">
+              <material>
+                <mattext texttype="text/plain">La visión tiende a ser más genérica y puede acomodar una gama más amplia de públicos y posicionamientos de ahí que pueda permanecer invariante entre escenarios, sin embargo, la misión debe incluir referencias al público objetivo y el posicionamiento</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1046">
+              <material>
+                <mattext texttype="text/plain">Totalmente dependientes, cualquier cambio en el público objetivo o el posicionamiento debe reflejarse en cambios en la visión y la misión y viceversa.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">33120</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La visión define lo que la empresa quiere llegar a ser, mientras que la misión define como quiere hacerlo. Una buena visión debe ser muy resistente a ajustes estratégicos, mientras que la misión debe ser más flexible para adaptarse a cambios del entorno. Recordemos como Apple no ha cambiado su visión desde prácticamente su fundación, mientras que actualiza su misión casi anualmente</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gdf5660552f61dc480c6db0278191fdc9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>14911,67167,59534,90121</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cuando estamos eligiendo nuestro público objetivo siempre deberemos: (selecciona la respuesta correcta).&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="14911">
+              <material>
+                <mattext texttype="text/plain">Elegir el público objetivo más numeroso, aunque su poder adquisitivo sea medio, así podremos maximizar nuestro volumen de venta</mattext>
+              </material>
+            </response_label>
+            <response_label ident="67167">
+              <material>
+                <mattext texttype="text/plain">Elegir un nicho pequeño pero muy rentable que estén dispuestos a pagar un premium por un servicio o producto perfectamente diseñado para sus necesidades</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59534">
+              <material>
+                <mattext texttype="text/plain">Intentar servir a todo el mercado sacando varias marcas, cada una de ellas posicionadas de distinta forma</mattext>
+              </material>
+            </response_label>
+            <response_label ident="90121">
+              <material>
+                <mattext texttype="text/plain">Ninguna de las anteriores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">90121</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">No existe un público objetivo “correcto”, la clave para una buena estrategia será tener muy claro quién quiere que sean sus clientes e igual de importante entender quien no quiere que sean sus clientes. Una empresa puede ser rentable sirviendo a clientes de bajo poder adquisitivo, otra empresa puede ser rentable sirviendo a nichos dispuestos a pagar un premium, lo que sí resulta muy complicado es una misma empresa intentando satisfacer las necesidades de distintos públicos objetivo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g2a7cbd8b5685a13f461630784303ce3c" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>57287,7659,87689</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un CEO deberá contemplar la posibilidad de llevar a cabo una estrategia de contracción si … (Selecciona la respuesta correcta)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="57287">
+              <material>
+                <mattext texttype="text/plain">Cuando su posicionamiento deja de ser diferencial para su público objetivo, bien por cambios en las preferencias de los clientes, la entrada de nuevos competidores o la transformación de la cadena de valor de la industria.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7659">
+              <material>
+                <mattext texttype="text/plain">Cuando sus ventas o su rentabilidad bajen</mattext>
+              </material>
+            </response_label>
+            <response_label ident="87689">
+              <material>
+                <mattext texttype="text/plain">Cuando sus competidores empiezan a ser adquiridos por empresas más grandes</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">57287</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Ante cambios estructurales en la industria, como por ejemplo cambios en la preferencia de los consumidores (por ejemplo cuando Kodak se enfrentó a la fotografía digital), entradas de nuevos competidores con un posicionamiento superior para una parte relevante de tu público objetivo (Nokia vs. Apple) o cambios en la cadena de valor (Uber), las empresas deberán contemplar hasta que punto les compensa continuar compitiendo en crecimiento o es más interesante seguir una estrategia de nicho y especialización.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ge5738e134eff00e882035a28d2203f44" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>32052,30941,2380,49183</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Desde un punto de vista estratégico, es fácil predecir el comportamiento de los competidores?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="32052">
+              <material>
+                <mattext texttype="text/plain">Sí, porque todos los competidores siguen reglas fijas y predecibles en sus estrategias.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="30941">
+              <material>
+                <mattext texttype="text/plain">No, porque los competidores pueden actuar de maneras inesperadas y sus decisiones no siempre siguen patrones racionales.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2380">
+              <material>
+                <mattext texttype="text/plain">Sí, debido a que la teoría de juegos proporciona una visión clara y precisa de cómo actuarán los competidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49183">
+              <material>
+                <mattext texttype="text/plain">No, porque todos los competidores tienen acceso a la misma información y toman decisiones basadas en datos iguales.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">30941</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">No, porque los competidores pueden actuar de maneras inesperadas y sus decisiones no siempre siguen patrones racionales. Desde un punto de vista estratégico, predecir el comportamiento de los competidores no es fácil debido a varias razones. Aunque la teoría de juegos ofrece un marco para entender el comportamiento competitivo bajo ciertas suposiciones, en la práctica, los competidores pueden actuar de maneras inesperadas. Las decisiones de los competidores no siempre siguen patrones racionales o predecibles debido a factores como la niebla de la guerra, cambios en la tecnología, y variaciones en las preferencias de los consumidores. Además, los competidores pueden tomar decisiones que parecen irracionales desde nuestra perspectiva, pero que tienen sentido dentro de su propio contexto y estrategia.&lt;br&gt;Las otras opciones no capturan adecuadamente la complejidad de predecir el comportamiento de los competidores:&lt;br&gt;A) asume que las estrategias son fijas y predecibles, lo cual no refleja la realidad.&lt;br&gt;B) sobreestima la precisión de la teoría de juegos en escenarios reales.&lt;br&gt;C) asume igualdad en el acceso a la información, lo cual no siempre es cierto y no aborda la variabilidad en la toma de decisiones</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g3f4a1049838dda7462a1529efe81bbcf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>25743,28448,7759</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El perfil estratégico de un competidor nos permite … (Elige la respuesta correcta)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="25743">
+              <material>
+                <mattext texttype="text/plain">Adivinar de manera inequívoca la estrategia que va a seguir cada competidor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="28448">
+              <material>
+                <mattext texttype="text/plain">Establecer un marco destinado a entender el proceso de decisión de nuestros competidores e intentar prever sus movimientos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7759">
+              <material>
+                <mattext texttype="text/plain">Interpretar a posteriori el racional de cada una de las decisiones de nuestros competidores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">28448</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El perfil estratégico de un competidor pretende darnos las guías mediante las cuales nuestros competidores toman las decisiones. No podemos acertar con seguridad, pero nos puede ayudar a prever con un cierto grado de certeza sus movimientos y reacciones.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gfa332f634e20c1bb2d81a24105a06a56" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>19171,59341,30711,52685</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Por qué es importante el concepto de curva de adopción en nuestras reflexiones estratégicas?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="19171">
+              <material>
+                <mattext texttype="text/plain">Porque nos ayuda a entender la evolución futura de los productos tecnológicos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="59341">
+              <material>
+                <mattext texttype="text/plain">Porque permite identificar la etapa en la que se encuentra el mercado y los competidores y entender cómo adoptan y aplican innovaciones en la industria.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="30711">
+              <material>
+                <mattext texttype="text/plain">Porque ayuda a prever las futuras tendencias de mercado sin considerar la competencia actual.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="52685">
+              <material>
+                <mattext texttype="text/plain">Porque se centra exclusivamente en los consumidores y no ofrece información relevante sobre los competidores.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">59341</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Porque permite identificar la etapa en la que se encuentran los competidores y entender cómo adoptan y aplican innovaciones en la industria.&lt;br&gt;El concepto de la curva de adopción es crucial en la planificación estratégica porque ayuda a:&lt;br&gt;- Identificar la etapa de adopción en la que se encuentran los competidores: Esto proporciona una visión clara sobre si los competidores son early adopters, early majority, late majority, o laggards en términos de innovación.&lt;br&gt;- Entender cómo adoptan y aplican innovaciones: Este conocimiento permite prever cómo los competidores podrían reaccionar ante nuevas innovaciones y cambios en la industria, lo que es esencial para formular estrategias efectivas.&lt;br&gt;Las otras opciones no capturan la importancia completa de la curva de adopción:&lt;br&gt;a) subestima su relevancia, ya que el concepto es aplicable a diversas industrias y productos, no solo tecnológicos.&lt;br&gt;b) ignora la relevancia de la competencia, que es fundamental para una planificación estratégica precisa.&lt;br&gt;c) limita el enfoque al consumidor, mientras que la curva de adopción también proporciona valiosa información sobre los competidores y sus estrategias.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gc15c311fc00ee6b66ef663db21f0e7da" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>68441,63543,24070</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Para buscar innovaciones disruptivas que puedan cambiar la dinámica de una industria deberemos …. (Respuesta múltiple, elige las respuestas correctas)&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="68441">
+              <material>
+                <mattext texttype="text/plain">Analizar las start-up que aparecen en la industria. Al no tener que defender una posición establecida tienen una mayor capacidad de introducir innovaciones, aunque la incertidumbre sobre su éxito es mayor.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="63543">
+              <material>
+                <mattext texttype="text/plain">Los jugadores establecidos. Su mayor capacidad financiera les permite tener grandes departamentos de i+D, acuerdos con universidades u otras empresas que les permiten desarrollar innovaciones con mayor probabilidad de éxito, pero quizás menos disruptivas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="24070">
+              <material>
+                <mattext texttype="text/plain">Las empresas en otras industrias. Siempre es posible encontrar innovaciones que aunque diseñadas originalmente para una industria pueden generar una oportunidad disruptiva en la nuestra</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">68441</varequal>
+              <varequal respident="response1">63543</varequal>
+              <varequal respident="response1">24070</varequal>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">&amp;nbsp;Todas. Las innovaciones disruptivas en una industria pueden aparecer por múltiples fuentes; nuevas empresas que entran en el sector, avances realizados por los competidores o por desarrollos pensados originalmente para otras industrias. Deberemos estar siempre atentos a identificar las innovaciones que nos pueden dar una ventaja o que pueden suponerse una amenaza.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g99920c61ceafe99ab6cacd8976e33278" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>99731,84227,94392,33684</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Son las innovaciones basadas en tecnología las únicas con capacidad para cambiar las dinámicas de una industria?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="99731">
+              <material>
+                <mattext texttype="text/plain">Sí, porque solo las innovaciones tecnológicas pueden alterar significativamente las dinámicas de una industria.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="84227">
+              <material>
+                <mattext texttype="text/plain">No, porque las innovaciones pueden ser tanto tecnológicas como logísticas, comerciales, o productivas, y todas pueden impactar las dinámicas de una industria.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="94392">
+              <material>
+                <mattext texttype="text/plain">No, porque solo las innovaciones en procesos de producción tienen el potencial para cambiar la dinámica de la industria.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="33684">
+              <material>
+                <mattext texttype="text/plain">Sí, porque las innovaciones no tecnológicas suelen ser menos impactantes en el largo plazo.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">84227</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">No, porque las innovaciones pueden ser tanto tecnológicas como logísticas, comerciales, o productivas, y todas pueden impactar las dinámicas de una industria.&lt;br&gt;Las innovaciones que cambian las dinámicas de una industria no se limitan exclusivamente a las tecnológicas. Pueden abarcar diversos aspectos, incluyendo:&lt;br&gt;Innovaciones logísticas: Mejoras en la cadena de suministro o en la gestión de inventarios.&lt;br&gt;- Innovaciones comerciales: Nuevas estrategias de marketing o modelos de negocio disruptivos.&lt;br&gt;- Innovaciones productivas: Nuevas formas de producción o métodos de gestión que optimizan el rendimiento.&lt;br&gt;Por lo tanto&lt;br&gt;a) es incorrecta porque limita la capacidad de cambio a la tecnología exclusivamente.&lt;br&gt;b) es incorrecta ya que el impacto en la industria no se restringe solo a las innovaciones en procesos de producción.&lt;br&gt;c) es incorrecta porque subestima el impacto de las innovaciones no tecnológicas, que pueden ser igualmente transformadoras en el mercado.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gca99a5733a3cda17185598793eca3425" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>46835,24654,5940</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las empresas que siguen una estrategia tipo late mayority o laggard en la que no introducen cambios hasta que no están probados y aceptados en la industria…&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="46835">
+              <material>
+                <mattext texttype="text/plain">Nunca tienen éxito porque ya competidores en el mercado</mattext>
+              </material>
+            </response_label>
+            <response_label ident="24654">
+              <material>
+                <mattext texttype="text/plain">Normalmente, aunque no siempre, tienen estrategias basadas en coste (empresas tipo low-cost) por lo que introducen las innovaciones cuando existe la capacidad de socializarla y hacerla llegar a una base más amplia de mercado a un precio menor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5940">
+              <material>
+                <mattext texttype="text/plain">Crean innovaciones disruptivas que cambian la dinámica del mercado</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">24654</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Las empresas que entran en la fase de late mayority normalmente tienen que tener estrategias que se adapten bien a un mercado “masivo”, normalmente no aportan innovaciones disruptivas, sino que encuentran la manera de atacar un mercado de base amplia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g3262ef6802e09faa5e65d4f734e0c90a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>82131,88746,6915</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué se entiende por toma de decisiones?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="82131">
+              <material>
+                <mattext texttype="text/plain">La toma de decisiones es la capacidad de elegir un curso de acción entre varias alternativas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="88746">
+              <material>
+                <mattext texttype="text/plain">La toma de decisiones es plantear opciones estratégicas a desarrollar por la empresa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6915">
+              <material>
+                <mattext texttype="text/plain">La toma de decisiones es la capacidad de plantear un curso de acción seguro entre varias alternativas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">82131</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La toma de decisiones es la capacidad de elegir un curso de acción entre varias alternativas. Explicación: La toma de decisiones implica evaluar diferentes opciones y elegir la más adecuada para lograr un objetivo específico.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g139ebaad6e3541fdc23c28c1b82e3252" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9133,80608,46696</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Entendemos por Riesgo:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9133">
+              <material>
+                <mattext texttype="text/plain">Escoger la alternativa equivocada.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="80608">
+              <material>
+                <mattext texttype="text/plain">Escoger la alternativa menos rentable</mattext>
+              </material>
+            </response_label>
+            <response_label ident="46696">
+              <material>
+                <mattext texttype="text/plain">Escoger la alternativa con mayor coste</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9133</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Escoger la alternativa equivocada. Explicación: El riesgo se refiere a la posibilidad de que la elección realizada no sea la correcta y pueda llevar a consecuencias no deseadas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g8882b9c7a329488640e82270ca70fc5d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5761,17898,22600</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las decisiones Individuales se dan cuando:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5761">
+              <material>
+                <mattext texttype="text/plain">Cuando el problema es bastante fácil de resolver y se realiza con absoluta independencia, se da a nivel personal y se soluciona con la experiencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="17898">
+              <material>
+                <mattext texttype="text/plain">Cuando el problema es bastante difícil de resolver y se realiza con absoluta independencia, se da a nivel personal y se soluciona con la experiencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="22600">
+              <material>
+                <mattext texttype="text/plain">Cuando el problema es complejo y multivariante para su resolución y se realiza con absoluta independencia, se da a nivel personal y se soluciona con la experiencia.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5761</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Cuando el problema es bastante fácil de resolver y se realiza con absoluta independencia, se da a nivel personal y se soluciona con la experiencia. Explicación: Las decisiones individuales son aquellas que un individuo toma de forma independiente, generalmente en situaciones más sencillas que pueden basarse en la experiencia personal.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gfdb09f8c531675296364d01d501118bf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1433,38022,56942</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El proceso de la toma de decisiones arranca por:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1433">
+              <material>
+                <mattext texttype="text/plain">Una discrepancia entre un estado futuro de cosas, y el que se desea.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="38022">
+              <material>
+                <mattext texttype="text/plain">Una discrepancia entre un estado pasado de cosas, y el que se desea.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="56942">
+              <material>
+                <mattext texttype="text/plain">Una discrepancia entre un estado actual de cosas, y el que se desea.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">56942</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Una discrepancia entre un estado actual de cosas, y el que se desea. Explicación: El proceso de toma de decisiones suele iniciarse cuando se identifica una brecha entre la situación actual y la situación deseada en el futuro.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gd39878847e2ce7a6c2387af60bef53e1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>98728,66298,62665</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un proceso racional de toma de decisiones proporciona cierto tipo de ventajas a la organización entre las que destaca:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="98728">
+              <material>
+                <mattext texttype="text/plain">La decisión se orienta en función de la orientación de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="66298">
+              <material>
+                <mattext texttype="text/plain">La decisión se orienta en función de un objetivo definido</mattext>
+              </material>
+            </response_label>
+            <response_label ident="62665">
+              <material>
+                <mattext texttype="text/plain">La decisión se orienta en función de la visión de la organización</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">66298</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">&amp;nbsp;La decisión se orienta en función de un objetivo definido. Explicación: Un proceso racional de toma de decisiones implica establecer objetivos claros y basar las decisiones en alcanzar esos objetivos específicos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

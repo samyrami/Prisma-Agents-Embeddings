@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint_settings xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <use_default_restrictions_by_type>false</use_default_restrictions_by_type>
+  <restrictions>
+    <restriction content_type="default" content="true" points="true" due_dates="false" availability_dates="false"/>
+    <restriction content_type="Assignment" content="false" points="false" due_dates="false" availability_dates="false"/>
+    <restriction content_type="DiscussionTopic" content="false" points="false" due_dates="false" availability_dates="false"/>
+    <restriction content_type="WikiPage" content="false" availability_dates="false"/>
+    <restriction content_type="Attachment" content="false"/>
+    <restriction content_type="Quizzes::Quiz" content="false" points="false" due_dates="false" availability_dates="false"/>
+    <restriction content_type="CoursePace" content="false"/>
+  </restrictions>
+  <restricted_items>
+  </restricted_items>
+</blueprint_settings>

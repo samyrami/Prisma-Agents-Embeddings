@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assignment identifier="g4c868c514e212189dccb2673a5a4e35f" xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <title>Proyecto en equipo 6</title>
+  <time_zone_edited>Eastern Time (US &amp; Canada)</time_zone_edited>
+  <due_at/>
+  <lock_at/>
+  <unlock_at/>
+  <module_locked>false</module_locked>
+  <assignment_group_identifierref>g59b7dc49c09662e75592a1f566dfa404</assignment_group_identifierref>
+  <workflow_state>published</workflow_state>
+  <rubric_identifierref>g74401db1b29eaa1e5fa3c87858c22020</rubric_identifierref>
+  <rubric_use_for_grading>true</rubric_use_for_grading>
+  <rubric_hide_points>false</rubric_hide_points>
+  <rubric_hide_outcome_results>false</rubric_hide_outcome_results>
+  <rubric_hide_score_total>false</rubric_hide_score_total>
+  <assignment_overrides>
+  </assignment_overrides>
+  <allowed_extensions></allowed_extensions>
+  <has_group_category>true</has_group_category>
+  <group_category>Project Groups</group_category>
+  <points_possible>96.0</points_possible>
+  <grading_type>letter_grade</grading_type>
+  <all_day>false</all_day>
+  <submission_types>online_text_entry,online_url,online_upload</submission_types>
+  <position>4</position>
+  <turnitin_enabled>false</turnitin_enabled>
+  <vericite_enabled>false</vericite_enabled>
+  <peer_review_count>0</peer_review_count>
+  <peer_reviews>false</peer_reviews>
+  <automatic_peer_reviews>false</automatic_peer_reviews>
+  <anonymous_peer_reviews>false</anonymous_peer_reviews>
+  <grade_group_students_individually>false</grade_group_students_individually>
+  <freeze_on_copy>false</freeze_on_copy>
+  <omit_from_final_grade>false</omit_from_final_grade>
+  <hide_in_gradebook>false</hide_in_gradebook>
+  <intra_group_peer_reviews>false</intra_group_peer_reviews>
+  <only_visible_to_overrides>false</only_visible_to_overrides>
+  <post_to_sis>false</post_to_sis>
+  <moderated_grading>false</moderated_grading>
+  <grader_count>0</grader_count>
+  <grader_comments_visible_to_graders>true</grader_comments_visible_to_graders>
+  <anonymous_grading>false</anonymous_grading>
+  <graders_anonymous_to_graders>false</graders_anonymous_to_graders>
+  <grader_names_visible_to_final_grader>true</grader_names_visible_to_final_grader>
+  <anonymous_instructor_annotations>false</anonymous_instructor_annotations>
+  <post_policy>
+    <post_manually>false</post_manually>
+  </post_policy>
+</assignment>

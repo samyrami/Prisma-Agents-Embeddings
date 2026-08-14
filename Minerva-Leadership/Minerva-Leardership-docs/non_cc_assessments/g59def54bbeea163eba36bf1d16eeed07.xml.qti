@@ -1,0 +1,1460 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g59def54bbeea163eba36bf1d16eeed07" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MAN-563 Test  2</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="d6ca98c9ae7897845e6bb637430a7499" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>f7682908-95fe-42fd-b736-50c6c6bd89b7,0ea40a70-8528-4350-a992-ac0cc50ed46c,9a873210-26d0-41e8-9483-cff1bfddc65f,9b062c71-ab16-4fab-a009-5244e6921ddc</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>3a7a78fab2db1b895cfe0acf4a6130ea</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En el an&#xE1;lisis DAFO.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="f7682908-95fe-42fd-b736-50c6c6bd89b7">
+              <material>
+                <mattext texttype="text/html">Analizamos las amenazas y oportunidades</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0ea40a70-8528-4350-a992-ac0cc50ed46c">
+              <material>
+                <mattext texttype="text/html">Analizamos las fortalezas y debilidades</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9a873210-26d0-41e8-9483-cff1bfddc65f">
+              <material>
+                <mattext texttype="text/html">Podremos establecer c&#xF3;mo organizar los recursos para utilizarlos de la forma m&#xE1;s eficiente</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9b062c71-ab16-4fab-a009-5244e6921ddc">
+              <material>
+                <mattext texttype="text/html">Todas las opciones son correctas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9b062c71-ab16-4fab-a009-5244e6921ddc</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Todas las opciones son correctas: El An&#xE1;lisis DAFO tiene en cuenta las debilidades, amenazas, fortalezas y oportunidades. Por otro lado, organizar los recursos para utilizarlos de la forma m&#xE1;s eficiente esa es una de las preguntas que se debe tratar de contestar con el an&#xE1;lisis DAFO.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="2e35ee89f88bdba979b7644709bf678f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4b4147b4-09b6-404c-bb6d-57e947b42df8,f0772ba4-8463-4de7-9530-a34e38c4b8e1,87d97719-93db-435d-ba80-4212e47c3c1a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>c36d4bf13ecbc71f95d0c5d3e47670dd</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La optimizaci&#xF3;n de los procesos o actividades de la cadena de valor:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4b4147b4-09b6-404c-bb6d-57e947b42df8">
+              <material>
+                <mattext texttype="text/html">Se consigue por la coordinaci&#xF3;n de las actividades</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f0772ba4-8463-4de7-9530-a34e38c4b8e1">
+              <material>
+                <mattext texttype="text/html">Busca reducir los costes de otras actividades mejorando una de las actividades</mattext>
+              </material>
+            </response_label>
+            <response_label ident="87d97719-93db-435d-ba80-4212e47c3c1a">
+              <material>
+                <mattext texttype="text/html">Ninguna de las otras opciones es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">f0772ba4-8463-4de7-9530-a34e38c4b8e1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La optimizaci&#xF3;n de los procesos o actividades buscan reducir los costes de otras actividades mejorando una de las actividades.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="61d6128cd577eb7e8187b1cb4189aa42" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c1d5e4de-31f8-4691-ad77-d98379ee6a7f,e5b5b743-a244-4e19-a1f4-0e4592b34444,cde40187-5f78-4cfb-ab30-8e1e15a0799c,364c8137-39e5-425c-bb00-4f7a8fefc8e7</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>772e39e4920daeab3762fd4093cb6dc6</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las fuentes de las ventajas competitivas:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c1d5e4de-31f8-4691-ad77-d98379ee6a7f">
+              <material>
+                <mattext texttype="text/html">Son los aspectos o partes de la empresa que m&#xE1;s contribuyen a la generaci&#xF3;n de valor&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e5b5b743-a244-4e19-a1f4-0e4592b34444">
+              <material>
+                <mattext texttype="text/html">Son los aspectos o partes de la empresa que menos contribuyen a la generaci&#xF3;n de valor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="cde40187-5f78-4cfb-ab30-8e1e15a0799c">
+              <material>
+                <mattext texttype="text/html">No contribuyen necesariamente a la generaci&#xF3;n de valor</mattext>
+              </material>
+            </response_label>
+            <response_label ident="364c8137-39e5-425c-bb00-4f7a8fefc8e7">
+              <material>
+                <mattext texttype="text/html">Ninguna de las otras opciones es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c1d5e4de-31f8-4691-ad77-d98379ee6a7f</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Las ventajas competitivas son precisamente los aspectos o partes de la empresa que m&#xE1;s contribuyen a la generaci&#xF3;n de valor.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="8ff0d6d8c5464b8d132b15fbc6a885e9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>11f3d30f-480d-4e92-bd5c-a3a22b110891,f2116fda-3c20-42fb-8053-3930255f0a11,b1f3d7b4-1c94-42b7-aebd-455ed1758f3b,b9a51836-4923-4170-b629-9e7b1f5ad9d4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>1b12f89729ec9a133d8e8722e5be7ba5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La cadena de valor&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="11f3d30f-480d-4e92-bd5c-a3a22b110891">
+              <material>
+                <mattext texttype="text/html">Desagrega las actividades b&#xE1;sicas que se deben llevar a cabo para vender un producto, pero no se aplica para las empresas de servicio</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f2116fda-3c20-42fb-8053-3930255f0a11">
+              <material>
+                <mattext texttype="text/html">Desagrega las actividades b&#xE1;sicas que se deben llevar a cabo para fabricar un producto, pero no se aplica para las empresas de servicio</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b1f3d7b4-1c94-42b7-aebd-455ed1758f3b">
+              <material>
+                <mattext texttype="text/html">Desagrega las actividades b&#xE1;sicas que se deben llevar a cabo para vender un producto, y puede aplicarse a las empresas de servicio</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b9a51836-4923-4170-b629-9e7b1f5ad9d4">
+              <material>
+                <mattext texttype="text/html">Desagrega las actividades b&#xE1;sicas que se deben llevar a cabo para fabricar un producto, y puede aplicarse a las empresas de servicio</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b1f3d7b4-1c94-42b7-aebd-455ed1758f3b</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La cadena de valor desagrega todas las actividades b&#xE1;sicas necesarias para la venta de un producto o un servicio. Es decir, no se queda &#xFA;nicamente en la fabricaci&#xF3;n, y es de aplicaci&#xF3;n tambi&#xE9;n para las empresas de servicio.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="620fb473815ff8387292c424b76ba6b5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4a25de66-64fc-4fc7-b240-9d36dbcbd259,83c4cf20-027e-4d99-9958-be25f719c15f,ce701b25-6c0c-413b-a8eb-8fca6f966aad</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>9ef4fa2d89a41129516ac5220d5dc194</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El Perfil Estrat&#xE9;gico de la empresa:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4a25de66-64fc-4fc7-b240-9d36dbcbd259">
+              <material>
+                <mattext texttype="text/html">Debe incluir la situaci&#xF3;n de los competidores</mattext>
+              </material>
+            </response_label>
+            <response_label ident="83c4cf20-027e-4d99-9958-be25f719c15f">
+              <material>
+                <mattext texttype="text/html">No debe incluir la situaci&#xF3;n de los competidores</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ce701b25-6c0c-413b-a8eb-8fca6f966aad">
+              <material>
+                <mattext texttype="text/html">Es irrelevante si se incluye o no la situaci&#xF3;n de los competidores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4a25de66-64fc-4fc7-b240-9d36dbcbd259</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Precisamente la inclusi&#xF3;n de la situaci&#xF3;n de los competidores es fundamental para comparar la situaci&#xF3;n de la compa&#xF1;&#xED;a en cada variable con respecto a la competencia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="23a31856c44c4e29b4852438540d999a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6564c47d-9854-46d5-8e38-8d3ba569e0b5,f5f38b5d-34a0-409e-85fe-fb049507a5c1,91234ff5-0ab9-4036-95b4-b05a99a26fd8,ca87b1b6-7ba7-45b8-973f-912e1a1d7072</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6bc6b481e51c04961bbbac8ec122529e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El estado en el que se encuentran los bienes de equipo (utilizados en el proceso de producci&#xF3;n)&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6564c47d-9854-46d5-8e38-8d3ba569e0b5">
+              <material>
+                <mattext texttype="text/html">Debe ser una de las variables a incluir en el an&#xE1;lisis funcional</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f5f38b5d-34a0-409e-85fe-fb049507a5c1">
+              <material>
+                <mattext texttype="text/html">Influye en el volumen de producci&#xF3;n</mattext>
+              </material>
+            </response_label>
+            <response_label ident="91234ff5-0ab9-4036-95b4-b05a99a26fd8">
+              <material>
+                <mattext texttype="text/html">Impacta en el servicio al cliente por cumplimiento de los pedidos&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ca87b1b6-7ba7-45b8-973f-912e1a1d7072">
+              <material>
+                <mattext texttype="text/html">Todas las opciones son correctas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">ca87b1b6-7ba7-45b8-973f-912e1a1d7072</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Todas las opciones son correctas: Esta es una de las variables m&#xE1;s importantes para las empresas productoras, ya que el volumen de producci&#xF3;n depender&#xE1; de ella. Tambi&#xE9;n impacta en el servicio al cliente por cumplimiento de los pedidos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="309deeb5d85c74853ac93d1f34f25662" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>0ca45476-837e-4154-aa34-4438d414d1bf,2d768beb-dd80-42f0-ac8b-418ec2f7e26d,fbd66d1a-cf8b-4ebd-b80b-ed13a125a70a,70ab09a9-9e51-405e-8780-6742eff081a8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>1aa058cbc79f0f0c58497fa657c9c0d6</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El an&#xE1;lisis funcional&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="0ca45476-837e-4154-aa34-4438d414d1bf">
+              <material>
+                <mattext texttype="text/html">Puede utilizar diferentes &#xE1;reas funcionales seg&#xFA;n la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2d768beb-dd80-42f0-ac8b-418ec2f7e26d">
+              <material>
+                <mattext texttype="text/html">Utiliza las mismas &#xE1;reas funcionales en todas las empresas</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fbd66d1a-cf8b-4ebd-b80b-ed13a125a70a">
+              <material>
+                <mattext texttype="text/html">No est&#xE1; influido en la elecci&#xF3;n de las &#xE1;reas funcionales que utiliza por las formas de competencia en el sector</mattext>
+              </material>
+            </response_label>
+            <response_label ident="70ab09a9-9e51-405e-8780-6742eff081a8">
+              <material>
+                <mattext texttype="text/html">Ninguna de las otras opciones es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">0ca45476-837e-4154-aa34-4438d414d1bf</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Las &#xE1;reas funcionales que consideremos depender&#xE1;n de cada empresa, ya que cada uno de los aspectos que analicemos podr&#xE1; tener una importancia diferente seg&#xFA;n el tipo de empresa analizado o el sector donde est&#xE1; compita, e incluso en la forma de competencia dentro del sector.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="5ae9ad95eaf94dc88b7b80ca0e1ee3a4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a7178d96-0917-4722-9078-9d5eee8b6140,fe8a66ec-4995-43eb-b7f0-2b05e7a8b14b,242ae40e-30c6-4d3b-9a0b-987399e72773,9e5f713b-65ab-41d4-857d-c5425bfcd840</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>10fee50873b386846904864701873488</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El an&#xE1;lisis interno:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a7178d96-0917-4722-9078-9d5eee8b6140">
+              <material>
+                <mattext texttype="text/html">Se interesa por determinar cu&#xE1;les son los puntos fuertes y d&#xE9;biles de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fe8a66ec-4995-43eb-b7f0-2b05e7a8b14b">
+              <material>
+                <mattext texttype="text/html">Se interesa por los aspectos del entorno que pueden influir en la actividad de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="242ae40e-30c6-4d3b-9a0b-987399e72773">
+              <material>
+                <mattext texttype="text/html">Muestra c&#xF3;mo caracter&#xED;sticas similares del entorno pueden tener repercusiones diferentes en cada sector e, incluso, entre las empresas de una misma industria</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9e5f713b-65ab-41d4-857d-c5425bfcd840">
+              <material>
+                <mattext texttype="text/html">Todas las opciones son correctas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">a7178d96-0917-4722-9078-9d5eee8b6140</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El an&#xE1;lisis interno se interesa por determinar cu&#xE1;les son los puntos fuertes y d&#xE9;biles de la empresa. El an&#xE1;lisis del entorno es el que se interesa por los aspectos del entorno que pueden influir en la actividad de la empresa, y forma parte del an&#xE1;lisis externo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="53dbe9690430252ab5495ef8af757bda" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>0fb9a60f-9302-4e84-89f6-221f5a21255f,218900a2-10ca-4692-9b73-8c651a8af2ab,99b05e15-ec5b-4e99-98a9-f0abbb281131,512e389a-fc34-42a3-a259-a16385fa1531</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4b0cf361ea1b894861693ecc0bc4bfd3</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La cadena de valor de la empresa:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="0fb9a60f-9302-4e84-89f6-221f5a21255f">
+              <material>
+                <mattext texttype="text/html">Tiene como objetivo identificar las amenazas y oportunidades del entorno</mattext>
+              </material>
+            </response_label>
+            <response_label ident="218900a2-10ca-4692-9b73-8c651a8af2ab">
+              <material>
+                <mattext texttype="text/html">Tiene como objetivo identificar los puntos fuertes y d&#xE9;biles de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="99b05e15-ec5b-4e99-98a9-f0abbb281131">
+              <material>
+                <mattext texttype="text/html">Identifica las principales actividades que crean valor para los clientes y las actividades de apoyo relacionados</mattext>
+              </material>
+            </response_label>
+            <response_label ident="512e389a-fc34-42a3-a259-a16385fa1531">
+              <material>
+                <mattext texttype="text/html">Ninguna de las otras opciones es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">99b05e15-ec5b-4e99-98a9-f0abbb281131</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La cadena de valor de una empresa identifica las principales actividades que crean valor para los clientes y las actividades de apoyo relacionadas. No identifica amenazas y oportunidades, ni tampoco los puntos fuertes y d&#xE9;biles de la empresa.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="4da049792617a5d3885298b055046f40" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9921cf1f-4377-4bb0-a0ef-6c5f48946afc,203ef4e2-e64e-4e15-94b7-4343c9ff2d92,21310eb5-e4f7-4b3a-aee3-2b67404af08c,35619d4f-8bcd-4003-a12e-259770e1f0a1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>a604669bf7139a4813d856527acb791f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El perfil estrat&#xE9;gico de la empresa:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9921cf1f-4377-4bb0-a0ef-6c5f48946afc">
+              <material>
+                <mattext texttype="text/html">Es un instrumento de an&#xE1;lisis externo que pone de manifiesto los puntos fuertes y d&#xE9;biles del entorno</mattext>
+              </material>
+            </response_label>
+            <response_label ident="203ef4e2-e64e-4e15-94b7-4343c9ff2d92">
+              <material>
+                <mattext texttype="text/html">Es un instrumento de an&#xE1;lisis interno que pone de manifiesto los puntos fuertes y d&#xE9;biles del entorno</mattext>
+              </material>
+            </response_label>
+            <response_label ident="21310eb5-e4f7-4b3a-aee3-2b67404af08c">
+              <material>
+                <mattext texttype="text/html">Es un instrumento de an&#xE1;lisis externo que pone de manifiesto los puntos fuertes y d&#xE9;biles de la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="35619d4f-8bcd-4003-a12e-259770e1f0a1">
+              <material>
+                <mattext texttype="text/html">Es un instrumento de an&#xE1;lisis interno que pone de manifiesto los puntos fuertes y d&#xE9;biles de la empresa</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">35619d4f-8bcd-4003-a12e-259770e1f0a1</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El perfil estrat&#xE9;gico de la empresa es un instrumento de an&#xE1;lisis interno que pone de manifiesto los puntos fuertes y d&#xE9;biles de la empresa.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="69135ab91b88347a1dbd5be905d7551b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9818ba07-3a91-4574-8337-a4e310c3bf07,52e082e2-275a-4789-b14c-ecfe2b140a98,86900873-7beb-46b4-a5b9-f03584a9492d,79879d9e-fea6-48f9-a84c-b500f590dc7f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4075569009de02147bd35b659a9e0267</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cuando una empresa fuerte adquiere otra d&#xE9;bil, se producen los siguientes efectos en el mercado:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9818ba07-3a91-4574-8337-a4e310c3bf07">
+              <material>
+                <mattext texttype="text/html">Disminuye la rivalidad a corto plazo al aumentar la posici&#xF3;n en el mercado de la empresa fuerte, y disminuye tambi&#xE9;n la rivalidad a largo plazo al haber un n&#xFA;mero m&#xE1;s reducido de competidores en la industria.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="52e082e2-275a-4789-b14c-ecfe2b140a98">
+              <material>
+                <mattext texttype="text/html">Aumenta la rivalidad a corto plazo al aumentar la posici&#xF3;n en el mercado de la empresa fuerte, y disminuye la rivalidad a largo plazo al haber un n&#xFA;mero m&#xE1;s reducido de competidores en la industria.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86900873-7beb-46b4-a5b9-f03584a9492d">
+              <material>
+                <mattext texttype="text/html">Aumenta la rivalidad a corto plazo al aumentar la posici&#xF3;n en el mercado de la empresa fuerte, y aumenta tambi&#xE9;n la rivalidad a largo plazo al haber un n&#xFA;mero m&#xE1;s reducido de competidores en la industria.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="79879d9e-fea6-48f9-a84c-b500f590dc7f">
+              <material>
+                <mattext texttype="text/html">Disminuye la rivalidad a corto plazo al aumentar la posici&#xF3;n en el mercado de la empresa fuerte, y aumenta la rivalidad a largo plazo al haber un n&#xFA;mero m&#xE1;s reducido de competidores en la industria.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">52e082e2-275a-4789-b14c-ecfe2b140a98</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La tendencia a corto plazo ser&#xED;a de aumento de la rivalidad, ya que produce una reacci&#xF3;n m&#xE1;s agresiva en el resto de competidores en contra del competidor que se ha hecho m&#xE1;s fuerte. Y tambi&#xE9;n tiende a reducir la rivalidad a largo plazo, ya que un mercado con menos competidores posibilita el desarrollo de comportamientos "legales" donde la caballerosidad de &#xE9;stos impide conductas m&#xE1;s arriesgadas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="8f500891e6c1c92727a0a63fe361f814" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2fb1c9a8-cae4-4802-8d12-989b7262416c,866aab24-2484-4598-bcbc-b2a907f76da5,4cd76e12-099c-4aaf-8ae0-aafba7864402,8b9d78f9-ed7e-4eca-bd38-ad910dc641ed</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>38feafb997a436b61ad705cfe8140f60</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La rivalidad entre competidores&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2fb1c9a8-cae4-4802-8d12-989b7262416c">
+              <material>
+                <mattext texttype="text/html">No se relaciona con el coste de cambio para el consumidor&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="866aab24-2484-4598-bcbc-b2a907f76da5">
+              <material>
+                <mattext texttype="text/html">Es menor cuando el coste de cambio para el consumidor es bajo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4cd76e12-099c-4aaf-8ae0-aafba7864402">
+              <material>
+                <mattext texttype="text/html">Es mayor cuando el coste de cambio para el consumidor es bajo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8b9d78f9-ed7e-4eca-bd38-ad910dc641ed">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4cd76e12-099c-4aaf-8ae0-aafba7864402</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Cuando el coste de cambio para el consumidor es bajo se produce un aumento de la rivalidad entre los competidores.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="e8d3f6b4f21ae0a674932b3ea41a2d20" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>24f454b0-0da3-4eb8-9b2a-7c67c767e4c9,89d18e5e-efd0-4f8e-a62d-dca0da3e151a,78c2aa11-5666-49cb-a2f3-49d1a1728461,7f54a343-170a-4071-8e66-666201432113</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>3d66b5f7ac78198ffd849c2d723bfbf2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un grupo estrat&#xE9;gico es un grupo de empresas, dentro de una industria, que siguen estrategias similares.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="24f454b0-0da3-4eb8-9b2a-7c67c767e4c9">
+              <material>
+                <mattext texttype="text/html">Que siguen estrategias similares a lo largo de las dimensiones estrat&#xE9;gicas, pero no la misma estrategia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="89d18e5e-efd0-4f8e-a62d-dca0da3e151a">
+              <material>
+                <mattext texttype="text/html">Que siguen la misma estrategia o estrategias similares a lo largo de las dimensiones estrat&#xE9;gicas&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="78c2aa11-5666-49cb-a2f3-49d1a1728461">
+              <material>
+                <mattext texttype="text/html">Que siguen exactamente la misma estrategia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7f54a343-170a-4071-8e66-666201432113">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">89d18e5e-efd0-4f8e-a62d-dca0da3e151a</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">De acuerdo con Porter, un grupo estrat&#xE9;gico se puede definir como &#x201C;el conjunto de empresas en un sector industrial que siguen o bien una misma estrategia o bien una similar a lo largo de las dimensiones estrat&#xE9;gicas&#x201D;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="93f2966cfd6de0c6754a26269ba2d20a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5e6ee86b-1422-45d9-8b36-0c5ed705beab,b58a1300-fc6c-40f3-9d08-31c63e7f8715,15c77517-befa-4c8d-bdb9-968118507aed,4cd3fdfb-0b00-439c-8918-b7d1bb76cae7</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>b4fcf8f53cdc2865f1626600ace5bce5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La segmentaci&#xF3;n de mercados puede hacerse desde el punto de vista de la demanda y desde el punto de vista de la oferta.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5e6ee86b-1422-45d9-8b36-0c5ed705beab">
+              <material>
+                <mattext texttype="text/html">S&#xF3;lo desde el punto de vista de la demanda</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b58a1300-fc6c-40f3-9d08-31c63e7f8715">
+              <material>
+                <mattext texttype="text/html">S&#xF3;lo desde el punto de vista de la oferta</mattext>
+              </material>
+            </response_label>
+            <response_label ident="15c77517-befa-4c8d-bdb9-968118507aed">
+              <material>
+                <mattext texttype="text/html">Desde el punto de vista de la demanda y desde el punto de vista de la oferta</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4cd3fdfb-0b00-439c-8918-b7d1bb76cae7">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">15c77517-befa-4c8d-bdb9-968118507aed</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La segmentaci&#xF3;n del mercado puede hacerse desde el punto de vista de la demanda (segmentaci&#xF3;n de clientes) o desde el punto de vista de la oferta (identificar las posiciones de mercado de las empresas rivales).</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="95f708d7304b154a9ff669b990a8ce17" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>a1634a9c-06b7-43c5-9df9-abef145d5516,ae68ec61-cc67-4446-8cd1-38832718610a,87331a15-c78d-4c6b-94a7-f4fa100d1418,70821f7a-fc66-4974-aa51-d01abaf9c65e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>33b08be80322e8a8f408a9d602391818</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Una industria estrat&#xE9;gica se corresponde siempre&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="a1634a9c-06b7-43c5-9df9-abef145d5516">
+              <material>
+                <mattext texttype="text/html">Con una industria emergente intensiva en tecnolog&#xED;a</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ae68ec61-cc67-4446-8cd1-38832718610a">
+              <material>
+                <mattext texttype="text/html">Con una industria emergente intensiva en mano de obra</mattext>
+              </material>
+            </response_label>
+            <response_label ident="87331a15-c78d-4c6b-94a7-f4fa100d1418">
+              <material>
+                <mattext texttype="text/html">Con una industria intensiva en tecnolog&#xED;a, pero no necesariamente una industria emergente&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="70821f7a-fc66-4974-aa51-d01abaf9c65e">
+              <material>
+                <mattext texttype="text/html">Con una industria intensiva en mano de obra, pero no necesariamente una industria emergente</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">87331a15-c78d-4c6b-94a7-f4fa100d1418</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Una industria estrat&#xE9;gica es aquella que utiliza tecnolog&#xED;as sofisticadas, intensivas en capital y gran proyecci&#xF3;n de futuro, pero no necesariamente se corresponde con una industria nueva o emergente, ya que puede llevar bastantes a&#xF1;os establecida.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="7884e41ec1e434def4b13f21a94d70e4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>50e526a4-173a-4dba-99e5-e1bc0188707e,7c9a0681-da71-4936-ba67-c9e21b44555b,ebb6defb-20a8-4a13-8835-e9488c3ccc67,5504c336-8913-44f1-b08f-8fe8d22c21e8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6fcc2b292ed4c0e4d8437be9b952a3a5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El entorno espec&#xED;fico est&#xE1; relacionado con&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="50e526a4-173a-4dba-99e5-e1bc0188707e">
+              <material>
+                <mattext texttype="text/html">Los factores externos a la empresa directamente ligados al sector o industria donde compite</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7c9a0681-da71-4936-ba67-c9e21b44555b">
+              <material>
+                <mattext texttype="text/html">Los factores internos a la empresa directamente ligados al sector o industria donde compite&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ebb6defb-20a8-4a13-8835-e9488c3ccc67">
+              <material>
+                <mattext texttype="text/html">Los factores internos a la empresa directamente ligados a todo el entorno econ&#xF3;mico, a todos los mercados y sectores</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5504c336-8913-44f1-b08f-8fe8d22c21e8">
+              <material>
+                <mattext texttype="text/html">Los factores externos a la empresa directamente ligados a todo el entorno econ&#xF3;mico, a todos los mercados y sectores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">50e526a4-173a-4dba-99e5-e1bc0188707e</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El entorno espec&#xED;fico est&#xE1; relacionado con los factores y actores externos que influyen en la estrategia de la empresa seg&#xFA;n el tipo de actividad que desarrolla.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="3222e530a6388276fa19276c6f7b5129" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3f3f8e22-c765-42c2-906f-aa57820cf8c5,13e94c63-6bb5-4263-a594-42b2e78d630f,2d33f295-2c24-49c7-ab5c-1efbc63b5721</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>91a1fdb7c48698191c61c82fef9a42bd</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La dimensi&#xF3;n sociocultural&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3f3f8e22-c765-42c2-906f-aa57820cf8c5">
+              <material>
+                <mattext texttype="text/html">Debe ser analizada dentro del entorno espec&#xED;fico de la empresa, ya que influye directamente en el sector en el que act&#xFA;a la empresa</mattext>
+              </material>
+            </response_label>
+            <response_label ident="13e94c63-6bb5-4263-a594-42b2e78d630f">
+              <material>
+                <mattext texttype="text/html">Debe ser analizada dentro del entorno general</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2d33f295-2c24-49c7-ab5c-1efbc63b5721">
+              <material>
+                <mattext texttype="text/html">Ninguna es correcta</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">13e94c63-6bb5-4263-a594-42b2e78d630f</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&amp;nbsp;La dimensi&#xF3;n sociocultural es una de las dimensiones del entorno general, ya que tiene impacto en todas las industrias.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="6678587d022010b3b2e98aa755504984" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d86d7651-9761-4edb-bb9d-e38227380cab,ce320cd6-1e73-48b5-8d34-4c30b90246fb,4add0ccd-3927-4cf2-b46f-4ad56532ef00,5976337a-4965-4d16-8fd4-c99301ad36eb</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>dcb92c8b6b3035131408dc37f1bad3dd</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La probabilidad de reacci&#xF3;n de los competidores existentes ante la entrada de una nueva empresa ser&#xE1; mayor si&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d86d7651-9761-4edb-bb9d-e38227380cab">
+              <material>
+                <mattext texttype="text/html">existe tradici&#xF3;n de este tipo de reacciones</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ce320cd6-1e73-48b5-8d34-4c30b90246fb">
+              <material>
+                <mattext texttype="text/html">hay poca movilidad de los activos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4add0ccd-3927-4cf2-b46f-4ad56532ef00">
+              <material>
+                <mattext texttype="text/html">las compa&#xF1;&#xED;as existentes tienen recursos suficientes para defenderse</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5976337a-4965-4d16-8fd4-c99301ad36eb">
+              <material>
+                <mattext texttype="text/html">todas las anteriores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5976337a-4965-4d16-8fd4-c99301ad36eb</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&amp;nbsp;Entre las condiciones que se&#xF1;alan una alta probabilidad de reacci&#xF3;n por parte de los competidores existentes ante la entrada de una nueva empresa, destacan las tres citadas, junto con la existencia de un sector con un ritmo de crecimiento lento.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="10a81ef3f6c0ac5c8f13b535dc7766c6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ed02e83a-4d3b-45f1-95c1-c20d5d035971,7e5f5e78-ec10-4e79-9940-2c3f42bad5dd,8d435a3d-27e0-41ac-80f8-972037c24761,c30007af-3fd6-4409-a1f8-6f1c55276d9e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d714ed080265e23d48c1a0ca907adfba</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El entorno espec&#xED;fico de la empresa se centra en el an&#xE1;lisis del contexto&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ed02e83a-4d3b-45f1-95c1-c20d5d035971">
+              <material>
+                <mattext texttype="text/html">pol&#xED;tico &#x2013; legal</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7e5f5e78-ec10-4e79-9940-2c3f42bad5dd">
+              <material>
+                <mattext texttype="text/html">sociocultural</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8d435a3d-27e0-41ac-80f8-972037c24761">
+              <material>
+                <mattext texttype="text/html">demogr&#xE1;fico</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c30007af-3fd6-4409-a1f8-6f1c55276d9e">
+              <material>
+                <mattext texttype="text/html">ninguno de los anteriores</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c30007af-3fd6-4409-a1f8-6f1c55276d9e</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El entorno espec&#xED;fico se refiere a la parte del entorno m&#xE1;s cercana a la actividad habitual de la empresa, es decir al sector de actividad econ&#xF3;mica al que pertenece la empresa.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="453fc0534075a6d7f0831e5941d20306" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ffaff78b-95aa-4787-a75d-225fdd677825,109cea8e-0fd9-4501-9525-ea8f904aa710,7d74abab-4b3d-482a-9504-2aeab3aad665,51fdfb0a-340c-4c57-b4dd-94944546f808</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d260646e1b488cbc9b3bfd37c8faa9e4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El an&#xE1;lisis estrat&#xE9;gico se ocupa del diagn&#xF3;stico&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ffaff78b-95aa-4787-a75d-225fdd677825">
+              <material>
+                <mattext texttype="text/html">de los factores externos a la organizaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="109cea8e-0fd9-4501-9525-ea8f904aa710">
+              <material>
+                <mattext texttype="text/html">de los factores internos a la organizaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7d74abab-4b3d-482a-9504-2aeab3aad665">
+              <material>
+                <mattext texttype="text/html">de los factores internos y externos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="51fdfb0a-340c-4c57-b4dd-94944546f808">
+              <material>
+                <mattext texttype="text/html">de las tendencias econ&#xF3;micas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7d74abab-4b3d-482a-9504-2aeab3aad665</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El an&#xE1;lisis estrat&#xE9;gico incluye el diagn&#xF3;stico de las oportunidades y amenazas (factores externos) ante las que puede enfrentarse la compa&#xF1;&#xED;a, y los puntos fuertes y d&#xE9;biles (factores internos) con que cuenta la misma.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

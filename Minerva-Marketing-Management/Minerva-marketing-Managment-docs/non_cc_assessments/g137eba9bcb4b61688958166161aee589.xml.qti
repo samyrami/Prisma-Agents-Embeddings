@@ -1,0 +1,1624 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g137eba9bcb4b61688958166161aee589" canvas_item_bank="true">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MKA 501 (MBA) / MKA 502 (EMBA) Test 4</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_type</fieldlabel>
+        <fieldentry>Course</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="820e3a908493dd220aec3afc48fb1f23" title="Pregunta">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>fa51abdf-d898-4602-b6a5-7e4e0bb140fe,d395a976-bf00-49e8-a1f4-561649696d31,28619d5a-8687-4a2b-a95b-d5268cf52471</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>fa5332caba3030513b6077b709cedab1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Si tuvi&#xE9;ramos que resumir, &#xBF;Qu&#xE9; es la distribuci&#xF3;n dentro del marketing operativo?&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="fa51abdf-d898-4602-b6a5-7e4e0bb140fe">
+              <material>
+                <mattext texttype="text/html">El canal de distribuci&#xF3;n desplaza bienes y servicios de los productores a los consumidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d395a976-bf00-49e8-a1f4-561649696d31">
+              <material>
+                <mattext texttype="text/html">Acercar mediante una experiencia de compra en un lugar y tiempo el producto o servicio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="28619d5a-8687-4a2b-a95b-d5268cf52471">
+              <material>
+                <mattext texttype="text/html">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">28619d5a-8687-4a2b-a95b-d5268cf52471</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En ambas respuestas tenemos lo fundamental a lo que debe responder la distribuci&#xF3;n de un Plan de Marketing.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="24d59d5acaa1f5ffdb8080d2afe40be7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9c307099-5f82-43f1-83d7-94954051faba,0c998dd6-0cfd-4fad-917d-49786f1032f9,72f5aa0c-aa10-4abb-82f2-bef3f3c3eb23</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>99020558e54553d4fff45bd5c654baf4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; factores, entre otros, pueden garantizar que un cliente vuelva a un establecimiento?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9c307099-5f82-43f1-83d7-94954051faba">
+              <material>
+                <mattext texttype="text/html">La cantidad de dinero invertido en publicidad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0c998dd6-0cfd-4fad-917d-49786f1032f9">
+              <material>
+                <mattext texttype="text/html">La calidad del producto, la relaci&#xF3;n con el precio y la calidad del servicio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="72f5aa0c-aa10-4abb-82f2-bef3f3c3eb23">
+              <material>
+                <mattext texttype="text/html">La ubicaci&#xF3;n del establecimiento.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">0c998dd6-0cfd-4fad-917d-49786f1032f9</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tal y como se describe en la lectura EL COSTE DE CAPTAR VERSUS EL COSTE DE FIDELIZAR la respuesta correcta es la b) La calidad del producto, la relaci&#xF3;n con el precio y la calidad del servicio. la fidelizaci&#xF3;n trabaja con la base de unos clientes ya captados, a los que se conoce y se identifica, pudi&#xE9;ndoles ofrecer productos, servicios, promociones y precios adaptados a sus gustos y necesidades</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="d0b852a113724d4dd1d2d2e0568f4f65" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1f9b3c4e-f87c-457f-a2e8-b6c4a4446051,c84ec3ff-1c6b-473c-a857-2fdffe48ff65,54a49a44-0aa7-4c86-8e11-789fff37b7ce,3b0ce3b3-bb6c-43e4-ac8c-7e4c52566566</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>a2c6a0617433e5427472c1a34322e0f4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Seg&#xFA;n sobre EL COSTE DE CAPTAR VERSUS EL COSTE DE FIDELIZAR &#xBF;Cu&#xE1;l es una ventaja de la fidelizaci&#xF3;n sobre la captaci&#xF3;n de clientes?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1f9b3c4e-f87c-457f-a2e8-b6c4a4446051">
+              <material>
+                <mattext texttype="text/html">La fidelizaci&#xF3;n es m&#xE1;s f&#xE1;cil que la captaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="c84ec3ff-1c6b-473c-a857-2fdffe48ff65">
+              <material>
+                <mattext texttype="text/html">La fidelizaci&#xF3;n es menos costosa que la captaci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="54a49a44-0aa7-4c86-8e11-789fff37b7ce">
+              <material>
+                <mattext texttype="text/html">La fidelizaci&#xF3;n requiere menos comunicaci&#xF3;n con los clientes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3b0ce3b3-bb6c-43e4-ac8c-7e4c52566566">
+              <material>
+                <mattext texttype="text/html">La fidelizaci&#xF3;n garantiza siempre el &#xE9;xito de una empresa.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c84ec3ff-1c6b-473c-a857-2fdffe48ff65</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tal y como se describe en la lectura EL COSTE DE CAPTAR VERSUS EL COSTE DE FIDELIZAR la respuesta correcta es la b) La fidelizaci&#xF3;n es menos costosa que la captaci&#xF3;n. Un cliente fiel o fidelizado garantiza, en buena medida, que compre de nuevo en el futuro, que hable bien de las empresas de las que es cliente y que est&#xE9; dispuesto a acudir a ellas ante una necesidad. Esto se puede lograr, y depende, entre otros factores, de la calidad del producto, de su relaci&#xF3;n con el precio, de la imagen de marca y de la calidad del servicio que estemos dispuestos a ofrecer.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="9f5e587480545a9643f19ee2ddd9691f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>519a0ceb-ccfa-41f6-aeb1-d1ea21c6ece8,e4a38820-3d71-41ce-b3dc-1c67452f6591,5cf735a2-23e8-462d-9435-e8ba400f4e5f,0bc07800-e1e4-4f20-9700-c40c38f5604e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>fd5b5b70b3cc921104c91904fcc1a781</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;En qu&#xE9; momento las organizaciones se orientan principalmente a la captaci&#xF3;n de clientes?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="519a0ceb-ccfa-41f6-aeb1-d1ea21c6ece8">
+              <material>
+                <mattext texttype="text/html">En los momentos iniciales de su actividad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e4a38820-3d71-41ce-b3dc-1c67452f6591">
+              <material>
+                <mattext texttype="text/html">Cuando tienen una base s&#xF3;lida de clientes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5cf735a2-23e8-462d-9435-e8ba400f4e5f">
+              <material>
+                <mattext texttype="text/html">Cuando deciden lanzar nuevos productos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0bc07800-e1e4-4f20-9700-c40c38f5604e">
+              <material>
+                <mattext texttype="text/html">Al alcanzar su madurez en el mercado.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">519a0ceb-ccfa-41f6-aeb1-d1ea21c6ece8</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tal y como se describe en la lectura EL COSTE DE CAPTAR VERSUS EL &amp;nbsp;COSTE DE FIDELIZAR la respuesta correcta es la a) En los momentos iniciales de su actividad. Las organizaciones se orientan a la captaci&#xF3;n en los momentos iniciales de su actividad. En principio, ning&#xFA;n negocio nace teniendo clientes, como nadie nace sabiendo. Podremos tener cierta facilidad de acceso o de captaci&#xF3;n de los primeros clientes, porque venimos recomendados por una referencia o porque algunos clientes esperan la apertura de nuestro negocio debido a la escasez de negocios de ese tipo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="943e864c4287147e18b025f48605ed6e" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4fed8aba-ba1d-405b-9175-36b1f392b1e0,75c916d5-b107-4a10-aa7c-3bbc1acb7010,03ec8c6f-f4b4-4411-a4f0-21ddcc3bca7c,daa6fd66-0db8-4ae0-a18e-4de22eff5b00</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d1bbca70a8f92bed2c14bc8c891c2014</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; es un comportamiento leal de un cliente seg&#xFA;n el CLIENTIING y la lealtad de los clientes?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4fed8aba-ba1d-405b-9175-36b1f392b1e0">
+              <material>
+                <mattext texttype="text/html">Cambiar de proveedor frecuentemente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="75c916d5-b107-4a10-aa7c-3bbc1acb7010">
+              <material>
+                <mattext texttype="text/html">Ser sensible al precio.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="03ec8c6f-f4b4-4411-a4f0-21ddcc3bca7c">
+              <material>
+                <mattext texttype="text/html">Actuar como prescriptor de la empresa entre sus c&#xED;rculos de influencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="daa6fd66-0db8-4ae0-a18e-4de22eff5b00">
+              <material>
+                <mattext texttype="text/html">Evitar comprar productos adicionales de la empresa.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">03ec8c6f-f4b4-4411-a4f0-21ddcc3bca7c</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tal y como se describe en la lectura CLIENTING Y LA LEALTAD DE LOS CLIENTES la respuesta correcta es la c) Actuar como prescriptor de la empresa entre sus c&#xED;rculos de influencia. La lealtad de los clientes conceptualmente contempla cinco aspectos que est&#xE1;n relacionados con los periodos y la intensidad de las compras, predisposici&#xF3;n para comprar otros productos de la empresa, escasa sensibilidad al precio, colaboraci&#xF3;n para mejorar el los procesos, y desde &amp;nbsp;luego. Conseguir que un cliente act&#xFA;e de prescriptor de la empresa entre sus c&#xED;rculos de influencia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ea3643a7eeb28804431a342c912a8c79" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9ab3f083-44b6-4edf-be8d-58b4cae15c15,b8340c5c-32f4-4ce1-bb2a-827e31049834,3ed75272-d922-42b7-a49f-adda9182a9a0,fd0910a3-c645-410c-b5d0-98dad3479aaa</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>59b49c678028761abf3569af1fb311c5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Seg&#xFA;n el CLIENTING y la lealtad de los clientes, &#xBF;Qu&#xE9; se busca al dise&#xF1;ar servicios de calidad?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9ab3f083-44b6-4edf-be8d-58b4cae15c15">
+              <material>
+                <mattext texttype="text/html">Reducir los costos de producci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b8340c5c-32f4-4ce1-bb2a-827e31049834">
+              <material>
+                <mattext texttype="text/html">Diferenciar en el servicio postventa y personalizar la oferta seg&#xFA;n las necesidades del cliente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3ed75272-d922-42b7-a49f-adda9182a9a0">
+              <material>
+                <mattext texttype="text/html">Aumentar el precio de los productos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fd0910a3-c645-410c-b5d0-98dad3479aaa">
+              <material>
+                <mattext texttype="text/html">Incrementar la producci&#xF3;n sin considerar al cliente.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">b8340c5c-32f4-4ce1-bb2a-827e31049834</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tal y como se describe en la lectura CLIENTING Y LA LEALTAD DE LOS CLIENTES la respuesta correcta es la b) Diferenciarse en el servicio postventa y personalizar la oferta seg&#xFA;n las necesidades del cliente. Cuando la diferenciaci&#xF3;n de los servicios de venta, sean antes, durante o despu&#xE9;s de ella, no existe, las barreras de salida para los clientes son escasas y, por tanto, la capacidad para retener a los clientes es m&#xED;nima. Dise&#xF1;ar servicios de calidad, integrando los sistemas de atenci&#xF3;n al cliente y los sistemas de gesti&#xF3;n, tiene como consecuencia la personalizaci&#xF3;n del servicio y una oferta m&#xE1;s personalizada a las necesidades del cliente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="6f151a8c3efc5365d0a4b14792f39bb6" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>dce40b75-1ec3-43ea-a943-d5bd90619bb4,66b4b781-b093-477d-a07c-b0b176da6ecb,d59d4d3f-cd71-465c-900f-1fd0290a82af,be710370-45fa-48d2-b8ff-a20204a4dccb</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>1ab7387d7e2233be3b2d790f1447dce0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es la primera fase del proceso de clienting?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="dce40b75-1ec3-43ea-a943-d5bd90619bb4">
+              <material>
+                <mattext texttype="text/html">Dise&#xF1;ar servicios de calidad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="66b4b781-b093-477d-a07c-b0b176da6ecb">
+              <material>
+                <mattext texttype="text/html">Evaluar los planes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d59d4d3f-cd71-465c-900f-1fd0290a82af">
+              <material>
+                <mattext texttype="text/html">Escuchar al cliente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="be710370-45fa-48d2-b8ff-a20204a4dccb">
+              <material>
+                <mattext texttype="text/html">A&#xF1;adir valor a determinados clientes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">d59d4d3f-cd71-465c-900f-1fd0290a82af</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tal y como se describe en la lectura CLIENTING Y LA LEALTAD DE LOS CLIENTES la respuesta correcta es la c) Escuchar al cliente, la cual es la primera de las cinco fases. Despu&#xE9;s viene &#x201C;dise&#xF1;ar servicios de calidad&#x201D;; &#x201C;a&#xF1;adir valor a determinados clientes&#x201D;, &#x201C;ejecutar los planes dise&#xF1;ados&#x201D; y &#x201C;evaluar los planes&#x201D;. Escuchar al cliente es romper el anonimato en la compra, entender los perfiles de cada cliente y profundizar en sus necesidades a lo largo del periodo de tiempo que dura la relaci&#xF3;n entre el cliente y la empresa. &amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="9a4688afeac7db7958a91f2f283d41a7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>ece1168e-2694-4fcb-91fc-5729736e00f3,50270c87-58bd-4a3e-8f7c-9c71f81e640c,dd687bc8-0492-4939-b233-6a7320e61b00,798b5f3e-5bc3-45dc-ac67-480412a58478</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>241536d82fdfa2f6019317c183062f50</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Cu&#xE1;l es la capacidad de crecer de una empresa seg&#xFA;n el CLIENTING y la lealtad de los clientes?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="ece1168e-2694-4fcb-91fc-5729736e00f3">
+              <material>
+                <mattext texttype="text/html">S&#xF3;lo captar nuevos clientes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="50270c87-58bd-4a3e-8f7c-9c71f81e640c">
+              <material>
+                <mattext texttype="text/html">S&#xF3;lo retener a los clientes existentes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="dd687bc8-0492-4939-b233-6a7320e61b00">
+              <material>
+                <mattext texttype="text/html">Captar muchos clientes y retenerlos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="798b5f3e-5bc3-45dc-ac67-480412a58478">
+              <material>
+                <mattext texttype="text/html">Reducir costos de producci&#xF3;n.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">dd687bc8-0492-4939-b233-6a7320e61b00</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Respuesta correcta: Tal y como se describe en la lectura CLIENTING Y LA LEALTAD DE LOS CLIENTES la respuesta correcta es la c) Captar muchos clientes y retenerlos. La capacidad de crecer de una empresa est&#xE1; en relaci&#xF3;n directa tanto con su habilidad para captar clientes como con su destreza para conservar los que capta. Si un negocio espera ser pr&#xF3;spero, no le quedar&#xE1; otro remedio m&#xE1;s que captar muchos clientes, pero tambi&#xE9;n tendr&#xE1; que retenerlos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="8713c4d00d8846e94592ed73602abdf4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6f062fbe-2c94-4b74-8b9f-4d567ef747a2,784693ac-02e4-425a-9056-4b4078c0131d,05f95a1a-6565-4aed-8cc9-1239e180a90e,ec186125-54bb-42ed-af8f-b61794c2fc3e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>de7bf1c7557058611ed8e5b376be65b8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; t&#xE9;rmino introdujo Edward Freeman y qu&#xE9; significa seg&#xFA;n la lectura &#x201C;MISI&#xD3;N Y VISI&#xD3;N COMERCIAL PARA UNA EMPRESA: CAPTACI&#xD3;N Y FIDELIZACI&#xD3;N&#x201D;?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6f062fbe-2c94-4b74-8b9f-4d567ef747a2">
+              <material>
+                <mattext texttype="text/html">Misi&#xF3;n, la cual describe los productos y servicios de una empresa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="784693ac-02e4-425a-9056-4b4078c0131d">
+              <material>
+                <mattext texttype="text/html">Stakeholder, que hace referencia a todos los que se ven afectados por las actividades de una empresa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="05f95a1a-6565-4aed-8cc9-1239e180a90e">
+              <material>
+                <mattext texttype="text/html">Marketing Myopia, que significa enfocarse solo en las ventas a corto plazo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="ec186125-54bb-42ed-af8f-b61794c2fc3e">
+              <material>
+                <mattext texttype="text/html">Customer Relationship Management, que se refiere a la gesti&#xF3;n de las relaciones con los clientes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">784693ac-02e4-425a-9056-4b4078c0131d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tal y como se describe en la lectura MISI&#xD3;N Y VISI&#xD3;N COMERCIAL PARA UNA EMPRESA: CAPTACI&#xD3;N Y FIDELIZACI&#xD3;N la respuesta correcta es la b) Stakeholder, que hace referencia a todos los que se ven afectados por las actividades de una empresa. El concepto fue utilizado la primera vez por Edward Freeman en su obra Strategic Managment , que hace referencia a todos aquellos que se ven o se pueden ver afectados por las actividades de una empresa: accionistas y propietarios, empleados, proveedores, entorno social y por supuesto clientes.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="fa193ecf24d72f3991d2631c2aad4abf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>48e74fa7-3f31-4f3d-a590-7b27aff2d186,4cc86524-8c31-48fa-8372-58368136d599,230b9ae2-f026-4ad7-9662-02c8f06253f8,841e584b-c1f7-4056-ba92-9b532e09d43d</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>d5bbe7ca2248ff34344b139f679213ca</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;CAPTACI&#xD3;N Y FIDELIZACI&#xD3;N&#x201D;, &#xBF;Qu&#xE9; debe estar alineado con la misi&#xF3;n y visi&#xF3;n general de la empresa?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="48e74fa7-3f31-4f3d-a590-7b27aff2d186">
+              <material>
+                <mattext texttype="text/html">Los precios de los productos.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4cc86524-8c31-48fa-8372-58368136d599">
+              <material>
+                <mattext texttype="text/html">La decoraci&#xF3;n de las oficinas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="230b9ae2-f026-4ad7-9662-02c8f06253f8">
+              <material>
+                <mattext texttype="text/html">La misi&#xF3;n y visi&#xF3;n de los departamentos, especialmente el de ventas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="841e584b-c1f7-4056-ba92-9b532e09d43d">
+              <material>
+                <mattext texttype="text/html">La ubicaci&#xF3;n de las sucursales.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">230b9ae2-f026-4ad7-9662-02c8f06253f8</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tal y como se describe en la lectura MISI&#xD3;N Y VISI&#xD3;N COMERCIAL PARA UNA EMPRESA: CAPTACI&#xD3;N Y FIDELIZACI&#xD3;N la respuesta correcta es la c) La misi&#xF3;n y visi&#xF3;n de los departamentos, especialmente el de ventas. La Misi&#xF3;n y la Visi&#xF3;n son componentes de la formulaci&#xF3;n estrat&#xE9;gica que pueden y deben ser aplicadas a nivel departamental y, sobre todo, a nivel de un departamento tan fundamental en casi todas las empresas del mundo como es el departamento de ventas o su divisi&#xF3;n comercial.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="79b914bdc90d4a7c0d204839e55e38dd" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>bce640ab-a907-4a7c-860b-2a86251ce6af,7001a0d5-9363-44c7-9a98-85e96f6ffca1,8a215ed3-2dd6-4cc8-b12d-9c00299a4292,bbc7fcf0-d8fd-4b77-99ab-d838ae6458db</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>7a7b7ea12fcaadf11803d94861fb313a</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Qu&#xE9; significa no caer en la miop&#xED;a de marketing seg&#xFA;n Theodore Levitte?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="bce640ab-a907-4a7c-860b-2a86251ce6af">
+              <material>
+                <mattext texttype="text/html">Vender &#xFA;nicamente productos f&#xED;sicos sin considerar las necesidades emocionales del cliente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7001a0d5-9363-44c7-9a98-85e96f6ffca1">
+              <material>
+                <mattext texttype="text/html">Definir la misi&#xF3;n de una empresa sin considerar la visi&#xF3;n.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8a215ed3-2dd6-4cc8-b12d-9c00299a4292">
+              <material>
+                <mattext texttype="text/html">Vender productos sin ofrecer garant&#xED;as.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bbc7fcf0-d8fd-4b77-99ab-d838ae6458db">
+              <material>
+                <mattext texttype="text/html">Ofrecer una variedad excesiva de productos no relacionados.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">bce640ab-a907-4a7c-860b-2a86251ce6af</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Tal y como se describe en la lectura MISI&#xD3;N Y VISI&#xD3;N COMERCIAL PARA UNA EMPRESA: CAPTACI&#xD3;N Y FIDELIZACI&#xD3;N la respuesta correcta es la a) Vender &#xFA;nicamente productos f&#xED;sicos sin considerar las necesidades emocionales del cliente. Levitte en su obra tambi&#xE9;n se refiere al libro de Fred R. David &#x201C;La Gerencia Estrat&#xE9;gica&#x201D; en la cual escribi&#xF3; frases como &#x201C;No me ofrezc&#xE1;is cosas, sino ideas, emociones, soluciones, ambientes, sentimientos y beneficios, pero por favor no me ofrezc&#xE1;is cosas&#x201D;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="385640a5cbecfab8db26dec5b31d6ce8" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>31ab6be1-070d-406a-93e6-0bc34ba7125d,0edfa961-89f5-4858-9cd4-cd5ce1864523,bba7b02d-7e59-4c3e-b174-dea098cad896</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>46e01fe675cede7d61f7819e82b871b0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El canal que utiliza el marketing mix de un producto para llegar al consumidor&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="31ab6be1-070d-406a-93e6-0bc34ba7125d">
+              <material>
+                <mattext texttype="text/html">No afecta a la percepci&#xF3;n del producto por parte del consumidor.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="0edfa961-89f5-4858-9cd4-cd5ce1864523">
+              <material>
+                <mattext texttype="text/html">Incluye en la consideraci&#xF3;n que el consumidor tiene del producto.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="bba7b02d-7e59-4c3e-b174-dea098cad896">
+              <material>
+                <mattext texttype="text/html">Ambas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">0edfa961-89f5-4858-9cd4-cd5ce1864523</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El canal es otra parte del marketing mix y representa para el cliente una percepci&#xF3;n particular sobre el producto o servicio que va a comprar.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="c9ec0d1a95a955b159266a409c7baba7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7bafb3b0-d592-4897-84fe-0ed041747423,e1095c6f-f79e-4f18-a0a5-604a6fafed66,e727ffe5-b92e-4430-acf9-752f18b9d6b1</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>645d394dcd62ff5a409001b4d2153fe8</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La distribuci&#xF3;n como parte del marketing mix de una empresa debe incluir&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7bafb3b0-d592-4897-84fe-0ed041747423">
+              <material>
+                <mattext texttype="text/html">Conocer las caracter&#xED;sticas y funcionamiento, as&#xED; como los m&#xE1;rgenes comerciales de cada intermediario.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e1095c6f-f79e-4f18-a0a5-604a6fafed66">
+              <material>
+                <mattext texttype="text/html">No es una informaci&#xF3;n que la empresa pueda controlar.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e727ffe5-b92e-4430-acf9-752f18b9d6b1">
+              <material>
+                <mattext texttype="text/html">Ninguna</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7bafb3b0-d592-4897-84fe-0ed041747423</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El canal de distribuci&#xF3;n de la empresa tiene que tener el mayor control por parte de la empresa y conocer bien a los intermediarios.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="0fe18d8c2d48ce7eb85a2205310d6e7b" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c27eee43-e3ba-4b71-bc46-19d67e90b060,9f6a140d-e1a8-4612-a2be-35436f22414d,72edc32a-6963-44ff-806f-6d0b8f51172e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>14fb020d9d5a366ce76e2ce0cfeba8f6</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Otro de los retos de la multicanalidad es&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c27eee43-e3ba-4b71-bc46-19d67e90b060">
+              <material>
+                <mattext texttype="text/html">Es poner en com&#xFA;n la informaci&#xF3;n de los clientes recabada a trav&#xE9;s de los distintos canales (tiendas f&#xED;sicas, p&#xE1;gina web, app m&#xF3;vil o redes sociales).</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9f6a140d-e1a8-4612-a2be-35436f22414d">
+              <material>
+                <mattext texttype="text/html">Utilizar herramientas de gesti&#xF3;n anal&#xED;tica que sean capaces de identificar sus gustos y necesidades independientemente del canal en el que se encuentre el cliente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="72edc32a-6963-44ff-806f-6d0b8f51172e">
+              <material>
+                <mattext texttype="text/html">Ambas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">72edc32a-6963-44ff-806f-6d0b8f51172e</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Podemos tratar de controlar muchas variables mediante algoritmos pero no siempre sabremos exactamente las caracter&#xED;sticas que marcan la diferencia.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="df4d8e691d0129b15351cba12d2cdae9" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>fd8075f1-526d-46ba-aa6c-56133b56262c,a448cfce-8dd2-4e73-8592-5d2a86837b58,2cedde61-8478-4272-bf8e-b31da0318e86</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>01adce60eaee46ee0c4e86b9c69b3d55</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las nuevas start up de distribuci&#xF3;n de la &#xFA;ltima milla&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="fd8075f1-526d-46ba-aa6c-56133b56262c">
+              <material>
+                <mattext texttype="text/html">Utilizan una app para poner en contacto al rider con el distribuidor.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a448cfce-8dd2-4e73-8592-5d2a86837b58">
+              <material>
+                <mattext texttype="text/html">A los empleados se les conoce como riders porque van en bicicleta.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2cedde61-8478-4272-bf8e-b31da0318e86">
+              <material>
+                <mattext texttype="text/html">Ambas son ciertas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2cedde61-8478-4272-bf8e-b31da0318e86</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Son start up que mezclan la tecnolog&#xED;a y el medioambiente junto con la eficacia en la entrega de los pedidos.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="a2abde9e5457160ea43680c77d37356a" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>f8b956cc-9e45-43c5-88b0-61b3b44fbf48,d1b82335-e5d5-4470-b4bd-f3b91ec5acae,f8f14e82-f5d0-4b07-bb6a-ff625f70c816</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>ee97529b6eb67e987f1ae682064844b2</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;La adaptaci&#xF3;n de las antiguas compa&#xF1;&#xED;as de log&#xED;stica al nuevo sistema digital va a ser&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="f8b956cc-9e45-43c5-88b0-61b3b44fbf48">
+              <material>
+                <mattext texttype="text/html">Es m&#xE1;s f&#xE1;cil dejar ese mercado a las nuevas start up</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d1b82335-e5d5-4470-b4bd-f3b91ec5acae">
+              <material>
+                <mattext texttype="text/html">No hay adaptaci&#xF3;n posible. &amp;nbsp;&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="f8f14e82-f5d0-4b07-bb6a-ff625f70c816">
+              <material>
+                <mattext texttype="text/html">La eficiencia pesa m&#xE1;s a la prisa y se deben adaptar nuevos sistemas de &amp;nbsp;informaci&#xF3;n que prioricen rapidez y eficiencia.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">f8f14e82-f5d0-4b07-bb6a-ff625f70c816</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Hay un proceso de adaptaci&#xF3;n que deben promover que es pasar de la eficiencia a la eficacia y rapidez.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="06cd5cfe771b7e6c855922503f7623b4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d4d80a91-1bc0-4090-8fa0-c588eb16f2a5,b1278759-2123-45fe-8c89-0854b9aa9dd2,2792c2e8-63a5-4322-b299-d135a17a090f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>71e1934f9b317222bb80dbee331d227f</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En la distribuci&#xF3;n hoy los desaf&#xED;os a los que se enfrenta el sector son&#x2026;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d4d80a91-1bc0-4090-8fa0-c588eb16f2a5">
+              <material>
+                <mattext texttype="text/html">El cliente quiere el producto r&#xE1;pido, gratis y antes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b1278759-2123-45fe-8c89-0854b9aa9dd2">
+              <material>
+                <mattext texttype="text/html">La sostenibilidad ambiental.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2792c2e8-63a5-4322-b299-d135a17a090f">
+              <material>
+                <mattext texttype="text/html">Ambos son ciertas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2792c2e8-63a5-4322-b299-d135a17a090f</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La distribuci&#xF3;n en nuestros d&#xED;as se enfrenta a los desaf&#xED;os del entorno digital que requiere inmediatez y al mismo tiempo un respeto por el medio ambiente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="a4b1db5e3910e5d2959a8305fdac6351" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>112c6e19-04d3-4031-affa-3f32b68e111d,b6666f10-e446-45ab-8326-7b776de63949,fec2fbab-f0bf-4116-9542-e545838c7931</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4febf34eadf1914fefbebc24e5156825</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;A qu&#xE9; hace referencia la expresi&#xF3;n &#xFA;ltima milla?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="112c6e19-04d3-4031-affa-3f32b68e111d">
+              <material>
+                <mattext texttype="text/html">El &#xFA;ltimo tramo de la entrega log&#xED;stica que se hace casa a casa.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="b6666f10-e446-45ab-8326-7b776de63949">
+              <material>
+                <mattext texttype="text/html">La entrega log&#xED;stica que llega a los distribuidores.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="fec2fbab-f0bf-4116-9542-e545838c7931">
+              <material>
+                <mattext texttype="text/html">Ambas son ciertas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">112c6e19-04d3-4031-affa-3f32b68e111d</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La expresi&#xF3;n hace referencia a la distribuci&#xF3;n que se hace a los hogares de los clientes directamente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="327fbeab186ebb9ef2cc61f35a8cd8f3" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>d902842f-0f3c-40f3-ae7b-43d541b79ee4,6e8bf826-a7f4-45ad-843c-42dc076dc457,6d995add-d8c3-4b49-a38c-68937d1a701b</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>0ee6882d808ef4dffd39b9cc9dfe9114</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;El concepto de desintermediaci&#xF3;n se refiere a...?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="d902842f-0f3c-40f3-ae7b-43d541b79ee4">
+              <material>
+                <mattext texttype="text/html">Que cuanto menos actores haya en la entrega de valor al cliente la atenci&#xF3;n ser&#xE1; m&#xE1;s inmediata y en consecuencia habr&#xE1; m&#xE1;s y mejores ventas.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6e8bf826-a7f4-45ad-843c-42dc076dc457">
+              <material>
+                <mattext texttype="text/html">El uso de la tecnolog&#xED;a es imprescindible, es lo que nos ayuda a desintermediar o eliminar intermediarios.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6d995add-d8c3-4b49-a38c-68937d1a701b">
+              <material>
+                <mattext texttype="text/html">Ambas son ciertas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6d995add-d8c3-4b49-a38c-68937d1a701b</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Eliminar intermediarios gracias al uso de la tecnolog&#xED;a es lo que se conoce como desintermediar.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="23f6e410424550eb301407e92dccbf72" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>c8ca9fa0-cab4-4698-8d16-dfe0a73daf65,4b4098f9-7f07-4d66-b6ac-316e4df287b6,e7158794-12e9-471d-8f95-39c18245fcc4</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>45e7226185bccfd496aefceac39f6070</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&#xBF;Una de las aplicaciones del blockchain en la distribuci&#xF3;n dentro del marketing ser&#xED;a?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="c8ca9fa0-cab4-4698-8d16-dfe0a73daf65">
+              <material>
+                <mattext texttype="text/html">Se podr&#xED;a hacer un seguimiento desde su fabricaci&#xF3;n hasta su destinatario. De este modo, podr&#xED;amos verificar que lo que compramos no es una copia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4b4098f9-7f07-4d66-b6ac-316e4df287b6">
+              <material>
+                <mattext texttype="text/html">Esto hace m&#xE1;s d&#xE9;bil a la marca por la falta de control del consumidor.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="e7158794-12e9-471d-8f95-39c18245fcc4">
+              <material>
+                <mattext texttype="text/html">Ambas son falsas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">c8ca9fa0-cab4-4698-8d16-dfe0a73daf65</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Gracias a esta tecnolog&#xED;a se puede conseguir una trazabilidad que permita asegurar que el producto es aut&#xE9;ntico lo que reforzar&#xED;a la confianza del consumidor.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="9034f4934f548349747f55e79f3dcadf" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>25547484-09e4-4b90-a0a6-669750b075a0,93bc816e-644d-4194-b42e-c6cd6901fbeb,a42a6507-94d5-45da-b9a2-e158b8587d00</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>4f0efe08fe5e1658f479bfe11cba0a97</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un Marketplace vendr&#xED;a a ser:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="25547484-09e4-4b90-a0a6-669750b075a0">
+              <material>
+                <mattext texttype="text/html">Como un centro comercial al uso pero dotado con la flexibilidad que es capaz de ofrecer Internet.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93bc816e-644d-4194-b42e-c6cd6901fbeb">
+              <material>
+                <mattext texttype="text/html">Plataformas que, a trav&#xE9;s de un amplio cat&#xE1;logo, venden productos de todo tipo de categor&#xED;as, y que se encargan de todo el proceso.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="a42a6507-94d5-45da-b9a2-e158b8587d00">
+              <material>
+                <mattext texttype="text/html">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">a42a6507-94d5-45da-b9a2-e158b8587d00</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">En efecto un Marketplace son sitios web donde aquellas empresas que no tienen experiencia previa en el mundo digital pueden hacer llegar sus productos a trav&#xE9;s de procesos ya estandarizados a cambio de una comisi&#xF3;n de venta.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="8ebd8c1df7ca880ae9cdef356d6810b7" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>fdbcdce5-69bd-4dc8-bc92-8b92e2bacd87,83067214-129c-4a02-82a3-8c6b58164839,016508a0-0785-48fd-bfc6-6c44cf95cd34</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>9852c105a652e68aacdea0246b30c8c5</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El modelo de distribuci&#xF3;n tradicional frente al digital supone que:&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="fdbcdce5-69bd-4dc8-bc92-8b92e2bacd87">
+              <material>
+                <mattext texttype="text/html">Potencialmente existe la posibilidad de captar clientes fuera del &#xE1;rea de influencia y por lo tanto esa experiencia de compra se deslocaliza.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="83067214-129c-4a02-82a3-8c6b58164839">
+              <material>
+                <mattext texttype="text/html">El modelo tradicional de distribuci&#xF3;n tiende a desaparecer.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="016508a0-0785-48fd-bfc6-6c44cf95cd34">
+              <material>
+                <mattext texttype="text/html">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">fdbcdce5-69bd-4dc8-bc92-8b92e2bacd87</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La deslocalizaci&#xF3;n del acto comercial significa que el n&#xFA;mero de clientes potenciales aumenta pero tambi&#xE9;n existen unos procesos log&#xED;sticos que hay que acometer convenientemente para no penalizar la experiencia de compra.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="4f0dbd79fdce1d4b5c42b8e88d95c169" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry/>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>fb9eaad6-ce33-4683-a2cb-e971ae65de51,8190997b-c72d-4052-9f42-162e7ecad808,d284fd14-41de-4c4f-80f3-d52563e0a1d0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>assessment_question_identifierref</fieldlabel>
+            <fieldentry>6bf1af244b3d9b93df1146e15423711e</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>calculator_type</fieldlabel>
+            <fieldentry>none</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las funciones de un canal de distribuci&#xF3;n ser&#xED;an:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="fb9eaad6-ce33-4683-a2cb-e971ae65de51">
+              <material>
+                <mattext texttype="text/html">La funci&#xF3;n principal del canal de distribuci&#xF3;n es mostrar la proposici&#xF3;n de valor frente a la competencia.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8190997b-c72d-4052-9f42-162e7ecad808">
+              <material>
+                <mattext texttype="text/html">Reunir informaci&#xF3;n y distribuir informaci&#xF3;n de inteligencia acerca del consumidor y del entorno necesaria para planificar, hacer promoci&#xF3;n, encontrar potenciales compradores y adecuar la oferta.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="d284fd14-41de-4c4f-80f3-d52563e0a1d0">
+              <material>
+                <mattext texttype="text/html">Ambas son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8190997b-c72d-4052-9f42-162e7ecad808</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">La funci&#xF3;n principal de la distribuci&#xF3;n es acercar el producto o servicio al consumidor y recoger la informaci&#xF3;n necesaria para poder adaptar la oferta.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

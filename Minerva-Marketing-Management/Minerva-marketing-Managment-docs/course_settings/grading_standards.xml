@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gradingStandards xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <gradingStandard identifier="g4e99b66613e8acd69c1d3228207adce0" version="2">
+    <title>Westfield Grading Scheme %%</title>
+    <data>[["A",0.95],["A-",0.9],["B+",0.85],["B",0.8],["C+",0.75],["C",0.7],["D",0.6],["F",0]]</data>
+    <points_based>false</points_based>
+    <scaling_factor>1.0</scaling_factor>
+  </gradingStandard>
+</gradingStandards>

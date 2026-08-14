@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g554e631e3987e27822492e1f158bf880">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>MAN 563 Leadership Sección 4</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Cf6erlMbXCk1J0YwG9Oac3BWyrYjmyBDIysUUDQ3</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_state</fieldlabel>
+        <fieldentry>active</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g7569b2c461e2f6247dbf3a452fbf3098" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>33675,84614,58144,86580</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué factores destacables han contribuido a la redefinición del concepto de liderazgo y a la incorporación de nuevas habilidades y competencias de los líderes, en el contexto organizativo a partir del 2021? &amp;nbsp;&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="33675">
+              <material>
+                <mattext texttype="text/plain">La pandemia de COVID-19</mattext>
+              </material>
+            </response_label>
+            <response_label ident="84614">
+              <material>
+                <mattext texttype="text/html">La aceleración de la digitalización&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="58144">
+              <material>
+                <mattext texttype="text/plain">Las demandas sociales de una mayor equidad y sostenibilidad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="86580">
+              <material>
+                <mattext texttype="text/plain">Todas las opciones son correctas.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">86580</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El contexto organizativo ha experimentado una transformación acelerada desde el 2021, impulsada por la combinación de factores tecnológicos, sociales y económicos. Entre ellos destacaremos, la pandemia de COVID-19, la aceleración de la digitalización y las demandas sociales de una mayor equidad y sostenibilidad. Todos ellos han propiciado una redefinición del concepto de liderazgo y la incorporación de nuevas habilidades y competencias por parte de los líderes.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g322999bdcbd53549444f73aaac1069aa" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>41037,37139,42405</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué reto le supone al líder considerar el triple impacto (Triple Bottom Line)?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="41037">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;Integrar la sostenibilidad en sus estrategias y demostrar un compromiso real con la sociedad.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="37139">
+              <material>
+                <mattext texttype="text/html">Gestionar equipos distribuidos geográficamente, garantizando el bienestar de los empleados en entornos remotos.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="42405">
+              <material>
+                <mattext texttype="text/html">Crear ambientes seguros, donde los líderes ejerzan un papel crucial para generar seguridad psicológica entre sus colaboradores.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">41037</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Los líderes actuales no solo son responsables del éxito financiero de las organizaciones, sino que deben considerar el triple impacto (Triple Bottom Line), es decir, el beneficio económico (ganancias de las empresas), el impacto social (foco en el bienestar de las comunidades, los empleados y los clientes) y el impacto ambiental (huella ecológica en la empresa). &amp;nbsp;Así pues, los líderes deben integrar la sostenibilidad en sus estrategias y demostrar un compromiso real con la sociedad.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g991ca4189e81fd13e3ba9cebce94d032" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>49737,93947,99254</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;El líder en su rol de movilizador de los equipos ha de desafiar a sus colaboradores para lograr los objetivos marcados. Para ello ha de poner en práctica su habilidad para: &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="49737">
+              <material>
+                <mattext texttype="text/plain">Reconocer y gestionar sus propias emociones y estados de ánimo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="93947">
+              <material>
+                <mattext texttype="text/html">Delegar responsabilidades, fomentando la autonomía en la toma de decisiones y en la resolución de problemas.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="99254">
+              <material>
+                <mattext texttype="text/plain">Priorizar el bienestar de sus colaboradores.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">93947</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Entre otros roles, los líderes han de ser Movilizadores, retando, desafianzo a los miembros del equipo para lograr los objetivos marcados. Para ello tendrán que poner en práctica su habilidad para delegar responsabilidades, fomentando la autonomía en la toma de decisiones y en la resolución de problemas.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gb2fd185306e7657b80824b8928f98634" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>17111,44973,26655</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;En el contexto organizacional actual ¿Cómo son las demandas actuales de la fuerza laboral?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="17111">
+              <material>
+                <mattext texttype="text/html">Más comprensiva.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="44973">
+              <material>
+                <mattext texttype="text/html">Más conformista.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="26655">
+              <material>
+                <mattext texttype="text/html">Mas diversa y exigente.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">26655</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Entre los retos que nuestros líderes tienen por delante, es adaptarse a la creciente complejidad que viven las organizaciones y a la necesidad de dar respuesta a las demandas una fuerza laboral, cada vez más diversa y exigente.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g51fc8946284437a8c04f59913f34edfb" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>19899,20274,40698</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuál de estos elementos son una entidad?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="19899">
+              <material>
+                <mattext texttype="text/plain">La organización, el equipo y el individuo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="20274">
+              <material>
+                <mattext texttype="text/plain">El equipo y el individuo, pero no la organización</mattext>
+              </material>
+            </response_label>
+            <response_label ident="40698">
+              <material>
+                <mattext texttype="text/plain">La organización solo</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">19899</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Tanto la organización, como el equipo son una entidad, tal como lo es también un individuo. El equipo tiene un ciclo de vida, con identidad propia. Cada equipo puede tener diferentes propósitos, objetivos y naturalezas. Pueden tener una sola función o ser multifuncionales, haber sido concebidos de forma permanente o temporal, como es el caso de los equipos de proyecto, pueden ser grandes o con pocos integrantes, todos esto son aspectos que van a condicional el papel del liderazgo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g0514a3abfc0e91d2e7d86e702c35047d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>12128,60457,3358</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Para afrontar el mundo actual con sus cambios, necesitamos:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="12128">
+              <material>
+                <mattext texttype="text/html">Una buena formación académica reconocida que me dé el "saber" es cuanto necesito para poner a un equipo en marcha ya que tendré las herramientas operativas necesarias para medir rendimientos y organizar al equipo para que logren los objetivos</mattext>
+              </material>
+            </response_label>
+            <response_label ident="60457">
+              <material>
+                <mattext texttype="text/plain">Desarrollar una batería de técnicas lo más amplia posible para poder dar respuesta a los cambios</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3358">
+              <material>
+                <mattext texttype="text/html">Comprender que los equipos son sistemas formados por personas con necesidades, incluido el líder, por lo que debe empezar su desarrollo por sí mismo; cuidar su calidad humana.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3358</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Los equipos están formados por personas. Podemos hablar de los equipos como sistemas integrados por individuos; y no nos engañemos, son esos individuos, los que integran los equipos, quienes representan los verdaderos motores de desarrollo y funcionamiento en la organización. Estos integrantes de un equipo tienen necesidades de pertenencia, de desarrollo personal y profesional, necesidades económicas, de apoyo etc. Es difícil que el líder, por mucho que se arme de técnicas, logre que ese equipo funcione eficazmente si no se ocupa en primer lugar de sí mismo como líder (de desarrollar su calidad humana y liderazgo) y de los integrantes de su equipo en segundo lugar.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g92fc5dfd7b30ccc5654be86e629228d5" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>57454,81462,75953</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Hacia dónde se orienta la nueva figura o rol de un líder?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="57454">
+              <material>
+                <mattext texttype="text/plain">Hacia la acumulación de conocimiento</mattext>
+              </material>
+            </response_label>
+            <response_label ident="81462">
+              <material>
+                <mattext texttype="text/html">Hacia la acumulación de control&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="75953">
+              <material>
+                <mattext texttype="text/plain">Hacia la acumulación de prestigio</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">57454</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">La nueva figura o rol de los dirigentes, o líderes, se orienta más hacia la acumulación de conocimiento que hacia la acumulación de control, hacia líderes capaces de aprovechar la inteligencia colectiva, de crear entornos de confianza, que fomenten la implicación, la creatividad y la comunicación.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g57efe6fc294e81a6af188dc8d0e212e1" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>73797,71646,15457</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué dos dimensiones características del liderazgo considera la Universidad de Ohio que son esenciales para un líder?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="73797">
+              <material>
+                <mattext texttype="text/plain">La compasión y la empatía</mattext>
+              </material>
+            </response_label>
+            <response_label ident="71646">
+              <material>
+                <mattext texttype="text/plain">La consideración y la estructura</mattext>
+              </material>
+            </response_label>
+            <response_label ident="15457">
+              <material>
+                <mattext texttype="text/plain">La ambición y la consideración</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">71646</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Estudios de la universidad de Ohio se especializaron en dos dimensiones características del liderazgo:&lt;/p&gt;
+&lt;p&gt;- &amp;nbsp; &amp;nbsp;Consideración: en qué medida el líder tiene en cuenta los sentimientos de los subordinados. Hace referencia a aquellas conductas del líder que favorecen las relaciones de amistad, crean cohesión y armonía en el grupo, facilita la participación en la toma de decisiones, ayudan a los subordinados con los problemas personales, muestran proximidad y cercanía, mejoran la comunicación, etc. Líderes con alta consideración: consigue mayor nivel de satisfacción de sus colaboradores, menor absentismo y número menor de quejas.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Iniciación de estructura o lo que es lo mismo, se relacionan con la conducta del líder que facilita y define las interacciones del grupo para así alcanzar sus metas. Se relaciona con otras tareas como obtener buenos niveles de rendimiento, confirmar que se comprenden sus órdenes, clarificar y asignar funciones y tareas, asegurarse que están orientados hacia la tarea, etc. Los líderes con alto nivel en consideración y en estructura son los que consiguen tanto un buen rendimiento de sus subordinados, como una alta satisfacción de los mismos.&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gd3c65ab3ccdc5572f512fb91e7c9bbde" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>61112,82077,26581</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿A qué hace referencia la teoría X e Y de McGregor?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="61112">
+              <material>
+                <mattext texttype="text/plain">Hace referencia a las condiciones que se tienen que dar para que haya liderazgo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="82077">
+              <material>
+                <mattext texttype="text/plain">Hace referencia a las dos características que debe tener un líder: ambición y perseverancia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="26581">
+              <material>
+                <mattext texttype="text/html">Hace referencia a los estilos de dirección básicos: el autoritario y el igualitario.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">26581</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">McGregor establece que existen dos estilos básicos de dirección, un estilo autoritario que denominó Teoría X y un estilo más igualitario que denominó Teoría Y. La teoría X parte del supuesto de que el ser humano siente repugnancia por el trabajo, prefiere ser dirigido, tiene poca ambición y busca sobre todo seguridad. &amp;nbsp;El directivo X considera que las personas tienen que ser obligadas a trabajar, tienen que ser dirigidas, controladas y amenazadas con castigo. Para conseguir buenos resultados deberá utilizar medidas duras. El directivo se considera responsable de organizar al grupo y deberá centrar sus esfuerzos en dirigir organizar y controlar a los miembros de su grupo y modificar sus conductas según las necesidades organizacionales.&lt;br&gt;La teoría Y presupone que es preciso integrar los intereses individuales y los objetivos considera que las personas trabajarán y asumirán responsabilidades si tienen la oportunidad de satisfacer sus necesidades personales al tiempo que consiguen las organizacionales. El directivo Y tiene la capacidad de auto dirigirse y auto controlarse</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g595979d3770e79c5468ef487f3c89397" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>98016,91689,82218</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuándo sabemos que un líder es eficaz?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="98016">
+              <material>
+                <mattext texttype="text/plain">Cuando cumple con lo que se propone y logra que sus colaboradores ejecuten sus tareas en tiempo y forma</mattext>
+              </material>
+            </response_label>
+            <response_label ident="91689">
+              <material>
+                <mattext texttype="text/plain">Cuando demuestra flexibilidad y aplica un estilo de liderazgo de acuerdo a la situación y la persona</mattext>
+              </material>
+            </response_label>
+            <response_label ident="82218">
+              <material>
+                <mattext texttype="text/plain">Cuando a través de la admiración y el respeto, logra que sus colaboradores sigan sus órdenes.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">91689</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">El líder más eficaz será aquel que demuestra una mayor flexibilidad de estilo y que utilice el estilo adecuado en cada situación con la persona adecuada. Los estilos de liderazgo son:&lt;br&gt;- &amp;nbsp; &amp;nbsp;Estilo de dirección: se caracteriza por la utilización de un elevado nivel de comportamiento directivo y un bajo nivel de comportamiento de apoyo.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Estilo de entrenamiento o coaching: estilo de supervisión que supone utilizar ambos tipos de comportamiento, dirección y apoyo de manera intensa. Si bien mantiene alta dirección, la supervisión implica reconocer los avances que se producen en el rendimiento del colaborador y solicitar sugerencias.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Estilo de apoyo: el líder mantiene un comportamiento de apoyo elevado disminuyendo el comportamiento de dirección. Toma las decisiones juntamente con sus colaboradores y apoya los esfuerzos que éstos realizan.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Estilo de delegación el líder disminuye su nivel de intervención delegando la toma de decisiones en sus colaboradores.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g41954ce878b0972a101b17dca2209f84" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>92933,27011,72123,11764</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuáles de estas características corresponden a una persona inteligente emocionalmente?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="92933">
+              <material>
+                <mattext texttype="text/plain">Autoconsciencia</mattext>
+              </material>
+            </response_label>
+            <response_label ident="27011">
+              <material>
+                <mattext texttype="text/plain">Automotivación y autorregulación</mattext>
+              </material>
+            </response_label>
+            <response_label ident="72123">
+              <material>
+                <mattext texttype="text/plain">Conciencia social</mattext>
+              </material>
+            </response_label>
+            <response_label ident="11764">
+              <material>
+                <mattext texttype="text/plain">Todas son correctas</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">11764</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Competencias agrupadas por categorías para una persona inteligente emocionalmente:&lt;br&gt;- &amp;nbsp; &amp;nbsp;Autoconciencia: Se trata del conocimiento, principalmente de lo que sentimos acerca de una circunstancia y su impacto en la toma de decisiones. Tiene que ver con la autoconfianza y con el reconocimiento realista sobre nuestras capacidades y limitaciones.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Automotivación y autorregulación: es el motor que impulsa la toma de iniciativas con el fin de mejorar, perseverar, establecer mejores estándares y manejar las frustraciones. Lo más importante es la capacidad de autocontrol y la facilidad de responder e irradiar calma ante una situación extrema. En esta competencia está también la característica de actuar consistentemente con sus valores e inspirar a otros para que actúen igual. También es clave la conciencia y la auto responsabilidad sobre los actos y sus consecuencias, así como la adaptabilidad a nuevas situaciones y a tolerar la ambigüedad.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Conciencia social: integrada por la empatía, la orientación de servicio al cliente, la sensibilidad intercultural y la conciencia organizacional.&lt;br&gt;- &amp;nbsp; &amp;nbsp;Habilidades sociales: tienen que ver con el control de las emociones de situaciones que implican redes de trabajo y en labores de cooperación. Implica el uso de habilidades para convencer, liderar o negociar.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gdd9e0c67f112d28bc3cc378e413f4cde" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>61710,42866,47316</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Las fases en la vida de un grupo son:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="61710">
+              <material>
+                <mattext texttype="text/plain">Iniciación, Orientación, Clarificación, Madurez y Disolución.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="42866">
+              <material>
+                <mattext texttype="text/plain">Iniciación, Orientación, Clarificación, Integración y Disolución</mattext>
+              </material>
+            </response_label>
+            <response_label ident="47316">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;Iniciación, Orientación, Clarificación, Reconfiguración</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">42866</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Las fases en la vida de un grupo son: Iniciación, Orientación, Clarificación, Integración y Disolución. &amp;nbsp;La madurez es algo que se va logrando a lo largo de todas las fases de la vida de un grupo. La reconfiguración no es algo que forme parte necesariamente como fase de la vida de un equipo, de acuerdo con los postulados de Ken Blanchard.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g99c0264946c89f1157613907b76f3997" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>80974,30113,33757</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Aprender a liderar requiere la voluntad…&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="80974">
+              <material>
+                <mattext texttype="text/plain">Porque es una decisión de emprender un camino de cambio que no tiene por qué tener un sentido para quien lo emprende</mattext>
+              </material>
+            </response_label>
+            <response_label ident="30113">
+              <material>
+                <mattext texttype="text/plain">Porque si naces con dotes de liderazgo solo tienes que querer ejercerlo sin importar para qué ya que lo importante es que tienes esas dotes</mattext>
+              </material>
+            </response_label>
+            <response_label ident="33757">
+              <material>
+                <mattext texttype="text/plain">Porque es una decisión de emprender un camino de cambio que tiene un para quien lo emprende</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">33757</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Aprender liderazgo requiere voluntad… Mejor dicho... la decisión de emprender un camino de cambio. La mayoría de los factores del liderazgo efectivo se aprende, ya lo hemos dicho, pero de nada sirve si ese camino, si ese cambio no tiene un sentido, íntimo por qué no, para quien lo aprende.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g86d0513b671521b8f7e69a1ee251126d" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>85170,38502,73094</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Cuál de las siguientes afirmaciones es la más correcta?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="85170">
+              <material>
+                <mattext texttype="text/plain">El liderazgo se aprende, pero si no hay carisma innato, ese liderazgo será incompleto</mattext>
+              </material>
+            </response_label>
+            <response_label ident="38502">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;El liderazgo se aprende, tenemos la capacidad de aprenderlo</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73094">
+              <material>
+                <mattext texttype="text/plain">El líder no se hace; nace con cualidades específicas de liderazgo</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">38502</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Los participantes que defienden el lado carismático como imprescindible en el líder, demuestran cómo esta idea que arrastramos desde los años 30 aún perdura en nuestro registro de creencias. En estas ocasiones invitó a los alumnos a diferenciar bien el determinismo al que aboca el concepto de “carisma” como factor crucial del liderazgo, frente a la acción responsable a que está emplazado el líder que lo puede ser por desarrollo de habilidades. ¿Puede una persona tener carisma y no hacer nada al servicio de otros con ello? La respuesta suele ser afirmativa. El liderazgo se aprende</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g9423c13f8c0a796641b42ac7aa425d58" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>88818,94012,85501</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&amp;nbsp;Aprender liderazgo:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="88818">
+              <material>
+                <mattext texttype="text/plain">Es una decisión.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="94012">
+              <material>
+                <mattext texttype="text/html">Es una obligación&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85501">
+              <material>
+                <mattext texttype="text/plain">Es un pasatiempo</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">88818</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Aprender liderazgo es la decisión de emprender un camino de cambio. La mayoría de los factores del liderazgo efectivo se aprenden, por lo que requiere dedicación, recursos y decisión.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g20f4b26cfcff3d81a81082a455189783" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4984,42699,21879</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Cardona y Labarga mencionan específicamente la siguiente característica como propia del liderazgo: &amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4984">
+              <material>
+                <mattext texttype="text/plain">La competencia emocional, el pensamiento contextual y su capacidad de ser jefe y dar órdenes</mattext>
+              </material>
+            </response_label>
+            <response_label ident="42699">
+              <material>
+                <mattext texttype="text/plain">La capacidad de trascender en los demás compaginando habilidades directivas y organizativas con las del comportamiento</mattext>
+              </material>
+            </response_label>
+            <response_label ident="21879">
+              <material>
+                <mattext texttype="text/plain">La única competencia que verdaderamente requiere el liderazgo es la perseverancia.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">42699</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Por su parte Cardona y Labarga apuntan en un nuevo aspecto que merece la pena comentar. Se refieren a la trascendencia del ser humano en otros como una característica propia del líder: “El hombre de la organización que solo fuese hábil en temas de comportamiento, comunicación, motivación no podría ser un líder sin ayuda a trascenderse a las personas. Una palmadita en la espalda puede ser un acto degradante. Se requiere también que sea hábil para establecer estrategias, estructuras organizativas, procesos y políticas motivantes. El líder maneja y domina las técnicas directivas y organizativas, además de las habilidades de comportamiento”</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gcf5ed3b40e097206d3a99703734554d4" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>60485,58659,646</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Un líder eficaz en realidad debe enfocarse en:&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="60485">
+              <material>
+                <mattext texttype="text/plain">Dirigir a los equipos con herramientas de eficacia que les dé seguridad y resultados cuantitativos. Con esas herramientas el líder debe esperar que aumente la satisfacción laboral, el compromiso e interés del equipo en lograr los resultados.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="58659">
+              <material>
+                <mattext texttype="text/plain">Facilitar la interacción de los equipos de trabajo y esto tiene una relación positiva con la satisfacción laboral pues se comparten no solamente un propósito, sino también objetivo, valor e interés común, donde los roles son interdependientes, y las destrezas complementarias.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="646">
+              <material>
+                <mattext texttype="text/plain">Lograr resultados a toda costa</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">58659</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El líder eficaz facilita la interacción de los equipos de trabajo y esto tiene una relación positiva con la satisfacción laboral pues se comparten no solamente un propósito, sino también objetivo, valor e interés común, donde los roles son interdependientes, y las destrezas complementarias.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g0dc6cbad596d610f5c3c60ff263250da" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>80138,42394,85274</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Respecto a los tipos de poder, ¿Cuál se basa en la vida personal para relacionarse y en el poder personal de atracción?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="80138">
+              <material>
+                <mattext texttype="text/plain">Poder experto.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="42394">
+              <material>
+                <mattext texttype="text/html">Poder legítimo.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="85274">
+              <material>
+                <mattext texttype="text/plain">Poder referente.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">85274</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Poder referente: se basa en la vida personal para relacionarse y en el poder personal de atracción. Los líderes que atraen a los demás por su estilo con su carisma poseen poder referente.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g7622509a1e844e238683143cba61dd5f" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2357,49026,73429</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Respecto a los tipos de poder, ¿Cuál se basa en la capacidad de obligar a alguien a cumplir por medio de amenazas con consecuencias físicas, psicológicas o emocionales?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2357">
+              <material>
+                <mattext texttype="text/plain">Poder experto.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="49026">
+              <material>
+                <mattext texttype="text/plain">Poder coercitivo.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="73429">
+              <material>
+                <mattext texttype="text/plain">Poder referente.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">49026</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El poder coercitivo, es la capacidad de obligar a alguien a cumplir por medio de amenazas con consecuencias físicas, psicológicas o emocionales.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gef66552b12bcc76a6350180e18fb7d92" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>35581,24029,69364</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Desde una perspectiva organizacional, ¿Qué poderes están más vinculados al liderazgo?&amp;nbsp;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="35581">
+              <material>
+                <mattext texttype="text/plain">El poder experto y el poder referente.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="24029">
+              <material>
+                <mattext texttype="text/html">El poder coercitivo y el poder legítimo.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="69364">
+              <material>
+                <mattext texttype="text/html">&amp;nbsp;El poder coercitivo y el poder de recompensa.&amp;nbsp;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <other/>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">35581</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="general_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">El liderazgo queda más vinculado al poder experto y al poder referente mientras que un gestor que no lidera tendrá cierta tendencia a abusar del poder de recompensa, del poder coercitivo y del poder legítimo.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

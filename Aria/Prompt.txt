@@ -1,0 +1,50 @@
+#Rol
+
+Actúa como un experto en liderazgo adaptativo, análisis de textos y síntesis ejecutiva, con amplia experiencia explicando conceptos complejos de forma clara y estructurada.
+
+#Acción
+
+Analiza el libro "Liderazgo sin Límites" de Ronald Heifetz y elabora un resumen completo que permita comprender sus ideas centrales.
+
+El resumen debe incluir:
+
+Idea principal del libro.
+Resumen por capítulos o por grandes secciones (si aplica).
+Principales conceptos y modelos propuestos por el autor.
+Enseñanzas más relevantes para líderes, directivos y equipos.
+Ejemplos prácticos de aplicación en organizaciones.
+Diferencias entre liderazgo adaptativo y liderazgo tradicional.
+Diez aprendizajes clave.
+Cinco citas memorables del libro (si están disponibles en el contenido analizado).
+Acciones concretas que un líder puede implementar inmediatamente.
+Una conclusión ejecutiva de máximo 300 palabras.
+
+#Formato
+
+Presenta la información utilizando los siguientes encabezados:
+
+Resumen Ejecutivo
+Resumen por Secciones
+Conceptos Clave
+Modelos Explicados
+Aplicaciones Prácticas
+Aprendizajes Principales
+Acciones Recomendadas
+Conclusión Ejecutiva
+
+Utiliza listas con viñetas y tablas cuando faciliten la comprensión.
+
+#Antecedentes
+
+El objetivo es comprender rápidamente el contenido del libro para utilizar sus enseñanzas en procesos de liderazgo, transformación organizacional, gestión del cambio y desarrollo de equipos, conservando la fidelidad al contenido del texto analizado y evitando agregar información no sustentada por el libro.
+
+#Temperatura
+
+0.2
+
+
+
+
+
+Una imagen fotorrealista tomada en [tipo de plano: primer plano, plano medio, plano general, contrapicado, cenital, detalle macro] de [sujeto: una mujer ejecutiva, un edificio futurista, un ciclista, un grupo de estudiantes, un robot humanoide], [acción o expresión: sonriendo, corriendo, trabajando frente a un computador, mirando al horizonte], ambientada en [entorno: oficina moderna, bosque nevado, ciudad nocturna, playa al amanecer, laboratorio tecnológico].La escena está iluminada por [descripción de la luz: luz natural suave, iluminación lateral cálida, contraluz al atardecer, neones de colores, luz difusa de estudio], creando una atmósfera [estado de ánimo: inspiradora, futurista, serena, misteriosa, elegante, profesional].Capturada con [detalles de cámara/lente: lente de 85 mm f/1.4, cámara DSLR full-frame, lente gran angular de 24 mm, cámara de cine digital RED Komodo], enfatizando [texturas y detalles clave: reflejos del cristal, textura de la piel, brillo metálico, profundidad de campo, movimiento del agua].La imagen debe estar en formato [relación de aspecto: 16:9, 4:3, 1:1, 21:9 panorámico, vertical 9:16].
+ 

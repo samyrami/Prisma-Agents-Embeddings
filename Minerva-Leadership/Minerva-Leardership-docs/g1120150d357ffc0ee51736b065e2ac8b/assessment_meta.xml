@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<quiz xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd" identifier="g1120150d357ffc0ee51736b065e2ac8b">
+  <title>Test 4 (Supervisado remotamente)</title>
+  <description>&lt;table style="border-collapse: collapse; width: 75%; margin-left: auto; margin-right: auto;" border="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="width: 99.9148%; text-align: center;"&gt;&lt;span style="color: #e62429; font-size: 18pt;"&gt;&lt;strong&gt;IMPORTANTE&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 99.9148%;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Herramienta obligatoria:&lt;/strong&gt; Este test monitorizado debe presentarse &#xFA;nicamente desde un computador que tenga activa la extensi&#xF3;n &lt;strong&gt;SMOWL&lt;/strong&gt;, ya que es la herramienta que valida tu identidad durante la prueba.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Dispositivos no compatibles:&lt;/strong&gt; Ten en cuenta que, si intentas realizarlo desde un celular o tableta, el intento ser&#xE1; invalidado y no contar&#xE1; con soporte para posibles reclamos.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;&#xA1;Planifica con tiempo!:&lt;/strong&gt;&amp;nbsp;Te recomendamos realizar el test con suficiente antelaci&#xF3;n. Ten presente que, ante cualquier inconveniente t&#xE9;cnico, la plataforma puede tardar hasta &lt;strong&gt;2 horas&lt;/strong&gt; en procesar y permitir un nuevo intento. Por esta raz&#xF3;n, si realizas la prueba en las &#xFA;ltimas &lt;strong&gt;4 horas&lt;/strong&gt; del plazo y surge un error, el sistema no te dar&#xE1; margen de maniobra. En estos casos de &#xFA;ltima hora, &lt;strong&gt;no se realizar&#xE1;n aperturas adicionales ni se generar&#xE1;n opciones de &lt;i&gt;extracredit&lt;/i&gt;&lt;/strong&gt;, debido a que el horario de soporte habr&#xE1; finalizado.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Soporte y recursos:&lt;/strong&gt; Recuerda que en el curso &lt;a class="inline_disabled" href="/courses" target="_blank" rel="noopener noreferrer"&gt;&lt;strong&gt;&#x201C;Westfield Tools&#x201D;&lt;/strong&gt;&lt;/a&gt; encuentras el paso a paso para instalar SMOWL. Si presentas alg&#xFA;n inconveniente t&#xE9;cnico, comun&#xED;cate primero con el soporte de SMOWL; si la dificultad persiste, informa a tu tutora adjuntando la evidencia correspondiente.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+  <due_at>2025-12-03T03:59:00Z</due_at>
+  <lock_at>2025-12-03T03:59:00Z</lock_at>
+  <unlock_at>2025-11-26T08:00:00Z</unlock_at>
+  <shuffle_questions>false</shuffle_questions>
+  <shuffle_answers>false</shuffle_answers>
+  <calculator_type>none</calculator_type>
+  <scoring_policy>keep_highest</scoring_policy>
+  <hide_results/>
+  <quiz_type>assignment</quiz_type>
+  <points_possible>15.0</points_possible>
+  <require_lockdown_browser>false</require_lockdown_browser>
+  <require_lockdown_browser_for_results>false</require_lockdown_browser_for_results>
+  <require_lockdown_browser_monitor>false</require_lockdown_browser_monitor>
+  <lockdown_browser_monitor_data/>
+  <access_code>HqECuPGx6f</access_code>
+  <show_correct_answers>false</show_correct_answers>
+  <anonymous_submissions>false</anonymous_submissions>
+  <could_be_locked>false</could_be_locked>
+  <time_limit>120</time_limit>
+  <disable_timer_autosubmission>false</disable_timer_autosubmission>
+  <allowed_attempts>3</allowed_attempts>
+  <build_on_last_attempt>false</build_on_last_attempt>
+  <one_question_at_a_time>false</one_question_at_a_time>
+  <cant_go_back>false</cant_go_back>
+  <available>false</available>
+  <one_time_results>false</one_time_results>
+  <show_correct_answers_last_attempt>false</show_correct_answers_last_attempt>
+  <only_visible_to_overrides>false</only_visible_to_overrides>
+  <module_locked>false</module_locked>
+  <allow_clear_mc_selection>false</allow_clear_mc_selection>
+  <disable_document_access>false</disable_document_access>
+  <result_view_restricted>true</result_view_restricted>
+  <display_items>true</display_items>
+  <display_item_feedback>true</display_item_feedback>
+  <display_item_response>true</display_item_response>
+  <display_points_awarded>true</display_points_awarded>
+  <display_points_possible>true</display_points_possible>
+  <display_item_correct_answer>true</display_item_correct_answer>
+  <display_item_response_correctness>true</display_item_response_correctness>
+  <display_item_response_qualifier>always</display_item_response_qualifier>
+  <show_item_responses_at/>
+  <hide_item_responses_at/>
+  <display_item_response_correctness_qualifier>always</display_item_response_correctness_qualifier>
+  <show_item_response_correctness_at/>
+  <hide_item_response_correctness_at/>
+  <assignment identifier="f71494d8203f1b4b0c7f7b38a0cb5614">
+    <title>Test 4 (Supervisado remotamente)</title>
+    <due_at>2025-12-03T03:59:00Z</due_at>
+    <lock_at>2025-12-03T03:59:00Z</lock_at>
+    <unlock_at>2025-11-26T08:00:00Z</unlock_at>
+    <module_locked>false</module_locked>
+    <workflow_state>published</workflow_state>
+    <assignment_overrides/>
+    <assignment_overrides/>
+    <quiz_identifierref>g1120150d357ffc0ee51736b065e2ac8b</quiz_identifierref>
+    <allowed_extensions/>
+    <has_group_category>false</has_group_category>
+    <points_possible>15.0</points_possible>
+    <grading_type>points</grading_type>
+    <all_day>false</all_day>
+    <submission_types>online_quiz</submission_types>
+    <position>1</position>
+    <turnitin_enabled>false</turnitin_enabled>
+    <vericite_enabled>false</vericite_enabled>
+    <peer_review_count>0</peer_review_count>
+    <peer_reviews>false</peer_reviews>
+    <automatic_peer_reviews>false</automatic_peer_reviews>
+    <anonymous_peer_reviews>false</anonymous_peer_reviews>
+    <grade_group_students_individually>false</grade_group_students_individually>
+    <freeze_on_copy>false</freeze_on_copy>
+    <omit_from_final_grade>false</omit_from_final_grade>
+    <intra_group_peer_reviews>false</intra_group_peer_reviews>
+    <only_visible_to_overrides>false</only_visible_to_overrides>
+    <post_to_sis>false</post_to_sis>
+    <moderated_grading>false</moderated_grading>
+    <grader_count>0</grader_count>
+    <grader_comments_visible_to_graders>true</grader_comments_visible_to_graders>
+    <anonymous_grading>false</anonymous_grading>
+    <graders_anonymous_to_graders>false</graders_anonymous_to_graders>
+    <grader_names_visible_to_final_grader>true</grader_names_visible_to_final_grader>
+    <anonymous_instructor_annotations>false</anonymous_instructor_annotations>
+    <post_policy>
+      <post_manually>false</post_manually>
+    </post_policy>
+    <assignment_group_identifierref>g42f12b178c82c39eaad0a41c41ef0d37</assignment_group_identifierref>
+    <assignment_overrides/>
+  </assignment>
+</quiz>

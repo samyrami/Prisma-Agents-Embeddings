@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g18c1fbe42f0fe10e6824a5aaa899d016">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>Unfiled Questions</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>Cf6erlMbXCk1J0YwG9Oac3BWyrYjmyBDIysUUDQ3</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_state</fieldlabel>
+        <fieldentry>active</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gb93d2be9385fe67ed3eaabc85257a221" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6618,6376,5663,628,7654</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;¿Qué tan útil consideras la experiencia de calificación entre pares de este período? ¿Encontraste valor en evaluar el trabajo de tus compañeros y en recibir retroalimentación del tuyo?&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6618">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6376">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5663">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="628">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7654">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6618</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="gbfe6dca960ae6ff617afb811be342e32" title="Question">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6301,4315,3948,501,1308</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;¿Qué tan útil consideras la experiencia de calificación entre pares de este período? ¿Encontraste valor en evaluar el trabajo de tus compañeros y en recibir retroalimentación del tuyo?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6301">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4315">
+              <material>
+                <mattext texttype="text/plain">4</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3948">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="501">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1308">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6301</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+  </objectbank>
+</questestinterop>
