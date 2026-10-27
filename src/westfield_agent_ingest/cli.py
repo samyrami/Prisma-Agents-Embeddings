@@ -15,10 +15,16 @@ from pathlib import Path
 import typer
 from rich.console import Console
 
+from westfield_agent_ingest.contracts import DEFAULT_LLM_MODEL, DEFAULT_REASONING_EFFORT
 from westfield_agent_ingest.settings import load_settings
 
 app = typer.Typer(help="Ingesta de bases vectoriales para el runtime multi-agente Westfield.")
 console = Console()
+
+
+def _effort_or_none(value: str) -> str | None:
+    """`--reasoning-effort null` = modelo clásico (gpt-4o), que no acepta el parámetro."""
+    return None if value.strip().lower() in ("", "null") else value
 
 
 def _make_store():
@@ -89,7 +95,12 @@ def migrate_legacy_cmd(
         None, "--system-prompt-file", help="system.md a publicar como prompt del agente."
     ),
     agent_name: str | None = typer.Option(None, "--agent-name"),
-    llm_model: str = typer.Option("gpt-4o-mini", "--model"),
+    llm_model: str = typer.Option(DEFAULT_LLM_MODEL, "--model"),
+    reasoning_effort: str = typer.Option(
+        DEFAULT_REASONING_EFFORT,
+        "--reasoning-effort",
+        help="none | low | medium | high | xhigh | max; 'null' para modelos clásicos (gpt-4o).",
+    ),
     activate: bool = typer.Option(True, "--activate/--no-activate"),
 ) -> None:
     """Migra un índice legacy (embeddings inline) al contrato nuevo, sin re-embeber."""
@@ -104,6 +115,7 @@ def migrate_legacy_cmd(
         system_prompt_file=system_prompt_file,
         agent_name=agent_name,
         llm_model=llm_model,
+        reasoning_effort=_effort_or_none(reasoning_effort),
         activate=activate,
     )
     console.print(
@@ -117,7 +129,12 @@ def migrate_legacy_cmd(
 def scaffold(
     agent_id: str = typer.Option(..., "--agent-id"),
     agent_name: str = typer.Option(..., "--agent-name"),
-    llm_model: str = typer.Option("gpt-4o-mini", "--model"),
+    llm_model: str = typer.Option(DEFAULT_LLM_MODEL, "--model"),
+    reasoning_effort: str = typer.Option(
+        DEFAULT_REASONING_EFFORT,
+        "--reasoning-effort",
+        help="none | low | medium | high | xhigh | max; 'null' para modelos clásicos (gpt-4o).",
+    ),
     response_format: str = typer.Option("text", "--response-format", help="text | json"),
     system_prompt_file: Path | None = typer.Option(None, "--system-prompt-file"),
     force: bool = typer.Option(False, "--force", help="Pisar un agente existente."),
@@ -132,6 +149,7 @@ def scaffold(
         agent_name,
         prefix=settings.s3_prefix,
         llm_model=llm_model,
+        reasoning_effort=_effort_or_none(reasoning_effort),
         response_format=response_format,
         system_prompt_file=system_prompt_file,
         force=force,

@@ -134,3 +134,39 @@ def test_migrar_preserva_config_existente(tmp_path) -> None:
     updated = json.loads(store.get_text("agents/maia/config.json"))
     assert updated["temperature"] == 0.9  # se preservó el tuneo
     assert updated["vector_store_id"] == "v2"
+
+
+def test_remigrar_preserva_reasoning_effort(tmp_path) -> None:
+    """El read-modify-write no puede borrar reasoning_effort (el agente quedaría en fallback)."""
+    store = FakeStore()
+    index_path, prompt_path = _write_inputs(tmp_path)
+    migrate_legacy(store, "maia", index_path, system_prompt_file=prompt_path)
+
+    config = json.loads(store.get_text("agents/maia/config.json"))
+    config.update(llm_model="gpt-5.6-terra", reasoning_effort="low", max_tokens=4000)
+    store.put_text("agents/maia/config.json", json.dumps(config))
+
+    migrate_legacy(store, "maia", index_path, system_prompt_file=prompt_path)
+
+    updated = json.loads(store.get_text("agents/maia/config.json"))
+    assert updated["llm_model"] == "gpt-5.6-terra"
+    assert updated["reasoning_effort"] == "low"
+    assert updated["max_tokens"] == 4000
+
+
+def test_remigrar_config_clasico_no_inventa_reasoning_effort(tmp_path) -> None:
+    """Un config de gpt-4o sin el campo debe seguir en null: gpt-4o rechaza reasoning_effort."""
+    store = FakeStore()
+    index_path, prompt_path = _write_inputs(tmp_path)
+    migrate_legacy(store, "maia", index_path, system_prompt_file=prompt_path)
+
+    config = json.loads(store.get_text("agents/maia/config.json"))
+    config["llm_model"] = "gpt-4o"
+    config.pop("reasoning_effort", None)
+    store.put_text("agents/maia/config.json", json.dumps(config))
+
+    migrate_legacy(store, "maia", index_path, system_prompt_file=prompt_path)
+
+    updated = json.loads(store.get_text("agents/maia/config.json"))
+    assert updated["llm_model"] == "gpt-4o"
+    assert updated["reasoning_effort"] is None

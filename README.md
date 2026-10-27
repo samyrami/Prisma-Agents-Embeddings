@@ -18,7 +18,9 @@ poetry install
 cp .env.example .env           # OPENAI_API_KEY + credenciales AWS + S3_BUCKET
 
 # 1) Alta de un agente nuevo (sin tocar código ni Docker):
-poetry run ingest scaffold --agent-id soporte-ti --agent-name "Soporte TI" --model gpt-4o-mini
+#    (default: --model gpt-5.6-luna --reasoning-effort none; para un modelo clásico
+#     como gpt-4o: --model gpt-4o --reasoning-effort null)
+poetry run ingest scaffold --agent-id soporte-ti --agent-name "Soporte TI"
 
 # 2) Construir y publicar su base vectorial (docs ya subidos a agents/<id>/docs/):
 poetry run ingest run --agent-id soporte-ti --source s3
@@ -105,7 +107,8 @@ s3://westfield-agent-knowledge/
   "vector_store_id": "v1",
   "vector_store_s3_uri": "s3://westfield-agent-knowledge/agents/maia/vector_store/v1/",
   "llm_provider": "openai",
-  "llm_model": "gpt-4o-mini",
+  "llm_model": "gpt-5.6-terra",
+  "reasoning_effort": "none",
   "temperature": 0.6,
   "top_k": 4,
   "min_similarity": 0.2,
@@ -120,6 +123,11 @@ s3://westfield-agent-knowledge/
   "metadata": {}
 }
 ```
+
+`reasoning_effort` (opcional, default `null`): nivel de razonamiento para modelos de
+razonamiento (GPT-5.x). Con valor, el runtime omite `temperature`/`top_p`; en `null`
+(modelos clásicos como gpt-4o) los envía. La ingesta **preserva** el valor en cada
+read-modify-write y nunca lo agrega a un config que no lo tenga: gpt-4o rechaza el parámetro.
 
 `hard_rules` (opcional): mecánicas deterministas que el runtime fuerza server-side
 sobre la respuesta estructurada (`when` = condiciones AND sobre `state.*` /
