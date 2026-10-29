@@ -23,6 +23,16 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, Field
 
+# Niveles de razonamiento de los modelos de razonamiento (familia GPT-5.x).
+# Espejo de domain/agent.py del runtime.
+ReasoningEffort = Literal["none", "minimal", "low", "medium", "high", "xhigh", "max"]
+
+# Modelo con el que nacen los agentes nuevos (scaffold / migrate-legacy).
+# gpt-4o-mini se retira de la API el 2027-01-14. gpt-5.6-luna es de
+# razonamiento, así que va SIEMPRE con un reasoning_effort explícito.
+DEFAULT_LLM_MODEL = "gpt-5.6-luna"
+DEFAULT_REASONING_EFFORT: ReasoningEffort = "none"
+
 
 class HardRule(BaseModel):
     """
@@ -52,6 +62,10 @@ class AgentConfigDoc(BaseModel):
     llm_model: str = "gpt-4o-mini"
     temperature: float = 0.6
     max_tokens: int = 800
+    # None = modelo clásico (gpt-4o). El default DEBE seguir siendo None: los
+    # configs existentes no lo traen y el read-modify-write de la ingesta no
+    # puede inventárselo — gpt-4o rechaza reasoning_effort.
+    reasoning_effort: ReasoningEffort | None = None
     top_k: int = 4
     min_similarity: float = 0.2
     response_format: Literal["json", "text"] = "text"

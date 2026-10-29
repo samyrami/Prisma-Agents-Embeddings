@@ -44,3 +44,22 @@ def test_scaffold_con_prompt_propio(tmp_path) -> None:
 
     result = scaffold_agent(store, "demo", "Demo", system_prompt_file=prompt_file)
     assert store.get_text(result.prompt_key) == "# Identidad propia"
+
+
+def test_scaffold_por_defecto_usa_modelo_vigente_con_reasoning_effort() -> None:
+    """gpt-4o-mini se retira el 2027-01-14: los agentes nuevos nacen en gpt-5.6-luna."""
+    store = FakeStore()
+    result = scaffold_agent(store, "nuevo", "Nuevo")
+
+    config = json.loads(store.get_text(result.config_key))
+    assert config["llm_model"] == "gpt-5.6-luna"
+    assert config["reasoning_effort"] == "none"
+
+
+def test_scaffold_modelo_clasico_sin_reasoning_effort() -> None:
+    store = FakeStore()
+    result = scaffold_agent(store, "clasico", "Clásico", llm_model="gpt-4o", reasoning_effort=None)
+
+    config = json.loads(store.get_text(result.config_key))
+    assert config["llm_model"] == "gpt-4o"
+    assert config["reasoning_effort"] is None

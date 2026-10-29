@@ -14,7 +14,12 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
-from westfield_agent_ingest.contracts import AgentConfigDoc
+from westfield_agent_ingest.contracts import (
+    DEFAULT_LLM_MODEL,
+    DEFAULT_REASONING_EFFORT,
+    AgentConfigDoc,
+    ReasoningEffort,
+)
 from westfield_agent_ingest.s3_io import ObjectStore, write_agent_config
 
 PLACEHOLDER_PROMPT = """\
@@ -45,7 +50,8 @@ def scaffold_agent(
     agent_name: str,
     *,
     prefix: str = "agents",
-    llm_model: str = "gpt-4o-mini",
+    llm_model: str = DEFAULT_LLM_MODEL,
+    reasoning_effort: ReasoningEffort | None = DEFAULT_REASONING_EFFORT,
     response_format: str = "text",
     system_prompt_file: str | Path | None = None,
     force: bool = False,
@@ -70,6 +76,7 @@ def scaffold_agent(
         vector_store_id=None,
         vector_store_s3_uri=None,
         llm_model=llm_model,
+        reasoning_effort=reasoning_effort,
         response_format=response_format,  # type: ignore[arg-type]
     )
 

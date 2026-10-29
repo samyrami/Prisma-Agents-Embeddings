@@ -23,8 +23,11 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from westfield_agent_ingest.contracts import (
+    DEFAULT_LLM_MODEL,
+    DEFAULT_REASONING_EFFORT,
     AgentConfigDoc,
     ChunkingParams,
+    ReasoningEffort,
     RetrievalDefaults,
     SourceDoc,
     VectorStoreManifest,
@@ -77,7 +80,8 @@ def migrate_legacy(
     prefix: str = "agents",
     system_prompt_file: str | Path | None = None,
     agent_name: str | None = None,
-    llm_model: str = "gpt-4o-mini",
+    llm_model: str = DEFAULT_LLM_MODEL,
+    reasoning_effort: ReasoningEffort | None = DEFAULT_REASONING_EFFORT,
     activate: bool = True,
 ) -> MigrateResult:
     """
@@ -162,6 +166,7 @@ def migrate_legacy(
             prompt_id="system-v1",
             prompt_s3_uri=f"s3://{store.bucket}/{prompt_key}",
             llm_model=llm_model,
+            reasoning_effort=reasoning_effort,
             top_k=manifest.retrieval_defaults.top_k,
             min_similarity=manifest.retrieval_defaults.min_similarity,
             response_format="json",
